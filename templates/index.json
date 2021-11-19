@@ -20,28 +20,21 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "1cfda243-b9e0-4996-b537-ceb2c5420afe": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
         }
       },
       "block_order": [
         "heading",
-        "button",
-        "1cfda243-b9e0-4996-b537-ceb2c5420afe"
+        "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Ragnar_Soft_Vinyl_Kaiju_Toy_in_Nacelle-Exclusive_Colorway_combo_Copy_2086292f-3c72-4c71-ac7f-fa2ac87a39d6.jpg",
+        "image": "shopify:\/\/shop_images\/Garloo_Patch.jpg",
         "image_2": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_cbb1a6f2-c0a2-4f18-b1fb-834e6f928c54.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "show_text_box": false,
         "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -126,12 +119,44 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "16372854266304fa94": {
+      "type": "collage",
+      "blocks": {
+        "1637285426703f16fc-1": {
+          "type": "product",
+          "settings": {
+            "product": "brian-reedy-great-garloo-poster-print",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "1637285426703f16fc-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1637285426703f16fc-1",
+        "1637285426703f16fc-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
     "image_banner",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "16372854266304fa94"
   ]
 }
