@@ -194,6 +194,18 @@
     align-items: flex-end;
     padding-top: 15rem;
   }
+
+  .justification--center {
+    justify-content: center;
+  }
+
+  .justification--flex-start {
+    justify-content: flex-start;
+  }
+
+  .justification--flex-end {
+    justify-content: flex-end;
+  }
 }
 
 .banner__box {
@@ -271,6 +283,15 @@
 @media screen and (min-width: 750px) {
   .banner__box > * + .banner__text {
     margin-top: 2rem;
+  }
+  .banner__box > .banner__buttons--justification--center {
+    justify-content: center;
+  }
+  .banner__box > .banner__buttons--justification--flex-start {
+    justify-content: flex-start;
+  }
+  .banner__box > .banner__buttons--justification--flex-end {
+    justify-content: flex-end;
   }
 }
 
