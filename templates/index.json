@@ -135,9 +135,9 @@
         "1637285426703f16fc-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
+            "collection": "garloo",
+            "image_padding": true,
+            "color_scheme": "accent-1"
           }
         }
       },
