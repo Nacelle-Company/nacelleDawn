@@ -6,8 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Nacelle-Exclusive Colorway",
             "heading_size": "medium"
+          }
+        },
+        "04d4162a-d7c8-4838-a95c-dd2174864f2c": {
+          "type": "text",
+          "settings": {
+            "text": "Ragnar Soft Vinyl Kaiju Toy"
           }
         },
         "button": {
@@ -25,6 +31,7 @@
       },
       "block_order": [
         "heading",
+        "04d4162a-d7c8-4838-a95c-dd2174864f2c",
         "button"
       ],
       "settings": {
