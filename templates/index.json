@@ -57,7 +57,7 @@
           "settings": {
             "heading": "Power Lords",
             "heading_size": "medium",
-            "desktop_heading_align": "right"
+            "desktop_heading_align": "left"
           }
         },
         "1637341242536caf23-2": {
@@ -69,7 +69,7 @@
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "button_style_justification": "flex-end"
+            "button_style_justification": "flex-start"
           }
         }
       },
@@ -82,7 +82,7 @@
         "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
-        "desktop_text_box_justification": "flex-end",
+        "desktop_text_box_justification": "flex-start",
         "show_text_box": true,
         "image_overlay_opacity": 30,
         "color_scheme": "accent-2",
