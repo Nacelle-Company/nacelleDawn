@@ -49,13 +49,45 @@
         "show_text_below": true
       }
     },
-    "video": {
-      "type": "video",
+    "16373412421467217e": {
+      "type": "image-banner",
+      "blocks": {
+        "1637341242536caf23-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Power Lords",
+            "heading_size": "medium",
+            "desktop_heading_align": "right"
+          }
+        },
+        "1637341242536caf23-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Buy Now",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "flex-end"
+          }
+        }
+      },
+      "block_order": [
+        "1637341242536caf23-0",
+        "1637341242536caf23-2"
+      ],
       "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
+        "image": "shopify:\/\/shop_images\/A_Toy_Store_Near_You_Poster.jpg",
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_justification": "flex-end",
+        "show_text_box": true,
+        "image_overlay_opacity": 30,
+        "color_scheme": "accent-2",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "16372854266304fa94": {
@@ -142,7 +174,7 @@
   },
   "order": [
     "image_banner",
-    "video",
+    "16373412421467217e",
     "16372854266304fa94",
     "1637287801acde42ef"
   ]
