@@ -1,14 +1,14 @@
 {
   "current": {
-    "colors_solid_button_labels": "#FFFFFF",
+    "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
-    "colors_accent_2": "#4591e5",
+    "colors_accent_2": "#334fb4",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#FFFFFF",
-    "colors_background_2": "#F3F3F3",
-    "type_header_font": "fjalla_one_n4",
-    "type_body_font": "fjalla_one_n4",
+    "colors_background_1": "#ffffff",
+    "colors_background_2": "#f3f3f3",
+    "type_header_font": "assistant_n4",
+    "type_body_font": "assistant_n4",
     "predictive_search_show_vendor": true,
     "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
     "currency_code_enabled": false,
@@ -35,10 +35,11 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
-          "logo_width": 100,
+          "color_scheme": "accent-1",
+          "logo": "shopify:\/\/shop_images\/Screen_Shot_2021-02-05_at_2.15.13_PM.png",
+          "logo_width": 180,
           "logo_position": "middle-left",
-          "menu": "main-menu",
+          "menu": "master-menu",
           "show_line_separator": true,
           "enable_sticky_header": true
         }
