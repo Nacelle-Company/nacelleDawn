@@ -60,6 +60,13 @@
             "desktop_heading_align": "left"
           }
         },
+        "cb6ea660-3e88-40be-846b-7e885a011528": {
+          "type": "text",
+          "settings": {
+            "text": "THE EXTRA-TERRESTRIAL WARRIORS",
+            "desktop_text_align": "left"
+          }
+        },
         "1637341242536caf23-2": {
           "type": "buttons",
           "settings": {
@@ -75,6 +82,7 @@
       },
       "block_order": [
         "1637341242536caf23-0",
+        "cb6ea660-3e88-40be-846b-7e885a011528",
         "1637341242536caf23-2"
       ],
       "settings": {
@@ -84,8 +92,8 @@
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-start",
         "show_text_box": true,
-        "image_overlay_opacity": 20,
-        "color_scheme": "accent-2",
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-2",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
