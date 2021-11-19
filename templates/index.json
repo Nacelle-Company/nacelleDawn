@@ -136,7 +136,7 @@
           "settings": {
             "product": "great-garloo-lunchbox-vinyl-sticker",
             "second_image": false,
-            "image_padding": false,
+            "image_padding": true,
             "secondary_background": false
           }
         },
@@ -151,7 +151,8 @@
         "dad3bae6-df86-4a57-afe6-fbb9979a61d5": {
           "type": "image",
           "settings": {
-            "image_padding": false,
+            "image": "shopify:\/\/shop_images\/Brian_Reedy_Great_Garloo_Premium_Woodblock_Print.jpg",
+            "image_padding": true,
             "color_scheme": "background-1"
           }
         }
@@ -164,7 +165,7 @@
       "settings": {
         "heading": "Multimedia collage",
         "desktop_layout": "left",
-        "mobile_layout": "collage"
+        "mobile_layout": "column"
       }
     }
   },
