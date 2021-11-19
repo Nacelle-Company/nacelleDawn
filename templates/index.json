@@ -52,23 +52,17 @@
         "1637337123ff5392df-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Power Lords",
             "heading_size": "medium"
-          }
-        },
-        "1637337123ff5392df-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
           }
         },
         "1637337123ff5392df-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_1": "Buy Now",
+            "button_link_1": "shopify:\/\/products\/power-lords-logo-t-shirt",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
             "button_style_justification": "center"
@@ -77,17 +71,17 @@
       },
       "block_order": [
         "1637337123ff5392df-0",
-        "1637337123ff5392df-1",
         "1637337123ff5392df-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/power-lords.jpg",
         "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "desktop_text_box_justification": "center",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_justification": "flex-end",
         "show_text_box": true,
         "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
