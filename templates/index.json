@@ -29,7 +29,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Ragnar_Soft_Vinyl_Kaiju_Toy_in_Nacelle-Exclusive_Colorway_combo_Copy_2086292f-3c72-4c71-ac7f-fa2ac87a39d6.jpg",
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
