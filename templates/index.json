@@ -6,14 +6,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Nacelle-Exclusive Colorway",
+            "heading": "Talk about your brand",
             "heading_size": "medium"
-          }
-        },
-        "04d4162a-d7c8-4838-a95c-dd2174864f2c": {
-          "type": "text",
-          "settings": {
-            "text": "Ragnar Soft Vinyl Kaiju Toy"
           }
         },
         "button": {
@@ -24,22 +18,20 @@
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_style_justification": "flex-end"
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
-        "04d4162a-d7c8-4838-a95c-dd2174864f2c",
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Ragnar_Soft_Vinyl_Kaiju_Toy_in_Nacelle-Exclusive_Colorway_combo_Copy_2086292f-3c72-4c71-ac7f-fa2ac87a39d6.jpg",
-        "image_height": "large",
+        "image": "shopify:\/\/shop_images\/Garloo_Patch.jpg",
+        "image_2": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_cbb1a6f2-c0a2-4f18-b1fb-834e6f928c54.jpg",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
-        "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "background-2",
@@ -47,50 +39,13 @@
         "show_text_below": true
       }
     },
-    "16373371892a086c6e": {
-      "type": "custom-liquid",
+    "video": {
+      "type": "video",
       "settings": {
-        "custom_liquid": "<hr>"
-      }
-    },
-    "1637337123a03be180": {
-      "type": "image-banner",
-      "blocks": {
-        "1637337123ff5392df-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Power Lords",
-            "heading_size": "medium"
-          }
-        },
-        "1637337123ff5392df-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Buy Now",
-            "button_link_1": "shopify:\/\/products\/power-lords-logo-t-shirt",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_style_justification": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1637337123ff5392df-0",
-        "1637337123ff5392df-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/power-lords.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "flex-end",
-        "desktop_text_box_justification": "flex-end",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "accent-2",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "heading": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
       }
     },
     "16372854266304fa94": {
@@ -177,8 +132,7 @@
   },
   "order": [
     "image_banner",
-    "16373371892a086c6e",
-    "1637337123a03be180",
+    "video",
     "16372854266304fa94",
     "1637287801acde42ef"
   ]

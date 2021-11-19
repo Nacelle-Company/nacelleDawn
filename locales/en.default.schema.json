@@ -913,6 +913,18 @@
                 "label": "Large"
               },
               "label": "Heading font size"
+            },
+            "desktop_heading_align": {
+              "options__1": {
+                "label": "Center"
+              },
+              "options__2": {
+                "label": "Left"
+              },
+              "options__3": {
+                "label": "Right"
+              },
+              "label": "Desktop heading align"
             }
           }
         },
@@ -921,6 +933,18 @@
           "settings": {
             "text": {
               "label": "Description"
+            },
+            "desktop_text_align": {
+              "options__1": {
+                "label": "Center"
+              },
+              "options__2": {
+                "label": "Left"
+              },
+              "options__3": {
+                "label": "Right"
+              },
+              "label": "Desktop text align"
             }
           }
         },
