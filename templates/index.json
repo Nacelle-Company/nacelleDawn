@@ -13,22 +13,29 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "1cfda243-b9e0-4996-b537-ceb2c5420afe": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
         }
       },
       "block_order": [
         "heading",
-        "button"
+        "button",
+        "1cfda243-b9e0-4996-b537-ceb2c5420afe"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Ragnar_Soft_Vinyl_Kaiju_Toy_in_Nacelle-Exclusive_Colorway_combo_Copy_2086292f-3c72-4c71-ac7f-fa2ac87a39d6.jpg",
-        "image_2": "shopify:\/\/shop_images\/map.jpg",
+        "image_2": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_cbb1a6f2-c0a2-4f18-b1fb-834e6f928c54.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
