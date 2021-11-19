@@ -93,21 +93,12 @@
     "16372854266304fa94": {
       "type": "collage",
       "blocks": {
-        "1637285426703f16fc-1": {
-          "type": "product",
-          "settings": {
-            "product": "great-garloo-lunchbox-vinyl-sticker",
-            "second_image": false,
-            "image_padding": true,
-            "secondary_background": false
-          }
-        },
         "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Brian_Reedy_Great_Garloo_Screen_Print_Poster.jpg",
             "image_padding": true,
-            "color_scheme": "background-1"
+            "color_scheme": "background-2"
           }
         },
         "dad3bae6-df86-4a57-afe6-fbb9979a61d5": {
@@ -115,18 +106,26 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Brian_Reedy_Great_Garloo_Premium_Woodblock_Print.jpg",
             "image_padding": true,
+            "color_scheme": "background-2"
+          }
+        },
+        "a670e666-6996-4502-bcaf-4145d8148faf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_cbb1a6f2-c0a2-4f18-b1fb-834e6f928c54.jpg",
+            "image_padding": false,
             "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "1637285426703f16fc-1",
         "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4",
-        "dad3bae6-df86-4a57-afe6-fbb9979a61d5"
+        "dad3bae6-df86-4a57-afe6-fbb9979a61d5",
+        "a670e666-6996-4502-bcaf-4145d8148faf"
       ],
       "settings": {
         "heading": "The Great Garloo",
-        "desktop_layout": "left",
+        "desktop_layout": "right",
         "mobile_layout": "column"
       }
     },
