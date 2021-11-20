@@ -101,19 +101,11 @@
     "16372854266304fa94": {
       "type": "collage",
       "blocks": {
-        "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Brian_Reedy_Great_Garloo_Screen_Print_Poster.jpg",
-            "image_padding": true,
-            "color_scheme": "background-2"
-          }
-        },
         "dad3bae6-df86-4a57-afe6-fbb9979a61d5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Brian_Reedy_Great_Garloo_Premium_Woodblock_Print.jpg",
-            "image_padding": true,
+            "image": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_walking.png",
+            "image_padding": false,
             "color_scheme": "background-2"
           }
         },
@@ -124,58 +116,59 @@
             "image_padding": false,
             "color_scheme": "background-1"
           }
+        },
+        "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_front_look.png",
+            "image_padding": false,
+            "color_scheme": "background-2"
+          }
         }
       },
       "block_order": [
-        "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4",
         "dad3bae6-df86-4a57-afe6-fbb9979a61d5",
-        "a670e666-6996-4502-bcaf-4145d8148faf"
+        "a670e666-6996-4502-bcaf-4145d8148faf",
+        "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4"
       ],
       "settings": {
         "heading": "The Great Garloo",
-        "desktop_layout": "right",
+        "desktop_layout": "left",
         "mobile_layout": "column"
       }
     },
-    "1637287801acde42ef": {
-      "type": "multicolumn",
+    "163737645855c4106d": {
+      "type": "image-with-text",
       "blocks": {
-        "16372878019c7f3900-0": {
-          "type": "column",
+        "1637376458bf3f8e7b-0": {
+          "type": "heading",
           "settings": {
-            "title": "Column",
+            "heading": "Image with text"
+          }
+        },
+        "1637376458bf3f8e7b-1": {
+          "type": "text",
+          "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "16372878019c7f3900-1": {
-          "type": "column",
+        "1637376458bf3f8e7b-2": {
+          "type": "button",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "16372878019c7f3900-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "16372878019c7f3900-0",
-        "16372878019c7f3900-1",
-        "16372878019c7f3900-2"
+        "1637376458bf3f8e7b-0",
+        "1637376458bf3f8e7b-1",
+        "1637376458bf3f8e7b-2"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     }
   },
@@ -183,6 +176,6 @@
     "image_banner",
     "16373412421467217e",
     "16372854266304fa94",
-    "1637287801acde42ef"
+    "163737645855c4106d"
   ]
 }
