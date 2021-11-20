@@ -174,21 +174,6 @@
     "16373412421467217e": {
       "type": "image-banner",
       "blocks": {
-        "1637341242536caf23-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Power Lords \/ Robo Force",
-            "heading_size": "medium",
-            "desktop_heading_align": "left"
-          }
-        },
-        "cb6ea660-3e88-40be-846b-7e885a011528": {
-          "type": "text",
-          "settings": {
-            "text": "THE EXTRA-TERRESTRIAL WARRIORS",
-            "desktop_text_align": "left"
-          }
-        },
         "1637341242536caf23-2": {
           "type": "buttons",
           "settings": {
@@ -203,19 +188,19 @@
         }
       },
       "block_order": [
-        "1637341242536caf23-0",
-        "cb6ea660-3e88-40be-846b-7e885a011528",
         "1637341242536caf23-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Artboard.jpg",
-        "image_2": "shopify:\/\/shop_images\/RObo_t-shirt-white-bright-light.png",
+        "image": "shopify:\/\/shop_images\/Artboard_fa96a1b6-2e14-423b-8a51-d6d916fbc102.jpg",
+        "image_over": "shopify:\/\/shop_images\/Power_Lords_Shirt_b5d2a6ae-2072-4d3f-82f3-88a1ed87d106.png",
+        "image_2": "shopify:\/\/shop_images\/Artboard_2.jpg",
+        "image_2_over": "shopify:\/\/shop_images\/Robo_Force_Shirt.png",
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "flex-start",
-        "show_text_box": true,
-        "image_overlay_opacity": 50,
+        "show_text_box": false,
+        "image_overlay_opacity": 70,
         "color_scheme": "accent-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
