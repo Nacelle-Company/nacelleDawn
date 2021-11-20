@@ -137,6 +137,47 @@
         "mobile_layout": "column"
       }
     },
+    "1637378860d2bc8713": {
+      "type": "collage",
+      "blocks": {
+        "0cb7767f-96bd-4beb-9b2d-6c5f2fafb20c": {
+          "type": "product",
+          "settings": {
+            "product": "copy-of-nacelle-exclusive-mark-spears-monsters-trading-cards-blaster-box",
+            "second_image": true,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "1637378860a607b771-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "image_padding": false,
+            "color_scheme": "accent-1"
+          }
+        },
+        "f4959a6e-76b6-4aee-8e8d-72a23fa0c8a8": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        }
+      },
+      "block_order": [
+        "0cb7767f-96bd-4beb-9b2d-6c5f2fafb20c",
+        "1637378860a607b771-2",
+        "f4959a6e-76b6-4aee-8e8d-72a23fa0c8a8"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "right",
+        "mobile_layout": "column"
+      }
+    },
     "163737645855c4106d": {
       "type": "image-with-text",
       "blocks": {
@@ -208,44 +249,46 @@
         "show_view_all": false
       }
     },
-    "1637378860d2bc8713": {
-      "type": "collage",
+    "16373797088909c5b4": {
+      "type": "multicolumn",
       "blocks": {
-        "ed84ffb9-27bf-4c17-b3e7-127f2d9db152": {
-          "type": "image",
+        "1637379708eb7b14b7-0": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Nacelle-The_Toys_That_Made_Us_Puffy_Stickers.jpg",
-            "image_padding": true,
-            "color_scheme": "background-1"
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-01-14_at_6.46.12_PM.png",
+            "title": "",
+            "text": ""
           }
         },
-        "0cb7767f-96bd-4beb-9b2d-6c5f2fafb20c": {
-          "type": "product",
+        "1637379708eb7b14b7-1": {
+          "type": "column",
           "settings": {
-            "product": "copy-of-nacelle-exclusive-mark-spears-monsters-trading-cards-blaster-box",
-            "second_image": true,
-            "image_padding": false,
-            "secondary_background": false
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "1637378860a607b771-2": {
-          "type": "collection",
+        "1637379708eb7b14b7-2": {
+          "type": "column",
           "settings": {
-            "collection": "accessories",
-            "image_padding": true,
-            "color_scheme": "background-1"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
       "block_order": [
-        "ed84ffb9-27bf-4c17-b3e7-127f2d9db152",
-        "0cb7767f-96bd-4beb-9b2d-6c5f2fafb20c",
-        "1637378860a607b771-2"
+        "1637379708eb7b14b7-0",
+        "1637379708eb7b14b7-1",
+        "1637379708eb7b14b7-2"
       ],
       "settings": {
-        "heading": "",
-        "desktop_layout": "right",
-        "mobile_layout": "column"
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     }
   },
@@ -253,8 +296,9 @@
     "image_banner",
     "16373412421467217e",
     "16372854266304fa94",
+    "1637378860d2bc8713",
     "163737645855c4106d",
     "1637376491025a85ef",
-    "1637378860d2bc8713"
+    "16373797088909c5b4"
   ]
 }
