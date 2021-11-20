@@ -7,6 +7,7 @@
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
+    "gradient_background_1": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
     "colors_background_2": "#121212",
     "type_header_font": "fjalla_one_n4",
     "heading_scale": 115,
