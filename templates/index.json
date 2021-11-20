@@ -289,6 +289,46 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "1637392855f71c79e6": {
+      "type": "collage",
+      "blocks": {
+        "16373928555e70e4fb-1": {
+          "type": "product",
+          "settings": {
+            "product": "mitch-hedberg-do-you-believe-in-gosh",
+            "second_image": false,
+            "image_padding": true,
+            "secondary_background": true
+          }
+        },
+        "16373928555e70e4fb-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "nacelle-vinyl",
+            "image_padding": true,
+            "color_scheme": "background-1"
+          }
+        },
+        "53c689d6-a06f-4b46-aeff-9f27d85ac9f8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bill_Hicks_Revelations_Live_In_London_vinyl_record.jpg",
+            "image_padding": true,
+            "color_scheme": "background-2"
+          }
+        }
+      },
+      "block_order": [
+        "16373928555e70e4fb-1",
+        "16373928555e70e4fb-2",
+        "53c689d6-a06f-4b46-aeff-9f27d85ac9f8"
+      ],
+      "settings": {
+        "heading": "Nacelle Vinyl",
+        "desktop_layout": "left",
+        "mobile_layout": "column"
+      }
     }
   },
   "order": [
@@ -298,6 +338,7 @@
     "163738838765e71c9e",
     "163737645855c4106d",
     "1637376491025a85ef",
-    "1637379712a65dd934"
+    "1637379712a65dd934",
+    "1637392855f71c79e6"
   ]
 }
