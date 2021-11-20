@@ -167,7 +167,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/A_Toy_Store_Near_You_Poster_42dec5e3-f546-4ad3-9d59-06758839df47.jpg",
-        "height": "large",
+        "height": "adapt",
         "color_scheme": "accent-2",
         "layout": "text_first"
       }
