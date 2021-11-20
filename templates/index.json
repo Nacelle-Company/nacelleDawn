@@ -127,7 +127,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/power-lords.jpg",
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-start",
