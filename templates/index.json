@@ -207,6 +207,46 @@
         "image_padding": true,
         "show_view_all": false
       }
+    },
+    "1637378860d2bc8713": {
+      "type": "collage",
+      "blocks": {
+        "1637378860a607b771-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "image_padding": true,
+            "color_scheme": "background-1"
+          }
+        },
+        "0cb7767f-96bd-4beb-9b2d-6c5f2fafb20c": {
+          "type": "product",
+          "settings": {
+            "product": "brian-reedy-great-garloo-premium-woodblock-print-limited-to-100-pieces",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "ed84ffb9-27bf-4c17-b3e7-127f2d9db152": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nacelle-The_Toys_That_Made_Us_Puffy_Stickers.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1637378860a607b771-2",
+        "0cb7767f-96bd-4beb-9b2d-6c5f2fafb20c",
+        "ed84ffb9-27bf-4c17-b3e7-127f2d9db152"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "right",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
@@ -214,6 +254,7 @@
     "16373412421467217e",
     "16372854266304fa94",
     "163737645855c4106d",
-    "1637376491025a85ef"
+    "1637376491025a85ef",
+    "1637378860d2bc8713"
   ]
 }
