@@ -819,8 +819,14 @@
         "image": {
           "label": "First image"
         },
+        "image_over": {
+          "label": "First image, image on top"
+        },
         "image_2": {
           "label": "Second image"
+        },
+        "image_2_over": {
+          "label": "Second image, image on top"
         },
         "image_height": {
           "label": "Image banner height",
