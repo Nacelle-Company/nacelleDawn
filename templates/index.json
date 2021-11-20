@@ -221,13 +221,13 @@
         "1637341242536caf23-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Get the Tee's Here",
+            "button_label_1": "Get Your Tee Here",
             "button_link_1": "shopify:\/\/collections\/apparel",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "button_style_justification": "flex-start"
+            "button_style_justification": "flex-end"
           }
         }
       },
@@ -241,8 +241,8 @@
         "image_2_over": "shopify:\/\/shop_images\/Robo_Force_Shirt.png",
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-start",
-        "desktop_text_box_justification": "flex-start",
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
         "image_overlay_opacity": 70,
         "color_scheme": "accent-1",
