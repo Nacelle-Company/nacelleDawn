@@ -22,7 +22,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/NacelleTVSolo_2048x_2c7b6fbc-1b4d-4a18-8832-ff63571cd06c.jpg",
         "image_2": "shopify:\/\/shop_images\/NacelleStickerPack.jpg",
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "center",
