@@ -90,7 +90,7 @@
           "settings": {
             "product": "great-garloo-lunchbox-vinyl-sticker",
             "second_image": true,
-            "image_padding": true,
+            "image_padding": false,
             "secondary_background": false
           }
         },
