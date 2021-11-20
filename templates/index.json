@@ -31,7 +31,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/GreatGarloo-21w_1357a1d3-607f-4ebf-82d1-63382569a6e3.jpg",
         "image_over": "shopify:\/\/shop_images\/garlo-lunchbox-transparent.png",
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "flex-end",
