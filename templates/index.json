@@ -214,82 +214,6 @@
         "layout": "text_first"
       }
     },
-    "1637376491025a85ef": {
-      "type": "collection-list",
-      "blocks": {
-        "16373764912759f352-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "apparel"
-          }
-        },
-        "16373764912759f352-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "toys-collectibles"
-          }
-        },
-        "16373764912759f352-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "accessories"
-          }
-        }
-      },
-      "block_order": [
-        "16373764912759f352-0",
-        "16373764912759f352-1",
-        "16373764912759f352-2"
-      ],
-      "settings": {
-        "title": "Nacelle Collections",
-        "image_ratio": "adapt",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": true,
-        "image_padding": true,
-        "show_view_all": true
-      }
-    },
-    "1637379712a65dd934": {
-      "type": "collage",
-      "blocks": {
-        "0ec7c005-e2d7-49a2-9103-d6765ffbed57": {
-          "type": "product",
-          "settings": {
-            "product": "the-toys-that-made-us-puffy-sticker-pack",
-            "second_image": true,
-            "image_padding": true,
-            "secondary_background": false
-          }
-        },
-        "163737971267a6cb98-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "stickers",
-            "image_padding": false,
-            "color_scheme": "background-2"
-          }
-        },
-        "9df4fa97-2701-4195-9090-a582c6ba3b04": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/the-toys-that-mad-us-sticker.jpg",
-            "image_padding": true,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "0ec7c005-e2d7-49a2-9103-d6765ffbed57",
-        "163737971267a6cb98-2",
-        "9df4fa97-2701-4195-9090-a582c6ba3b04"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
     "1637392855f71c79e6": {
       "type": "collage",
       "blocks": {
@@ -329,6 +253,42 @@
         "desktop_layout": "left",
         "mobile_layout": "column"
       }
+    },
+    "1637376491025a85ef": {
+      "type": "collection-list",
+      "blocks": {
+        "16373764912759f352-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel"
+          }
+        },
+        "16373764912759f352-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toys-collectibles"
+          }
+        },
+        "16373764912759f352-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "16373764912759f352-0",
+        "16373764912759f352-1",
+        "16373764912759f352-2"
+      ],
+      "settings": {
+        "title": "Nacelle Collections",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": true,
+        "show_view_all": true
+      }
     }
   },
   "order": [
@@ -337,8 +297,7 @@
     "16373412421467217e",
     "163738838765e71c9e",
     "163737645855c4106d",
-    "1637376491025a85ef",
-    "1637379712a65dd934",
-    "1637392855f71c79e6"
+    "1637392855f71c79e6",
+    "1637376491025a85ef"
   ]
 }
