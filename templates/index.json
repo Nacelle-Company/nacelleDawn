@@ -211,23 +211,6 @@
     "1637378860d2bc8713": {
       "type": "collage",
       "blocks": {
-        "1637378860a607b771-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "accessories",
-            "image_padding": true,
-            "color_scheme": "background-1"
-          }
-        },
-        "0cb7767f-96bd-4beb-9b2d-6c5f2fafb20c": {
-          "type": "product",
-          "settings": {
-            "product": "brian-reedy-great-garloo-premium-woodblock-print-limited-to-100-pieces",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
         "ed84ffb9-27bf-4c17-b3e7-127f2d9db152": {
           "type": "image",
           "settings": {
@@ -235,12 +218,29 @@
             "image_padding": true,
             "color_scheme": "background-1"
           }
+        },
+        "0cb7767f-96bd-4beb-9b2d-6c5f2fafb20c": {
+          "type": "product",
+          "settings": {
+            "product": "copy-of-nacelle-exclusive-mark-spears-monsters-trading-cards-blaster-box",
+            "second_image": true,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "1637378860a607b771-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "image_padding": true,
+            "color_scheme": "background-1"
+          }
         }
       },
       "block_order": [
-        "1637378860a607b771-2",
+        "ed84ffb9-27bf-4c17-b3e7-127f2d9db152",
         "0cb7767f-96bd-4beb-9b2d-6c5f2fafb20c",
-        "ed84ffb9-27bf-4c17-b3e7-127f2d9db152"
+        "1637378860a607b771-2"
       ],
       "settings": {
         "heading": "",
