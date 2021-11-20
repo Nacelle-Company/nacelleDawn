@@ -285,8 +285,8 @@
         "16373764912759f352-2"
       ],
       "settings": {
-        "title": "Nacelle Collections",
-        "image_ratio": "adapt",
+        "title": "",
+        "image_ratio": "square",
         "color_scheme": "background-1",
         "swipe_on_mobile": true,
         "image_padding": true,
