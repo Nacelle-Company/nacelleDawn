@@ -3,17 +3,57 @@
     "1637409912a7ea372a": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Great_Garloo.jpg",
-        "image_2": "shopify:\/\/shop_images\/Great_Garloo.jpg",
+        "image": "shopify:\/\/shop_images\/garloo-half.jpg",
+        "image_2": "shopify:\/\/shop_images\/garloo-half_bb85c94c-9605-425c-b997-8e125ad50f0d.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_text_box_justification": "center",
         "show_text_box": true,
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 50,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "16372854266304fa94": {
+      "type": "collage",
+      "blocks": {
+        "7217cdbf-4d79-4603-a62d-76bdb895027b": {
+          "type": "product",
+          "settings": {
+            "product": "great-garloo-lunchbox-vinyl-sticker",
+            "second_image": true,
+            "image_padding": true,
+            "secondary_background": true
+          }
+        },
+        "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_front_look.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "dad3bae6-df86-4a57-afe6-fbb9979a61d5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_in_hand.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "7217cdbf-4d79-4603-a62d-76bdb895027b",
+        "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4",
+        "dad3bae6-df86-4a57-afe6-fbb9979a61d5"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "column"
       }
     },
     "image_banner": {
@@ -63,46 +103,6 @@
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "16372854266304fa94": {
-      "type": "collage",
-      "blocks": {
-        "7217cdbf-4d79-4603-a62d-76bdb895027b": {
-          "type": "product",
-          "settings": {
-            "product": "great-garloo-lunchbox-vinyl-sticker",
-            "second_image": true,
-            "image_padding": true,
-            "secondary_background": true
-          }
-        },
-        "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_front_look.png",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "dad3bae6-df86-4a57-afe6-fbb9979a61d5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_in_hand.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "7217cdbf-4d79-4603-a62d-76bdb895027b",
-        "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4",
-        "dad3bae6-df86-4a57-afe6-fbb9979a61d5"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "column"
       }
     },
     "16373412421467217e": {
@@ -285,8 +285,8 @@
   },
   "order": [
     "1637409912a7ea372a",
-    "image_banner",
     "16372854266304fa94",
+    "image_banner",
     "16373412421467217e",
     "163738838765e71c9e",
     "1637408408d0aa3dd2",
