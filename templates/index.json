@@ -184,13 +184,13 @@
         "16373764912759f352-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "toys-collectibles"
           }
         },
         "16373764912759f352-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "accessories"
           }
         }
       },
@@ -201,11 +201,27 @@
       ],
       "settings": {
         "title": "Collections",
-        "image_ratio": "portrait",
-        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "color_scheme": "background-2",
         "swipe_on_mobile": false,
-        "image_padding": false,
+        "image_padding": true,
         "show_view_all": false
+      }
+    },
+    "1637377956f0fc5927": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "consumer-products",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     }
   },
@@ -214,6 +230,7 @@
     "16373412421467217e",
     "16372854266304fa94",
     "163737645855c4106d",
-    "1637376491025a85ef"
+    "1637376491025a85ef",
+    "1637377956f0fc5927"
   ]
 }
