@@ -232,7 +232,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Nacelle-The_Toys_That_Made_Us_Puffy_Stickers.jpg",
-            "image_padding": false,
+            "image_padding": true,
             "color_scheme": "background-1"
           }
         }
