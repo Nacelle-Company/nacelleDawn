@@ -21,10 +21,92 @@
         "enable_sorting": true,
         "collapse_on_larger_devices": true
       }
+    },
+    "163739791877f5763a": {
+      "type": "collage",
+      "blocks": {
+        "16373979181af37a85-1": {
+          "type": "product",
+          "settings": {
+            "product": "nacelle-toy-stores-of-the-world-passport",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "fc747d29-005a-46dc-a47e-6812208e1dfe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nacelle-Toy-Stores-of-the-World-Passport--with-stamp.png",
+            "image_padding": true,
+            "color_scheme": "background-1"
+          }
+        },
+        "ad43e9a9-0838-4a31-a696-d1f8be274f67": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nacelle-Toy-Stores-of-the-World-Passport-book.png",
+            "image_padding": true,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "16373979181af37a85-1",
+        "fc747d29-005a-46dc-a47e-6812208e1dfe",
+        "ad43e9a9-0838-4a31-a696-d1f8be274f67"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1637398036b5dbd8c8": {
+      "type": "collage",
+      "blocks": {
+        "1d4e67b4-b8f6-4159-a933-8363af15fc0c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NacelleToysTVRedSolo_2048x_e5021bea-18bd-475a-8d5c-59bd468cec29.jpg",
+            "image_padding": true,
+            "color_scheme": "background-1"
+          }
+        },
+        "8cb51acd-10b2-4582-96e0-3d517b6b7dad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NacelleToysTVYellowSolo_2048x_1942aabf-11dd-4322-8bfd-ac9bbe49f18c.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "8322572a-c811-4d68-ab04-8594c7c92408": {
+          "type": "product",
+          "settings": {
+            "product": "the-toys-that-made-us-puffy-sticker-pack",
+            "second_image": true,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        }
+      },
+      "block_order": [
+        "1d4e67b4-b8f6-4159-a933-8363af15fc0c",
+        "8cb51acd-10b2-4582-96e0-3d517b6b7dad",
+        "8322572a-c811-4d68-ab04-8594c7c92408"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "right",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "163739791877f5763a",
+    "1637398036b5dbd8c8"
   ]
 }
