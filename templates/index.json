@@ -129,12 +129,12 @@
         "image": "shopify:\/\/shop_images\/power-lords.jpg",
         "image_2": "shopify:\/\/shop_images\/RObo_t-shirt-white-bright-light.png",
         "image_height": "large",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-start",
         "show_text_box": true,
         "image_overlay_opacity": 0,
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
