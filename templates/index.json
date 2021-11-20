@@ -6,13 +6,13 @@
         "ab45fa80-1dd0-43b6-9457-8ce9b33337b5": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Order Now",
+            "button_label_1": "",
             "button_link_1": "shopify:\/\/collections\/accessories",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "button_style_justification": "center"
+            "button_style_justification": "flex-start"
           }
         }
       },
@@ -24,7 +24,7 @@
         "image_2": "shopify:\/\/shop_images\/NacelleStickerPack.jpg",
         "image_height": "small",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "center",
         "show_text_box": false,
         "image_overlay_opacity": 0,
@@ -212,6 +212,22 @@
         "mobile_layout": "collage"
       }
     },
+    "1637408408d0aa3dd2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Nacelle Vinyl",
+        "collection": "nacelle-vinyl",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "163737645855c4106d": {
       "type": "image-with-text",
       "blocks": {
@@ -245,46 +261,6 @@
         "height": "adapt",
         "color_scheme": "accent-2",
         "layout": "text_first"
-      }
-    },
-    "1637392855f71c79e6": {
-      "type": "collage",
-      "blocks": {
-        "16373928555e70e4fb-1": {
-          "type": "product",
-          "settings": {
-            "product": "mitch-hedberg-do-you-believe-in-gosh",
-            "second_image": false,
-            "image_padding": true,
-            "secondary_background": true
-          }
-        },
-        "16373928555e70e4fb-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "nacelle-vinyl",
-            "image_padding": true,
-            "color_scheme": "background-1"
-          }
-        },
-        "53c689d6-a06f-4b46-aeff-9f27d85ac9f8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bill_Hicks_Revelations_Live_In_London_vinyl_record.jpg",
-            "image_padding": true,
-            "color_scheme": "background-2"
-          }
-        }
-      },
-      "block_order": [
-        "16373928555e70e4fb-1",
-        "16373928555e70e4fb-2",
-        "53c689d6-a06f-4b46-aeff-9f27d85ac9f8"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "column"
       }
     },
     "1637376491025a85ef": {
@@ -330,8 +306,8 @@
     "16372854266304fa94",
     "16373412421467217e",
     "163738838765e71c9e",
+    "1637408408d0aa3dd2",
     "163737645855c4106d",
-    "1637392855f71c79e6",
     "1637376491025a85ef"
   ]
 }
