@@ -37,11 +37,12 @@
         "1637385072361e388b-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker.png",
+        "image": "shopify:\/\/shop_images\/Brian_Reedy_Great_Garloo_Screen_Print_Poster.jpg",
+        "image_2": "shopify:\/\/shop_images\/Garloo_Patch.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "desktop_text_box_justification": "center",
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_justification": "flex-end",
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
