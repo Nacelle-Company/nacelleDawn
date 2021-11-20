@@ -257,22 +257,22 @@
           "settings": {
             "collection": "stickers",
             "image_padding": false,
-            "color_scheme": "accent-2"
+            "color_scheme": "background-2"
           }
         },
         "b9ed6b85-6f13-4cb2-a019-daa9f6ad9bff": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NacelleToysTVYellowSolo_2048x_1942aabf-11dd-4322-8bfd-ac9bbe49f18c.jpg",
-            "image_padding": false,
+            "image": "shopify:\/\/shop_images\/NacelleStickerPack.jpg",
+            "image_padding": true,
             "color_scheme": "background-1"
           }
         },
         "9df4fa97-2701-4195-9090-a582c6ba3b04": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NacelleToysTVBlueSolo_2048x_c419f435-cbad-43a4-8880-3f17a1f602cc.jpg",
-            "image_padding": false,
+            "image": "shopify:\/\/shop_images\/the-toys-that-mad-us-sticker.jpg",
+            "image_padding": true,
             "color_scheme": "background-1"
           }
         }
