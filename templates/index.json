@@ -139,6 +139,46 @@
         "show_text_below": true
       }
     },
+    "163738838765e71c9e": {
+      "type": "collage",
+      "blocks": {
+        "1637388387c10f5f01-1": {
+          "type": "product",
+          "settings": {
+            "product": "the-great-garloo-embroidered-patch",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "c66f4f0d-b93f-471c-9da5-db52a178b59f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Garloo_Patches.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "38d0579e-289d-4434-bf0f-9011a8334e57": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Background_c.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1637388387c10f5f01-1",
+        "c66f4f0d-b93f-471c-9da5-db52a178b59f",
+        "38d0579e-289d-4434-bf0f-9011a8334e57"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
     "163737645855c4106d": {
       "type": "image-with-text",
       "blocks": {
@@ -255,6 +295,7 @@
     "image_banner",
     "16372854266304fa94",
     "16373412421467217e",
+    "163738838765e71c9e",
     "163737645855c4106d",
     "1637376491025a85ef",
     "1637379712a65dd934"
