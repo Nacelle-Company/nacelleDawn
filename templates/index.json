@@ -1,45 +1,12 @@
 {
   "sections": {
-    "1637408224ec17833c": {
-      "type": "image-banner",
-      "blocks": {
-        "ab45fa80-1dd0-43b6-9457-8ce9b33337b5": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "shopify:\/\/collections\/accessories",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_style_justification": "flex-start"
-          }
-        }
-      },
-      "block_order": [
-        "ab45fa80-1dd0-43b6-9457-8ce9b33337b5"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/NacelleTVSolo_2048x_2c7b6fbc-1b4d-4a18-8832-ff63571cd06c.jpg",
-        "image_2": "shopify:\/\/shop_images\/NacelleStickerPack.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-start",
-        "desktop_text_box_justification": "center",
-        "show_text_box": false,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Nacelle-Exclusive",
+            "heading": "Nacelle Exclusive",
             "heading_size": "medium",
             "desktop_heading_align": "right"
           }
@@ -54,8 +21,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "Order Ragnar",
+            "button_link_1": "shopify:\/\/products\/ragnar-soft-vinyl-kaiju-toy-in-nacelle-exclusive-colorway",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -298,16 +265,66 @@
         "image_padding": true,
         "show_view_all": true
       }
+    },
+    "1637409912a7ea372a": {
+      "type": "image-banner",
+      "blocks": {
+        "16374099110ee92e32-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "16374099110ee92e32-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "16374099110ee92e32-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16374099110ee92e32-0",
+        "16374099110ee92e32-1",
+        "16374099110ee92e32-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mark-Spears-Monsters-Trading.jpg",
+        "image_2": "shopify:\/\/shop_images\/card-back-drop-nacelle.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "1637408224ec17833c",
     "image_banner",
     "16372854266304fa94",
     "16373412421467217e",
     "163738838765e71c9e",
     "1637408408d0aa3dd2",
     "163737645855c4106d",
-    "1637376491025a85ef"
+    "1637376491025a85ef",
+    "1637409912a7ea372a"
   ]
 }
