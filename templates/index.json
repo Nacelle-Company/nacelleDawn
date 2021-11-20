@@ -147,7 +147,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Garloo_Patches.png",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "background-2"
           }
         },
         "38d0579e-289d-4434-bf0f-9011a8334e57": {
@@ -155,7 +155,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Background_c.png",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "background-2"
           }
         },
         "1637388387c10f5f01-1": {
@@ -164,7 +164,7 @@
             "product": "the-great-garloo-embroidered-patch",
             "second_image": true,
             "image_padding": false,
-            "secondary_background": false
+            "secondary_background": true
           }
         }
       },
@@ -242,12 +242,12 @@
         "16373764912759f352-2"
       ],
       "settings": {
-        "title": "Collections",
-        "image_ratio": "square",
+        "title": "Nacelle Collections",
+        "image_ratio": "adapt",
         "color_scheme": "background-1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_padding": true,
-        "show_view_all": false
+        "show_view_all": true
       }
     },
     "1637379712a65dd934": {
