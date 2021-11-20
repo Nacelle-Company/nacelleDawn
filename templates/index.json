@@ -11,6 +11,13 @@
             "desktop_heading_align": "right"
           }
         },
+        "5598246f-9e82-4bc9-a8ed-6037f9be282c": {
+          "type": "text",
+          "settings": {
+            "text": "by Brian Reedy",
+            "desktop_text_align": "right"
+          }
+        },
         "07420e6e-0668-4c89-afb4-34c23f1b1236": {
           "type": "buttons",
           "settings": {
@@ -26,6 +33,7 @@
       },
       "block_order": [
         "88f94faa-8e5f-491b-b597-ffbd49a76c10",
+        "5598246f-9e82-4bc9-a8ed-6037f9be282c",
         "07420e6e-0668-4c89-afb4-34c23f1b1236"
       ],
       "settings": {
