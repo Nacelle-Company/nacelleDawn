@@ -1,5 +1,38 @@
 {
   "sections": {
+    "1637408224ec17833c": {
+      "type": "image-banner",
+      "blocks": {
+        "ab45fa80-1dd0-43b6-9457-8ce9b33337b5": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Order Now",
+            "button_link_1": "shopify:\/\/collections\/accessories",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "ab45fa80-1dd0-43b6-9457-8ce9b33337b5"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NacelleTVSolo_2048x_2c7b6fbc-1b4d-4a18-8832-ff63571cd06c.jpg",
+        "image_2": "shopify:\/\/shop_images\/NacelleStickerPack.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_justification": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -292,6 +325,7 @@
     }
   },
   "order": [
+    "1637408224ec17833c",
     "image_banner",
     "16372854266304fa94",
     "16373412421467217e",
