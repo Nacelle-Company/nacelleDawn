@@ -49,56 +49,6 @@
         "show_text_below": true
       }
     },
-    "1637385072ccab5e83": {
-      "type": "image-banner",
-      "blocks": {
-        "1637385072361e388b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium",
-            "desktop_heading_align": "center"
-          }
-        },
-        "1637385072361e388b-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "desktop_text_align": "center"
-          }
-        },
-        "1637385072361e388b-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_style_justification": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1637385072361e388b-0",
-        "1637385072361e388b-1",
-        "1637385072361e388b-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Brian_Reedy_Great_Garloo_Screen_Print_Poster.jpg",
-        "image_2": "shopify:\/\/shop_images\/Garloo_Patch.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
-        "desktop_text_box_justification": "flex-end",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "16372854266304fa94": {
       "type": "collage",
       "blocks": {
@@ -302,7 +252,6 @@
   },
   "order": [
     "image_banner",
-    "1637385072ccab5e83",
     "16372854266304fa94",
     "16373412421467217e",
     "163737645855c4106d",
