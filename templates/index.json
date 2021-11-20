@@ -3,6 +3,14 @@
     "1637409912a7ea372a": {
       "type": "image-banner",
       "blocks": {
+        "88f94faa-8e5f-491b-b597-ffbd49a76c10": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Great Garloo by Brian Reedy Lunchbox + Vinyl Sticker",
+            "heading_size": "medium",
+            "desktop_heading_align": "right"
+          }
+        },
         "07420e6e-0668-4c89-afb4-34c23f1b1236": {
           "type": "buttons",
           "settings": {
@@ -17,17 +25,18 @@
         }
       },
       "block_order": [
+        "88f94faa-8e5f-491b-b597-ffbd49a76c10",
         "07420e6e-0668-4c89-afb4-34c23f1b1236"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/GreatGarloo-21w_1357a1d3-607f-4ebf-82d1-63382569a6e3.jpg",
         "image_over": "shopify:\/\/shop_images\/garlo-lunchbox-transparent.png",
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
-        "image_overlay_opacity": 50,
+        "image_overlay_opacity": 70,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
