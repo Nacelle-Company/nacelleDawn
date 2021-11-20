@@ -266,6 +266,12 @@
         "show_rating": false
       }
     },
+    "16374310043c4496f5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr>"
+      }
+    },
     "1637376491025a85ef": {
       "type": "collection-list",
       "blocks": {
@@ -311,6 +317,7 @@
     "163737645855c4106d",
     "16373412421467217e",
     "1637408408d0aa3dd2",
+    "16374310043c4496f5",
     "1637376491025a85ef"
   ]
 }
