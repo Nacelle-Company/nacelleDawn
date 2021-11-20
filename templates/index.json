@@ -3,7 +3,8 @@
     "1637409912a7ea372a": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/great_garloo_instructions.jpg",
+        "image": "shopify:\/\/shop_images\/Great_Garloo.jpg",
+        "image_2": "shopify:\/\/shop_images\/Great_Garloo.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
