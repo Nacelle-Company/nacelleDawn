@@ -249,82 +249,38 @@
         "show_view_all": false
       }
     },
-    "16373797088909c5b4": {
-      "type": "multicolumn",
-      "blocks": {
-        "1637379708eb7b14b7-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NacelleTVSolo_2048x_2c7b6fbc-1b4d-4a18-8832-ff63571cd06c.jpg",
-            "title": "",
-            "text": ""
-          }
-        },
-        "1637379708eb7b14b7-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NacelleToysTVRedSolo_2048x_e5021bea-18bd-475a-8d5c-59bd468cec29.jpg",
-            "title": "",
-            "text": ""
-          }
-        },
-        "1637379708eb7b14b7-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NacelleToysTVYellowSolo_2048x_1942aabf-11dd-4322-8bfd-ac9bbe49f18c.jpg",
-            "title": "",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1637379708eb7b14b7-0",
-        "1637379708eb7b14b7-1",
-        "1637379708eb7b14b7-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": true
-      }
-    },
     "1637379712a65dd934": {
       "type": "collage",
       "blocks": {
-        "163737971267a6cb98-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
         "163737971267a6cb98-2": {
           "type": "collection",
           "settings": {
-            "collection": "accessories",
+            "collection": "stickers",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "accent-2"
           }
         },
         "b9ed6b85-6f13-4cb2-a019-daa9f6ad9bff": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/NacelleToysTVYellowSolo_2048x_1942aabf-11dd-4322-8bfd-ac9bbe49f18c.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "9df4fa97-2701-4195-9090-a582c6ba3b04": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NacelleToysTVBlueSolo_2048x_c419f435-cbad-43a4-8880-3f17a1f602cc.jpg",
             "image_padding": false,
             "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "163737971267a6cb98-1",
         "163737971267a6cb98-2",
-        "b9ed6b85-6f13-4cb2-a019-daa9f6ad9bff"
+        "b9ed6b85-6f13-4cb2-a019-daa9f6ad9bff",
+        "9df4fa97-2701-4195-9090-a582c6ba3b04"
       ],
       "settings": {
         "heading": "Multimedia collage",
@@ -340,7 +296,6 @@
     "1637378860d2bc8713",
     "163737645855c4106d",
     "1637376491025a85ef",
-    "16373797088909c5b4",
     "1637379712a65dd934"
   ]
 }
