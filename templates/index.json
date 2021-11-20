@@ -180,6 +180,41 @@
         "show_text_below": true
       }
     },
+    "163737645855c4106d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637376458bf3f8e7b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Toys That Made Us Poster"
+          }
+        },
+        "1637376458bf3f8e7b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Need a description.<\/p>"
+          }
+        },
+        "1637376458bf3f8e7b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "shopify:\/\/products\/a-toy-store-near-you-poster"
+          }
+        }
+      },
+      "block_order": [
+        "1637376458bf3f8e7b-0",
+        "1637376458bf3f8e7b-1",
+        "1637376458bf3f8e7b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/A_Toy_Store_Near_You_Poster_42dec5e3-f546-4ad3-9d59-06758839df47.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-2",
+        "layout": "text_first"
+      }
+    },
     "16373412421467217e": {
       "type": "image-banner",
       "blocks": {
@@ -231,41 +266,6 @@
         "show_rating": false
       }
     },
-    "163737645855c4106d": {
-      "type": "image-with-text",
-      "blocks": {
-        "1637376458bf3f8e7b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Toys That Made Us Poster"
-          }
-        },
-        "1637376458bf3f8e7b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Need a description.<\/p>"
-          }
-        },
-        "1637376458bf3f8e7b-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "BUY NOW",
-            "button_link": "shopify:\/\/products\/a-toy-store-near-you-poster"
-          }
-        }
-      },
-      "block_order": [
-        "1637376458bf3f8e7b-0",
-        "1637376458bf3f8e7b-1",
-        "1637376458bf3f8e7b-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/A_Toy_Store_Near_You_Poster_42dec5e3-f546-4ad3-9d59-06758839df47.jpg",
-        "height": "adapt",
-        "color_scheme": "accent-2",
-        "layout": "text_first"
-      }
-    },
     "1637376491025a85ef": {
       "type": "collection-list",
       "blocks": {
@@ -308,9 +308,9 @@
     "16372854266304fa94",
     "163738838765e71c9e",
     "image_banner",
+    "163737645855c4106d",
     "16373412421467217e",
     "1637408408d0aa3dd2",
-    "163737645855c4106d",
     "1637376491025a85ef"
   ]
 }
