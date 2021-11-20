@@ -6,10 +6,10 @@
         "07420e6e-0668-4c89-afb4-34c23f1b1236": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Buy Now",
+            "button_link_1": "shopify:\/\/products\/great-garloo-lunchbox-vinyl-sticker",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
             "button_style_justification": "flex-end"
