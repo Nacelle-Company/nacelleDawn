@@ -191,14 +191,14 @@
         "1637376458bf3f8e7b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Need a description.<\/p>"
           }
         },
         "1637376458bf3f8e7b-2": {
           "type": "button",
           "settings": {
             "button_label": "BUY NOW",
-            "button_link": ""
+            "button_link": "shopify:\/\/products\/a-toy-store-near-you-poster"
           }
         }
       },
