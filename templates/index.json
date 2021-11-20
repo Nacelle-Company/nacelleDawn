@@ -6,7 +6,7 @@
         "07420e6e-0668-4c89-afb4-34c23f1b1236": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Buy Now",
+            "button_label_1": "Order Garloo Now",
             "button_link_1": "shopify:\/\/products\/great-garloo-lunchbox-vinyl-sticker",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -20,9 +20,8 @@
         "07420e6e-0668-4c89-afb4-34c23f1b1236"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/garloo-half.jpg",
+        "image": "shopify:\/\/shop_images\/GreatGarloo-21w_1357a1d3-607f-4ebf-82d1-63382569a6e3.jpg",
         "image_over": "shopify:\/\/shop_images\/garlo-lunchbox-transparent.png",
-        "image_2": "shopify:\/\/shop_images\/garloo-half_bb85c94c-9605-425c-b997-8e125ad50f0d.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
