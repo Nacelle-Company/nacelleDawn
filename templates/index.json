@@ -101,14 +101,6 @@
     "16372854266304fa94": {
       "type": "collage",
       "blocks": {
-        "dad3bae6-df86-4a57-afe6-fbb9979a61d5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_walking.png",
-            "image_padding": false,
-            "color_scheme": "background-2"
-          }
-        },
         "a670e666-6996-4502-bcaf-4145d8148faf": {
           "type": "image",
           "settings": {
@@ -124,12 +116,20 @@
             "image_padding": false,
             "color_scheme": "background-2"
           }
+        },
+        "dad3bae6-df86-4a57-afe6-fbb9979a61d5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Great_Garloo_Lunchbox_Vinyl_sticker_in_hand.png",
+            "image_padding": false,
+            "color_scheme": "background-2"
+          }
         }
       },
       "block_order": [
-        "dad3bae6-df86-4a57-afe6-fbb9979a61d5",
         "a670e666-6996-4502-bcaf-4145d8148faf",
-        "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4"
+        "d52ddd25-4b7e-4722-9de2-3dbd8fc3a1c4",
+        "dad3bae6-df86-4a57-afe6-fbb9979a61d5"
       ],
       "settings": {
         "heading": "The Great Garloo",
