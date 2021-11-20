@@ -143,7 +143,7 @@
         "1637376458bf3f8e7b-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "The Toys That Made Us Poster"
           }
         },
         "1637376458bf3f8e7b-1": {
@@ -166,9 +166,46 @@
         "1637376458bf3f8e7b-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/A_Toy_Store_Near_You_Poster_42dec5e3-f546-4ad3-9d59-06758839df47.jpg",
         "height": "adapt",
+        "color_scheme": "accent-1",
+        "layout": "text_first"
+      }
+    },
+    "1637376491025a85ef": {
+      "type": "collection-list",
+      "blocks": {
+        "16373764912759f352-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "16373764912759f352-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "16373764912759f352-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16373764912759f352-0",
+        "16373764912759f352-1",
+        "16373764912759f352-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "portrait",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
       }
     }
   },
@@ -176,6 +213,7 @@
     "image_banner",
     "16373412421467217e",
     "16372854266304fa94",
-    "163737645855c4106d"
+    "163737645855c4106d",
+    "1637376491025a85ef"
   ]
 }
