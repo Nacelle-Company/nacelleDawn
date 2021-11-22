@@ -22,8 +22,13 @@
               <div class="js-contents" {{ block.shopify_attributes }}>
                 <div class="totals">
                   <h3 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h3>
-                  <p class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
-                </div>
+                  <p class="totals__subtotal-value"><span class="wcp-original-cart-total">{{ cart.total_price | money}}</span>
+                    <span class="wcp-cart-total"></span> </p>
+        		</div>
+                  <div class="additional-notes">
+                    <span class="wcp-minimums-note"></span>
+                    <span class="wcp-extra-note "></span>
+                  </div>{% render "wcp_multi_currency_msg" %}
 
                 <div>
                   {%- if cart.cart_level_discount_applications.size > 0 -%}
@@ -64,15 +69,44 @@
                 </button>
               </div>
 
-              {%- if additional_checkout_buttons -%}
+             {%- if additional_checkout_buttons -%}
                 <div class="cart__dynamic-checkout-buttons additional-checkout-buttons">
                   {{ content_for_additional_checkout_buttons }}
                 </div>
+      
+        <script>
+                    var v = setInterval(function()
+                                        {
+                      if(typeof window.wcp_data != 'undefined' && typeof window.wcp_data.discounted_hash != 'undefined')
+                      {
+                        if((window.wcp_data.discounted_hash.discount_value || window.wcp_data.discounted_hash.shipping) 
+                           && $('.cart__dynamic-checkout-buttons').children(':visible').length > 0)
+                        {
+                          $('.cart__dynamic-checkout-buttons').html("Other payment options are available at checkout");
+                          clearInterval(v);
+                        }
+
+                      }  
+                    },500);    
+					</script>
+			
+      
               {%- endif -%}
           {%- endcase -%}
         {% endfor %}
 
         <div id="cart-errors"></div>
+      
+       <div>
+{% if customer.tags contains "wpdnet" %}
+        {% if shop.metafields.wcp_net.isNetEnabled == "true" or shop.metafields.wcp_net.isNetEnabled == "1" %}
+            <div style="margin-top:30px;float: right;">
+                <p>{{shop.metafields.wcp_net.netCartMsg}}</p>
+                <button id="wcp-30-open" class="button">{{shop.metafields.wcp_net.netBtnMsg}}</button>
+            </div>
+        {% endif %}
+    {% endif %}</div> 
+      
       </div>
     </div>
   </div>
@@ -143,3 +177,14 @@
   ]
 }
 {% endschema %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    var WPD_reloadPage = function(e) {setTimeout(function(){window.location.reload();},2500);};
+    function wcp_build_event(x){for (var i = 0; i < x.length; i++) {x[i].addEventListener('click', WPD_reloadPage, false);}}
+    var x=document.querySelectorAll(".icon-remove");wcp_build_event(x);
+    //var x=document.querySelectorAll(".QuantitySelector__Button");wcp_build_event(x);
+     function wcp_build_event_change(x){for (var i = 0; i < x.length; i++) {x[i].addEventListener('change', WPD_reloadPage, false);}}
+     var x=document.querySelectorAll(".QuantitySelector__CurrentQuantity");wcp_build_event_change(x);
+  }, false);
+</script>

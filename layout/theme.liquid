@@ -122,7 +122,14 @@
     {%- endif -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-  </head>
+  
+
+		<!-- Snippet for KAD Wholesale app -->
+		{% include 'kad-wholesale' %}
+
+
+
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -132,7 +139,11 @@
     {% section 'announcement-bar' %}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {{ content_for_layout }}
+      
+{% capture captured_page %}
+  {{ content_for_layout }}
+{% endcapture %}
+{% include 'password-protect' %}
     </main>
 
     {% section 'footer' %}
@@ -168,5 +179,56 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+  <!-- WPD Start -->
+                {% if customer.tags.size > 0 and template != 'cart' %}
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      let checkoutbtninterval = setInterval(function(){
+                        var x=document.querySelectorAll("input[name='checkout'], button[name='checkout'], input[name='goto_pp'], button[name='goto_pp'], input[name='goto_gc'], button[name='goto_gc'], [href$='checkout']");
+                        var WPD_RedirectToCart = function(e) {
+                          	e.stopPropagation();
+                            e.preventDefault();
+                            window.location = '/cart';
+                            };
+                            for (var i = 0; i < x.length; i++) {
+                                x[i].addEventListener('click', WPD_RedirectToCart, false);
+                            }
+                        },500)
+                });
+              </script>
+               {% endif %}
+         
+
+               {% if customer.tags.size > 0 and template == 'cart' %}
+                 {% include 'wcp_cart' %}
+               {% endif %}
+               <!-- WPD End -->
+    
+    {% assign is_wcp_wholesale_customer = false %}
+{% assign active_discounts = shop.metafields.wcp_active_discounts.wcp_active_discounts %}
+{% assign active_discounts_array = active_discounts | split: ',' %}
+{% if shop.metafields.wcp_status.wcp_status != 'disabled' and customer %}
+  	{% for discount_key in active_discounts_array %}
+		{% assign key_split = discount_key | split: '-' %}
+    	{% assign key_split_length = key_split | size %}
+    	{% if key_split_length > 2 %}      		
+      		{% assign removeable_key = key_split.last | prepend: '-' %}
+      		{% assign wcp_hide_sale_badge_customer_tag = discount_key | remove_first: removeable_key %}
+    	{% else %}
+      		{% assign wcp_hide_sale_badge_customer_tag = key_split[0] %}
+    	{% endif %}
+		{% if customer.tags contains wcp_hide_sale_badge_customer_tag %}
+     		{% assign is_wcp_wholesale_customer = true %}
+		{% endif %}
+	{% endfor %}
+{% endif %}
+{% if is_wcp_wholesale_customer == true %}
+<style>
+  .dynamic-checkout__content{
+  display:none !important;
+  }
+</style>
+{% endif %}	
+    
   </body>
 </html>
