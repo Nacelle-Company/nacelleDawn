@@ -8,18 +8,10 @@
     "163769608546f828d9": {
       "type": "collage",
       "blocks": {
-        "1637696085a90bf6ab-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
         "1637696085a90bf6ab-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "kevin-smith-silent-but-deadly-vinyl-lp",
             "second_image": false,
             "image_padding": false,
             "secondary_background": false
@@ -35,7 +27,6 @@
         }
       },
       "block_order": [
-        "1637696085a90bf6ab-0",
         "1637696085a90bf6ab-1",
         "1637696085a90bf6ab-2"
       ],
