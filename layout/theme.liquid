@@ -140,8 +140,34 @@
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       
+    {%- comment -%}to return to default remove BELOW {%- endcomment -%}
+      {% if customer and customer.tags contains 'b2b' %}
+        {% assign customer_b2b = true %}
+      {% else %}
+        {% assign customer_b2b = false %}
+      {% endif %}
+    {%- comment -%}to return to default remove ABOVE {%- endcomment -%}
+
 {% capture captured_page %}
-  {{ content_for_layout }}
+
+  {%- if template == 'index' -%}
+
+    {%- if customer_b2b -%}
+    
+      {{ content_for_layout }}
+
+    {%- else -%}
+
+      {{ pages.alt-home.content }}
+
+    {%- endif -%}
+
+  {%- else -%}
+
+    {{ content_for_layout }}
+
+  {%- endif -%}
+
 {% endcapture %}
 {% include 'password-protect' %}
     </main>
