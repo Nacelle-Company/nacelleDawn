@@ -269,7 +269,7 @@
     "16374310043c4496f5": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<hr>"
+        "custom_liquid": "<hr>\n<div class=\"testing\"><\/div>"
       }
     },
     "1637376491025a85ef": {
