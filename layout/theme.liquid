@@ -139,36 +139,40 @@
     {% section 'announcement-bar' %}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      
-    {%- comment -%}to return to default remove BELOW {%- endcomment -%}
+      {%- comment -%} Default theme START {%- endcomment -%}
+      {%- comment -%}
+      {% capture captured_page %}
+        {{ content_for_layout }}
+      {% endcapture %}
+      {%- endcomment -%}
+      {%- comment -%} Default theme END {%- endcomment -%}
+
+    {%- comment -%} to return to default remove BELOW {%- endcomment -%}
       {% if customer and customer.tags contains 'b2b' %}
         {% assign customer_b2b = true %}
       {% else %}
         {% assign customer_b2b = false %}
       {% endif %}
-    {%- comment -%}to return to default remove ABOVE {%- endcomment -%}
+      {% capture captured_page %}
 
-{% capture captured_page %}
+        {%- if template == 'index' -%}
 
-  {%- if template == 'index' -%}
+          {%- if customer_b2b -%}
+          
+            {{ content_for_layout }}
 
-    {%- if customer_b2b -%}
-    
-      {{ content_for_layout }}
+          {%- else -%}
 
-    {%- else -%}
+          {%- comment -%}<script>//window.location.href = '/pages/alt-home'</script>{%- endcomment -%}
 
-      {{ pages.alt-home.content }}
+            {{ pages.alt-home.content }}
 
-    {%- endif -%}
+          {%- endif -%}
 
-  {%- else -%}
+        {%- endif -%}
 
-    {{ content_for_layout }}
-
-  {%- endif -%}
-
-{% endcapture %}
+      {% endcapture %}
+      {%- comment -%} to return to default remove ABOVE {%- endcomment -%}
 {% include 'password-protect' %}
     </main>
 
