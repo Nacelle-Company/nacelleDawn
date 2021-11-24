@@ -39,7 +39,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/toys-that-made-us-cover.jpg",
         "image_over": "shopify:\/\/shop_images\/the-toys-that-mad-us-blu-ray.png",
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "flex-end",
