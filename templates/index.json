@@ -152,7 +152,7 @@
           "settings": {
             "product": "copy-of-nacelle-exclusive-mark-spears-monsters-trading-cards-blaster-box",
             "second_image": true,
-            "image_padding": true,
+            "image_padding": false,
             "secondary_background": true
           }
         },
