@@ -161,7 +161,7 @@
           "settings": {
             "collection": "trading-cards",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "inverse"
           }
         }
       },
