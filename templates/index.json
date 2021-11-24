@@ -214,7 +214,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Ragnar_Soft_Vinyl_Kaiju_Toy_2e73d525-ce09-422c-8bb4-a20b58858dff.jpg",
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
