@@ -2380,3 +2380,15 @@ details-disclosure > details {
 #create_customer .wpd_half > div {
   margin-bottom: 1em;
 }
+
+#wpd-create-customer-msg .successmsgheader {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 750px) {
+  #wpd-create-customer-msg .successmsgheader {
+    max-width: 46vw;
+    margin: 0 auto;
+  }
+}
