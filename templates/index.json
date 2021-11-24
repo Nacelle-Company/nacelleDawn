@@ -138,14 +138,6 @@
     "163738838765e71c9e": {
       "type": "collage",
       "blocks": {
-        "c66f4f0d-b93f-471c-9da5-db52a178b59f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/monsters.jpg",
-            "image_padding": false,
-            "color_scheme": "background-2"
-          }
-        },
         "38d0579e-289d-4434-bf0f-9011a8334e57": {
           "type": "image",
           "settings": {
@@ -165,7 +157,6 @@
         }
       },
       "block_order": [
-        "c66f4f0d-b93f-471c-9da5-db52a178b59f",
         "38d0579e-289d-4434-bf0f-9011a8334e57",
         "1637388387c10f5f01-1"
       ],
