@@ -138,14 +138,6 @@
     "163738838765e71c9e": {
       "type": "collage",
       "blocks": {
-        "38d0579e-289d-4434-bf0f-9011a8334e57": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mark-Spears-Monsters-Trading.jpg",
-            "image_padding": false,
-            "color_scheme": "background-2"
-          }
-        },
         "1637388387c10f5f01-1": {
           "type": "product",
           "settings": {
@@ -154,11 +146,29 @@
             "image_padding": false,
             "secondary_background": true
           }
+        },
+        "be1c2267-0b41-4f9b-b4ab-3b0aee1e2d88": {
+          "type": "product",
+          "settings": {
+            "product": "copy-of-nacelle-exclusive-mark-spears-monsters-trading-cards-blaster-box",
+            "second_image": true,
+            "image_padding": true,
+            "secondary_background": true
+          }
+        },
+        "59c492fb-37c3-4bfe-b546-da7c21d82bb7": {
+          "type": "collection",
+          "settings": {
+            "collection": "trading-cards",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
         }
       },
       "block_order": [
-        "38d0579e-289d-4434-bf0f-9011a8334e57",
-        "1637388387c10f5f01-1"
+        "1637388387c10f5f01-1",
+        "be1c2267-0b41-4f9b-b4ab-3b0aee1e2d88",
+        "59c492fb-37c3-4bfe-b546-da7c21d82bb7"
       ],
       "settings": {
         "heading": "",
