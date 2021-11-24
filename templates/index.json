@@ -39,7 +39,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/toys-that-made-us-cover.jpg",
         "image_over": "shopify:\/\/shop_images\/the_toys_that_mad_us_blu-ray_seasons_1_2_display_558c60d0-1dbb-4053-8605-4c1b43fe0d36.png",
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "flex-end",
@@ -89,7 +89,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/GreatGarloo-21w_1357a1d3-607f-4ebf-82d1-63382569a6e3.jpg",
         "image_over": "shopify:\/\/shop_images\/garlo-lunchbox-transparent_2.png",
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-start",
