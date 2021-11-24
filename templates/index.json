@@ -278,7 +278,6 @@
     },
     "16374310043c4496f5": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<hr>\n        {% if customer and customer.tags contains 'b2b' %}\n        {% else %}\n         <style>\nsection#shopify-section-template--15235431661759__16373412421467217e {\n    display: none;\n}\n\n.product-grid li:nth-child(n+2) {\n    display: none;\n}\n.product-grid {\n    display: flex;\n    justify-content: center;\n}\n.collection-list {\n    display: flex;\n    justify-content: center;\n}\n.collection-list li:nth-child(1) {\n    display: none;\n}\n<\/style>\n        {% endif %}"
       }
