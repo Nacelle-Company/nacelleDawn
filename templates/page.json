@@ -36,11 +36,28 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "16377228736cafae48": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Toys & Collectibles",
+        "collection": "toys-collectibles",
+        "products_to_show": 12,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
     "main",
     "1637722826d610dce9",
-    "1637722870c3c004ee"
+    "1637722870c3c004ee",
+    "16377228736cafae48"
   ]
 }
