@@ -1,5 +1,55 @@
 {
   "sections": {
+    "1637768294b4559b61": {
+      "type": "image-banner",
+      "blocks": {
+        "163776829475e0eb19-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Toys That Made Us",
+            "heading_size": "medium",
+            "desktop_heading_align": "right"
+          }
+        },
+        "163776829475e0eb19-1": {
+          "type": "text",
+          "settings": {
+            "text": "Seasons 1 & 2 Blu-ray box set",
+            "desktop_text_align": "right"
+          }
+        },
+        "163776829475e0eb19-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Buy Now",
+            "button_link_1": "shopify:\/\/products\/the-toys-that-made-us-puffy-sticker-pack",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "flex-end"
+          }
+        }
+      },
+      "block_order": [
+        "163776829475e0eb19-0",
+        "163776829475e0eb19-1",
+        "163776829475e0eb19-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/toys-that-made-us-cover.jpg",
+        "image_over": "shopify:\/\/shop_images\/the-toys-that-mad-us-blu-ray-seasons-one-and-two-copy-2_copy_2.png",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_justification": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 70,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1637409912a7ea372a": {
       "type": "image-banner",
       "blocks": {
@@ -310,6 +360,7 @@
     }
   },
   "order": [
+    "1637768294b4559b61",
     "1637409912a7ea372a",
     "16372854266304fa94",
     "163738838765e71c9e",
