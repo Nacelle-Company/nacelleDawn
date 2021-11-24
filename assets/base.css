@@ -2361,3 +2361,11 @@ details-disclosure > details {
   }
 }
 
+/* hide left column on wholesale app "wholesale form" */
+#create_customer .wpd_half.First {
+    display: none;
+}
+
+#create_customer .wpd_full_with {
+    justify-content: center;
+}
