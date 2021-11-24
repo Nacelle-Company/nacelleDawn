@@ -50,6 +50,12 @@
         "show_text_below": true
       }
     },
+    "1637778346edc1d6f0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<br>"
+      }
+    },
     "1637409912a7ea372a": {
       "type": "image-banner",
       "blocks": {
@@ -321,6 +327,7 @@
   },
   "order": [
     "1637768294b4559b61",
+    "1637778346edc1d6f0",
     "1637409912a7ea372a",
     "163737645855c4106d",
     "163738838765e71c9e",
