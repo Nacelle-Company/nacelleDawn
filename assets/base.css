@@ -212,7 +212,8 @@ html.no-js .no-js-hidden {
   }
 }
 
-.element-margin {
+.element-margin,
+.wpd_half .action_bottom  {
   margin-top: 5rem;
 }
 
@@ -225,7 +226,8 @@ html.no-js .no-js-hidden {
 }
 
 @media screen and (min-width: 750px) {
-  .element-margin {
+  .element-margin,
+.wpd_half .action_bottom {
     margin-top: calc(5rem + var(--page-width-margin));
   }
 
@@ -1203,6 +1205,7 @@ deferred-media {
 /* Button - default */
 
 .button,
+.button.wpd_submit,
 .shopify-challenge__button,
 .customer button {
   cursor: pointer;
@@ -1243,14 +1246,16 @@ deferred-media {
 
 .button::selection,
 .shopify-challenge__button::selection,
-.customer button::selection {
+.customer button::selection,
+.button.wpd_submit::selection {
   background-color: rgba(var(--color-button-text), 0.3);
 }
 
 .button,
 .button-label,
 .shopify-challenge__button,
-.customer button {
+.customer button,
+.button.wpd_submit {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   line-height: calc(1 + 0.2 / var(--font-body-scale));
@@ -1271,7 +1276,8 @@ deferred-media {
 
 .button:not([disabled]):hover,
 .shopify-challenge__button:hover,
-.customer button:hover {
+.customer button:hover,
+.button.wpd_submit:hover {
   box-shadow: 0 0 0 0.2rem rgba(var(--color-button), var(--alpha-button-border));
 }
 
@@ -1425,6 +1431,7 @@ details[open] > .share-button__fallback {
 .field__input,
 .select__select,
 .customer .field input,
+.wpd_clearfix input,
 .customer select {
   -webkit-appearance: none;
   appearance: none;
@@ -2368,4 +2375,8 @@ details-disclosure > details {
 
 #create_customer .wpd_full_with {
     justify-content: center;
+}
+
+#create_customer .wpd_half > div {
+  margin-bottom: 1em;
 }
