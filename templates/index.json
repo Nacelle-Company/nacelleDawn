@@ -197,7 +197,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Order Ragnar",
+            "button_label_1": "Buy Now",
             "button_link_1": "shopify:\/\/products\/ragnar-soft-vinyl-kaiju-toy-in-nacelle-exclusive-colorway",
             "button_style_secondary_1": false,
             "button_label_2": "",
