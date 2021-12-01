@@ -143,10 +143,11 @@ if target == product
     </small>
   </div>
   {%- if show_badges -%}
+    {%- comment -%}
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">
       {{ 'products.product.on_sale' | t }}
     </span>
-
+    {%- endcomment -%}
     <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}" aria-hidden="true">
       {{ 'products.product.sold_out' | t }}
     </span>
