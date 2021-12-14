@@ -414,13 +414,13 @@
               </p>
             {%- endif -%}
           {%- endcase -%}
+        {%- endfor -%}
                           <div {{ block.shopify_attributes }}>
               {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
-        {%- endfor -%}
       </div>
     </div>
   </div>
