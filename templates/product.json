@@ -85,10 +85,17 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1639697036671b4f94": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.pre-order-main-wrapper > button {\n    font-size: 1.5rem;\n    letter-spacing: .1rem;\n    line-height: calc(1 + .2 \/ var(--font-body-scale));\n    font-family: var(--font-body-family);\n}\n<\/style>"
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "1639697036671b4f94"
   ]
 }
