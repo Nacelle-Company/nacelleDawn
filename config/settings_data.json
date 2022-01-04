@@ -31,10 +31,9 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Free Shipping on orders of $100 or More! more",
-              "color_scheme": "background-1",
+              "text": "Free Shipping on orders of $75 or More!",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
