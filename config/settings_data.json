@@ -33,7 +33,7 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Free Shipping on orders of $100 or More! more",
               "color_scheme": "background-1",
               "link": ""
             }
