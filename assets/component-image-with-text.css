@@ -32,6 +32,10 @@
   min-height: 100%;
 }
 
+.image-with-text__media--contain > img {
+  object-fit: contain;
+}
+
 .image-with-text__media--small {
   height: 19.4rem;
 }
