@@ -5,9 +5,15 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
 <div class="page-width page-width--narrow">
-  <h1 class="main-page-title page-title h0">
-    {{ page.title | escape }}
-  </h1>
+  {% if section.settings.alt_title != blank %}
+    <h1 class="main-page-title page-title h0">
+      {{ section.settings.alt_title }}
+    </h1>
+  {% else %}
+    <h1 class="main-page-title page-title h0">
+      {{ page.title | escape }}
+    </h1>
+  {% endif %}
   <div class="rte">
     {{ page.content }}
   </div>
@@ -17,6 +23,14 @@
 {
   "name": "t:sections.main-page.name",
   "tag": "section",
-  "class": "spaced-section"
+  "class": "spaced-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "alt_title",
+      "label": "Alternate title",
+      "info": "Change the default page title."
+    }
+  ]
 }
 {% endschema %}
