@@ -46,14 +46,14 @@
         "1642435280f5071d8c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed suscipit nunc, non placerat libero. Morbi nec turpis vehicula, porttitor felis rutrum, interdum dolor. Praesent felis ex, blandit at suscipit sed, convallis sed arcu. Fusce mattis vestibulum turpis, eu pellentesque mauris cursus ac. <\/p>"
           }
         },
         "1642435280f5071d8c-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Read More",
+            "button_link": "shopify:\/\/products\/nacelle-toy-stores-of-the-world-passport"
           }
         }
       },
@@ -66,7 +66,9 @@
         "image": "shopify:\/\/shop_images\/map.jpg",
         "height": "contain",
         "color_scheme": "background-2",
-        "layout": "text_first"
+        "layout": "text_first",
+        "col_width": "one-third",
+        "image_border": true
       }
     },
     "16424353593127dbda": {
@@ -98,10 +100,12 @@
         "1642435359eeba5e58-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Nacelle_Stamp-xsm_91867f02-5f6c-49f5-88da-47fe921e2928.png",
+        "image": "shopify:\/\/shop_images\/Nacelle_Stamp.png",
         "height": "contain",
         "color_scheme": "background-2",
-        "layout": "text_first"
+        "layout": "text_first",
+        "col_width": "one-third",
+        "image_border": true
       }
     }
   },
