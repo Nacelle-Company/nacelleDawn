@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16377228736cafae48": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Toys & Collectibles",
+        "collection": "toys-collectibles",
+        "products_to_show": 12,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1637722870c3c004ee": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Apparel",
+        "collection": "apparel",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1637722826d610dce9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Accessories",
+        "collection": "accessories",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16377228736cafae48",
+    "1637722870c3c004ee",
+    "1637722826d610dce9"
+  ]
+}
