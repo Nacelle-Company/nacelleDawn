@@ -7,6 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "TOY STORES OF THE WORLD PASSPORT",
+            "set_as_h1": false,
             "heading_size": "medium",
             "desktop_heading_align": "center"
           }
@@ -31,7 +32,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "alt_title": ""
+        "alt_title": "Special section title"
       }
     },
     "1642435280bd098293": {
@@ -40,7 +41,7 @@
         "1642435280f5071d8c-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Section title"
           }
         },
         "1642435280f5071d8c-1": {
@@ -77,13 +78,13 @@
         "1642435359eeba5e58-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Section title"
           }
         },
         "1642435359eeba5e58-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed suscipit nunc, non placerat libero. Morbi nec turpis vehicula, porttitor felis rutrum, interdum dolor. Praesent felis ex, blandit at suscipit sed, convallis sed arcu. Fusce mattis vestibulum turpis, eu pellentesque mauris cursus ac. <\/p>"
           }
         },
         "1642435359eeba5e58-2": {
