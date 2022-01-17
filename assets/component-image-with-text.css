@@ -32,6 +32,10 @@
 	min-height: 100%;
 }
 
+.image-with-text__media--contain {
+  height: 23rem;
+}
+
 .image-with-text__media--contain > img {
 	object-fit: contain;
 }
@@ -89,6 +93,10 @@
 	padding: 4rem calc(4rem / var(--font-body-scale)) 5rem;
 }
 
+.image-with-text__content.page {
+  padding: 4rem 0;
+}
+
 @media screen and (min-width: 750px) {
 	.image-with-text__grid--reverse .image-with-text__content {
 		margin-left: auto;
@@ -97,7 +105,10 @@
 
 @media screen and (min-width: 990px) {
 	.image-with-text__content {
-		padding: 6rem 7rem 3rem;
+		padding: 6rem 7rem 7rem;
+	}
+    .image-with-text__content.page {
+		padding: 6rem 7rem 7rem 8rem;
 	}
 }
 
@@ -145,13 +156,12 @@
 	height: 25px;
 	position: absolute;
 	background-repeat: no-repeat;
-	top: -5rem;
+	top: -3rem;
 	background-size: 90%;
 }
 
 @media screen and (min-width: 750px) {
   .img-border::before {
     background-size: auto;
-    top: -2rem;
   }
 }
