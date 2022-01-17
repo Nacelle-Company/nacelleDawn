@@ -6,7 +6,7 @@
         "16424352545607ad19-0": {
           "type": "heading",
           "settings": {
-            "heading": "Toy Stores of the World Passport",
+            "heading": "TOY STORES OF THE WORLD PASSPORT",
             "heading_size": "medium",
             "desktop_heading_align": "center"
           }
@@ -98,8 +98,8 @@
         "1642435359eeba5e58-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Nacelle_Stamp-sm.png",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/Nacelle_Stamp-xsm_91867f02-5f6c-49f5-88da-47fe921e2928.png",
+        "height": "contain",
         "color_scheme": "background-2",
         "layout": "text_first"
       }
