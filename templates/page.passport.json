@@ -64,7 +64,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/map.jpg",
-        "height": "adapt",
+        "height": "contain",
         "color_scheme": "background-2",
         "layout": "text_first"
       }
