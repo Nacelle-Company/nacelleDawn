@@ -68,11 +68,47 @@
         "color_scheme": "background-2",
         "layout": "text_first"
       }
+    },
+    "16424353593127dbda": {
+      "type": "image-with-text",
+      "blocks": {
+        "1642435359eeba5e58-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1642435359eeba5e58-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1642435359eeba5e58-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1642435359eeba5e58-0",
+        "1642435359eeba5e58-1",
+        "1642435359eeba5e58-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Nacelle-Toy-Stores-of-the-World-Passport--with-stamp.png",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
     "1642435254cc18c3c0",
     "main",
-    "1642435280bd098293"
+    "1642435280bd098293",
+    "16424353593127dbda"
   ]
 }
