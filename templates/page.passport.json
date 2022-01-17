@@ -1,63 +1,42 @@
 {
   "sections": {
+    "1642435254cc18c3c0": {
+      "type": "image-banner",
+      "blocks": {
+        "16424352545607ad19-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Toy Stores of the World Passport",
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16424352545607ad19-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/academia_us_physical_mural_lg__23373.1560527538.jpg",
+        "image_height": "x_small",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 40,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
-      }
-    },
-    "16377228736cafae48": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Toys & Collectibles",
-        "collection": "toys-collectibles",
-        "products_to_show": 12,
-        "show_view_all": false,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
-    "1637722870c3c004ee": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Apparel",
-        "collection": "apparel",
-        "products_to_show": 12,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
-    "1637722826d610dce9": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Accessories",
-        "collection": "accessories",
-        "products_to_show": 12,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
+        "alt_title": ""
       }
     }
   },
   "order": [
-    "main",
-    "16377228736cafae48",
-    "1637722870c3c004ee",
-    "1637722826d610dce9"
+    "1642435254cc18c3c0",
+    "main"
   ]
 }
