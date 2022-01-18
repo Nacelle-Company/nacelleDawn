@@ -32,7 +32,8 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "alt_title": ""
+        "alt_title": "",
+        "hide_title": true
       }
     },
     "1642435280bd098293": {
@@ -108,12 +109,142 @@
         "col_width": "one-third",
         "image_border": true
       }
+    },
+    "16424700643088b232": {
+      "type": "rich-text",
+      "blocks": {
+        "164247006417cb0eaf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "PARTICIPATING STORES",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "164247006417cb0eaf-0"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true
+      }
+    },
+    "164246964578038a0f": {
+      "type": "multicolumn",
+      "blocks": {
+        "16424696456e795cc7-1": {
+          "type": "column",
+          "settings": {
+            "title": "Arizona",
+            "text": "<p>Good store<\/p><p>Bad store<\/p><p>Best store<\/p>",
+            "p_bullets": true
+          }
+        },
+        "16424696456e795cc7-0": {
+          "type": "column",
+          "settings": {
+            "title": "California",
+            "text": "<p><a href=\"\/products\/a-toy-store-near-you-poster\" target=\"_blank\" title=\"A Toy Store Near You Poster\">This store<\/a><\/p><p>That store<\/p>",
+            "p_bullets": true
+          }
+        },
+        "16424696456e795cc7-2": {
+          "type": "column",
+          "settings": {
+            "title": "Hawaii",
+            "text": "<p>Yes this is a store<\/p><p>And this one too!<\/p>",
+            "p_bullets": true
+          }
+        },
+        "ead5dae7-23e7-40f5-9bb8-9954470fffde": {
+          "type": "column",
+          "settings": {
+            "title": "Alabama",
+            "text": "<p>Store example 01<\/p><p>Store example 02<\/p><p>Store example 03<\/p><p>Store example 04<\/p>",
+            "p_bullets": true
+          }
+        },
+        "85bb8a6c-9460-4bb2-ac83-d9ff07b73181": {
+          "type": "column",
+          "settings": {
+            "title": "Texas",
+            "text": "<p>Stores are in Texas too.<\/p><p>Watch out!<\/p><p>Texas is big.<\/p>",
+            "p_bullets": true
+          }
+        }
+      },
+      "block_order": [
+        "16424696456e795cc7-1",
+        "16424696456e795cc7-0",
+        "16424696456e795cc7-2",
+        "ead5dae7-23e7-40f5-9bb8-9954470fffde",
+        "85bb8a6c-9460-4bb2-ac83-d9ff07b73181"
+      ],
+      "settings": {
+        "title": "North America",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "filter_show": true
+      }
+    },
+    "1642469688143726c2": {
+      "type": "multicolumn",
+      "blocks": {
+        "16424696885029db81-0": {
+          "type": "column",
+          "settings": {
+            "title": "State One",
+            "text": "<p>Store ex 1<\/p><p>Store ex 2<\/p><p>Store ex 3<\/p>",
+            "p_bullets": true
+          }
+        },
+        "16424696885029db81-1": {
+          "type": "column",
+          "settings": {
+            "title": "State Two",
+            "text": "<p>Store example 1<\/p><p>Store example 2<\/p><p>Store example 3<\/p>",
+            "p_bullets": true
+          }
+        },
+        "16424696885029db81-2": {
+          "type": "column",
+          "settings": {
+            "title": "State Three",
+            "text": "<p>Store example 10<\/p><p>Store example 11<\/p><p>Store example 12<\/p>",
+            "p_bullets": true
+          }
+        }
+      },
+      "block_order": [
+        "16424696885029db81-0",
+        "16424696885029db81-1",
+        "16424696885029db81-2"
+      ],
+      "settings": {
+        "title": "Japan",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "filter_show": false
+      }
     }
   },
   "order": [
     "1642435254cc18c3c0",
     "main",
     "1642435280bd098293",
-    "16424353593127dbda"
+    "16424353593127dbda",
+    "16424700643088b232",
+    "164246964578038a0f",
+    "1642469688143726c2"
   ]
 }
