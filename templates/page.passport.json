@@ -155,12 +155,21 @@
             "text": "<p>Yes this is a store<\/p><p>And this one too!<\/p>",
             "p_bullets": true
           }
+        },
+        "ead5dae7-23e7-40f5-9bb8-9954470fffde": {
+          "type": "column",
+          "settings": {
+            "title": "Alabama",
+            "text": "<p>Store example 01<\/p><p>Store example 02<\/p><p>Store example 03<\/p><p>Store example 04<\/p>",
+            "p_bullets": true
+          }
         }
       },
       "block_order": [
         "16424696456e795cc7-1",
         "16424696456e795cc7-0",
-        "16424696456e795cc7-2"
+        "16424696456e795cc7-2",
+        "ead5dae7-23e7-40f5-9bb8-9954470fffde"
       ],
       "settings": {
         "title": "North America",
