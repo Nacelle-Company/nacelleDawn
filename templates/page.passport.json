@@ -110,6 +110,25 @@
         "image_border": true
       }
     },
+    "16424700643088b232": {
+      "type": "rich-text",
+      "blocks": {
+        "164247006417cb0eaf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "PARTICIPATING STORES",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "164247006417cb0eaf-0"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true
+      }
+    },
     "164246964578038a0f": {
       "type": "multicolumn",
       "blocks": {
@@ -206,6 +225,7 @@
     "main",
     "1642435280bd098293",
     "16424353593127dbda",
+    "16424700643088b232",
     "164246964578038a0f",
     "1642469688143726c2"
   ]
