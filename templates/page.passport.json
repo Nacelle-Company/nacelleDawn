@@ -107,7 +107,7 @@
           "type": "column",
           "settings": {
             "title": "California",
-            "text": "<p><a href=\"\/products\/a-toy-store-near-you-poster\" target=\"_blank\" title=\"A Toy Store Near You Poster\">This store<\/a><\/p><p>That store<\/p>",
+            "text": "<p><a href=\"https:\/\/toyzillastore.square.site\/\" target=\"_blank\" title=\"https:\/\/toyzillastore.square.site\/\">Toy-Zilla, Alhambra, CA<\/a><\/p><p>That store<\/p>",
             "p_bullets": true
           }
         },
