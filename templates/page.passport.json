@@ -200,6 +200,51 @@
         "filter_show": false
       }
     },
+    "1642472257f952fc3b": {
+      "type": "multicolumn",
+      "blocks": {
+        "164247225735159850-0": {
+          "type": "column",
+          "settings": {
+            "title": "Parish Ex 01",
+            "text": "<p><a href=\"https:\/\/www.leicestervintage.co.uk\/\" target=\"_blank\" title=\"https:\/\/www.leicestervintage.co.uk\/\">Leicester Vintage & Old Toy Shop, Leicester, UK<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "164247225735159850-1": {
+          "type": "column",
+          "settings": {
+            "title": "Parish Ex 02",
+            "text": "<p>Store 1<\/p><p>Store 2<\/p><p>Store 3<\/p>",
+            "p_bullets": true
+          }
+        },
+        "164247225735159850-2": {
+          "type": "column",
+          "settings": {
+            "title": "Parish Ex 03",
+            "text": "<p>Store 1<\/p><p>Store 2<\/p><p>Store 3<\/p>",
+            "p_bullets": true
+          }
+        }
+      },
+      "block_order": [
+        "164247225735159850-0",
+        "164247225735159850-1",
+        "164247225735159850-2"
+      ],
+      "settings": {
+        "title": "The United Kingdom",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "filter_show": false
+      }
+    },
     "16424353593127dbda": {
       "type": "image-with-text",
       "blocks": {
@@ -245,6 +290,7 @@
     "16424700643088b232",
     "164246964578038a0f",
     "1642469688143726c2",
+    "1642472257f952fc3b",
     "16424353593127dbda"
   ]
 }
