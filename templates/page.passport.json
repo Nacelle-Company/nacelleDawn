@@ -163,13 +163,22 @@
             "text": "<p>Store example 01<\/p><p>Store example 02<\/p><p>Store example 03<\/p><p>Store example 04<\/p>",
             "p_bullets": true
           }
+        },
+        "85bb8a6c-9460-4bb2-ac83-d9ff07b73181": {
+          "type": "column",
+          "settings": {
+            "title": "Texas",
+            "text": "<p>Stores are in Texas too.<\/p><p>Watch out!<\/p><p>Texas is big.<\/p>",
+            "p_bullets": true
+          }
         }
       },
       "block_order": [
         "16424696456e795cc7-1",
         "16424696456e795cc7-0",
         "16424696456e795cc7-2",
-        "ead5dae7-23e7-40f5-9bb8-9954470fffde"
+        "ead5dae7-23e7-40f5-9bb8-9954470fffde",
+        "85bb8a6c-9460-4bb2-ac83-d9ff07b73181"
       ],
       "settings": {
         "title": "North America",
