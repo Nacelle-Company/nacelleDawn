@@ -1750,6 +1750,9 @@
         },
         "swipe_on_mobile": {
           "label": "Enable swipe on mobile"
+        },
+        "filter_show": {
+          "label": "Show filter"
         }
       },
       "blocks": {

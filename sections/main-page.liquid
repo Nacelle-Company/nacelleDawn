@@ -5,15 +5,17 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
 <div class="page-width page-width--narrow">
-  {% if section.settings.alt_title != blank %}
-    <h2 class="main-page-title page-title">
-      {{ section.settings.alt_title }}
-    </h2>
-  {% else %}
-    <h1 class="main-page-title page-title h0">
-      {{ page.title | escape }}
-    </h1>
-  {% endif %}
+  {% unless section.settings.hide_title %}
+    {% if section.settings.alt_title != blank %}
+      <h2 class="main-page-title page-title">
+        {{ section.settings.alt_title }}
+      </h2>
+    {% else %}
+      <h1 class="main-page-title page-title h0">
+        {{ page.title | escape }}
+      </h1>
+    {% endif %}
+  {% endunless %}
   <div class="rte">
     {{ page.content }}
   </div>
@@ -30,7 +32,13 @@
       "id": "alt_title",
       "label": "Alternate title",
       "info": "Change the default page title."
-    }
+    },
+   {
+     "type": "checkbox",
+     "id": "hide_title",
+     "label": "Hide title",
+     "default": false
+   }
   ]
 }
 {% endschema %}
