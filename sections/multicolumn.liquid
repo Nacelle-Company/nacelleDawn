@@ -24,7 +24,7 @@
       {% if section.settings.filter_show %}
         <div class="multicolumn-filter">
           <label for="searchbox">Filter</label>
-          <input type="search" oninput="liveSearch()" id="searchbox">
+          <input type="search" oninput="liveSearch()" id="searchbox" class="field__input">
           {% render 'multicolumn-filter', sectionID: section_title %}
         </div>
       {% endif %}

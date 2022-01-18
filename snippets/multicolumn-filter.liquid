@@ -1,9 +1,11 @@
-
+{%- comment -%}
+Found this solution here: https://css-tricks.com/in-page-filtered-search-with-vanilla-javascript/
+{%- endcomment -%}
 <script>
   function liveSearch() {
     // let section = document.querySelector('#shopify-section-{{ section.id }}')
     // Locate the card elements
-    let cards = document.querySelectorAll('.multicolumn-list__item')
+    let cards = document.querySelectorAll('.multicolumn-list__item');
     // Locate the search input
     let search_query = document.querySelector("#searchbox").value;
     // Loop through the cards
