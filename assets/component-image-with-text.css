@@ -152,7 +152,7 @@
 .img-border::before {
 	content: "";
 	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/hr-long-line-lg.png?v=1642446323");
-	width: 100%;
+	width: 95%;
 	height: 25px;
 	position: absolute;
 	background-repeat: no-repeat;

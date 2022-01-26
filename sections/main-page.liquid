@@ -4,9 +4,14 @@
   <link rel="stylesheet" href="https://use.typekit.net/dsj0sdc.css">
   <style>
     body,
-    body.gradient {
+    body.gradient,
+    footer.footer.gradient, 
+    .gradient .header-wrapper {
       background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/the-nacelle-store-Passport-pattern.png?v=1643205992");
       background-attachment: scroll;
+    }
+    footer.footer.gradient, .gradient .header-wrapper {
+      background-color: white;
     }
     h1,
     h2,
@@ -31,6 +36,14 @@
       font-family: diazo-mvb-cond,sans-serif;
       font-weight: 400;
       font-style: normal;
+    }
+          .h0 {
+        font-size: calc(var(--font-heading-scale) * 7rem);
+      }
+    @media screen and (max-width: 749px) {
+      .h0 {
+        font-size: calc(var(--font-heading-scale) * 3rem);
+      }
     }
   </style>
 {% endif %}
