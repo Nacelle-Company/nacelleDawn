@@ -87,7 +87,7 @@
             <h1
               class="banner__heading {% if block.settings.heading_size == 'medium' %}h1{% else %}h0{% endif %} {% if block.settings.desktop_heading_align == 'right' %}right{% elsif block.settings.desktop_heading_align == 'left' %}left{% else %}{% endif %}"
               {{ block.shopify_attributes }}>
-              <span>{{ block.settings.heading | escape }}</span>
+              <span>{{ block.settings.heading }}</span>
             </h1>
             {% else %}
             <h2
@@ -298,6 +298,10 @@
         {
           "value": "inverse",
           "label": "t:sections.image-banner.settings.color_scheme.options__5.label"
+        },
+        {
+          "value": "text",
+          "label": "Text"
         }
       ],
       "default": "background-1",
@@ -328,7 +332,7 @@
       "limit": 1,
       "settings": [
         {
-          "type": "text",
+          "type": "textarea",
           "id": "heading",
           "default": "Image banner",
           "label": "t:sections.image-banner.blocks.heading.settings.heading.label"

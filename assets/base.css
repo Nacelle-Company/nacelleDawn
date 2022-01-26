@@ -18,6 +18,20 @@
 	--gradient-background: rgb(var(--color-base-text));
 }
 
+.color-text h1,
+.color-text h2,
+.color-text h3,
+.color-text h4,
+.color-text h5,
+.color-text .h0,
+.color-text .h1,
+.color-text .h2,
+.color-text .h3,
+.color-text .h4,
+.color-text .h5 {
+	color: var(--color-base-text) !important;
+}
+
 .color-accent-1 {
 	--color-foreground: var(--color-base-solid-button-labels);
 	--color-background: var(--color-base-accent-1);
