@@ -6,9 +6,9 @@
         "16424352545607ad19-0": {
           "type": "heading",
           "settings": {
-            "heading": "TOY STORES OF THE WORLD PASSPORT",
-            "set_as_h1": false,
-            "heading_size": "medium",
+            "heading": "PASSPORT TO THE<br>\nTOY STORES <br>\nOF THE WORLD",
+            "set_as_h1": true,
+            "heading_size": "large",
             "desktop_heading_align": "center"
           }
         }
@@ -24,7 +24,7 @@
         "desktop_text_box_justification": "center",
         "show_text_box": false,
         "image_overlay_opacity": 0,
-        "color_scheme": "accent-1",
+        "color_scheme": "text",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
