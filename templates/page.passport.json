@@ -225,6 +225,13 @@
         "swipe_on_mobile": false,
         "filter_show": false
       }
+    },
+    "1643315308e64adcc0": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Nacelle_Stamp_2048x2048_71823a85-6525-428e-8f25-d9eb29e3fdaa.png",
+        "height": "small"
+      }
     }
   },
   "order": [
@@ -233,6 +240,7 @@
     "16424700643088b232",
     "164246964578038a0f",
     "1642469688143726c2",
-    "1642472257f952fc3b"
+    "1642472257f952fc3b",
+    "1643315308e64adcc0"
   ]
 }
