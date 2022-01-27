@@ -17,7 +17,7 @@
         "16424352545607ad19-0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/the-nacelle-store-Passport-Header.jpg",
+        "image": "shopify:\/\/shop_images\/the-nacelle-store-Passport-pattern-lg.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
@@ -25,8 +25,8 @@
         "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "text",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "main": {
