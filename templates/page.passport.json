@@ -225,43 +225,6 @@
         "swipe_on_mobile": false,
         "filter_show": false
       }
-    },
-    "16424353593127dbda": {
-      "type": "image-with-text",
-      "blocks": {
-        "1642435359eeba5e58-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Section title"
-          }
-        },
-        "1642435359eeba5e58-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed suscipit nunc, non placerat libero. Morbi nec turpis vehicula, porttitor felis rutrum, interdum dolor. Praesent felis ex, blandit at suscipit sed, convallis sed arcu. Fusce mattis vestibulum turpis, eu pellentesque mauris cursus ac. <\/p>"
-          }
-        },
-        "1642435359eeba5e58-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read More",
-            "button_link": "shopify:\/\/products\/nacelle-toy-stores-of-the-world-passport"
-          }
-        }
-      },
-      "block_order": [
-        "1642435359eeba5e58-0",
-        "1642435359eeba5e58-1",
-        "1642435359eeba5e58-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Nacelle_Stamp.png",
-        "height": "contain",
-        "color_scheme": "background-2",
-        "layout": "text_first",
-        "col_width": "one-third",
-        "image_border": true
-      }
     }
   },
   "order": [
@@ -270,7 +233,6 @@
     "16424700643088b232",
     "164246964578038a0f",
     "1642469688143726c2",
-    "1642472257f952fc3b",
-    "16424353593127dbda"
+    "1642472257f952fc3b"
   ]
 }
