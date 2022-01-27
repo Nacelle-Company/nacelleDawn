@@ -1,8 +1,15 @@
 <link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 {% if page.handle == 'passport' %}
-  <link rel="stylesheet" href="https://use.typekit.net/dsj0sdc.css">
+<link rel="stylesheet" href="https://use.typekit.net/kly1wpm.css">
   <style>
+    body,
+    body.gradient,
+    footer.footer.gradient, 
+    .gradient .header-wrapper {
+      background-image: none;
+      background-attachment: scroll;
+    }
     h1,
     h2,
     h3,
@@ -15,21 +22,21 @@
     .h4,
     .h5,
     .button {
-      font-family: diazo-mvb-cond,sans-serif;
-      font-weight: 700;
+      font-family: diazo-mvb-rough2-cond,sans-serif;
+      font-weight: 900;
       font-style: normal;
     }
     p,
     label,
     input,
     .link {
-      font-family: diazo-mvb-cond,sans-serif;
+      font-family: diazo-mvb-rough2-cond,sans-serif;
       font-weight: 400;
       font-style: normal;
     }
-          .h0 {
-        font-size: calc(var(--font-heading-scale) * 7rem);
-      }
+    .h0 {
+      font-size: calc(var(--font-heading-scale) * 7rem);
+    }
     @media screen and (max-width: 749px) {
       .h0 {
         font-size: calc(var(--font-heading-scale) * 3rem);
