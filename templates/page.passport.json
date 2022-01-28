@@ -168,6 +168,14 @@
             "text": "<p><a href=\"https:\/\/www.instagram.com\/theimperialcastle\/\" target=\"_blank\" title=\"Imperial Castle Toy Shop, Pawling\">Imperial Castle Toy Shop, Pawling<\/a><\/p>",
             "p_bullets": true
           }
+        },
+        "31bca4b1-2154-41e0-99e2-83e7772e35b1": {
+          "type": "column",
+          "settings": {
+            "title": "North Carolina",
+            "text": "<p><a href=\"http:\/\/needlesstoys.com\/\" target=\"_blank\" title=\"Needless Toys and Collectibles, Lincoln\">Needless Toys and Collectibles, Lincoln<\/a><\/p>",
+            "p_bullets": true
+          }
         }
       },
       "block_order": [
@@ -183,7 +191,8 @@
         "6ae84087-d2c5-4a9a-af1f-bdaa0fe358c6",
         "ab224071-ac43-4dee-b6c7-d3d5fee8d00d",
         "310b2839-e184-44e5-99ab-6037f059a8c1",
-        "c4c124f6-b6c2-4620-a688-856eb405cd2f"
+        "c4c124f6-b6c2-4620-a688-856eb405cd2f",
+        "31bca4b1-2154-41e0-99e2-83e7772e35b1"
       ],
       "settings": {
         "title": "North America",
