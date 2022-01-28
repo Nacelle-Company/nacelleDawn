@@ -77,15 +77,15 @@
           "type": "column",
           "settings": {
             "title": "California",
-            "text": "<p><a href=\"https:\/\/toyzillastore.square.site\/\" target=\"_blank\" title=\"Toyzilla, Alhambra, California\">Toyzilla, Alhambra, California<\/a><\/p><p><a href=\"https:\/\/www.blastfromthepast.tv\/\" target=\"_blank\" title=\"Blast from The Past, Burbank, California\">Blast from The Past, Burbank, California<\/a><\/p>",
+            "text": "<p><a href=\"https:\/\/toyzillastore.square.site\/\" target=\"_blank\" title=\"Toyzilla, Alhambra, California\">Toyzilla, Alhambra<\/a><\/p><p><a href=\"https:\/\/www.blastfromthepast.tv\/\" target=\"_blank\" title=\"Blast from The Past, Burbank, California\">Blast from The Past, Burbank<\/a><\/p><p><\/p>",
             "p_bullets": true
           }
         },
         "16424696456e795cc7-2": {
           "type": "column",
           "settings": {
-            "title": "Hawaii",
-            "text": "<p>Yes this is a store<\/p><p>And this one too!<\/p>",
+            "title": "Florida",
+            "text": "<p><a href=\"https:\/\/www.echobasecollectibles.com\" target=\"_blank\" title=\"Echo Base Collectibles\">Echo Base Collectibles<\/a>, Orlando<\/p>",
             "p_bullets": true
           }
         },
