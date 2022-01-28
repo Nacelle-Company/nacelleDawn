@@ -62,7 +62,7 @@
           "type": "column",
           "settings": {
             "title": "Arizona",
-            "text": "<p>Good store<\/p><p>Bad store<\/p><p>Best store<\/p>",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/triforceaz\/\" target=\"_blank\" title=\"TriForce Collectibles\">TriForce Collectibles<\/a><\/p><p><\/p>",
             "p_bullets": true
           }
         },
@@ -70,7 +70,7 @@
           "type": "column",
           "settings": {
             "title": "California",
-            "text": "<p><a href=\"https:\/\/toyzillastore.square.site\/\" target=\"_blank\" title=\"https:\/\/toyzillastore.square.site\/\">Toy-Zilla, Alhambra, CA<\/a><\/p><p>That store<\/p>",
+            "text": "<p><a href=\"https:\/\/toyzillastore.square.site\/\" target=\"_blank\" title=\"Toyzilla, Alhambra, California\">Toyzilla, Alhambra, California<\/a><\/p><p><a href=\"https:\/\/www.blastfromthepast.tv\/\" target=\"_blank\" title=\"Blast from The Past, Burbank, California\">Blast from The Past, Burbank, California<\/a><\/p>",
             "p_bullets": true
           }
         },
