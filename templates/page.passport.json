@@ -85,15 +85,15 @@
           "type": "column",
           "settings": {
             "title": "Florida",
-            "text": "<p><a href=\"https:\/\/www.echobasecollectibles.com\" target=\"_blank\" title=\"Echo Base Collectibles\">Echo Base Collectibles<\/a>, Orlando<\/p>",
+            "text": "<p><a href=\"https:\/\/www.echobasecollectibles.com\" target=\"_blank\" title=\"Echo Base Collectibles, Orlando\">Echo Base Collectibles, Orlando<\/a><\/p><p><a href=\"https:\/\/godmonsters.com\/\" target=\"_blank\" title=\"Gods & Monsters, Orlando\">Gods & Monsters, Orlando<\/a><\/p>",
             "p_bullets": true
           }
         },
         "ead5dae7-23e7-40f5-9bb8-9954470fffde": {
           "type": "column",
           "settings": {
-            "title": "Alabama",
-            "text": "<p>Store example 01<\/p><p>Store example 02<\/p><p>Store example 03<\/p><p>Store example 04<\/p>",
+            "title": "Illinois",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/smash_toys_chicago\/\" target=\"_blank\" title=\"S.M.A.S.H. Toys and Collectibles, Chicago\">S.M.A.S.H. Toys and Collectibles, Chicago<\/a><\/p><p><\/p>",
             "p_bullets": true
           }
         },
