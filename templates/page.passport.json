@@ -112,6 +112,22 @@
             "text": "<p><a href=\"https:\/\/www.1313mockingbirdtoys.com\/\" target=\"_blank\" title=\"1313 Mockingbird Lane Toys & Collectibles, Lawrence\">1313 Mockingbird Lane Toys & Collectibles, Lawrence<\/a><\/p>",
             "p_bullets": true
           }
+        },
+        "cfc02a15-7c24-4fd8-ac98-9bc9dcb3fbe2": {
+          "type": "column",
+          "settings": {
+            "title": "Maine",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/kavemanntoys\/\" target=\"_blank\" title=\"KaveMann Toys & Collectibles, Limington\">KaveMann Toys & Collectibles, Limington<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "67b23698-781c-448a-9725-8e6f915d6cac": {
+          "type": "column",
+          "settings": {
+            "title": "Massachusetts",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/cojostoyworld\" target=\"_blank\" title=\"Cojo's Toy World, New Bedford\">Cojo's Toy World, New Bedford<\/a><\/p>",
+            "p_bullets": true
+          }
         }
       },
       "block_order": [
@@ -120,7 +136,9 @@
         "16424696456e795cc7-2",
         "ead5dae7-23e7-40f5-9bb8-9954470fffde",
         "85bb8a6c-9460-4bb2-ac83-d9ff07b73181",
-        "9a0b9512-15f3-4b7c-85ab-b646b6e96bb6"
+        "9a0b9512-15f3-4b7c-85ab-b646b6e96bb6",
+        "cfc02a15-7c24-4fd8-ac98-9bc9dcb3fbe2",
+        "67b23698-781c-448a-9725-8e6f915d6cac"
       ],
       "settings": {
         "title": "North America",
