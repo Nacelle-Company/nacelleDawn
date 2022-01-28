@@ -100,8 +100,16 @@
         "85bb8a6c-9460-4bb2-ac83-d9ff07b73181": {
           "type": "column",
           "settings": {
-            "title": "Texas",
-            "text": "<p>Stores are in Texas too.<\/p><p>Watch out!<\/p><p>Texas is big.<\/p>",
+            "title": "Indiana",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/kokomotoys\/\" target=\"_blank\" title=\"Kokomo Toys, Kokomo\">Kokomo Toys, Kokomo<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "9a0b9512-15f3-4b7c-85ab-b646b6e96bb6": {
+          "type": "column",
+          "settings": {
+            "title": "Kansas",
+            "text": "<p><a href=\"https:\/\/www.1313mockingbirdtoys.com\/\" target=\"_blank\" title=\"1313 Mockingbird Lane Toys & Collectibles, Lawrence\">1313 Mockingbird Lane Toys & Collectibles, Lawrence<\/a><\/p>",
             "p_bullets": true
           }
         }
@@ -111,7 +119,8 @@
         "16424696456e795cc7-0",
         "16424696456e795cc7-2",
         "ead5dae7-23e7-40f5-9bb8-9954470fffde",
-        "85bb8a6c-9460-4bb2-ac83-d9ff07b73181"
+        "85bb8a6c-9460-4bb2-ac83-d9ff07b73181",
+        "9a0b9512-15f3-4b7c-85ab-b646b6e96bb6"
       ],
       "settings": {
         "title": "North America",
