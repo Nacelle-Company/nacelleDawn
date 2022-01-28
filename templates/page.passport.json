@@ -306,37 +306,10 @@
             "text": "<p><a href=\"https:\/\/www.treehousecollectibles.ca\/\" target=\"_blank\" title=\"Treehouse Collectibles, East York\">Treehouse Collectibles, East York<\/a><\/p>",
             "p_bullets": true
           }
-        },
-        "164247225735159850-1": {
-          "type": "column",
-          "settings": {
-            "title": "Parish Ex 02",
-            "text": "<p>Store 1<\/p><p>Store 2<\/p><p>Store 3<\/p>",
-            "p_bullets": true
-          }
-        },
-        "164247225735159850-2": {
-          "type": "column",
-          "settings": {
-            "title": "Parish Ex 03",
-            "text": "<p>Store 1<\/p><p>Store 2<\/p><p>Store 3<\/p>",
-            "p_bullets": true
-          }
-        },
-        "88ab6ab5-f7a8-4507-b85c-3cad41b807b4": {
-          "type": "column",
-          "settings": {
-            "title": "Parish Ex 04",
-            "text": "<p>Store<\/p><p>Store<\/p><p>Store<\/p>",
-            "p_bullets": true
-          }
         }
       },
       "block_order": [
-        "164247225735159850-0",
-        "164247225735159850-1",
-        "164247225735159850-2",
-        "88ab6ab5-f7a8-4507-b85c-3cad41b807b4"
+        "164247225735159850-0"
       ],
       "settings": {
         "title": "Canada",
