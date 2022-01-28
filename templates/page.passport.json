@@ -275,44 +275,17 @@
         "16424696885029db81-0": {
           "type": "column",
           "settings": {
-            "title": "State One",
-            "text": "<p>Store ex 1<\/p><p>Store ex 2<\/p><p>Store ex 3<\/p>",
-            "p_bullets": true
-          }
-        },
-        "16424696885029db81-1": {
-          "type": "column",
-          "settings": {
-            "title": "State Two",
-            "text": "<p>Store example 1<\/p><p>Store example 2<\/p><p>Store example 3<\/p>",
-            "p_bullets": true
-          }
-        },
-        "16424696885029db81-2": {
-          "type": "column",
-          "settings": {
-            "title": "State Three",
-            "text": "<p>Store example 10<\/p><p>Store example 11<\/p><p>Store example 12<\/p>",
-            "p_bullets": true
-          }
-        },
-        "ad5db2d8-94ca-47d3-abc3-79da4d059fec": {
-          "type": "column",
-          "settings": {
-            "title": "State #4",
-            "text": "<p>Store<\/p><p>Store<\/p><p>Store<\/p>",
+            "title": "Leicester",
+            "text": "<p><a href=\"https:\/\/www.leicestervintage.co.uk\" target=\"_blank\" title=\"Leicester Vintage & Old Toy Shop\">Leicester Vintage & Old Toy Shop<\/a><\/p>",
             "p_bullets": true
           }
         }
       },
       "block_order": [
-        "16424696885029db81-0",
-        "16424696885029db81-1",
-        "16424696885029db81-2",
-        "ad5db2d8-94ca-47d3-abc3-79da4d059fec"
+        "16424696885029db81-0"
       ],
       "settings": {
-        "title": "Japan",
+        "title": "The United Kingdom",
         "image_width": "half",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -329,8 +302,8 @@
         "164247225735159850-0": {
           "type": "column",
           "settings": {
-            "title": "Parish Ex 01",
-            "text": "<p><a href=\"https:\/\/www.leicestervintage.co.uk\/\" target=\"_blank\" title=\"https:\/\/www.leicestervintage.co.uk\/\">Leicester Vintage & Old Toy Shop, Leicester, UK<\/a><\/p>",
+            "title": "Ontario",
+            "text": "<p><a href=\"https:\/\/www.treehousecollectibles.ca\/\" target=\"_blank\" title=\"Treehouse Collectibles, East York\">Treehouse Collectibles, East York<\/a><\/p>",
             "p_bullets": true
           }
         },
@@ -366,7 +339,7 @@
         "88ab6ab5-f7a8-4507-b85c-3cad41b807b4"
       ],
       "settings": {
-        "title": "The United Kingdom",
+        "title": "Canada",
         "image_width": "half",
         "image_ratio": "adapt",
         "column_alignment": "left",
