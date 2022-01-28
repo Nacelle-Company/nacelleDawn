@@ -128,6 +128,22 @@
             "text": "<p><a href=\"https:\/\/www.instagram.com\/cojostoyworld\" target=\"_blank\" title=\"Cojo's Toy World, New Bedford\">Cojo's Toy World, New Bedford<\/a><\/p>",
             "p_bullets": true
           }
+        },
+        "981d17ee-46a9-47f3-9a5f-ce53da733b1d": {
+          "type": "column",
+          "settings": {
+            "title": "Michigan",
+            "text": "<p><a href=\"https:\/\/tardys.com\/\" target=\"_blank\" title=\"Tardys Collectors Corner, Grand Rapids\">Tardys Collectors Corner, Grand Rapids<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "6ae84087-d2c5-4a9a-af1f-bdaa0fe358c6": {
+          "type": "column",
+          "settings": {
+            "title": "Missouri",
+            "text": "<p><a href=\"https:\/\/backintimetoys.wixsite.com\/btcomics\" target=\"_blank\" title=\"Back in Time Comics & Toys, Liberty\">Back in Time Comics & Toys, Liberty<\/a><\/p>",
+            "p_bullets": true
+          }
         }
       },
       "block_order": [
@@ -138,7 +154,9 @@
         "85bb8a6c-9460-4bb2-ac83-d9ff07b73181",
         "9a0b9512-15f3-4b7c-85ab-b646b6e96bb6",
         "cfc02a15-7c24-4fd8-ac98-9bc9dcb3fbe2",
-        "67b23698-781c-448a-9725-8e6f915d6cac"
+        "67b23698-781c-448a-9725-8e6f915d6cac",
+        "981d17ee-46a9-47f3-9a5f-ce53da733b1d",
+        "6ae84087-d2c5-4a9a-af1f-bdaa0fe358c6"
       ],
       "settings": {
         "title": "North America",
