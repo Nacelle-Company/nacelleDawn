@@ -279,10 +279,28 @@
             "text": "<p><a href=\"https:\/\/www.leicestervintage.co.uk\" target=\"_blank\" title=\"Leicester Vintage & Old Toy Shop\">Leicester Vintage & Old Toy Shop<\/a><\/p>",
             "p_bullets": true
           }
+        },
+        "cbecbcb4-64b1-4257-b19d-9f66f2ca26f5": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "p_bullets": false
+          }
+        },
+        "c037176f-ab83-40c4-834b-7ed94caa19cf": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "p_bullets": false
+          }
         }
       },
       "block_order": [
-        "16424696885029db81-0"
+        "16424696885029db81-0",
+        "cbecbcb4-64b1-4257-b19d-9f66f2ca26f5",
+        "c037176f-ab83-40c4-834b-7ed94caa19cf"
       ],
       "settings": {
         "title": "The United Kingdom",
@@ -306,10 +324,28 @@
             "text": "<p><a href=\"https:\/\/www.treehousecollectibles.ca\/\" target=\"_blank\" title=\"Treehouse Collectibles, East York\">Treehouse Collectibles, East York<\/a><\/p>",
             "p_bullets": true
           }
+        },
+        "4c50a4be-d475-44ec-aa35-c41e57bfe3c8": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "p_bullets": false
+          }
+        },
+        "13622b58-f737-4102-8b4e-cd46fde55937": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "p_bullets": false
+          }
         }
       },
       "block_order": [
-        "164247225735159850-0"
+        "164247225735159850-0",
+        "4c50a4be-d475-44ec-aa35-c41e57bfe3c8",
+        "13622b58-f737-4102-8b4e-cd46fde55937"
       ],
       "settings": {
         "title": "Canada",
