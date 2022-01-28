@@ -45,10 +45,17 @@
             "heading": "PARTICIPATING STORES",
             "heading_size": "h1"
           }
+        },
+        "f686db2d-f9f7-4385-886a-b15d6e6acef8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Want to sign your Toy Store up to participate? <br\/><a href=\"\/pages\/contact\" title=\"Contact\">Contact us<\/a> and we’ll send you everything you need to get stamping!<\/p>"
+          }
         }
       },
       "block_order": [
-        "164247006417cb0eaf-0"
+        "164247006417cb0eaf-0",
+        "f686db2d-f9f7-4385-886a-b15d6e6acef8"
       ],
       "settings": {
         "color_scheme": "accent-2",
