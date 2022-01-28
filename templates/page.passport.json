@@ -144,6 +144,30 @@
             "text": "<p><a href=\"https:\/\/backintimetoys.wixsite.com\/btcomics\" target=\"_blank\" title=\"Back in Time Comics & Toys, Liberty\">Back in Time Comics & Toys, Liberty<\/a><\/p>",
             "p_bullets": true
           }
+        },
+        "ab224071-ac43-4dee-b6c7-d3d5fee8d00d": {
+          "type": "column",
+          "settings": {
+            "title": "New Hampshire",
+            "text": "<p><a href=\"http:\/\/repetes.org\/\" target=\"_blank\" title=\"RePetes Comics & Collectibles, Belmont\">RePetes Comics & Collectibles, Belmont<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "310b2839-e184-44e5-99ab-6037f059a8c1": {
+          "type": "column",
+          "settings": {
+            "title": "New Jersey",
+            "text": "<p><a href=\"https:\/\/www.thehouseoffun.com\" target=\"_blank\" title=\"The House of Fun, Barrington\">The House of Fun, Barrington<\/a><\/p><p><a href=\"http:\/\/farpointtoys.com\/\" target=\"_blank\" title=\"Farpoint Toys & Collectibles, Mays Landing\">Farpoint Toys & Collectibles, Mays Landing<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "c4c124f6-b6c2-4620-a688-856eb405cd2f": {
+          "type": "column",
+          "settings": {
+            "title": "New York",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/theimperialcastle\/\" target=\"_blank\" title=\"Imperial Castle Toy Shop, Pawling\">Imperial Castle Toy Shop, Pawling<\/a><\/p>",
+            "p_bullets": true
+          }
         }
       },
       "block_order": [
@@ -156,7 +180,10 @@
         "cfc02a15-7c24-4fd8-ac98-9bc9dcb3fbe2",
         "67b23698-781c-448a-9725-8e6f915d6cac",
         "981d17ee-46a9-47f3-9a5f-ce53da733b1d",
-        "6ae84087-d2c5-4a9a-af1f-bdaa0fe358c6"
+        "6ae84087-d2c5-4a9a-af1f-bdaa0fe358c6",
+        "ab224071-ac43-4dee-b6c7-d3d5fee8d00d",
+        "310b2839-e184-44e5-99ab-6037f059a8c1",
+        "c4c124f6-b6c2-4620-a688-856eb405cd2f"
       ],
       "settings": {
         "title": "North America",
