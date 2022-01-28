@@ -176,6 +176,22 @@
             "text": "<p><a href=\"http:\/\/needlesstoys.com\/\" target=\"_blank\" title=\"Needless Toys and Collectibles, Lincoln\">Needless Toys and Collectibles, Lincoln<\/a><\/p>",
             "p_bullets": true
           }
+        },
+        "b0d1ce70-8639-412e-a6e2-f4420a26ad4b": {
+          "type": "column",
+          "settings": {
+            "title": "Oregon",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/drtonguestoys\/\" target=\"_blank\" title=\"Dr. Tongues I Had that Shoppe, Portland\">Dr. Tongues I Had that Shoppe, Portland<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e": {
+          "type": "column",
+          "settings": {
+            "title": "Pennsylvania",
+            "text": "<p><a href=\"https:\/\/www.thetattedtoyguys.com\/\" target=\"_blank\" title=\"The Tatted Toy Guys, Elizabethtown\">The Tatted Toy Guys, Elizabethtown<\/a><\/p><p><a href=\"https:\/\/www.retroandrad.com\" target=\"_blank\" title=\"Retro & Rad, New Cumberland\">Retro & Rad, New Cumberland<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/nicknacksfullfrontalattack\" target=\"_blank\" title=\"Nick Nack's Full Frontal Attack, Palmyra\">Nick Nack's Full Frontal Attack, Palmyra<\/a><\/p><p>Symbiote Collectibles, West Reading<\/p>",
+            "p_bullets": true
+          }
         }
       },
       "block_order": [
@@ -192,7 +208,9 @@
         "ab224071-ac43-4dee-b6c7-d3d5fee8d00d",
         "310b2839-e184-44e5-99ab-6037f059a8c1",
         "c4c124f6-b6c2-4620-a688-856eb405cd2f",
-        "31bca4b1-2154-41e0-99e2-83e7772e35b1"
+        "31bca4b1-2154-41e0-99e2-83e7772e35b1",
+        "b0d1ce70-8639-412e-a6e2-f4420a26ad4b",
+        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e"
       ],
       "settings": {
         "title": "North America",
