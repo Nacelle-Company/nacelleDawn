@@ -256,7 +256,7 @@
           "settings": {
             "title": "Pennsylvania",
             "text": "<p><a href=\"https:\/\/www.thetattedtoyguys.com\/\" target=\"_blank\" title=\"The Tatted Toy Guys, Elizabethtown\">The Tatted Toy Guys, Elizabethtown<\/a><\/p><p><a href=\"https:\/\/www.retroandrad.com\" target=\"_blank\" title=\"Retro & Rad, New Cumberland\">Retro & Rad, New Cumberland<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/nicknacksfullfrontalattack\" target=\"_blank\" title=\"Nick Nack's Full Frontal Attack, Palmyra\">Nick Nack's Full Frontal Attack, Palmyra<\/a><\/p><p><a href=\"https:\/\/www.SymbioteCollectibles.com\" target=\"_blank\" title=\"Symbiote Collectibles, West Reading\">Symbiote Collectibles, West Reading<\/a><\/p>",
-            "p_bullets": false
+            "p_bullets": true
           }
         }
       },
