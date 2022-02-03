@@ -15,7 +15,7 @@
         "1643923005276ac40c-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Find Participating Stores",
+            "button_label_1": "Find Participating Stores Now",
             "button_link_1": "shopify:\/\/pages\/passport",
             "button_style_secondary_1": false,
             "button_label_2": "",
