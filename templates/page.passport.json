@@ -189,7 +189,7 @@
           "type": "column",
           "settings": {
             "title": "Oregon",
-            "text": "<p><a href=\"http:\/\/billygalaxy.com\/\" target=\"_blank\" title=\"http:\/\/billygalaxy.com\/\">Billy Galaxy Vintage Toys & Collectibles, Portland<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/drtonguestoys\/\" target=\"_blank\" title=\"Dr. Tongues I Had that Shoppe, Portland\">Dr. Tongues I Had that Shoppe, Portland<\/a><\/p>",
+            "text": "",
             "p_bullets": true
           }
         }
@@ -227,6 +227,22 @@
     "164333251079a819cd": {
       "type": "multicolumn",
       "blocks": {
+        "4a189d7f-c4c9-4704-b330-6d79efdcc64c": {
+          "type": "column",
+          "settings": {
+            "title": "Oregon",
+            "text": "<p><a href=\"http:\/\/billygalaxy.com\/\" target=\"_blank\" title=\"http:\/\/billygalaxy.com\/\">Billy Galaxy Vintage Toys & Collectibles, Portland<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/drtonguestoys\/\" target=\"_blank\" title=\"Dr. Tongues I Had that Shoppe, Portland\">Dr. Tongues I Had that Shoppe, Portland<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "04533e9e-43e7-4732-971a-5337168c3863": {
+          "type": "column",
+          "settings": {
+            "title": "Pennsylvania",
+            "text": "<p><a href=\"https:\/\/www.thetattedtoyguys.com\/\" target=\"_blank\" title=\"The Tatted Toy Guys, Elizabethtown\">The Tatted Toy Guys, Elizabethtown<\/a><\/p><p><a href=\"https:\/\/www.retroandrad.com\" target=\"_blank\" title=\"Retro & Rad, New Cumberland\">Retro & Rad, New Cumberland<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/nicknacksfullfrontalattack\" target=\"_blank\" title=\"Nick Nack's Full Frontal Attack, Palmyra\">Nick Nack's Full Frontal Attack, Palmyra<\/a><\/p><p><a href=\"https:\/\/www.SymbioteCollectibles.com\" target=\"_blank\" title=\"Symbiote Collectibles, West Reading\">Symbiote Collectibles, West Reading<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
         "1643332510e39e8c5f-0": {
           "type": "column",
           "settings": {
@@ -250,21 +266,14 @@
             "text": "<p>Jayden's Toys, Frisco<\/p><p><a href=\"https:\/\/www.instagram.com\/superhappyincredibletoys\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/superhappyincredibletoys\/\">Super Happy Incredible Toys, Houston<\/a><\/p>",
             "p_bullets": true
           }
-        },
-        "04533e9e-43e7-4732-971a-5337168c3863": {
-          "type": "column",
-          "settings": {
-            "title": "Pennsylvania",
-            "text": "<p><a href=\"https:\/\/www.thetattedtoyguys.com\/\" target=\"_blank\" title=\"The Tatted Toy Guys, Elizabethtown\">The Tatted Toy Guys, Elizabethtown<\/a><\/p><p><a href=\"https:\/\/www.retroandrad.com\" target=\"_blank\" title=\"Retro & Rad, New Cumberland\">Retro & Rad, New Cumberland<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/nicknacksfullfrontalattack\" target=\"_blank\" title=\"Nick Nack's Full Frontal Attack, Palmyra\">Nick Nack's Full Frontal Attack, Palmyra<\/a><\/p><p><a href=\"https:\/\/www.SymbioteCollectibles.com\" target=\"_blank\" title=\"Symbiote Collectibles, West Reading\">Symbiote Collectibles, West Reading<\/a><\/p>",
-            "p_bullets": true
-          }
         }
       },
       "block_order": [
+        "4a189d7f-c4c9-4704-b330-6d79efdcc64c",
+        "04533e9e-43e7-4732-971a-5337168c3863",
         "1643332510e39e8c5f-0",
         "1643332510e39e8c5f-1",
-        "1643332510e39e8c5f-2",
-        "04533e9e-43e7-4732-971a-5337168c3863"
+        "1643332510e39e8c5f-2"
       ],
       "settings": {
         "title": "",
