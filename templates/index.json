@@ -8,7 +8,7 @@
           "settings": {
             "heading": "Toy Stores of the World Passport Program",
             "set_as_h1": false,
-            "heading_size": "medium",
+            "heading_size": "large",
             "desktop_heading_align": "center"
           }
         },
@@ -30,16 +30,16 @@
         "1643923005276ac40c-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1200x600px_Passport_Header_No_Logo.png",
+        "image": "shopify:\/\/shop_images\/the-nacelle-store-Passport-pattern-lg.jpg",
         "image_height": "medium",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "desktop_text_box_justification": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "text",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "1637768294b4559b61": {
@@ -237,7 +237,7 @@
         "5e6bec28-e653-4353-b5ae-d53847654594": {
           "type": "text",
           "settings": {
-            "text": "Ragnar Soft Vinyl Kaiju Toy",
+            "text": "Colorway Ragnar Soft Vinyl Kaiju Toy",
             "desktop_text_align": "right"
           }
         },
@@ -266,10 +266,10 @@
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 0,
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "16373412421467217e": {
@@ -303,8 +303,8 @@
         "show_text_box": false,
         "image_overlay_opacity": 70,
         "color_scheme": "accent-1",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "1637408408d0aa3dd2": {
