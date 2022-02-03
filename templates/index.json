@@ -304,7 +304,7 @@
         "image_overlay_opacity": 70,
         "color_scheme": "accent-1",
         "stack_images_on_mobile": false,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "1637408408d0aa3dd2": {
