@@ -65,6 +65,14 @@
     "164246964578038a0f": {
       "type": "multicolumn",
       "blocks": {
+        "b0d1ce70-8639-412e-a6e2-f4420a26ad4b": {
+          "type": "column",
+          "settings": {
+            "title": "Alabama",
+            "text": "<p><a href=\"https:\/\/www.totalnostalgia.org\/\" target=\"_blank\" title=\"https:\/\/www.totalnostalgia.org\/\">Total Nostalgia, Trinity<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
         "16424696456e795cc7-1": {
           "type": "column",
           "settings": {
@@ -184,17 +192,10 @@
             "text": "<p><a href=\"https:\/\/www.happypappysactionfigureextravaganza.com\/\" target=\"_blank\" title=\"https:\/\/www.happypappysactionfigureextravaganza.com\/\">Happy Pappy's Action Figure Extravaganza, Canton<\/a><\/p><p><a href=\"http:\/\/houseofplastik.com\/\" target=\"_blank\" title=\"http:\/\/houseofplastik.com\/\">House of Plastik, Cincinnati<\/a><\/p>",
             "p_bullets": true
           }
-        },
-        "b0d1ce70-8639-412e-a6e2-f4420a26ad4b": {
-          "type": "column",
-          "settings": {
-            "title": "Oregon",
-            "text": "",
-            "p_bullets": true
-          }
         }
       },
       "block_order": [
+        "b0d1ce70-8639-412e-a6e2-f4420a26ad4b",
         "16424696456e795cc7-1",
         "16424696456e795cc7-0",
         "16424696456e795cc7-2",
@@ -209,8 +210,7 @@
         "310b2839-e184-44e5-99ab-6037f059a8c1",
         "c4c124f6-b6c2-4620-a688-856eb405cd2f",
         "31bca4b1-2154-41e0-99e2-83e7772e35b1",
-        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e",
-        "b0d1ce70-8639-412e-a6e2-f4420a26ad4b"
+        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e"
       ],
       "settings": {
         "title": "USA",
