@@ -1,5 +1,47 @@
 {
   "sections": {
+    "1643923005ebbe3b70": {
+      "type": "image-banner",
+      "blocks": {
+        "1643923005276ac40c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Passport to the Toy Stores of the World",
+            "set_as_h1": false,
+            "heading_size": "large",
+            "desktop_heading_align": "center"
+          }
+        },
+        "1643923005276ac40c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Find Participating Stores",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1643923005276ac40c-0",
+        "1643923005276ac40c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/the-nacelle-store-Passport-pattern-lg.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "text",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1637768294b4559b61": {
       "type": "image-banner",
       "blocks": {
@@ -7,6 +49,7 @@
           "type": "heading",
           "settings": {
             "heading": "The Toys That Made Us",
+            "set_as_h1": false,
             "heading_size": "medium",
             "desktop_heading_align": "right"
           }
@@ -57,6 +100,7 @@
           "type": "heading",
           "settings": {
             "heading": "The Great Garloo",
+            "set_as_h1": false,
             "heading_size": "medium",
             "desktop_heading_align": "left"
           }
@@ -132,7 +176,9 @@
         "image": "shopify:\/\/shop_images\/racktoysreturns_4447d06e-b010-49bc-9410-7c94b7c70b78.png",
         "height": "adapt",
         "color_scheme": "accent-2",
-        "layout": "text_first"
+        "layout": "text_first",
+        "col_width": "default",
+        "image_border": false
       }
     },
     "163738838765e71c9e": {
@@ -183,6 +229,7 @@
           "type": "heading",
           "settings": {
             "heading": "Nacelle Exclusive",
+            "set_as_h1": false,
             "heading_size": "medium",
             "desktop_heading_align": "right"
           }
@@ -320,6 +367,7 @@
     }
   },
   "order": [
+    "1643923005ebbe3b70",
     "1637768294b4559b61",
     "1637409912a7ea372a",
     "163737645855c4106d",
