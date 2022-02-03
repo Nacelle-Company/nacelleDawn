@@ -90,7 +90,7 @@
         "image_overlay_opacity": 70,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "1637409912a7ea372a": {
@@ -141,7 +141,7 @@
         "image_overlay_opacity": 80,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "163737645855c4106d": {
@@ -237,7 +237,7 @@
         "5e6bec28-e653-4353-b5ae-d53847654594": {
           "type": "text",
           "settings": {
-            "text": "Colorway Ragnar Soft Vinyl Kaiju Toy",
+            "text": "Ragnar Soft Vinyl Kaiju Toy",
             "desktop_text_align": "right"
           }
         },
