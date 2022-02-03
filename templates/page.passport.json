@@ -247,7 +247,7 @@
           "type": "column",
           "settings": {
             "title": "Texas",
-            "text": "<p>Jayden's Toys\tFrisco<\/p>",
+            "text": "<p>Jayden's Toys, Frisco<\/p>",
             "p_bullets": true
           }
         },
