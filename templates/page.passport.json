@@ -81,6 +81,14 @@
             "p_bullets": true
           }
         },
+        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e": {
+          "type": "column",
+          "settings": {
+            "title": "Arkansas",
+            "text": "<p><a href=\"https:\/\/www.facebook.com\/mynerditure\/\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/mynerditure\/\">Warehouse 20, Pocahontas<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
         "16424696456e795cc7-0": {
           "type": "column",
           "settings": {
@@ -184,19 +192,12 @@
             "text": "<p><a href=\"http:\/\/needlesstoys.com\/\" target=\"_blank\" title=\"Needless Toys and Collectibles, Lincoln\">Needless Toys and Collectibles, Lincoln<\/a><\/p>",
             "p_bullets": true
           }
-        },
-        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e": {
-          "type": "column",
-          "settings": {
-            "title": "Arkansas",
-            "text": "<p><a href=\"https:\/\/www.facebook.com\/mynerditure\/\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/mynerditure\/\">Warehouse 20, Pocahontas<\/a><\/p>",
-            "p_bullets": true
-          }
         }
       },
       "block_order": [
         "b0d1ce70-8639-412e-a6e2-f4420a26ad4b",
         "16424696456e795cc7-1",
+        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e",
         "16424696456e795cc7-0",
         "16424696456e795cc7-2",
         "ead5dae7-23e7-40f5-9bb8-9954470fffde",
@@ -209,8 +210,7 @@
         "ab224071-ac43-4dee-b6c7-d3d5fee8d00d",
         "310b2839-e184-44e5-99ab-6037f059a8c1",
         "c4c124f6-b6c2-4620-a688-856eb405cd2f",
-        "31bca4b1-2154-41e0-99e2-83e7772e35b1",
-        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e"
+        "31bca4b1-2154-41e0-99e2-83e7772e35b1"
       ],
       "settings": {
         "title": "USA",
