@@ -274,6 +274,22 @@
             "text": "<p>Jayden's Toys, Frisco<\/p><p><a href=\"https:\/\/www.instagram.com\/superhappyincredibletoys\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/superhappyincredibletoys\/\">Super Happy Incredible Toys, Houston<\/a><\/p>",
             "p_bullets": true
           }
+        },
+        "1bd85019-95c1-429e-8a4c-d03a7a5946a1": {
+          "type": "column",
+          "settings": {
+            "title": "North Carolina",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "p_bullets": true
+          }
+        },
+        "fee56361-3c8a-4496-b419-51787397319f": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "p_bullets": false
+          }
         }
       },
       "block_order": [
@@ -282,7 +298,9 @@
         "04533e9e-43e7-4732-971a-5337168c3863",
         "1643332510e39e8c5f-0",
         "1643332510e39e8c5f-1",
-        "1643332510e39e8c5f-2"
+        "1643332510e39e8c5f-2",
+        "1bd85019-95c1-429e-8a4c-d03a7a5946a1",
+        "fee56361-3c8a-4496-b419-51787397319f"
       ],
       "settings": {
         "title": "",
