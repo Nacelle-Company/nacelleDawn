@@ -161,6 +161,14 @@
             "p_bullets": true
           }
         },
+        "c4c124f6-b6c2-4620-a688-856eb405cd2f": {
+          "type": "column",
+          "settings": {
+            "title": "Nevada",
+            "text": "<p><a href=\"https:\/\/www.bigbangtoyslv.com\/\" target=\"_blank\" title=\"https:\/\/www.bigbangtoyslv.com\/\">Big Bang Toys and Collectibles, Las Vegas<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
         "ab224071-ac43-4dee-b6c7-d3d5fee8d00d": {
           "type": "column",
           "settings": {
@@ -174,14 +182,6 @@
           "settings": {
             "title": "New Jersey",
             "text": "<p><a href=\"https:\/\/www.thehouseoffun.com\" target=\"_blank\" title=\"The House of Fun, Barrington\">The House of Fun, Barrington<\/a><\/p><p><a href=\"http:\/\/farpointtoys.com\/\" target=\"_blank\" title=\"Farpoint Toys & Collectibles, Mays Landing\">Farpoint Toys & Collectibles, Mays Landing<\/a><\/p>",
-            "p_bullets": true
-          }
-        },
-        "c4c124f6-b6c2-4620-a688-856eb405cd2f": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
             "p_bullets": true
           }
         },
@@ -207,9 +207,9 @@
         "67b23698-781c-448a-9725-8e6f915d6cac",
         "981d17ee-46a9-47f3-9a5f-ce53da733b1d",
         "6ae84087-d2c5-4a9a-af1f-bdaa0fe358c6",
+        "c4c124f6-b6c2-4620-a688-856eb405cd2f",
         "ab224071-ac43-4dee-b6c7-d3d5fee8d00d",
         "310b2839-e184-44e5-99ab-6037f059a8c1",
-        "c4c124f6-b6c2-4620-a688-856eb405cd2f",
         "31bca4b1-2154-41e0-99e2-83e7772e35b1"
       ],
       "settings": {
