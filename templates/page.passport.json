@@ -189,7 +189,7 @@
           "type": "column",
           "settings": {
             "title": "Ohio",
-            "text": "<p><a href=\"https:\/\/www.happypappysactionfigureextravaganza.com\/\" target=\"_blank\" title=\"https:\/\/www.happypappysactionfigureextravaganza.com\/\">Happy Pappy's Action Figure Extravaganza, Canton<\/a><\/p><p><a href=\"http:\/\/houseofplastik.com\/\" target=\"_blank\" title=\"http:\/\/houseofplastik.com\/\">House of Plastik, Cincinnati<\/a><\/p>",
+            "text": "",
             "p_bullets": true
           }
         }
@@ -227,6 +227,14 @@
     "164333251079a819cd": {
       "type": "multicolumn",
       "blocks": {
+        "bf3f55ee-0771-40bd-82d8-7c81c64bcd4f": {
+          "type": "column",
+          "settings": {
+            "title": "Ohio",
+            "text": "<p><a href=\"https:\/\/www.happypappysactionfigureextravaganza.com\/\" target=\"_blank\" title=\"https:\/\/www.happypappysactionfigureextravaganza.com\/\">Happy Pappy's Action Figure Extravaganza, Canton<\/a><\/p><p><a href=\"http:\/\/houseofplastik.com\/\" target=\"_blank\" title=\"http:\/\/houseofplastik.com\/\">House of Plastik, Cincinnati<\/a><\/p>",
+            "p_bullets": false
+          }
+        },
         "4a189d7f-c4c9-4704-b330-6d79efdcc64c": {
           "type": "column",
           "settings": {
@@ -269,6 +277,7 @@
         }
       },
       "block_order": [
+        "bf3f55ee-0771-40bd-82d8-7c81c64bcd4f",
         "4a189d7f-c4c9-4704-b330-6d79efdcc64c",
         "04533e9e-43e7-4732-971a-5337168c3863",
         "1643332510e39e8c5f-0",
