@@ -286,9 +286,9 @@
         "fee56361-3c8a-4496-b419-51787397319f": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "New York",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "p_bullets": false
+            "p_bullets": true
           }
         }
       },
