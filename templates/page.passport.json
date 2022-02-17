@@ -181,7 +181,7 @@
           "type": "column",
           "settings": {
             "title": "New Jersey",
-            "text": "<p><a href=\"https:\/\/www.thehouseoffun.com\" target=\"_blank\" title=\"The House of Fun, Barrington\">The House of Fun, Barrington<\/a><\/p><p><a href=\"http:\/\/farpointtoys.com\/\" target=\"_blank\" title=\"Farpoint Toys & Collectibles, Mays Landing\">Farpoint Toys & Collectibles, Mays Landing<\/a><\/p>",
+            "text": "<p><a href=\"http:\/\/farpointtoys.com\/\" target=\"_blank\" title=\"Farpoint Toys & Collectibles, Mays Landing\">Farpoint Toys & Collectibles, Mays Landing<\/a><\/p><p><a href=\"https:\/\/www.thehouseoffun.com\" target=\"_blank\" title=\"The House of Fun, Barrington\">The House of Fun, Barrington<\/a><\/p>",
             "p_bullets": true
           }
         },
