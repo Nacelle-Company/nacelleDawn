@@ -149,7 +149,7 @@
           "type": "column",
           "settings": {
             "title": "Michigan",
-            "text": "<p><a href=\"https:\/\/tardys.com\/\" target=\"_blank\" title=\"Tardys Collectors Corner, Grand Rapids\">Tardys Collectors Corner, Grand Rapids<\/a><\/p><p><a href=\"https:\/\/sargeandreds.com\/\" target=\"_blank\" title=\"https:\/\/sargeandreds.com\/\">Sarge & Red's, Utica<\/a><\/p>",
+            "text": "<p><a href=\"https:\/\/sargeandreds.com\/\" target=\"_blank\" title=\"https:\/\/sargeandreds.com\/\">Sarge & Red's, Utica<\/a><\/p><p><a href=\"https:\/\/tardys.com\/\" target=\"_blank\" title=\"Tardys Collectors Corner, Grand Rapids\">Tardys Collectors Corner, Grand Rapids<\/a><\/p>",
             "p_bullets": true
           }
         },
