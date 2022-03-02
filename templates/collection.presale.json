@@ -28,35 +28,54 @@
         "custom_liquid": "<span class=\"header\"><\/span>\n<span class=\"header\"><\/span>"
       }
     },
-    "164618335796d6b4c2": {
-      "type": "collage",
+    "1646183489549dbb0a": {
+      "type": "image-banner",
       "blocks": {
-        "1646183357bb0e1856-2": {
-          "type": "collection",
+        "16461834897fe43111-0": {
+          "type": "heading",
           "settings": {
-            "collection": "presale",
-            "image_padding": false,
-            "color_scheme": "background-1"
+            "heading": "Image banner",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
           }
         },
-        "1646183357bb0e1856-1": {
-          "type": "product",
+        "16461834897fe43111-1": {
+          "type": "text",
           "settings": {
-            "product": "robo-force-wrecker",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "16461834897fe43111-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
           }
         }
       },
       "block_order": [
-        "1646183357bb0e1856-2",
-        "1646183357bb0e1856-1"
+        "16461834897fe43111-0",
+        "16461834897fe43111-1",
+        "16461834897fe43111-2"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
+        "image": "shopify:\/\/shop_images\/ROBOFORCE_220218_GROUP_FOR_16-9_CROP.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_justification": "flex-start",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "inverse",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -64,6 +83,6 @@
     "banner",
     "product-grid",
     "16373985869e07d46b",
-    "164618335796d6b4c2"
+    "1646183489549dbb0a"
   ]
 }
