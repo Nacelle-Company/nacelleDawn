@@ -65,11 +65,27 @@
     "164246964578038a0f": {
       "type": "multicolumn",
       "blocks": {
+        "b0d1ce70-8639-412e-a6e2-f4420a26ad4b": {
+          "type": "column",
+          "settings": {
+            "title": "Alabama",
+            "text": "<p><a href=\"https:\/\/www.totalnostalgia.org\/\" target=\"_blank\" title=\"https:\/\/www.totalnostalgia.org\/\">Total Nostalgia, Trinity<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
         "16424696456e795cc7-1": {
           "type": "column",
           "settings": {
             "title": "Arizona",
-            "text": "<p><a href=\"https:\/\/www.instagram.com\/triforceaz\/\" target=\"_blank\" title=\"TriForce Collectibles\">TriForce Collectibles<\/a><\/p><p><\/p>",
+            "text": "<p><a href=\"https:\/\/www.facebook.com\/Polarbearspopcultureshop\/\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/Polarbearspopcultureshop\/\">Polar Bear Pop Culture Shop, Tempe<\/a><\/p><p><a href=\"https:\/\/thetoyboxaz.com\/\" target=\"_blank\" title=\"https:\/\/thetoyboxaz.com\/\">The Toy Box, Glendale<\/a><\/p><p><a href=\"https:\/\/toyfiendscollectibles.com\/\" target=\"_blank\" title=\"https:\/\/toyfiendscollectibles.com\/\">Toy Fiends Collectibles, Phoenix<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/triforceaz\/\" target=\"_blank\" title=\"TriForce Collectibles\">TriForce Collectibles, Glendale<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e": {
+          "type": "column",
+          "settings": {
+            "title": "Arkansas",
+            "text": "<p><a href=\"https:\/\/www.facebook.com\/mynerditure\/\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/mynerditure\/\">Warehouse 20, Pocahontas<\/a><\/p>",
             "p_bullets": true
           }
         },
@@ -77,7 +93,7 @@
           "type": "column",
           "settings": {
             "title": "California",
-            "text": "<p><a href=\"https:\/\/toyzillastore.square.site\/\" target=\"_blank\" title=\"Toyzilla, Alhambra, California\">Toyzilla, Alhambra<\/a><\/p><p><a href=\"https:\/\/www.blastfromthepast.tv\/\" target=\"_blank\" title=\"Blast from The Past, Burbank, California\">Blast from The Past, Burbank<\/a><\/p><p><\/p>",
+            "text": "<p><a href=\"https:\/\/batcavecomicsandtoys.com\/\" target=\"_blank\" title=\"https:\/\/batcavecomicsandtoys.com\/\">Batcave Comics and Toys, Santa Rosa<\/a><\/p><p><a href=\"https:\/\/www.blastfromthepast.tv\/\" target=\"_blank\" title=\"Blast from The Past, Burbank, California\">Blast from The Past, Burbank<\/a><\/p><p><a href=\"http:\/\/www.toyfusion.com\/\" target=\"_blank\" title=\"http:\/\/www.toyfusion.com\/\">Toy Fusion, Sacramento<\/a><\/p><p><a href=\"https:\/\/toyzillastore.square.site\/\" target=\"_blank\" title=\"Toyzilla, Alhambra, California\">Toyzilla, Alhambra<\/a><\/p><p><\/p>",
             "p_bullets": true
           }
         },
@@ -93,7 +109,7 @@
           "type": "column",
           "settings": {
             "title": "Illinois",
-            "text": "<p><a href=\"https:\/\/www.instagram.com\/smash_toys_chicago\/\" target=\"_blank\" title=\"S.M.A.S.H. Toys and Collectibles, Chicago\">S.M.A.S.H. Toys and Collectibles, Chicago<\/a><\/p><p><\/p>",
+            "text": "<p><a href=\"https:\/\/www.bricabracrecords.com\" target=\"_blank\" title=\"https:\/\/www.bricabracrecords.com\">Bric-a-Brac Records and Toys, Chicago<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/smash_toys_chicago\/\" target=\"_blank\" title=\"S.M.A.S.H. Toys and Collectibles, Chicago\">S.M.A.S.H. Toys and Collectibles, Chicago<\/a><\/p><p><a href=\"https:\/\/www.toydejour.com\/\" target=\"_blank\" title=\"https:\/\/www.toydejour.com\/\">Toy de Jour, Chicago<\/a><\/p>",
             "p_bullets": true
           }
         },
@@ -133,7 +149,7 @@
           "type": "column",
           "settings": {
             "title": "Michigan",
-            "text": "<p><a href=\"https:\/\/tardys.com\/\" target=\"_blank\" title=\"Tardys Collectors Corner, Grand Rapids\">Tardys Collectors Corner, Grand Rapids<\/a><\/p>",
+            "text": "<p><a href=\"https:\/\/nerdouttoys.com\/\" target=\"_blank\" title=\"https:\/\/nerdouttoys.com\/\">Nerd Out, Oak Park<\/a><\/p><p><a href=\"https:\/\/sargeandreds.com\/\" target=\"_blank\" title=\"https:\/\/sargeandreds.com\/\">Sarge & Red's, Utica<\/a><\/p><p><a href=\"https:\/\/tardys.com\/\" target=\"_blank\" title=\"Tardys Collectors Corner, Grand Rapids\">Tardys Collectors Corner, Grand Rapids<\/a><\/p>",
             "p_bullets": true
           }
         },
@@ -142,6 +158,14 @@
           "settings": {
             "title": "Missouri",
             "text": "<p><a href=\"https:\/\/backintimetoys.wixsite.com\/btcomics\" target=\"_blank\" title=\"Back in Time Comics & Toys, Liberty\">Back in Time Comics & Toys, Liberty<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "c4c124f6-b6c2-4620-a688-856eb405cd2f": {
+          "type": "column",
+          "settings": {
+            "title": "Nevada",
+            "text": "<p><a href=\"https:\/\/www.bigbangtoyslv.com\/\" target=\"_blank\" title=\"https:\/\/www.bigbangtoyslv.com\/\">Big Bang Toys and Collectibles, Las Vegas<\/a><\/p>",
             "p_bullets": true
           }
         },
@@ -157,45 +181,23 @@
           "type": "column",
           "settings": {
             "title": "New Jersey",
-            "text": "<p><a href=\"https:\/\/www.thehouseoffun.com\" target=\"_blank\" title=\"The House of Fun, Barrington\">The House of Fun, Barrington<\/a><\/p><p><a href=\"http:\/\/farpointtoys.com\/\" target=\"_blank\" title=\"Farpoint Toys & Collectibles, Mays Landing\">Farpoint Toys & Collectibles, Mays Landing<\/a><\/p>",
-            "p_bullets": true
-          }
-        },
-        "c4c124f6-b6c2-4620-a688-856eb405cd2f": {
-          "type": "column",
-          "settings": {
-            "title": "New York",
-            "text": "<p><a href=\"https:\/\/www.instagram.com\/theimperialcastle\/\" target=\"_blank\" title=\"Imperial Castle Toy Shop, Pawling\">Imperial Castle Toy Shop, Pawling<\/a><\/p>",
+            "text": "<p><a href=\"http:\/\/farpointtoys.com\/\" target=\"_blank\" title=\"Farpoint Toys & Collectibles, Mays Landing\">Farpoint Toys & Collectibles, Mays Landing<\/a><\/p><p><a href=\"https:\/\/www.thehouseoffun.com\" target=\"_blank\" title=\"The House of Fun, Barrington\">The House of Fun, Barrington<\/a><\/p>",
             "p_bullets": true
           }
         },
         "31bca4b1-2154-41e0-99e2-83e7772e35b1": {
           "type": "column",
           "settings": {
-            "title": "North Carolina",
-            "text": "<p><a href=\"http:\/\/needlesstoys.com\/\" target=\"_blank\" title=\"Needless Toys and Collectibles, Lincoln\">Needless Toys and Collectibles, Lincoln<\/a><\/p>",
-            "p_bullets": true
-          }
-        },
-        "b0d1ce70-8639-412e-a6e2-f4420a26ad4b": {
-          "type": "column",
-          "settings": {
-            "title": "Oregon",
-            "text": "<p><a href=\"https:\/\/www.instagram.com\/drtonguestoys\/\" target=\"_blank\" title=\"Dr. Tongues I Had that Shoppe, Portland\">Dr. Tongues I Had that Shoppe, Portland<\/a><\/p>",
-            "p_bullets": true
-          }
-        },
-        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e": {
-          "type": "column",
-          "settings": {
-            "title": "Pennsylvania",
-            "text": "<p><a href=\"https:\/\/www.thetattedtoyguys.com\/\" target=\"_blank\" title=\"The Tatted Toy Guys, Elizabethtown\">The Tatted Toy Guys, Elizabethtown<\/a><\/p><p><a href=\"https:\/\/www.retroandrad.com\" target=\"_blank\" title=\"Retro & Rad, New Cumberland\">Retro & Rad, New Cumberland<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/nicknacksfullfrontalattack\" target=\"_blank\" title=\"Nick Nack's Full Frontal Attack, Palmyra\">Nick Nack's Full Frontal Attack, Palmyra<\/a><\/p><p><a href=\"https:\/\/www.SymbioteCollectibles.com\" target=\"_blank\" title=\"Symbiote Collectibles, West Reading\">Symbiote Collectibles, West Reading<\/a><\/p>",
+            "title": "",
+            "text": "",
             "p_bullets": true
           }
         }
       },
       "block_order": [
+        "b0d1ce70-8639-412e-a6e2-f4420a26ad4b",
         "16424696456e795cc7-1",
+        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e",
         "16424696456e795cc7-0",
         "16424696456e795cc7-2",
         "ead5dae7-23e7-40f5-9bb8-9954470fffde",
@@ -205,15 +207,13 @@
         "67b23698-781c-448a-9725-8e6f915d6cac",
         "981d17ee-46a9-47f3-9a5f-ce53da733b1d",
         "6ae84087-d2c5-4a9a-af1f-bdaa0fe358c6",
+        "c4c124f6-b6c2-4620-a688-856eb405cd2f",
         "ab224071-ac43-4dee-b6c7-d3d5fee8d00d",
         "310b2839-e184-44e5-99ab-6037f059a8c1",
-        "c4c124f6-b6c2-4620-a688-856eb405cd2f",
-        "31bca4b1-2154-41e0-99e2-83e7772e35b1",
-        "b0d1ce70-8639-412e-a6e2-f4420a26ad4b",
-        "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e"
+        "31bca4b1-2154-41e0-99e2-83e7772e35b1"
       ],
       "settings": {
-        "title": "North America",
+        "title": "USA",
         "image_width": "half",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -227,11 +227,51 @@
     "164333251079a819cd": {
       "type": "multicolumn",
       "blocks": {
+        "fee56361-3c8a-4496-b419-51787397319f": {
+          "type": "column",
+          "settings": {
+            "title": "New York",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/theimperialcastle\/\" target=\"_blank\" title=\"Imperial Castle Toy Shop, Pawling\">Imperial Castle Toy Shop, Pawling<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "1bd85019-95c1-429e-8a4c-d03a7a5946a1": {
+          "type": "column",
+          "settings": {
+            "title": "North Carolina",
+            "text": "<p><a href=\"http:\/\/needlesstoys.com\/\" target=\"_blank\" title=\"Needless Toys and Collectibles, Lincoln\">Needless Toys and Collectibles, Lincoln<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "bf3f55ee-0771-40bd-82d8-7c81c64bcd4f": {
+          "type": "column",
+          "settings": {
+            "title": "Ohio",
+            "text": "<p><a href=\"https:\/\/www.happypappysactionfigureextravaganza.com\/\" target=\"_blank\" title=\"https:\/\/www.happypappysactionfigureextravaganza.com\/\">Happy Pappy's Action Figure Extravaganza, Canton<\/a><\/p><p><a href=\"http:\/\/houseofplastik.com\/\" target=\"_blank\" title=\"http:\/\/houseofplastik.com\/\">House of Plastik, Cincinnati<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "4a189d7f-c4c9-4704-b330-6d79efdcc64c": {
+          "type": "column",
+          "settings": {
+            "title": "Oregon",
+            "text": "<p><a href=\"http:\/\/billygalaxy.com\/\" target=\"_blank\" title=\"http:\/\/billygalaxy.com\/\">Billy Galaxy Vintage Toys & Collectibles, Portland<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/drtonguestoys\/\" target=\"_blank\" title=\"Dr. Tongues I Had that Shoppe, Portland\">Dr. Tongues I Had that Shoppe, Portland<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "04533e9e-43e7-4732-971a-5337168c3863": {
+          "type": "column",
+          "settings": {
+            "title": "Pennsylvania",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/nicknacksfullfrontalattack\" target=\"_blank\" title=\"Nick Nack's Full Frontal Attack, Palmyra\">Nick Nack's Full Frontal Attack, Palmyra<\/a><\/p><p><a href=\"https:\/\/www.retroandrad.com\" target=\"_blank\" title=\"Retro & Rad, New Cumberland\">Retro & Rad, New Cumberland<\/a><\/p><p><a href=\"https:\/\/www.SymbioteCollectibles.com\" target=\"_blank\" title=\"Symbiote Collectibles, West Reading\">Symbiote Collectibles, West Reading<\/a><\/p><p><a href=\"https:\/\/www.thetattedtoyguys.com\/\" target=\"_blank\" title=\"The Tatted Toy Guys, Elizabethtown\">The Tatted Toy Guys, Elizabethtown<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
         "1643332510e39e8c5f-0": {
           "type": "column",
           "settings": {
             "title": "South Carolina",
-            "text": "<p><a href=\"https:\/\/www.instagram.com\/toyfederationshop\/\" target=\"_blank\" title=\"Toy Federation, Greer\">Toy Federation, Greer<\/a><\/p>",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/toyfederationshop\/\" target=\"_blank\" title=\"Toy Federation, Greer\">Toy Federation, Greer<\/a><\/p><p><a href=\"https:\/\/www.wonderworkstoys.com\" target=\"_blank\" title=\"https:\/\/www.wonderworkstoys.com\">Wonder Works, Charleston<\/a><\/p>",
             "p_bullets": true
           }
         },
@@ -247,19 +287,24 @@
           "type": "column",
           "settings": {
             "title": "Texas",
-            "text": "<p>Jayden's Toys\tFrisco<\/p>",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/the_empire_toys\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/the_empire_toys\/\">Empire Toys, Keller<\/a><\/p><p>Jayden's Toys, Frisco<\/p><p><a href=\"https:\/\/www.instagram.com\/superhappyincredibletoys\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/superhappyincredibletoys\/\">Super Happy Incredible Toys, Houston<\/a><\/p>",
             "p_bullets": true
           }
         }
       },
       "block_order": [
+        "fee56361-3c8a-4496-b419-51787397319f",
+        "1bd85019-95c1-429e-8a4c-d03a7a5946a1",
+        "bf3f55ee-0771-40bd-82d8-7c81c64bcd4f",
+        "4a189d7f-c4c9-4704-b330-6d79efdcc64c",
+        "04533e9e-43e7-4732-971a-5337168c3863",
         "1643332510e39e8c5f-0",
         "1643332510e39e8c5f-1",
         "1643332510e39e8c5f-2"
       ],
       "settings": {
         "title": "",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "none",
@@ -269,26 +314,26 @@
         "filter_show": false
       }
     },
-    "1642469688143726c2": {
+    "1643937982cbd79f68": {
       "type": "multicolumn",
       "blocks": {
-        "16424696885029db81-0": {
+        "164393798224ec8ddf-0": {
           "type": "column",
           "settings": {
-            "title": "Leicester",
-            "text": "<p><a href=\"https:\/\/www.leicestervintage.co.uk\" target=\"_blank\" title=\"Leicester Vintage & Old Toy Shop\">Leicester Vintage & Old Toy Shop<\/a><\/p>",
+            "title": "Victoria",
+            "text": "<p><a href=\"http:\/\/www.loboscollectables.com\/\" target=\"_blank\" title=\"http:\/\/www.loboscollectables.com\/\">Lobos Collectables, Thornbury<\/a><\/p>",
             "p_bullets": true
           }
         },
-        "cbecbcb4-64b1-4257-b19d-9f66f2ca26f5": {
+        "164393798224ec8ddf-1": {
           "type": "column",
           "settings": {
             "title": "",
             "text": "",
-            "p_bullets": false
+            "p_bullets": true
           }
         },
-        "c037176f-ab83-40c4-834b-7ed94caa19cf": {
+        "164393798224ec8ddf-2": {
           "type": "column",
           "settings": {
             "title": "",
@@ -298,12 +343,12 @@
         }
       },
       "block_order": [
-        "16424696885029db81-0",
-        "cbecbcb4-64b1-4257-b19d-9f66f2ca26f5",
-        "c037176f-ab83-40c4-834b-7ed94caa19cf"
+        "164393798224ec8ddf-0",
+        "164393798224ec8ddf-1",
+        "164393798224ec8ddf-2"
       ],
       "settings": {
-        "title": "The United Kingdom",
+        "title": "Australia",
         "image_width": "half",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -328,9 +373,9 @@
         "4c50a4be-d475-44ec-aa35-c41e57bfe3c8": {
           "type": "column",
           "settings": {
-            "title": "",
-            "text": "",
-            "p_bullets": false
+            "title": "British Columbia",
+            "text": "<p><a href=\"https:\/\/www.agesthreeandup.ca\/\" target=\"_blank\" title=\"https:\/\/www.agesthreeandup.ca\/\">Ages Three and Up, Burnaby<\/a><\/p><p><a href=\"https:\/\/www.cherrybombtoys.com\/\" target=\"_blank\" title=\"https:\/\/www.cherrybombtoys.com\/\">Cherry Bomb Toys, Victoria<\/a><\/p>",
+            "p_bullets": true
           }
         },
         "13622b58-f737-4102-8b4e-cd46fde55937": {
@@ -403,6 +448,51 @@
         "swipe_on_mobile": false,
         "filter_show": false
       }
+    },
+    "1642469688143726c2": {
+      "type": "multicolumn",
+      "blocks": {
+        "16424696885029db81-0": {
+          "type": "column",
+          "settings": {
+            "title": "UK",
+            "text": "<p><a href=\"https:\/\/www.leicestervintage.co.uk\" target=\"_blank\" title=\"Leicester Vintage & Old Toy Shop\">Leicester Vintage & Old Toy Shop, Leicester, England<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "cbecbcb4-64b1-4257-b19d-9f66f2ca26f5": {
+          "type": "column",
+          "settings": {
+            "title": "Netherlands",
+            "text": "<p><a href=\"https:\/\/detoyboys.nl\/\" target=\"_blank\" title=\"https:\/\/detoyboys.nl\/\">De Toyboys, Haarlem<\/a><\/p>",
+            "p_bullets": false
+          }
+        },
+        "c037176f-ab83-40c4-834b-7ed94caa19cf": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "p_bullets": false
+          }
+        }
+      },
+      "block_order": [
+        "16424696885029db81-0",
+        "cbecbcb4-64b1-4257-b19d-9f66f2ca26f5",
+        "c037176f-ab83-40c4-834b-7ed94caa19cf"
+      ],
+      "settings": {
+        "title": "Europe",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "filter_show": false
+      }
     }
   },
   "order": [
@@ -411,8 +501,9 @@
     "16424700643088b232",
     "164246964578038a0f",
     "164333251079a819cd",
-    "1642469688143726c2",
+    "1643937982cbd79f68",
     "1642472257f952fc3b",
-    "164333304768da21fe"
+    "164333304768da21fe",
+    "1642469688143726c2"
   ]
 }
