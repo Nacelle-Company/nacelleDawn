@@ -323,6 +323,142 @@
         "hide_variants": false,
         "enable_video_looping": false
       }
+    },
+    "164677665137bc7d85": {
+      "type": "featured-product",
+      "blocks": {
+        "1646776651fee85b7f-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1646776651fee85b7f-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1646776651fee85b7f-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1646776651fee85b7f-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1646776651fee85b7f-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1646776651fee85b7f-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1646776651fee85b7f-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1646776651fee85b7f-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1646776651fee85b7f-0",
+        "1646776651fee85b7f-1",
+        "1646776651fee85b7f-2",
+        "1646776651fee85b7f-3",
+        "1646776651fee85b7f-4",
+        "1646776651fee85b7f-5",
+        "1646776651fee85b7f-6",
+        "1646776651fee85b7f-7"
+      ],
+      "settings": {
+        "product": "robo-force-s-o-t-a",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1646776690bf3c5c66": {
+      "type": "featured-product",
+      "blocks": {
+        "16467766909d8593bb-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16467766909d8593bb-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16467766909d8593bb-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16467766909d8593bb-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16467766909d8593bb-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16467766909d8593bb-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16467766909d8593bb-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16467766909d8593bb-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16467766909d8593bb-0",
+        "16467766909d8593bb-1",
+        "16467766909d8593bb-2",
+        "16467766909d8593bb-3",
+        "16467766909d8593bb-4",
+        "16467766909d8593bb-5",
+        "16467766909d8593bb-6",
+        "16467766909d8593bb-7"
+      ],
+      "settings": {
+        "product": "robo-force-wrecker",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
     }
   },
   "order": [
@@ -334,6 +470,8 @@
     "product-grid",
     "164677587723a54eb7",
     "16467764824a74e43f",
-    "164677656060d0fcc0"
+    "164677656060d0fcc0",
+    "164677665137bc7d85",
+    "1646776690bf3c5c66"
   ]
 }
