@@ -7,12 +7,6 @@
         "show_collection_image": true
       }
     },
-    "16373985869e07d46b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<span class=\"header\"><\/span>\n<span class=\"header\"><\/span>"
-      }
-    },
     "16467748718280a395": {
       "type": "collage",
       "blocks": {
@@ -187,15 +181,21 @@
         "enable_sorting": true,
         "collapse_on_larger_devices": true
       }
+    },
+    "164677587723a54eb7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<strong><pre style=\"font-size:50px;\">Option two<\/pre><\/strong>"
+      }
     }
   },
   "order": [
     "banner",
-    "16373985869e07d46b",
     "16467748718280a395",
     "164677505754e0e272",
     "1646775293aaa14cb6",
     "16467754057e165169",
-    "product-grid"
+    "product-grid",
+    "164677587723a54eb7"
   ]
 }
