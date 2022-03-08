@@ -185,7 +185,7 @@
     "164677587723a54eb7": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<strong><pre style=\"font-size:50px;\">Option two<\/pre><\/strong>"
+        "custom_liquid": "<strong><pre style=\"font-size:50px;\">Option two ––––––––––––––––<\/pre><\/strong>"
       }
     },
     "16467764824a74e43f": {
