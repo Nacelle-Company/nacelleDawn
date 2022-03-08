@@ -7,6 +7,172 @@
         "show_collection_image": true
       }
     },
+    "16373985869e07d46b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<span class=\"header\"><\/span>\n<span class=\"header\"><\/span>"
+      }
+    },
+    "16467748718280a395": {
+      "type": "collage",
+      "blocks": {
+        "5a96fbf3-caa8-4884-b859-59c3c2752b59": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Roboforce_2048x2048_BeautyShots_HUNDRED.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "1646774871ab295e6b-1": {
+          "type": "product",
+          "settings": {
+            "product": "robo-force-hun-dred",
+            "second_image": false,
+            "image_padding": true,
+            "secondary_background": false
+          }
+        },
+        "af646557-5a43-45dc-b8cf-10cc4a39f011": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ROBOFORCE_220214_HUN_DRED.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "5a96fbf3-caa8-4884-b859-59c3c2752b59",
+        "1646774871ab295e6b-1",
+        "af646557-5a43-45dc-b8cf-10cc4a39f011"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "164677505754e0e272": {
+      "type": "collage",
+      "blocks": {
+        "164677505746d84df1-1": {
+          "type": "product",
+          "settings": {
+            "product": "robo-force-maxx-steele",
+            "second_image": false,
+            "image_padding": true,
+            "secondary_background": false
+          }
+        },
+        "39d6efc4-94b9-404e-9eac-aeffe8514249": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ROBOFORCE_220214_MAXX.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "14ee4eb9-375e-453a-a460-c0b99f253f6b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Roboforce_2048x2048_BeautyShots_MAXX.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "164677505746d84df1-1",
+        "39d6efc4-94b9-404e-9eac-aeffe8514249",
+        "14ee4eb9-375e-453a-a460-c0b99f253f6b"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "right",
+        "mobile_layout": "collage"
+      }
+    },
+    "1646775293aaa14cb6": {
+      "type": "collage",
+      "blocks": {
+        "bbea3db0-43be-4872-a313-04d97b5d362f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Roboforce_2048x2048_BeautyShots_SOTA.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "16467752936cdc3ee4-1": {
+          "type": "product",
+          "settings": {
+            "product": "robo-force-s-o-t-a",
+            "second_image": false,
+            "image_padding": true,
+            "secondary_background": false
+          }
+        },
+        "89e67d70-9e1b-48af-9c88-6271c1f918e7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ROBOFORCE_220214_SOTA.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "bbea3db0-43be-4872-a313-04d97b5d362f",
+        "16467752936cdc3ee4-1",
+        "89e67d70-9e1b-48af-9c88-6271c1f918e7"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "16467754057e165169": {
+      "type": "collage",
+      "blocks": {
+        "16467754058138ae07-1": {
+          "type": "product",
+          "settings": {
+            "product": "robo-force-wrecker",
+            "second_image": false,
+            "image_padding": true,
+            "secondary_background": false
+          }
+        },
+        "c6eacd44-95f3-4745-9018-e82a4703f989": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ROBOFORCE_220214_WRECKER.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "b7c175c2-c950-41f6-80dc-13664b6626a1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Roboforce_2048x2048_BeautyShots_WRECKER.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "16467754058138ae07-1",
+        "c6eacd44-95f3-4745-9018-e82a4703f989",
+        "b7c175c2-c950-41f6-80dc-13664b6626a1"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "right",
+        "mobile_layout": "collage"
+      }
+    },
     "product-grid": {
       "type": "main-collection-presale-product-grid",
       "settings": {
@@ -21,68 +187,15 @@
         "enable_sorting": true,
         "collapse_on_larger_devices": true
       }
-    },
-    "16373985869e07d46b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<span class=\"header\"><\/span>\n<span class=\"header\"><\/span>"
-      }
-    },
-    "1646183489549dbb0a": {
-      "type": "image-banner",
-      "blocks": {
-        "16461834897fe43111-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "set_as_h1": false,
-            "heading_size": "medium",
-            "desktop_heading_align": "center"
-          }
-        },
-        "16461834897fe43111-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "desktop_text_align": "center"
-          }
-        },
-        "16461834897fe43111-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_style_justification": "center"
-          }
-        }
-      },
-      "block_order": [
-        "16461834897fe43111-0",
-        "16461834897fe43111-1",
-        "16461834897fe43111-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/ROBOFORCE_220218_GROUP_FOR_16-9_CROP.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
-        "desktop_text_box_justification": "flex-start",
-        "show_text_box": false,
-        "image_overlay_opacity": 0,
-        "color_scheme": "inverse",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "banner",
-    "product-grid",
     "16373985869e07d46b",
-    "1646183489549dbb0a"
+    "16467748718280a395",
+    "164677505754e0e272",
+    "1646775293aaa14cb6",
+    "16467754057e165169",
+    "product-grid"
   ]
 }
