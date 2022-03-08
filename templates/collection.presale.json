@@ -187,6 +187,74 @@
       "settings": {
         "custom_liquid": "<strong><pre style=\"font-size:50px;\">Option two<\/pre><\/strong>"
       }
+    },
+    "16467764824a74e43f": {
+      "type": "featured-product",
+      "blocks": {
+        "16467764825ca8806b-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16467764825ca8806b-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16467764825ca8806b-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16467764825ca8806b-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16467764825ca8806b-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16467764825ca8806b-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16467764825ca8806b-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16467764825ca8806b-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16467764825ca8806b-0",
+        "16467764825ca8806b-1",
+        "16467764825ca8806b-2",
+        "16467764825ca8806b-3",
+        "16467764825ca8806b-4",
+        "16467764825ca8806b-5",
+        "16467764825ca8806b-6",
+        "16467764825ca8806b-7"
+      ],
+      "settings": {
+        "product": "robo-force-hun-dred",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
     }
   },
   "order": [
@@ -196,6 +264,7 @@
     "1646775293aaa14cb6",
     "16467754057e165169",
     "product-grid",
-    "164677587723a54eb7"
+    "164677587723a54eb7",
+    "16467764824a74e43f"
   ]
 }
