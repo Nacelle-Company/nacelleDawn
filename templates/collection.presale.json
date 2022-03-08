@@ -1,16 +1,60 @@
 {
   "sections": {
+    "164677671632a680df": {
+      "type": "image-banner",
+      "blocks": {
+        "16467767161168a348-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buy All 4 Figures",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "left"
+          }
+        },
+        "16467767161168a348-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "desktop_text_align": "center"
+          }
+        },
+        "16467767161168a348-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "CHECK THEM OUT!",
+            "button_link_1": "#hyndred",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "flex-start"
+          }
+        }
+      },
+      "block_order": [
+        "16467767161168a348-0",
+        "16467767161168a348-1",
+        "16467767161168a348-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ROBOFORCE_220218_GROUP_FOR_SQUARE_CROP.jpg",
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_justification": "flex-start",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true
-      }
-    },
-    "16373985869e07d46b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<span class=\"header\"><\/span>\n<span class=\"header\"><\/span>"
       }
     },
     "16467748718280a395": {
@@ -53,6 +97,41 @@
         "mobile_layout": "collage"
       }
     },
+    "1646778034933086a3": {
+      "type": "rich-text",
+      "blocks": {
+        "164677803410e7cf90-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MAXX STEELE",
+            "heading_size": "h0"
+          }
+        },
+        "164677803410e7cf90-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "164677803410e7cf90-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "164677803410e7cf90-0",
+        "164677803410e7cf90-1",
+        "164677803410e7cf90-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
     "164677505754e0e272": {
       "type": "collage",
       "blocks": {
@@ -62,7 +141,7 @@
             "product": "robo-force-maxx-steele",
             "second_image": false,
             "image_padding": true,
-            "secondary_background": false
+            "secondary_background": true
           }
         },
         "39d6efc4-94b9-404e-9eac-aeffe8514249": {
@@ -70,7 +149,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ROBOFORCE_220214_MAXX.jpg",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "background-2"
           }
         },
         "14ee4eb9-375e-453a-a460-c0b99f253f6b": {
@@ -176,26 +255,310 @@
     "product-grid": {
       "type": "main-collection-presale-product-grid",
       "settings": {
-        "products_per_page": 24,
+        "products_per_page": 8,
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": false,
         "show_vendor": true,
         "show_rating": false,
-        "enable_filtering": true,
-        "enable_sorting": true,
+        "enable_filtering": false,
+        "enable_sorting": false,
         "collapse_on_larger_devices": true
+      }
+    },
+    "164677587723a54eb7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<strong><pre style=\"font-size:50px;\">Option two ––––––––––––––––<\/pre><\/strong>"
+      }
+    },
+    "16467764824a74e43f": {
+      "type": "featured-product",
+      "blocks": {
+        "16467764825ca8806b-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16467764825ca8806b-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16467764825ca8806b-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16467764825ca8806b-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16467764825ca8806b-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16467764825ca8806b-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16467764825ca8806b-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16467764825ca8806b-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16467764825ca8806b-0",
+        "16467764825ca8806b-1",
+        "16467764825ca8806b-2",
+        "16467764825ca8806b-3",
+        "16467764825ca8806b-4",
+        "16467764825ca8806b-5",
+        "16467764825ca8806b-6",
+        "16467764825ca8806b-7"
+      ],
+      "settings": {
+        "product": "robo-force-hun-dred",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "164677656060d0fcc0": {
+      "type": "featured-product",
+      "blocks": {
+        "1646776560351a9d5b-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1646776560351a9d5b-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1646776560351a9d5b-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1646776560351a9d5b-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1646776560351a9d5b-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1646776560351a9d5b-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1646776560351a9d5b-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1646776560351a9d5b-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1646776560351a9d5b-0",
+        "1646776560351a9d5b-1",
+        "1646776560351a9d5b-2",
+        "1646776560351a9d5b-3",
+        "1646776560351a9d5b-4",
+        "1646776560351a9d5b-5",
+        "1646776560351a9d5b-6",
+        "1646776560351a9d5b-7"
+      ],
+      "settings": {
+        "product": "robo-force-maxx-steele",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "164677665137bc7d85": {
+      "type": "featured-product",
+      "blocks": {
+        "1646776651fee85b7f-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1646776651fee85b7f-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1646776651fee85b7f-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1646776651fee85b7f-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1646776651fee85b7f-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1646776651fee85b7f-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1646776651fee85b7f-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1646776651fee85b7f-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1646776651fee85b7f-0",
+        "1646776651fee85b7f-1",
+        "1646776651fee85b7f-2",
+        "1646776651fee85b7f-3",
+        "1646776651fee85b7f-4",
+        "1646776651fee85b7f-5",
+        "1646776651fee85b7f-6",
+        "1646776651fee85b7f-7"
+      ],
+      "settings": {
+        "product": "robo-force-s-o-t-a",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1646776690bf3c5c66": {
+      "type": "featured-product",
+      "blocks": {
+        "16467766909d8593bb-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16467766909d8593bb-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16467766909d8593bb-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16467766909d8593bb-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16467766909d8593bb-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16467766909d8593bb-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16467766909d8593bb-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16467766909d8593bb-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16467766909d8593bb-0",
+        "16467766909d8593bb-1",
+        "16467766909d8593bb-2",
+        "16467766909d8593bb-3",
+        "16467766909d8593bb-4",
+        "16467766909d8593bb-5",
+        "16467766909d8593bb-6",
+        "16467766909d8593bb-7"
+      ],
+      "settings": {
+        "product": "robo-force-wrecker",
+        "secondary_background": true,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     }
   },
   "order": [
+    "164677671632a680df",
     "banner",
-    "16373985869e07d46b",
     "16467748718280a395",
+    "1646778034933086a3",
     "164677505754e0e272",
     "1646775293aaa14cb6",
     "16467754057e165169",
-    "product-grid"
+    "product-grid",
+    "164677587723a54eb7",
+    "16467764824a74e43f",
+    "164677656060d0fcc0",
+    "164677665137bc7d85",
+    "1646776690bf3c5c66"
   ]
 }
