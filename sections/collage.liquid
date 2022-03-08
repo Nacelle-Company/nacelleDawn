@@ -3,8 +3,10 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
-
-<div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}">
+{% if section.settings.section_id != blank %}
+  {% assign sectionID = section.settings.section_id %}
+{% endif %}
+<div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}" id="{{ sectionID }}">
   <h2 class="collage-wrapper-title">{{ section.settings.heading | escape }}</h2>
 
   <div class="collage collage--{{ section.settings.desktop_layout }}{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
@@ -387,6 +389,13 @@
       ],
       "default": "collage",
       "label": "t:sections.collage.settings.mobile_layout.label"
+    },
+    {
+    "type": "text",
+    "id": "section_id",
+    "label": "Section ID",
+    "info": "Used for on-page navigation(#section_id). Use alphanumeric characters without any spaces.",
+    "placeholder": "#section_id"
     }
   ],
   "blocks": [
