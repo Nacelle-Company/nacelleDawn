@@ -469,7 +469,7 @@
             "heading": "Buy All 4 Figures",
             "set_as_h1": false,
             "heading_size": "medium",
-            "desktop_heading_align": "center"
+            "desktop_heading_align": "left"
           }
         },
         "16467767161168a348-1": {
@@ -488,7 +488,7 @@
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
-            "button_style_justification": "center"
+            "button_style_justification": "flex-start"
           }
         }
       },
