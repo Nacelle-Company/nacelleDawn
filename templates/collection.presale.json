@@ -97,6 +97,41 @@
         "mobile_layout": "collage"
       }
     },
+    "1646778034933086a3": {
+      "type": "rich-text",
+      "blocks": {
+        "164677803410e7cf90-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MAXX STEELE",
+            "heading_size": "h0"
+          }
+        },
+        "164677803410e7cf90-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "164677803410e7cf90-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "164677803410e7cf90-0",
+        "164677803410e7cf90-1",
+        "164677803410e7cf90-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
     "164677505754e0e272": {
       "type": "collage",
       "blocks": {
@@ -106,7 +141,7 @@
             "product": "robo-force-maxx-steele",
             "second_image": false,
             "image_padding": true,
-            "secondary_background": false
+            "secondary_background": true
           }
         },
         "39d6efc4-94b9-404e-9eac-aeffe8514249": {
@@ -114,7 +149,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ROBOFORCE_220214_MAXX.jpg",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "background-2"
           }
         },
         "14ee4eb9-375e-453a-a460-c0b99f253f6b": {
@@ -515,6 +550,7 @@
     "164677671632a680df",
     "banner",
     "16467748718280a395",
+    "1646778034933086a3",
     "164677505754e0e272",
     "1646775293aaa14cb6",
     "16467754057e165169",
