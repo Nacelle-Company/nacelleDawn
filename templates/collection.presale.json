@@ -35,10 +35,9 @@
     },
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": true
+        "show_collection_image": false
       }
     },
     "product-grid": {
