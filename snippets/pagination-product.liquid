@@ -1,0 +1,17 @@
+
+{{ 'component-pagination-product.css' | asset_url | stylesheet_tag }}
+{%- comment -%} Product age pagination:
+https://community.shopify.com/c/shopify-design/how-to-add-next-previous-links-on-the-product-page/td-p/450481 
+{%- endcomment -%}
+<div class="product-nav clearfix">
+  <span style="float:left;">{% if collection.previous_product %}
+    {{ collection.previous_product.link }}
+    {{ collection.previous_product.title }}
+    {{ collection.previous_product.featured_media | image_url: width: 150 | image_tag }}
+    {% endif %}</span>
+  <span style="float:right;">{% if collection.next_product %}
+    {{ 'See Next &rarr;' | link_to: collection.next_product }}
+    {{ collection.next_product.title }}
+    {{ collection.next_product.featured_media | image_url: width: 150 | image_tag }}
+    {% endif %}</span>
+</div>
