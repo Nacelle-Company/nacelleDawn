@@ -47,7 +47,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ROBOFORCE_220214_HUN_DRED.jpg",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "inverse"
           }
         }
       },
