@@ -22,9 +22,36 @@
         "show_collection_image": true
       }
     },
+    "1646862971be54aa10": {
+      "type": "rich-text",
+      "blocks": {
+        "129105bb-7d74-490c-8937-f7539f6c70b2": {
+          "type": "heading",
+          "settings": {
+            "heading": "HUN-DRED",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "129105bb-7d74-490c-8937-f7539f6c70b2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
     "16467748718280a395": {
       "type": "collage",
       "blocks": {
+        "5a96fbf3-caa8-4884-b859-59c3c2752b59": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hundred-small.gif",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
         "1646774871ab295e6b-1": {
           "type": "product",
           "settings": {
@@ -41,20 +68,12 @@
             "image_padding": false,
             "color_scheme": "inverse"
           }
-        },
-        "5a96fbf3-caa8-4884-b859-59c3c2752b59": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hundred-small.gif",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
         }
       },
       "block_order": [
+        "5a96fbf3-caa8-4884-b859-59c3c2752b59",
         "1646774871ab295e6b-1",
-        "0f2913d9-41a3-4df2-9956-8c6a89943c88",
-        "5a96fbf3-caa8-4884-b859-59c3c2752b59"
+        "0f2913d9-41a3-4df2-9956-8c6a89943c88"
       ],
       "settings": {
         "heading": "",
@@ -72,26 +91,10 @@
             "heading": "MAXX STEELE",
             "heading_size": "h0"
           }
-        },
-        "164677803410e7cf90-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "164677803410e7cf90-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
-        "164677803410e7cf90-0",
-        "164677803410e7cf90-1",
-        "164677803410e7cf90-2"
+        "164677803410e7cf90-0"
       ],
       "settings": {
         "color_scheme": "inverse",
@@ -115,15 +118,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ROBOFORCE_220214_MAXX.jpg",
             "image_padding": false,
-            "color_scheme": "background-2"
+            "color_scheme": "inverse"
           }
         },
         "14ee4eb9-375e-453a-a460-c0b99f253f6b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Roboforce_2048x2048_BeautyShots_MAXX.png",
+            "image": "shopify:\/\/shop_images\/Max-small.gif",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "inverse"
           }
         }
       },
@@ -139,6 +142,25 @@
         "section_id": ""
       }
     },
+    "16468628359c489be1": {
+      "type": "rich-text",
+      "blocks": {
+        "16468628357f8f6ae3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "S.O.T.A",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "16468628357f8f6ae3-0"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
     "1646775293aaa14cb6": {
       "type": "collage",
       "blocks": {
@@ -147,7 +169,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Roboforce_2048x2048_BeautyShots_SOTA.png",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "inverse"
           }
         },
         "16467752936cdc3ee4-1": {
@@ -164,7 +186,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ROBOFORCE_220214_SOTA.jpg",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "inverse"
           }
         }
       },
@@ -178,6 +200,25 @@
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "section_id": ""
+      }
+    },
+    "164686304984aae297": {
+      "type": "rich-text",
+      "blocks": {
+        "164686304943fc3aa2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WRECKER",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "164686304943fc3aa2-0"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
       }
     },
     "16467754057e165169": {
@@ -197,15 +238,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ROBOFORCE_220214_WRECKER.jpg",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "inverse"
           }
         },
         "b7c175c2-c950-41f6-80dc-13664b6626a1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Roboforce_2048x2048_BeautyShots_WRECKER.png",
+            "image": "shopify:\/\/shop_images\/Wrecker-small.gif",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "inverse"
           }
         }
       },
@@ -305,7 +346,7 @@
       ],
       "settings": {
         "product": "robo-force-hun-dred",
-        "secondary_background": true,
+        "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false
       }
@@ -373,7 +414,7 @@
       ],
       "settings": {
         "product": "robo-force-maxx-steele",
-        "secondary_background": true,
+        "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false
       }
@@ -441,7 +482,7 @@
       ],
       "settings": {
         "product": "robo-force-s-o-t-a",
-        "secondary_background": true,
+        "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false
       }
@@ -509,76 +550,28 @@
       ],
       "settings": {
         "product": "robo-force-wrecker",
-        "secondary_background": true,
+        "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false
-      }
-    },
-    "16468508344eb2580d": {
-      "type": "image-banner",
-      "blocks": {
-        "1646850833123bd1f1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "set_as_h1": false,
-            "heading_size": "medium",
-            "desktop_heading_align": "center"
-          }
-        },
-        "1646850833123bd1f1-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "desktop_text_align": "center"
-          }
-        },
-        "1646850833123bd1f1-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_style_justification": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1646850833123bd1f1-0",
-        "1646850833123bd1f1-1",
-        "1646850833123bd1f1-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/RoboForce-background.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "desktop_text_box_justification": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     }
   },
   "order": [
     "164677671632a680df",
     "banner",
+    "1646862971be54aa10",
     "16467748718280a395",
     "1646778034933086a3",
     "164677505754e0e272",
+    "16468628359c489be1",
     "1646775293aaa14cb6",
+    "164686304984aae297",
     "16467754057e165169",
     "product-grid",
     "164677587723a54eb7",
     "16467764824a74e43f",
     "164677656060d0fcc0",
     "164677665137bc7d85",
-    "1646776690bf3c5c66",
-    "16468508344eb2580d"
+    "1646776690bf3c5c66"
   ]
 }
