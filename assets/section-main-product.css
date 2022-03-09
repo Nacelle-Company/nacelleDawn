@@ -826,13 +826,40 @@ a.product__text {
 
 /* ROBO FORCE WRECKER */
 body.robo-force-wrecker,
-.robo-force-wrecker footer.footer.gradient {
-  background-color: #fdd466;
-  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23eae9e5' fill-opacity='0.25' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+body.robo-force-maxx-steele,
+body.robo-force-s-o-t-a,
+body.robo-force-hun-dred {
+    background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-lg-dark.jpg?v=1646854430");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: top;
+    background-attachment: scroll;
 }
 
-.robo-force-wrecker .product-media-modal {
-  background-color: #fdd466;
+body.robo-force-maxx-steele footer.footer.gradient,
+body.robo-force-wrecker footer.footer.gradient,
+body.robo-force-s-o-t-a footer.footer.gradient,
+body.robo-force-hun-dred footer.footer.gradient {
+  background-color: transparent;
+  background-image: none;
+}
+
+body.robo-force-maxx-steele *,
+body.robo-force-wrecker *,
+body.robo-force-s-o-t-a *,
+body.robo-force-hun-dred * {
+  color: #fff !important;
+}
+
+body.robo-force-maxx-steele .button,
+body.robo-force-maxx-steele .field__input,
+body.robo-force-wrecker .button,
+body.robo-force-wrecker .field__input,
+body.robo-force-s-o-t-a .button,
+body.robo-force-s-o-t-a .field__input,
+body.robo-force-hun-dred .button,
+body.robo-force-hun-dred .field__input {
+  border-color: #fff;
 }
 /* ROBO FORCE WRECKER end */
 
