@@ -55,3 +55,23 @@
   margin-top: 10rem;
   margin-bottom: 15rem;
 }
+
+/* Presale collection */
+body.collection-presale {
+    background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-lg.jpg?v=1646852039");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: top;
+    background-attachment: scroll;
+}
+
+body.collection-presale footer.footer.gradient, 
+body.collection-presale.gradient .header-wrapper {
+  background-color: transparent;
+  background-image: none;
+}
+
+body.collection-presale.gradient .header-wrapper *,
+body.collection-presale.gradient * {
+  color: #fff !important;
+}

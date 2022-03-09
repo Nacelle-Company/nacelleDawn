@@ -132,6 +132,8 @@
 </head>
 {% if template == "product" %}
   {% assign page_class = 'product-page' %}
+{% elsif collection.handle == 'presale' %}
+  {% assign page_class = 'collection-presale' %}
 {% endif %}
   <body class="gradient {{ product.handle }} {{ page_class }}">
 
