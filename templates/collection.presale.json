@@ -18,7 +18,10 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "color_scheme": "inverse",
         "show_collection_description": true,
+        "show_collection_title": false,
+        "collection_description_center": true,
         "show_collection_image": false
       }
     },
