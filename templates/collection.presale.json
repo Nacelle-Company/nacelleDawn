@@ -63,7 +63,7 @@
         "5a96fbf3-caa8-4884-b859-59c3c2752b59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hundred-sm.gif",
+            "image": "shopify:\/\/shop_images\/hundred-small.gif",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -76,20 +76,11 @@
             "image_padding": true,
             "secondary_background": false
           }
-        },
-        "91166c65-72fb-48e9-8e8b-057d57a249ce": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
         }
       },
       "block_order": [
         "5a96fbf3-caa8-4884-b859-59c3c2752b59",
-        "1646774871ab295e6b-1",
-        "91166c65-72fb-48e9-8e8b-057d57a249ce"
+        "1646774871ab295e6b-1"
       ],
       "settings": {
         "heading": "",
