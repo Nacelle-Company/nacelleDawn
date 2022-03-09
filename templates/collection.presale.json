@@ -63,7 +63,7 @@
         "5a96fbf3-caa8-4884-b859-59c3c2752b59": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Roboforce_2048x2048_BeautyShots_HUNDRED.png",
+            "image": "shopify:\/\/shop_images\/hundred-sm.gif",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -94,7 +94,8 @@
       "settings": {
         "heading": "",
         "desktop_layout": "left",
-        "mobile_layout": "collage"
+        "mobile_layout": "collage",
+        "section_id": ""
       }
     },
     "1646778034933086a3": {
@@ -169,7 +170,8 @@
       "settings": {
         "heading": "",
         "desktop_layout": "right",
-        "mobile_layout": "collage"
+        "mobile_layout": "collage",
+        "section_id": ""
       }
     },
     "1646775293aaa14cb6": {
@@ -209,7 +211,8 @@
       "settings": {
         "heading": "",
         "desktop_layout": "left",
-        "mobile_layout": "collage"
+        "mobile_layout": "collage",
+        "section_id": ""
       }
     },
     "16467754057e165169": {
@@ -249,7 +252,8 @@
       "settings": {
         "heading": "",
         "desktop_layout": "right",
-        "mobile_layout": "collage"
+        "mobile_layout": "collage",
+        "section_id": ""
       }
     },
     "product-grid": {
