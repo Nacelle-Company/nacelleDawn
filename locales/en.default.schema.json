@@ -819,6 +819,9 @@
         "image": {
           "label": "First image"
         },
+        "image_mobile": {
+          "label": "First image for mobile"
+        },
         "image_over": {
           "label": "First image, image on top"
         },

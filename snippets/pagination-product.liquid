@@ -11,6 +11,7 @@ https://community.shopify.com/c/shopify-design/how-to-add-next-previous-links-on
     {% endif %}</span>
   <span style="float:right;">{% if collection.next_product %}
     {{ 'See Next &rarr;' | link_to: collection.next_product }}
+    {% assign next_product_url = link_to: collection.next_product %}
     {{ collection.next_product.title }}
     {{ collection.next_product.featured_media | image_url: width: 150 | image_tag }}
     {% endif %}</span>

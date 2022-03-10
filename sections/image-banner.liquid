@@ -21,6 +21,22 @@
     }
   }
   {%- endstyle -%}
+{%- else -%}
+  {%- style -%}
+    @media screen and (max-width: 749px) {
+      .banner--large.banner--mobile-bottom:not(.banner--adapt) > .banner__media {
+        height: {{ section.settings.image_mobile.width | divided_by: 40 }}rem;
+      }
+      .banner__media-desktop {
+        display: none !important;
+      }
+    }
+    @media screen and (min-width: 750px) {
+      .banner__media-mobile {
+        display: none !important;
+      }
+    }
+  {%- endstyle -%}
 {%- endif -%}
 
 {%- style -%}
@@ -28,7 +44,6 @@
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 {%- endstyle -%}
-
 <div id="Banner-{{ section.id }}" class="banner banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
@@ -48,9 +63,30 @@
         alt="{{ section.settings.image.alt | escape }}"
         width="{{ section.settings.image.width }}"
         height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
-        {% if section.settings.image_2 != blank %}class="banner__media-image-half"{% endif %}
+        class="banner__media-desktop{% if section.settings.image_2 != blank %} banner__media-image-half{% endif %}"
       >
+      {%- if section.settings.image_mobile != blank -%}
+        <img
+          srcset="{%- if section.settings.image_mobile.width >= 375 -%}{{ section.settings.image_mobile | img_url: '375x' }} 375w,{%- endif -%}
+            {%- if section.settings.image_mobile.width >= 750 -%}{{ section.settings.image_mobile | img_url: '750x' }} 750w,{%- endif -%}
+            {%- if section.settings.image_mobile.width >= 1100 -%}{{ section.settings.image_mobile | img_url: '1100x' }} 1100w,{%- endif -%}
+            {%- if section.settings.image_mobile.width >= 1500 -%}{{ section.settings.image_mobile | img_url: '1500x' }} 1500w,{%- endif -%}
+            {%- if section.settings.image_mobile.width >= 1780 -%}{{ section.settings.image_mobile | img_url: '1780x' }} 1780w,{%- endif -%}
+            {%- if section.settings.image_mobile.width >= 2000 -%}{{ section.settings.image_mobile | img_url: '2000x' }} 2000w,{%- endif -%}
+            {%- if section.settings.image_mobile.width >= 3000 -%}{{ section.settings.image_mobile | img_url: '3000x' }} 3000w,{%- endif -%}
+            {%- if section.settings.image_mobile.width >= 3840 -%}{{ section.settings.image_mobile | img_url: '3840x' }} 3840w,{%- endif -%}
+            {{ section.settings.image_mobile | img_url: 'master' }} {{ section.settings.image_mobile.width }}w"
+          sizes="100vw"
+          src="{{ section.settings.image_mobile | img_url: '1500x' }}"
+          loading="lazy"
+          alt="{{ section.settings.image_mobile.alt | escape }}"
+          width="{{ section.settings.image_mobile.width }}"
+          height="{{ section.settings.image_mobile.width | divided_by: section.settings.image_mobile.aspect_ratio }}"
+          class="banner__media-mobile"
+        >
+      {%- endif -%}
     </div>
+
   {%- elsif section.settings.image_2 == blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
       {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -171,6 +207,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-banner.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "t:sections.image-banner.settings.image_mobile.label"
     },
     {
       "type": "image_picker",
