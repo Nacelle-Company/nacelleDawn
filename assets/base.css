@@ -191,6 +191,10 @@ html.no-js .no-js-hidden {
 	padding: 0 1.5rem;
 }
 
+.page-width__lg {
+	max-width: var(--page-width-lg);
+}
+
 .page-width-desktop {
 	padding: 0;
 	margin: 0 auto;
@@ -1928,7 +1932,7 @@ input[type="checkbox"] {
 .header {
 	display: grid;
 	grid-template-areas: "left-icon heading icons";
-	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-columns: 1fr 5fr 1fr;
 	align-items: center;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -2073,8 +2077,8 @@ input[type="checkbox"] {
 
 .header__icon,
 .header__icon--cart .icon {
-	height: 4.4rem;
-	width: 4.4rem;
+	height: 3.4rem;
+	width: 3.4rem;
 }
 
 .header__icon--cart {

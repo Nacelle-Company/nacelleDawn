@@ -21,7 +21,7 @@
     }
   }
   {%- endstyle -%}
-{%- else -%}
+{%- elsif section.settings.image_mobile != blank -%}
   {%- style -%}
     @media screen and (max-width: 991px) {
       .banner--large.banner--mobile-bottom:not(.banner--adapt) > .banner__media {
