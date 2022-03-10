@@ -460,10 +460,10 @@
       </div>
     </modal-dialog>
   {%- endfor -%}
+  <br>
+  {% render 'pagination-product' %}
+
 </section>
-
-{% render 'pagination-product' %}
-
 
 {% javascript %}
   class ProductModal extends ModalDialog {

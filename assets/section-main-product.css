@@ -819,9 +819,19 @@ a.product__text {
 }
 
 /* product image's modal */
-.product-page .product-media-modal__content img {
+  .product-page .product-media-modal__content img {
+    max-height: 100vh;
+    width: 100vw;
+}
+.product-media-modal {
+  background-color: #000000f5;
+}
+/* product image's modal */
+@media screen and (min-width: 922px) {
+  .product-page .product-media-modal__content img {
     max-height: 100vh;
     width: auto;
+}
 }
 
 /* ROBO FORCE WRECKER */
@@ -850,6 +860,37 @@ body.robo-force-s-o-t-a *,
 body.robo-force-hun-dred * {
   color: #fff !important;
 }
+
+body.robo-force-maxx-steele .product__media-icon svg path,
+body.robo-force-wrecker .product__media-icon svg path,
+body.robo-force-s-o-t-a .product__media-icon svg path,
+body.robo-force-hun-dred .product__media-icon svg path {
+  color: #000 !important;
+}
+
+body.robo-force-maxx-steele .product__title,
+body.robo-force-wrecker .product__title,
+body.robo-force-s-o-t-a .product__title,
+body.robo-force-hun-dred .product__title {
+    max-width: 285px;
+}
+
+body.robo-force-maxx-steele .button:not([disabled]):hover,
+body.robo-force-wrecker .button:not([disabled]):hover,
+body.robo-force-s-o-t-a .button:not([disabled]):hover,
+body.robo-force-hun-dred .button:not([disabled]):hover {
+    box-shadow: 0 0 0 0.2rem #fff;
+}
+
+@media screen and (min-width: 992px) {
+  body.robo-force-maxx-steele .product__title,
+  body.robo-force-wrecker .product__title,
+  body.robo-force-s-o-t-a .product__title,
+  body.robo-force-hun-dred .product__title {
+      max-width: 365px;
+  }
+}
+
 
 body.robo-force-maxx-steele .button,
 body.robo-force-maxx-steele .field__input,
