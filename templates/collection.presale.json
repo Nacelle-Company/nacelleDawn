@@ -4,8 +4,9 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/Robofoce_3600x1700_GROUP.png",
+        "image_mobile": "shopify:\/\/shop_images\/Roboforce_1285x1000_GROUP_ab455f2b-5d68-4a33-bffb-6b3bcba4f5ba.png",
         "image_height": "large",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
