@@ -10,42 +10,26 @@
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
         "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
-    "16468640491a29df2c": {
-      "type": "rich-text",
-      "blocks": {
-        "1646864049719bcb04-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Robo Force™ returns as part of the Very Important Toy _____-inch scale figure line from The Nacelle Company! This set includes 2 of the main villains,<a href=\"https:\/\/the-nacelle-company.myshopify.com\/collections\/presale?#hundred\" title=\"HUN-DRED\">HUND-DRED<\/a>and SOTA and 2 key members of Robo Force™, MAXX STEELE and WRECKER as articulated figures. Each highly articulated, deluxe _____inch scale figure are packaged in their own collector-friendly windowboxes.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1646864049719bcb04-1"
-      ],
-      "settings": {
-        "color_scheme": "inverse",
-        "full_width": true
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
+        "color_scheme": "inverse",
         "show_collection_description": true,
-        "show_collection_image": true
+        "show_collection_title": false,
+        "collection_description_center": true,
+        "show_collection_image": false
       }
     },
     "product-grid": {
       "type": "main-collection-presale-product-grid",
       "settings": {
         "products_per_page": 8,
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": false,
@@ -59,7 +43,6 @@
   },
   "order": [
     "164677671632a680df",
-    "16468640491a29df2c",
     "banner",
     "product-grid"
   ]
