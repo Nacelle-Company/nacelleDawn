@@ -875,12 +875,6 @@ body.robo-force-hun-dred .product__title {
     max-width: 285px;
 }
 
-body.robo-force-maxx-steele .button:not([disabled]):hover,
-body.robo-force-wrecker .button:not([disabled]):hover,
-body.robo-force-s-o-t-a .button:not([disabled]):hover,
-body.robo-force-hun-dred .button:not([disabled]):hover {
-    box-shadow: 0 0 0 0.2rem #fff;
-}
 
 @media screen and (min-width: 992px) {
   body.robo-force-maxx-steele .product__title,
@@ -893,14 +887,30 @@ body.robo-force-hun-dred .button:not([disabled]):hover {
 
 
 body.robo-force-maxx-steele .button,
+body.robo-force-maxx-steele button,
 body.robo-force-maxx-steele .field__input,
 body.robo-force-wrecker .button,
+body.robo-force-wrecker button,
 body.robo-force-wrecker .field__input,
 body.robo-force-s-o-t-a .button,
+body.robo-force-s-o-t-a button,
 body.robo-force-s-o-t-a .field__input,
 body.robo-force-hun-dred .button,
+body.robo-force-hun-dred button,
 body.robo-force-hun-dred .field__input {
   border-color: #fff;
+}
+
+
+body.robo-force-maxx-steele .button:not([disabled]):hover,
+body.robo-force-maxx-steele button:not([disabled]):hover,
+body.robo-force-wrecker .button:not([disabled]):hover,
+body.robo-force-wrecker button:not([disabled]):hover,
+body.robo-force-s-o-t-a .button:not([disabled]):hover,
+body.robo-force-s-o-t-a button:not([disabled]):hover,
+body.robo-force-hun-dred .button:not([disabled]):hover,
+body.robo-force-hun-dred button:not([disabled]):hover {
+    box-shadow: 0 0 0 0.2rem #fff;
 }
 /* ROBO FORCE WRECKER end */
 
