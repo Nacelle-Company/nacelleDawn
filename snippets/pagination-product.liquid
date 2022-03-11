@@ -12,7 +12,7 @@ https://community.shopify.com/c/shopify-design/how-to-add-next-previous-links-on
     {% if collection.previous_product %}
       <a href="{{ previous_product_url }}" class="button button--full-width button--secondary">
         <span style="font-size: 50px;">&larr;</span>
-          {{ collection.previous_product.featured_media | image_url: width: 150 | image_tag }}
+        {{ collection.previous_product.featured_media | image_url: width: 150 | image_tag }}
         {{ collection.previous_product.title }}
       </a>
     {% endif %}

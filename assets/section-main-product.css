@@ -861,13 +861,6 @@ body.robo-force-hun-dred * {
   color: #fff !important;
 }
 
-body.robo-force-maxx-steele .product__media-icon svg path,
-body.robo-force-wrecker .product__media-icon svg path,
-body.robo-force-s-o-t-a .product__media-icon svg path,
-body.robo-force-hun-dred .product__media-icon svg path {
-  color: #000 !important;
-}
-
 body.robo-force-maxx-steele .product__title,
 body.robo-force-wrecker .product__title,
 body.robo-force-s-o-t-a .product__title,
@@ -902,15 +895,27 @@ body.robo-force-hun-dred .field__input {
 }
 
 
-body.robo-force-maxx-steele .button:not([disabled]):hover,
-body.robo-force-maxx-steele button:not([disabled]):hover,
-body.robo-force-wrecker .button:not([disabled]):hover,
-body.robo-force-wrecker button:not([disabled]):hover,
-body.robo-force-s-o-t-a .button:not([disabled]):hover,
-body.robo-force-s-o-t-a button:not([disabled]):hover,
-body.robo-force-hun-dred .button:not([disabled]):hover,
-body.robo-force-hun-dred button:not([disabled]):hover {
+body.robo-force-maxx-steele .button:not([disabled]):not(.product__media-toggle):hover,
+body.robo-force-maxx-steele button:not([disabled]):not(.product__media-toggle):hover,
+body.robo-force-wrecker .button:not([disabled]):not(.product__media-toggle):hover,
+body.robo-force-wrecker button:not([disabled]):not(.product__media-toggle):hover,
+body.robo-force-s-o-t-a .button:not([disabled]):not(.product__media-toggle):hover,
+body.robo-force-s-o-t-a button:not([disabled]):not(.product__media-toggle):hover,
+body.robo-force-hun-dred .button:not([disabled]):not(.product__media-toggle):hover,
+body.robo-force-hun-dred button:not([disabled]):not(.product__media-toggle):hover {
     box-shadow: 0 0 0 0.2rem #fff;
+}
+
+
+body.robo-force-maxx-steele .product__media-icon svg path,
+body.robo-force-wrecker .product__media-icon svg path,
+body.robo-force-s-o-t-a .product__media-icon svg path,
+body.robo-force-hun-dred .product__media-icon svg path,
+body.robo-force-maxx-steele .product-media-modal__toggle svg path,
+body.robo-force-wrecker .product-media-modal__toggle svg path,
+body.robo-force-s-o-t-a .product-media-modal__toggle svg path,
+body.robo-force-hun-dred .product-media-modal__toggle svg path {
+  color: #000 !important;
 }
 /* ROBO FORCE WRECKER end */
 
