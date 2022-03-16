@@ -1,6 +1,7 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
 
+<h1>{{ page_class }}</h1>
 <div class="page-width">
   <h1 class="title title--primary">{{ section.settings.title | escape }}</h1>
 
@@ -19,7 +20,8 @@
 
   <ul class="collection-list grid grid--1-col grid--3-col-tablet" role="list">
     {%- for collection in collections -%}
-      {% unless collection.handle == 'consumer-products' %}
+      {% unless collection.handle == 'consumer-products' or collection.handle == 'presale' %}
+
         <li class="collection-list__item grid__item">
           <a{% if collection.all_products_count > 0 %} href="{{ collection.url }}"{% endif %}
             class="card animate-arrow{% if collection.featured_image != blank %} card--media{% else %}{% if section.settings.image_ratio != 'adapt' %} card--stretch{% endif %}{% endif %}{% unless section.settings.image_padding %} card--light-border{% endunless %}"
