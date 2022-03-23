@@ -1,29 +1,28 @@
-
 {{ 'component-pagination-product.css' | asset_url | stylesheet_tag }}
 {%- comment -%} Product age pagination:
-https://community.shopify.com/c/shopify-design/how-to-add-next-previous-links-on-the-product-page/td-p/450481 
+https://community.shopify.com/c/shopify-design/how-to-add-next-previous-links-on-the-product-page/td-p/450481
 {%- endcomment -%}
-    {% assign next_product_url = collection.next_product.url %}
-    {% assign previous_product_url = collection.previous_product.url %}
+{% assign next_product_url = collection.next_product.url %}
+{% assign previous_product_url = collection.previous_product.url %}
 
 
-<div class="product-nav clearfix">
-  <span style="float:left;">
-    {% if collection.previous_product %}
-      <a href="{{ previous_product_url }}" class="button button--full-width button--secondary">
-        <span style="font-size: 50px;">&larr;</span>
-        {{ collection.previous_product.featured_media | image_url: width: 150 | image_tag }}
-        {{ collection.previous_product.title }}
-      </a>
-    {% endif %}
-  </span>
-  <span style="float:right;">
-    {% if collection.next_product %}
-      <a href="{{ next_product_url }}" class="button button--full-width button--secondary">
-        {{ collection.next_product.title }}
-        {{ collection.next_product.featured_media | image_url: width: 150 | image_tag }}
-        <span style="font-size: 50px;">&rarr;</span>
-      </a>
-    {% endif %}
-  </span>
+<div class="product-nav">
+    <span class="product-nav-btn">
+        {% if collection.previous_product %}
+        <a href="{{ previous_product_url }}" class="button button--secondary">
+            <span style="font-size: 50px;">&larr;</span>
+            {{ collection.previous_product.featured_media | image_url: width: 150 | image_tag }}
+            {{ collection.previous_product.title }}
+        </a>
+        {% endif %}
+    </span>
+    <span class="product-nav-btn">
+        {% if collection.next_product %}
+        <a href="{{ next_product_url }}" class="button button--secondary">
+            {{ collection.next_product.title }}
+            {{ collection.next_product.featured_media | image_url: width: 150 | image_tag }}
+            <span style="font-size: 50px;">&rarr;</span>
+        </a>
+        {% endif %}
+    </span>
 </div>

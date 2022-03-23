@@ -1,0 +1,11 @@
+@media screen and (min-width: 922px) {
+    .product-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.product-nav-btn {
+    flex: 0 1 35%;
+}
