@@ -867,7 +867,8 @@ body.template_presale {
 
 .template_presale .button,
 .template_presale button,
-.template_presale .field__input {
+.template_presale .field__input,
+.template_presale .pre-order-main-wrapper > button {
 	border-color: #fff;
 }
 
