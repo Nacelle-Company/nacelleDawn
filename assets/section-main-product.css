@@ -850,10 +850,6 @@ body.template_presale {
 	background-image: none;
 }
 
-.template_presale * {
-	color: #fff !important;
-}
-
 .template_presale .product__title {
 	max-width: 285px;
 }

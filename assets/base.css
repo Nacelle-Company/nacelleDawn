@@ -2444,9 +2444,14 @@ body.template_presale {
 }
 
 .template_presale .header__inline-menu *, /* desktop menu */
-.template_presale .header__icons *, /* search & cart icons */
+.template_presale .header__icons *:not(.search__input), /* search & cart icons */
 .template_presale .content-for-layout *, /* all main content */
 .template_presale .header__icon,
 .template_presale .footer * { /* mobile hamburger */
   color: #fff !important;
+}
+
+.template_presale .product__media-icon svg path,
+.template_presale .icon-close {
+	color: #000 !important;
 }
