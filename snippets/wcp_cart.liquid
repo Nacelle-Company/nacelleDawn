@@ -728,7 +728,7 @@ var fnCalled = false;
       
       {% if shop.metafields.wcp_net.isDisplayBillingEmail == 'true'  or shop.metafields.wcp_net.isDisplayBillingEmail == '1'%}
         if($('.wcpbillingEmail').val()!=''){          
-   			if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/.test($('.wcpbillingEmail').val().trim()))
+   			if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,10})+$/.test($('.wcpbillingEmail').val().trim()))
   			{
                 document.getElementById("wcpbillingEmail").style.borderColor = "red"; 
               document.getElementById("wcpbillingEmail").focus();
