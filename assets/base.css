@@ -1176,6 +1176,14 @@ summary::-webkit-details-marker {
 	left: 0;
 	height: 100%;
 	width: 100%;
+    object-fit: fill;
+    object-position: center center;
+}
+
+@media screen and (min-width: 750px) {
+    .media > *:not(.zoom):not(.deferred-media__poster-button):not(.img--over) {
+        object-fit: contain;
+    }
 }
 
 .media > img {
