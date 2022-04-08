@@ -832,7 +832,7 @@
           "label": "Second image, image on top"
         },
         "legal_text": {
-            "label": "Legal text"
+          "label": "Legal text"
         },
         "image_height": {
           "label": "Image banner height",
