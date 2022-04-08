@@ -376,3 +376,18 @@
 .banner__heading {
 	margin-bottom: 0;
 }
+
+.banner__legal-text {
+    font-size: 6px;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+@media screen and (min-width: 750px) {
+    .banner__legal-text {
+        font-size: 10px;
+            left: 20px;
+    bottom: 10px;
+    }
+}

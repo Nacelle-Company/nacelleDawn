@@ -831,6 +831,9 @@
         "image_2_over": {
           "label": "Second image, image on top"
         },
+        "legal_text": {
+            "label": "Legal text"
+        },
         "image_height": {
           "label": "Image banner height",
           "options__1": {

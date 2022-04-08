@@ -1,5 +1,4 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
   @media screen and (max-width: 749px) {
@@ -31,7 +30,7 @@
   {%- style -%}
     @media screen and (max-width: 991px) {
       .banner--large.banner--mobile-bottom:not(.banner--adapt) > .banner__media {
-        height: {{ section.settings.image_mobile.width | divided_by: 17.65 }}rem;
+        height: {{ section.settings.image_mobile.width | divided_by: 18.75 }}rem;
       }
       .banner__media-desktop {
         display: none !important;
@@ -46,6 +45,17 @@
       .banner__media-mobile {
         display: none !important;
       }
+    }
+    /* ----------- iPhone X ----------- */
+    /* Portrait */
+    @media only screen
+        and (min-device-width: 375px)
+        and (max-device-width: 812px)
+        and (-webkit-min-device-pixel-ratio: 3)
+        and (orientation: portrait) {
+        .banner--large.banner--mobile-bottom:not(.banner--adapt) > .banner__media {
+            height: {{ section.settings.image_mobile.width | divided_by: 48 }}rem;
+        }
     }
   {%- endstyle -%}
 {%- endif -%}
@@ -97,6 +107,11 @@
           class="banner__media-mobile"
         >
       {%- endif -%}
+            {%- if section.settings.legal_text != blank -%}
+            <div class="banner__legal-text">
+                <span>{{ section.settings.legal_text | escape }}</span>
+            </div>
+            {% endif %}
     </div>
 
   {%- elsif section.settings.image_2 == blank -%}
@@ -105,6 +120,7 @@
     </div>
   {%- endif -%}
   {%- if section.settings.image_2 != blank -%}
+  
     <div class="banner__media media{% if section.settings.image != blank %} banner__media-half{% endif %}">
       <img
         srcset="{%- if section.settings.image_2.width >= 375 -%}{{ section.settings.image_2 | img_url: '375x' }} 375w,{%- endif -%}
@@ -124,6 +140,11 @@
         height="{{ section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio }}"
         {% if section.settings.image != blank %}class="banner__media-image-half"{% endif %}
       >
+        {%- if section.settings.legal_text != blank -%}
+            <div class="banner__legal-text">
+                <span>{{ section.settings.legal_text | escape }}</span>
+            </div>            
+        {% endif %}
     </div>
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_text_box_position }} justification--{{ section.settings.desktop_text_box_justification }} page-width">
@@ -239,6 +260,12 @@
       "type": "image_picker",
       "id": "image_2_over",
       "label": "t:sections.image-banner.settings.image_2_over.label"
+    },
+    {
+        "type": "text",
+        "id": "legal_text",
+        "default": "Enter legal text here.",
+        "label": "Legal text"
     },
     {
       "type": "select",
