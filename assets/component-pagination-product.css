@@ -3,9 +3,20 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
 }
 
 .product-nav-btn {
     flex: 0 1 35%;
+}
+
+/* return button */
+.button.button-return {
+    align-items: flex-start;
+    margin: 0 1em;
+}
+
+.button-return svg {
+    margin-right: 1em;
 }

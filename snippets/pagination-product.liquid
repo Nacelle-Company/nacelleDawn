@@ -17,6 +17,11 @@ https://community.shopify.com/c/shopify-design/how-to-add-next-previous-links-on
         {% endif %}
     </span>
     <span class="product-nav-btn">
+        {% for collection in product.collections %}
+            <a href="/collections/{{ collection.handle }}" class="button button--primary button-return">{% render 'icon-return' %} Return to <br>{{ collection.title }}<br>Collection</a>
+        {% endfor %}
+    </span>
+    <span class="product-nav-btn">
         {% if collection.next_product %}
         <a href="{{ next_product_url }}" class="button button--secondary">
             {{ collection.next_product.title }}
