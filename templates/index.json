@@ -100,7 +100,7 @@
         "image": "shopify:\/\/shop_images\/Garloo_1800x850_b24151fa-1135-4e47-b7e3-482271d7e8d3.png",
         "image_mobile": "shopify:\/\/shop_images\/Garloo_1285x1000_128e96c9-8281-40f5-89bc-2e9e2835bb1c.png",
         "legal_text": "Enter legal text here.",
-        "image_height": "small",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-start",
