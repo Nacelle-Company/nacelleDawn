@@ -201,7 +201,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Ragnar_1285x1000_f792f93a-50ec-4660-9d8b-640568dba713.png",
         "image_mobile": "shopify:\/\/shop_images\/Ragnar_1285x1000_f792f93a-50ec-4660-9d8b-640568dba713.png",
-        "legal_text": "Enter legal text here.",
+        "legal_text": "",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
