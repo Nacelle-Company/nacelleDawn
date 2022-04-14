@@ -179,48 +179,6 @@
         "show_text_below": false
       }
     },
-    "163738838765e71c9e": {
-      "type": "collage",
-      "blocks": {
-        "1637388387c10f5f01-1": {
-          "type": "product",
-          "settings": {
-            "product": "nacelle-exclusive-mark-spears-monsters-trading-cards-blaster-box",
-            "second_image": true,
-            "image_padding": false,
-            "secondary_background": true
-          }
-        },
-        "be1c2267-0b41-4f9b-b4ab-3b0aee1e2d88": {
-          "type": "product",
-          "settings": {
-            "product": "copy-of-nacelle-exclusive-mark-spears-monsters-trading-cards-blaster-box",
-            "second_image": true,
-            "image_padding": false,
-            "secondary_background": true
-          }
-        },
-        "59c492fb-37c3-4bfe-b546-da7c21d82bb7": {
-          "type": "collection",
-          "settings": {
-            "collection": "trading-cards",
-            "image_padding": false,
-            "color_scheme": "inverse"
-          }
-        }
-      },
-      "block_order": [
-        "1637388387c10f5f01-1",
-        "be1c2267-0b41-4f9b-b4ab-3b0aee1e2d88",
-        "59c492fb-37c3-4bfe-b546-da7c21d82bb7"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "section_id": ""
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -356,7 +314,6 @@
     "1637409912a7ea372a",
     "16499743531bd2cb6a",
     "1649978002b770837b",
-    "163738838765e71c9e",
     "image_banner",
     "16373412421467217e",
     "1637408408d0aa3dd2",
