@@ -75,7 +75,7 @@
         "legal_text": "Enter legal text here.",
         "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-start",
+        "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
         "image_overlay_opacity": 30,
