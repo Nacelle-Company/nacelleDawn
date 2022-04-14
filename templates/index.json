@@ -133,7 +133,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Rack_Toys_1800x850_834c1c53-e319-4ee9-874b-b552358dbcd7.png",
         "image_mobile": "shopify:\/\/shop_images\/Rack_Toys_1285x1000_5e27aa41-4f60-47e9-a2f7-a4525b35d22c.png",
-        "legal_text": "Enter legal text here.",
+        "legal_text": "",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
