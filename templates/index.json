@@ -64,6 +64,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/TTMU_1800x850_02ab5d09-ceef-4b94-8e57-777a2733db6c.png",
+        "image_mobile": "shopify:\/\/shop_images\/TTMU_1285x1000_3630d10a-4299-41fd-9a8f-2027bcabb25a.png",
         "legal_text": "Enter legal text here.",
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -142,43 +143,6 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": false,
         "show_text_below": false
-      }
-    },
-    "163737645855c4106d": {
-      "type": "image-with-text",
-      "blocks": {
-        "1637376458bf3f8e7b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Rack Toys"
-          }
-        },
-        "1637376458bf3f8e7b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Cheap, Crazed Playthings | Second Edition<\/p>"
-          }
-        },
-        "1637376458bf3f8e7b-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/rack-toys-second-edition"
-          }
-        }
-      },
-      "block_order": [
-        "1637376458bf3f8e7b-0",
-        "1637376458bf3f8e7b-1",
-        "1637376458bf3f8e7b-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/racktoysreturns_4447d06e-b010-49bc-9410-7c94b7c70b78.png",
-        "height": "adapt",
-        "color_scheme": "accent-2",
-        "layout": "text_first",
-        "col_width": "default",
-        "image_border": false
       }
     },
     "163738838765e71c9e": {
@@ -374,7 +338,6 @@
     "1637768294b4559b61",
     "1637409912a7ea372a",
     "16499743531bd2cb6a",
-    "163737645855c4106d",
     "163738838765e71c9e",
     "image_banner",
     "16373412421467217e",
