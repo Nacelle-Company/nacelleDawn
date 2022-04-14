@@ -73,7 +73,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/TTMU_1800x850_02ab5d09-ceef-4b94-8e57-777a2733db6c.png",
         "legal_text": "Enter legal text here.",
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "flex-end",
