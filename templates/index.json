@@ -233,11 +233,8 @@
         "1637341242536caf23-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Artboard_a9680b7b-a77d-44c3-afad-bcf526d8b6dc.jpg",
-        "image_over": "shopify:\/\/shop_images\/Power_Lords_Shirt_b5d2a6ae-2072-4d3f-82f3-88a1ed87d106.png",
-        "image_2": "shopify:\/\/shop_images\/Artboard_2.jpg",
-        "image_2_over": "shopify:\/\/shop_images\/Robo_Force_Shirt.png",
-        "legal_text": "Enter legal text here.",
+        "image": "shopify:\/\/shop_images\/T_Shirts_1800x850_6819bd5d-ae3b-478a-89ae-675321511e3b.png",
+        "legal_text": "",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
