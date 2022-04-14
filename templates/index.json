@@ -240,7 +240,7 @@
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
-        "image_overlay_opacity": 70,
+        "image_overlay_opacity": 0,
         "color_scheme": "accent-1",
         "stack_images_on_mobile": false,
         "show_text_below": true
