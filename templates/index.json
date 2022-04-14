@@ -190,22 +190,6 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Nacelle Exclusive",
-            "set_as_h1": false,
-            "heading_size": "medium",
-            "desktop_heading_align": "right"
-          }
-        },
-        "5e6bec28-e653-4353-b5ae-d53847654594": {
-          "type": "text",
-          "settings": {
-            "text": "Ragnar Soft Vinyl Kaiju Toy",
-            "desktop_text_align": "right"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -220,14 +204,13 @@
         }
       },
       "block_order": [
-        "heading",
-        "5e6bec28-e653-4353-b5ae-d53847654594",
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Ragnar_Soft_Vinyl_Kaiju_Toy_2e73d525-ce09-422c-8bb4-a20b58858dff.jpg",
+        "image": "shopify:\/\/shop_images\/Ragnar_1285x1000_f792f93a-50ec-4660-9d8b-640568dba713.png",
+        "image_mobile": "shopify:\/\/shop_images\/Ragnar_1285x1000_f792f93a-50ec-4660-9d8b-640568dba713.png",
         "legal_text": "Enter legal text here.",
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
