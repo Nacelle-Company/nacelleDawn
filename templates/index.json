@@ -46,15 +46,6 @@
     "1637768294b4559b61": {
       "type": "image-banner",
       "blocks": {
-        "163776829475e0eb19-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Toys That Made Us",
-            "set_as_h1": false,
-            "heading_size": "medium",
-            "desktop_heading_align": "right"
-          }
-        },
         "163776829475e0eb19-1": {
           "type": "text",
           "settings": {
@@ -76,7 +67,6 @@
         }
       },
       "block_order": [
-        "163776829475e0eb19-0",
         "163776829475e0eb19-1",
         "163776829475e0eb19-2"
       ],
@@ -88,7 +78,7 @@
         "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
-        "image_overlay_opacity": 70,
+        "image_overlay_opacity": 30,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": false
