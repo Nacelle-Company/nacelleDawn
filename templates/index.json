@@ -65,7 +65,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/TTMU_1800x850_02ab5d09-ceef-4b94-8e57-777a2733db6c.png",
         "image_mobile": "shopify:\/\/shop_images\/TTMU_1285x1000_3630d10a-4299-41fd-9a8f-2027bcabb25a.png",
-        "legal_text": "Enter legal text here.",
+        "legal_text": "",
         "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
@@ -99,7 +99,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Garloo_1800x850_b24151fa-1135-4e47-b7e3-482271d7e8d3.png",
         "image_mobile": "shopify:\/\/shop_images\/Garloo_1285x1000_128e96c9-8281-40f5-89bc-2e9e2835bb1c.png",
-        "legal_text": "Enter legal text here.",
+        "legal_text": "",
         "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
