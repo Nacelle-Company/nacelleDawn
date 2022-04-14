@@ -31,6 +31,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/the-nacelle-store-Passport-pattern-lg.jpg",
+        "legal_text": "Enter legal text here.",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
@@ -80,8 +81,8 @@
         "163776829475e0eb19-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/toys-that-made-us-cover.jpg",
-        "image_over": "shopify:\/\/shop_images\/the-toys-that-mad-us-blu-ray-box_2.png",
+        "image": "shopify:\/\/shop_images\/TTMU_1800x850_02ab5d09-ceef-4b94-8e57-777a2733db6c.png",
+        "legal_text": "Enter legal text here.",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
@@ -133,6 +134,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/GreatGarloo-21w_1357a1d3-607f-4ebf-82d1-63382569a6e3.jpg",
         "image_over": "shopify:\/\/shop_images\/garlo-lunchbox-transparent.png",
+        "legal_text": "Enter legal text here.",
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
@@ -219,7 +221,8 @@
       "settings": {
         "heading": "",
         "desktop_layout": "right",
-        "mobile_layout": "collage"
+        "mobile_layout": "collage",
+        "section_id": ""
       }
     },
     "image_banner": {
@@ -261,6 +264,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Ragnar_Soft_Vinyl_Kaiju_Toy_2e73d525-ce09-422c-8bb4-a20b58858dff.jpg",
+        "legal_text": "Enter legal text here.",
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
@@ -296,6 +300,7 @@
         "image_over": "shopify:\/\/shop_images\/Power_Lords_Shirt_b5d2a6ae-2072-4d3f-82f3-88a1ed87d106.png",
         "image_2": "shopify:\/\/shop_images\/Artboard_2.jpg",
         "image_2_over": "shopify:\/\/shop_images\/Robo_Force_Shirt.png",
+        "legal_text": "Enter legal text here.",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
