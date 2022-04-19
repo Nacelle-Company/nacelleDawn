@@ -31,6 +31,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/the-nacelle-store-Passport-pattern-lg.jpg",
+        "mobile_padding": 1,
         "legal_text": "Enter legal text here.",
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -65,13 +66,14 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/TTMU_1800x850_02ab5d09-ceef-4b94-8e57-777a2733db6c.png",
         "image_mobile": "shopify:\/\/shop_images\/TTMU_1285x1000_3630d10a-4299-41fd-9a8f-2027bcabb25a.png",
+        "mobile_padding": 100,
         "legal_text": "",
         "image_height": "large",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 100,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": false
@@ -99,6 +101,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Garloo_1800x850_b24151fa-1135-4e47-b7e3-482271d7e8d3.png",
         "image_mobile": "shopify:\/\/shop_images\/Garloo_1285x1000_128e96c9-8281-40f5-89bc-2e9e2835bb1c.png",
+        "mobile_padding": 81,
         "legal_text": "",
         "image_height": "large",
         "adapt_height_first_image": true,
@@ -108,7 +111,7 @@
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "16499743531bd2cb6a": {
@@ -133,6 +136,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Rack_Toys_1800x850_834c1c53-e319-4ee9-874b-b552358dbcd7.png",
         "image_mobile": "shopify:\/\/shop_images\/Rack_Toys_1285x1000_5e27aa41-4f60-47e9-a2f7-a4525b35d22c.png",
+        "mobile_padding": 1,
         "legal_text": "",
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -167,6 +171,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Mark_Spears_Monsters_1800x850_cfe41cc9-4419-4945-86fc-fc3428a60621.png",
         "image_mobile": "shopify:\/\/shop_images\/Mark_Spears_Monsters_1285x1000_83cf1562-90bb-49e9-8816-ec6e580994ba.png",
+        "mobile_padding": 1,
         "legal_text": "Enter legal text here.",
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -201,6 +206,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Ragnar_1285x1000_f792f93a-50ec-4660-9d8b-640568dba713.png",
         "image_mobile": "shopify:\/\/shop_images\/Ragnar_1285x1000_f792f93a-50ec-4660-9d8b-640568dba713.png",
+        "mobile_padding": 1,
         "legal_text": "",
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -234,6 +240,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/T_Shirts_1800x850_6819bd5d-ae3b-478a-89ae-675321511e3b.png",
+        "mobile_padding": 1,
         "legal_text": "",
         "image_height": "medium",
         "adapt_height_first_image": false,
