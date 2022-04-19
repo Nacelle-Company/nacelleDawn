@@ -822,6 +822,9 @@
         "image_mobile": {
           "label": "First image for mobile"
         },
+        "mobile_padding": {
+          "label": "Mobile Range"
+        },
         "image_over": {
           "label": "First image, image on top"
         },
