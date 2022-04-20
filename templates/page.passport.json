@@ -18,6 +18,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/the-nacelle-store-Passport-pattern-lg.jpg",
+        "mobile_padding": 1,
+        "legal_text": "Enter legal text here.",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
@@ -141,7 +143,7 @@
           "type": "column",
           "settings": {
             "title": "Massachusetts",
-            "text": "<p><a href=\"https:\/\/www.instagram.com\/cojostoyworld\" target=\"_blank\" title=\"Cojo's Toy World, New Bedford\">Cojo's Toy World, New Bedford<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/hadthattoy\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/hadthattoy\/\">Had That, Salem<\/a><\/p>",
+            "text": "<p><a href=\"http:\/\/www.redfivetoysandcollectibles.com\/\" target=\"_blank\" title=\"http:\/\/www.redfivetoysandcollectibles.com\/\">Red Five Toys & Collectibles<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/cojostoyworld\" target=\"_blank\" title=\"Cojo's Toy World, New Bedford\">Cojo's Toy World, New Bedford<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/hadthattoy\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/hadthattoy\/\">Had That, Salem<\/a><\/p>",
             "p_bullets": true
           }
         },
