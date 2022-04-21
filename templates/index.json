@@ -312,12 +312,6 @@
         "image_padding": true,
         "show_view_all": true
       }
-    },
-    "16505853129d6ee76b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<pre>r<\/pre>"
-      }
     }
   },
   "order": [
@@ -330,7 +324,6 @@
     "16373412421467217e",
     "1637408408d0aa3dd2",
     "16374310043c4496f5",
-    "1637376491025a85ef",
-    "16505853129d6ee76b"
+    "1637376491025a85ef"
   ]
 }
