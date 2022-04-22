@@ -307,6 +307,40 @@ footer.footer.gradient,
 	}
 }
 
+/* Presale collection */
+body.template_presale {
+    background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-sm.png?v=1650591171");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: top;
+    background-attachment: scroll;
+}
+
+@media screen and (min-width: 750px) {
+    body.template_presale {
+        background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-lg-2.jpg?v=1646853270");
+    }
+}
+
+.template_presale .footer.gradient, 
+.template_presale .header-wrapper {
+  background-color: transparent;
+  background-image: none;
+}
+
+.template_presale .header__inline-menu *, /* desktop menu */
+.template_presale .header__icons *:not(.search__input), /* search & cart icons */
+.template_presale .content-for-layout *, /* all main content */
+.template_presale .header__icon,
+.template_presale .footer * { /* mobile hamburger */
+  color: #fff !important;
+}
+
+.template_presale .product__media-icon svg path,
+.template_presale .icon-close {
+	color: #000 !important;
+}
+
 .grid-auto-flow {
 	display: grid;
 	grid-auto-flow: column;
@@ -2436,30 +2470,3 @@ details-disclosure > details {
 	}
 }
 
-/* Presale collection */
-body.template_presale {
-    background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-lg-2.jpg?v=1646853270");
-    background-repeat: repeat-y;
-    background-size: 100% auto;
-    background-position: top;
-    background-attachment: scroll;
-}
-
-.template_presale .footer.gradient, 
-.template_presale .header-wrapper {
-  background-color: transparent;
-  background-image: none;
-}
-
-.template_presale .header__inline-menu *, /* desktop menu */
-.template_presale .header__icons *:not(.search__input), /* search & cart icons */
-.template_presale .content-for-layout *, /* all main content */
-.template_presale .header__icon,
-.template_presale .footer * { /* mobile hamburger */
-  color: #fff !important;
-}
-
-.template_presale .product__media-icon svg path,
-.template_presale .icon-close {
-	color: #000 !important;
-}

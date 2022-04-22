@@ -1,6 +1,15 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+        {%- comment -%} REDIRECT to presale page {%- endcomment -%}
+        {% unless template != 'index' %}
+            {% unless content_for_header contains 'designMode' %}
+                <script>
+                    window.location.href=('{{ shop.url }}/collections/presale2');
+                </script>
+            {% endunless %}
+        {% endunless %}
+        {%- comment -%} REDIRECT to presale page end {%- endcomment -%}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -126,11 +135,7 @@
   
 		<!-- Snippet for KAD Wholesale app -->
 		{% include 'kad-wholesale' %}
-{% unless template != 'index' %}
-<script>
-    window.location.replace('https://nacellestore.com/collections/presale2');
-</script>
-{% endunless %}
+
 </head>
 
 {% if template contains "presale" %}
