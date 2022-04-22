@@ -308,7 +308,8 @@ footer.footer.gradient,
 }
 
 /* Presale collection */
-body.template_presale {
+body.template_presale,
+.template_presale .collection {
     background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-sm-long.png?v=1650643611");
     background-repeat: repeat-y;
     background-size: 100% auto;
@@ -317,8 +318,7 @@ body.template_presale {
 }
 
 @media screen and (min-width: 750px) {
-    body.template_presale,
-    .template_presale .collection {
+    body.template_presale {
         background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-lg-2.jpg?v=1646853270");
     }
 }
