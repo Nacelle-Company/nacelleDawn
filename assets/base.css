@@ -309,7 +309,7 @@ footer.footer.gradient,
 
 /* Presale collection */
 body.template_presale {
-    background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-sm.png?v=1650591171");
+    background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-sm-long.png?v=1650643611");
     background-repeat: repeat-y;
     background-size: 100% auto;
     background-position: top;
@@ -334,6 +334,10 @@ body.template_presale {
 .template_presale .header__icon,
 .template_presale .footer * { /* mobile hamburger */
   color: #fff !important;
+}
+
+.template_presale .quantity__button {
+    box-shadow: 0 0 0 0.2rem #fff;
 }
 
 span.product-nav-btn > a {
