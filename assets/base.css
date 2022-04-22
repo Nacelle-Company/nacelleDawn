@@ -336,6 +336,10 @@ body.template_presale {
   color: #fff !important;
 }
 
+span.product-nav-btn > a {
+    font-size: 10px !important;
+}
+
 .template_presale .product__media-icon svg path,
 .template_presale .icon-close {
 	color: #000 !important;
