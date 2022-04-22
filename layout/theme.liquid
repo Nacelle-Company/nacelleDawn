@@ -126,7 +126,11 @@
   
 		<!-- Snippet for KAD Wholesale app -->
 		{% include 'kad-wholesale' %}
-
+{% unless template != 'index' %}
+<script>
+    window.location.replace('https://nacellestore.com/collections/presale2');
+</script>
+{% endunless %}
 </head>
 
 {% if template contains "presale" %}
