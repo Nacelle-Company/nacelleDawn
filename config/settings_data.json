@@ -24,6 +24,8 @@
     "predictive_search_show_vendor": true,
     "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
     "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/nacelle-company-logo.png",
+    "checkout_body_background_image": "shopify:\/\/shop_images\/bk.png",
     "checkout_sidebar_background_color": "#4591e5",
     "sections": {
       "announcement-bar": {
