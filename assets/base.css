@@ -349,6 +349,19 @@ span.product-nav-btn > a {
 	color: #000 !important;
 }
 
+@media screen and (max-width: 749px) {
+    .template_presale .product-grid .grid {
+        flex-direction: column;
+    }
+    .template_presale .product-grid.grid--2-col .grid__item {
+        width: calc(100% - .25rem);
+        max-width: 100%;
+    }
+
+}
+
+/* END presale products */
+
 .grid-auto-flow {
 	display: grid;
 	grid-auto-flow: column;
