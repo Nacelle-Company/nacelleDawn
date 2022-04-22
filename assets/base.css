@@ -352,7 +352,7 @@ span.product-nav-btn > a {
 }
 
 .template_presale .product__media-icon svg path,
-.template_presale .icon-close {
+.template_presale .icon-close * {
 	color: #000 !important;
 }
 
