@@ -834,6 +834,11 @@ a.product__text {
 	}
 }
 
+@media screen and (max-width: 749px) {
+    .product-page .product-media-modal__content img {
+		max-width: 100vw;
+	}
+}
 
 /* Presale main product */
 body.template_presale {
