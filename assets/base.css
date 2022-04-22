@@ -336,7 +336,13 @@ body.template_presale {
   color: #fff !important;
 }
 
-.template_presale .quantity__button {
+.template_presale .quantity__button,
+.template_presale .field__input {
+    box-shadow: 0 0 0 0.1rem #fff;
+}
+
+.template_presale .field__input:hover,
+.template_presale .field__input:focus {
     box-shadow: 0 0 0 0.2rem #fff;
 }
 
