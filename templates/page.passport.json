@@ -99,6 +99,14 @@
             "p_bullets": true
           }
         },
+        "31bca4b1-2154-41e0-99e2-83e7772e35b1": {
+          "type": "column",
+          "settings": {
+            "title": "Colorado",
+            "text": "<p><a href=\"http:\/\/www.hallofjusticecomics.com\/\" target=\"_blank\" title=\"http:\/\/www.hallofjusticecomics.com\/\">Hall of Justice Comics & Collectibles, Parker<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
         "16424696456e795cc7-2": {
           "type": "column",
           "settings": {
@@ -186,14 +194,6 @@
             "text": "<p><a href=\"http:\/\/farpointtoys.com\/\" target=\"_blank\" title=\"Farpoint Toys & Collectibles, Mays Landing\">Farpoint Toys & Collectibles, Mays Landing<\/a><\/p><p><a href=\"https:\/\/www.thehouseoffun.com\" target=\"_blank\" title=\"The House of Fun, Barrington\">The House of Fun, Barrington<\/a><\/p>",
             "p_bullets": true
           }
-        },
-        "31bca4b1-2154-41e0-99e2-83e7772e35b1": {
-          "type": "column",
-          "settings": {
-            "title": "Colorado",
-            "text": "<p><a href=\"http:\/\/www.hallofjusticecomics.com\/\" target=\"_blank\" title=\"http:\/\/www.hallofjusticecomics.com\/\">Hall of Justice Comics & Collectibles, Parker<\/a><\/p>",
-            "p_bullets": true
-          }
         }
       },
       "block_order": [
@@ -201,6 +201,7 @@
         "16424696456e795cc7-1",
         "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e",
         "16424696456e795cc7-0",
+        "31bca4b1-2154-41e0-99e2-83e7772e35b1",
         "16424696456e795cc7-2",
         "ead5dae7-23e7-40f5-9bb8-9954470fffde",
         "85bb8a6c-9460-4bb2-ac83-d9ff07b73181",
@@ -211,8 +212,7 @@
         "6ae84087-d2c5-4a9a-af1f-bdaa0fe358c6",
         "c4c124f6-b6c2-4620-a688-856eb405cd2f",
         "ab224071-ac43-4dee-b6c7-d3d5fee8d00d",
-        "310b2839-e184-44e5-99ab-6037f059a8c1",
-        "31bca4b1-2154-41e0-99e2-83e7772e35b1"
+        "310b2839-e184-44e5-99ab-6037f059a8c1"
       ],
       "settings": {
         "title": "USA",
