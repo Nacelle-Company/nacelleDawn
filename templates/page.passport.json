@@ -265,14 +265,6 @@
     "164333251079a819cd": {
       "type": "multicolumn",
       "blocks": {
-        "1bd85019-95c1-429e-8a4c-d03a7a5946a1": {
-          "type": "column",
-          "settings": {
-            "title": "North Carolina",
-            "text": "<p><a href=\"http:\/\/needlesstoys.com\/\" target=\"_blank\" title=\"Needless Toys and Collectibles, Lincoln\">Needless Toys and Collectibles, Lincoln<\/a><\/p>",
-            "p_bullets": true
-          }
-        },
         "bf3f55ee-0771-40bd-82d8-7c81c64bcd4f": {
           "type": "column",
           "settings": {
@@ -339,7 +331,6 @@
         }
       },
       "block_order": [
-        "1bd85019-95c1-429e-8a4c-d03a7a5946a1",
         "bf3f55ee-0771-40bd-82d8-7c81c64bcd4f",
         "4a189d7f-c4c9-4704-b330-6d79efdcc64c",
         "04533e9e-43e7-4732-971a-5337168c3863",
