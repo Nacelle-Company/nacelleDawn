@@ -207,8 +207,24 @@
           "type": "column",
           "settings": {
             "title": "New Mexico",
-            "text": "<p><a href=\"http:\/\/www.astrozombies.com\" target=\"_blank\" title=\"http:\/\/www.astrozombies.com\">Astro Zombies, Albuquerque<\/a><\/p>",
+            "text": "<p>Astro Zombies, Albuquerque<\/p>",
             "p_bullets": false
+          }
+        },
+        "7c087a89-3793-427c-807f-0b7dd4c2c495": {
+          "type": "column",
+          "settings": {
+            "title": "New York",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/theimperialcastle\/\" target=\"_blank\" title=\"Imperial Castle Toy Shop, Pawling\">Imperial Castle Toy Shop, Pawling<\/a><\/p>",
+            "p_bullets": true
+          }
+        },
+        "eadafc48-9d7d-4748-9b67-8c579e3b4f9a": {
+          "type": "column",
+          "settings": {
+            "title": "North Carolina",
+            "text": "<p><a href=\"http:\/\/needlesstoys.com\/\" target=\"_blank\" title=\"Needless Toys and Collectibles, Lincoln\">Needless Toys and Collectibles, Lincoln<\/a><\/p>",
+            "p_bullets": true
           }
         }
       },
@@ -230,7 +246,9 @@
         "c4c124f6-b6c2-4620-a688-856eb405cd2f",
         "ab224071-ac43-4dee-b6c7-d3d5fee8d00d",
         "310b2839-e184-44e5-99ab-6037f059a8c1",
-        "ec9c48e7-af4a-49d5-bff0-a3c4e42a3dad"
+        "ec9c48e7-af4a-49d5-bff0-a3c4e42a3dad",
+        "7c087a89-3793-427c-807f-0b7dd4c2c495",
+        "eadafc48-9d7d-4748-9b67-8c579e3b4f9a"
       ],
       "settings": {
         "title": "USA",
@@ -247,14 +265,6 @@
     "164333251079a819cd": {
       "type": "multicolumn",
       "blocks": {
-        "fee56361-3c8a-4496-b419-51787397319f": {
-          "type": "column",
-          "settings": {
-            "title": "New York",
-            "text": "<p><a href=\"https:\/\/www.instagram.com\/theimperialcastle\/\" target=\"_blank\" title=\"Imperial Castle Toy Shop, Pawling\">Imperial Castle Toy Shop, Pawling<\/a><\/p>",
-            "p_bullets": true
-          }
-        },
         "1bd85019-95c1-429e-8a4c-d03a7a5946a1": {
           "type": "column",
           "settings": {
@@ -329,7 +339,6 @@
         }
       },
       "block_order": [
-        "fee56361-3c8a-4496-b419-51787397319f",
         "1bd85019-95c1-429e-8a4c-d03a7a5946a1",
         "bf3f55ee-0771-40bd-82d8-7c81c64bcd4f",
         "4a189d7f-c4c9-4704-b330-6d79efdcc64c",
