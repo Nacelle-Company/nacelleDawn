@@ -309,6 +309,14 @@
             "text": "<p><a href=\"https:\/\/bellabookscomics.com\" target=\"_blank\" title=\"https:\/\/bellabookscomics.com\">Bella Books, Virginia Beach<\/a><\/p>",
             "p_bullets": true
           }
+        },
+        "d2a6d7b0-8a32-4baf-9bc6-c8f4e02f5cea": {
+          "type": "column",
+          "settings": {
+            "title": "Washington",
+            "text": "<p><a href=\"http:\/\/www.chaospopculture.com\" target=\"_blank\" title=\"http:\/\/www.chaospopculture.com\">Chaos Pop Culture, Cannington<\/a><\/p>",
+            "p_bullets": false
+          }
         }
       },
       "block_order": [
@@ -320,7 +328,8 @@
         "1643332510e39e8c5f-0",
         "1643332510e39e8c5f-1",
         "1643332510e39e8c5f-2",
-        "840c457c-be9e-415c-b618-9d5c1503682b"
+        "840c457c-be9e-415c-b618-9d5c1503682b",
+        "d2a6d7b0-8a32-4baf-9bc6-c8f4e02f5cea"
       ],
       "settings": {
         "title": "",
