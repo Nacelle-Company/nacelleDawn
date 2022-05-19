@@ -202,6 +202,14 @@
             "text": "<p><a href=\"http:\/\/farpointtoys.com\/\" target=\"_blank\" title=\"Farpoint Toys & Collectibles, Mays Landing\">Farpoint Toys & Collectibles, Mays Landing<\/a><\/p><p><a href=\"https:\/\/www.thehouseoffun.com\" target=\"_blank\" title=\"The House of Fun, Barrington\">The House of Fun, Barrington<\/a><\/p>",
             "p_bullets": true
           }
+        },
+        "ec9c48e7-af4a-49d5-bff0-a3c4e42a3dad": {
+          "type": "column",
+          "settings": {
+            "title": "New Mexico",
+            "text": "<p><a href=\"http:\/\/www.astrozombies.com\" target=\"_blank\" title=\"http:\/\/www.astrozombies.com\">Astro Zombies, Albuquerque<\/a><\/p>",
+            "p_bullets": false
+          }
         }
       },
       "block_order": [
@@ -221,7 +229,8 @@
         "6ae84087-d2c5-4a9a-af1f-bdaa0fe358c6",
         "c4c124f6-b6c2-4620-a688-856eb405cd2f",
         "ab224071-ac43-4dee-b6c7-d3d5fee8d00d",
-        "310b2839-e184-44e5-99ab-6037f059a8c1"
+        "310b2839-e184-44e5-99ab-6037f059a8c1",
+        "ec9c48e7-af4a-49d5-bff0-a3c4e42a3dad"
       ],
       "settings": {
         "title": "USA",
