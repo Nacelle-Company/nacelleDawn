@@ -301,6 +301,14 @@
             "text": "<p><a href=\"https:\/\/www.instagram.com\/the_empire_toys\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/the_empire_toys\/\">Empire Toys, Keller<\/a><\/p><p>Jayden's Toys, Frisco<\/p><p><a href=\"https:\/\/www.instagram.com\/superhappyincredibletoys\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/superhappyincredibletoys\/\">Super Happy Incredible Toys, Houston<\/a><\/p>",
             "p_bullets": true
           }
+        },
+        "840c457c-be9e-415c-b618-9d5c1503682b": {
+          "type": "column",
+          "settings": {
+            "title": "Virginia",
+            "text": "<p><a href=\"https:\/\/bellabookscomics.com\" target=\"_blank\" title=\"https:\/\/bellabookscomics.com\">Bella Books, Virginia Beach<\/a><\/p>",
+            "p_bullets": true
+          }
         }
       },
       "block_order": [
@@ -311,7 +319,8 @@
         "04533e9e-43e7-4732-971a-5337168c3863",
         "1643332510e39e8c5f-0",
         "1643332510e39e8c5f-1",
-        "1643332510e39e8c5f-2"
+        "1643332510e39e8c5f-2",
+        "840c457c-be9e-415c-b618-9d5c1503682b"
       ],
       "settings": {
         "title": "",
