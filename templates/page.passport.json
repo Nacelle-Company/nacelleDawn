@@ -75,6 +75,14 @@
             "p_bullets": true
           }
         },
+        "443e7615-87a5-4312-a8cb-cf8363ceea90": {
+          "type": "column",
+          "settings": {
+            "title": "Alaska",
+            "text": "<p><a href=\"https:\/\/boscos.com\/\" title=\"https:\/\/boscos.com\/\">Bosco's Cards, Comics, & Games<\/a><\/p>",
+            "p_bullets": false
+          }
+        },
         "16424696456e795cc7-1": {
           "type": "column",
           "settings": {
@@ -230,6 +238,7 @@
       },
       "block_order": [
         "b0d1ce70-8639-412e-a6e2-f4420a26ad4b",
+        "443e7615-87a5-4312-a8cb-cf8363ceea90",
         "16424696456e795cc7-1",
         "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e",
         "16424696456e795cc7-0",
