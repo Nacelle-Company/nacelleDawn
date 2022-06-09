@@ -163,6 +163,14 @@
             "p_bullets": true
           }
         },
+        "0a4dab41-d5e4-40b3-9541-a69e2eacadac": {
+          "type": "column",
+          "settings": {
+            "title": "Kentucky",
+            "text": "<p><a href=\"https:\/\/www.earth2kentucky.com\/\" title=\"https:\/\/www.earth2kentucky.com\/\">Earth 2 Kentucky, Covington<\/a><\/p>",
+            "p_bullets": false
+          }
+        },
         "cfc02a15-7c24-4fd8-ac98-9bc9dcb3fbe2": {
           "type": "column",
           "settings": {
@@ -257,6 +265,7 @@
         "85bb8a6c-9460-4bb2-ac83-d9ff07b73181",
         "6821aecd-ea25-4154-993c-29fba2bd6007",
         "9a0b9512-15f3-4b7c-85ab-b646b6e96bb6",
+        "0a4dab41-d5e4-40b3-9541-a69e2eacadac",
         "cfc02a15-7c24-4fd8-ac98-9bc9dcb3fbe2",
         "67b23698-781c-448a-9725-8e6f915d6cac",
         "981d17ee-46a9-47f3-9a5f-ce53da733b1d",
