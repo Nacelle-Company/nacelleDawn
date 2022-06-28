@@ -115,6 +115,14 @@
             "p_bullets": true
           }
         },
+        "35a316a3-73f2-4fd4-96f6-7fb246e7b439": {
+          "type": "column",
+          "settings": {
+            "title": "Connecticut",
+            "text": "<p><a href=\"http:\/\/www.nordicatoys.com\/\" title=\"http:\/\/www.nordicatoys.com\/\">Nordica Toys, New Milford<\/a><\/p>",
+            "p_bullets": false
+          }
+        },
         "32129627-1d59-4706-ad0f-afd6035fa58a": {
           "type": "column",
           "settings": {
@@ -259,6 +267,7 @@
         "7c4804b1-86c0-4c22-9bb9-e0a3b233cb4e",
         "16424696456e795cc7-0",
         "31bca4b1-2154-41e0-99e2-83e7772e35b1",
+        "35a316a3-73f2-4fd4-96f6-7fb246e7b439",
         "32129627-1d59-4706-ad0f-afd6035fa58a",
         "16424696456e795cc7-2",
         "ead5dae7-23e7-40f5-9bb8-9954470fffde",
