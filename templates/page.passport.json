@@ -558,6 +558,51 @@
         "swipe_on_mobile": false,
         "filter_show": false
       }
+    },
+    "16564526146dd01fe6": {
+      "type": "multicolumn",
+      "blocks": {
+        "165645261444355f74-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "p_bullets": false
+          }
+        },
+        "165645261444355f74-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "p_bullets": false
+          }
+        },
+        "165645261444355f74-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "p_bullets": false
+          }
+        }
+      },
+      "block_order": [
+        "165645261444355f74-0",
+        "165645261444355f74-1",
+        "165645261444355f74-2"
+      ],
+      "settings": {
+        "title": "Belgium",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "filter_show": false
+      }
     }
   },
   "order": [
@@ -569,6 +614,7 @@
     "1643937982cbd79f68",
     "1642472257f952fc3b",
     "164333304768da21fe",
-    "1642469688143726c2"
+    "1642469688143726c2",
+    "16564526146dd01fe6"
   ]
 }
