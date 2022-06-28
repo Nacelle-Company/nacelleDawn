@@ -80,7 +80,7 @@
           "settings": {
             "title": "Alaska",
             "text": "<p><a href=\"https:\/\/boscos.com\/\" title=\"https:\/\/boscos.com\/\">Bosco's Cards, Comics, & Games, Anchorage<\/a><\/p>",
-            "p_bullets": false
+            "p_bullets": true
           }
         },
         "16424696456e795cc7-1": {
@@ -120,7 +120,7 @@
           "settings": {
             "title": "Connecticut",
             "text": "<p><a href=\"http:\/\/www.nordicatoys.com\/\" title=\"http:\/\/www.nordicatoys.com\/\">Nordica Toys, New Milford<\/a><\/p>",
-            "p_bullets": false
+            "p_bullets": true
           }
         },
         "32129627-1d59-4706-ad0f-afd6035fa58a": {
@@ -176,7 +176,7 @@
           "settings": {
             "title": "Kentucky",
             "text": "<p><a href=\"https:\/\/www.earth2kentucky.com\/\" title=\"https:\/\/www.earth2kentucky.com\/\">Earth 2 Kentucky, Covington<\/a><\/p>",
-            "p_bullets": false
+            "p_bullets": true
           }
         },
         "cfc02a15-7c24-4fd8-ac98-9bc9dcb3fbe2": {
@@ -240,7 +240,7 @@
           "settings": {
             "title": "New Mexico",
             "text": "<p>Astro Zombies, Albuquerque<\/p>",
-            "p_bullets": false
+            "p_bullets": true
           }
         },
         "7c087a89-3793-427c-807f-0b7dd4c2c495": {
@@ -522,7 +522,7 @@
           "settings": {
             "title": "Belgium",
             "text": "<p><a href=\"https:\/\/www.toyvs.com\/\" title=\"https:\/\/www.toyvs.com\/\">Toy VS, Antwerp<\/a><\/p>",
-            "p_bullets": false
+            "p_bullets": true
           }
         },
         "16424696885029db81-0": {
