@@ -2438,11 +2438,14 @@ details-disclosure > details {
 
 /* Presale collection */
 body.template_presale {
-    background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-lg-2.jpg?v=1646853270");
     background-repeat: repeat-y;
     background-size: 100% auto;
     background-position: top;
     background-attachment: scroll;
+}
+
+body.template_presale.robo-force {
+    background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-lg-2.jpg?v=1646853270");
 }
 
 .template_presale .footer.gradient, 
