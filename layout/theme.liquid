@@ -5,7 +5,7 @@
     {% unless template != 'index' %}
         {% unless content_for_header contains 'designMode' %}
             <script>
-                window.location.href=('{{ shop.url }}/collections/presale2');
+                window.location.href=('{{ shop.url }}/collections/robo-force');
             </script>
         {% endunless %}
     {% endunless %}
@@ -150,9 +150,11 @@
 
 {% if template contains "presale" %}
     {% assign presale_class = ' template_presale' %}
+{% elsif template contains "presale-v2" %}
+    {% assign presale_class = ' template_presale' %}
 {% endif %}
 
-  <body class="gradient{{ presale_class }} {{ product.handle }}">
+  <body class="gradient{{ presale_class }} {{ collection.template_suffix }} {{ product.handle }}">
 
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}

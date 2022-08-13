@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+    "settings": {
+        "prettier.useTabs": true,
+        "editor.formatOnSave": false,
+        "[liquid]": {
+            "editor.formatOnSave": true
+        },
+        "css.format.enable": false
+    }
 }
