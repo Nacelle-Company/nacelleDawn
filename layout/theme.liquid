@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-    {%- comment -%} REDIRECT to presale page {%- endcomment -%}
+    {%- comment -%} REDIRECT to presale page 
     {% unless template != 'index' %}
         {% unless content_for_header contains 'designMode' %}
             <script>
@@ -9,6 +9,7 @@
             </script>
         {% endunless %}
     {% endunless %}
+    {%- endcomment -%}
     {%- comment -%} REDIRECT to presale page end {%- endcomment -%}
     {%- comment -%} gtag {%- endcomment -%}
     <!-- Global site tag (gtag.js) - Google Analytics -->
