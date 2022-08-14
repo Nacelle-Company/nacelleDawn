@@ -2440,3 +2440,31 @@ details-disclosure > details {
 	}
 }
 
+/* preorder custom css */
+.pre-order-main-wrapper > button {
+    min-width: 12rem;
+    min-height: 4.5rem;
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	line-height: calc(1 + 0.2 / var(--font-body-scale));
+	font-family: var(--font-body-family);
+	padding: 0.9rem 3rem 1.1rem;
+	border: 0.1rem solid transparent;
+	color: rgb(var(--color-button-text));
+	transition: box-shadow var(--duration-short) ease;
+	cursor: pointer;
+	background: transparent;
+	--color-button: var(--color-base-outline-button-labels);
+	--color-button-text: var(--color-base-outline-button-labels);
+	--alpha-button-background: 0;
+	--color-card-hover: var(--color-base-text);
+	box-shadow: 0 0 0 0.1rem
+		rgba(var(--color-button), var(--alpha-button-border));
+}
+.pre-order-main-wrapper > button:hover {
+	border: 0.1rem solid transparent;
+	color: rgb(var(--color-button-text));
+	background: transparent;
+	box-shadow: 0 0 0 0.2rem
+		rgba(var(--color-button), var(--alpha-button-border));
+}
