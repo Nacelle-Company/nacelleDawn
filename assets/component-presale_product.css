@@ -52,13 +52,14 @@ body.template_presale.presale,
 }
 /* presale v2 / LOL collection */
 @media screen and (min-width: 750px) {
-	body.template_presale.presale-v2::before {
+	body.template_presale.presale-v2 main::before {
 		content: "";
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
+        z-index: -1;
 		background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/tile-2.svg?v=1660340345");
 		filter: brightness(0.25);
 	}
