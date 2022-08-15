@@ -1,10 +1,10 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-
     {% if section.settings.mobile_padding != 1 %}
         {% assign mobile_padding = section.settings.mobile_padding %}
     {% else %}
         {% assign mobile_padding = "1 | divided_by: section.settings.image.aspect_ratio | times: 100" %}
     {% endif %}
+
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
   @media screen and (max-width: 749px) {
@@ -26,7 +26,7 @@
     }
     #Banner-{{ section.id }}::before,
     #Banner-{{ section.id }} .banner__media::before {
-        padding-bottom: {{ mobile_padding }}%;
+        padding-bottom: 55%;
       content: '';
       display: block;
     }
