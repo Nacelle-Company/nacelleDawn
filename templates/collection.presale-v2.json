@@ -22,6 +22,7 @@
       "type": "main-collection-banner",
       "settings": {
         "color_scheme": "inverse",
+        "collection_description_bk_none": true,
         "show_collection_description": true,
         "show_collection_title": false,
         "collection_description_center": true,
