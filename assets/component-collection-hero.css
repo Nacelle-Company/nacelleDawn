@@ -34,6 +34,10 @@
 	}
 }
 
+.collection-hero.transparent-bk {
+    position: relative;
+}
+
 .collection-hero__text-wrapper {
 	flex-basis: 100%;
 }
