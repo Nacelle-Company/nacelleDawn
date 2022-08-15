@@ -6,11 +6,25 @@
         align-items: center;
     }
 }
-
-.product-nav-btn {
-    flex: 0 1 35%;
+@media screen and (max-width: 991px) {
+    .product-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
+@media screen and (min-width: 922px) {
+    .product-nav-btn {
+        flex: 0 1 35%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .product-nav-btn {
+        padding-top: 2em;
+    }
+}
 /* return button */
 .button.button-return {
     margin: 0 3em;

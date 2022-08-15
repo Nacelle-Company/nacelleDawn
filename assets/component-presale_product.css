@@ -40,7 +40,7 @@ body.template_presale.presale,
 	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/tile-2.svg?v=1660340345");
 	filter: brightness(0.25);
 }
-.presale-v2 .button,
+.presale-v2 .button:not(.button-product-nav),
 .presale-v2 .shopify-payment-button__button {
     background-color: #c27619;
 }
