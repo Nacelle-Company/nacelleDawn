@@ -8,7 +8,7 @@
         "mobile_padding": 57,
         "legal_text": "Artist rendering, final figure may vary;  © 2022 The Nacelle Company, LLC. Nacelle™, Legends of Laughter™",
         "image_height": "large",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
