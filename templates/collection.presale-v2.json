@@ -5,7 +5,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/legends-of-laughter-img-banner.png",
         "image_mobile": "shopify:\/\/shop_images\/mobile-legends-of-laughter-img-banner_copy.png",
-        "mobile_padding": 58,
+        "mobile_padding": 76,
         "legal_text": "Artist rendering, final figure may vary. © 2022 The Nacelle Company. Legends of Laughter™",
         "image_height": "large",
         "adapt_height_first_image": true,
