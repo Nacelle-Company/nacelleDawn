@@ -182,7 +182,8 @@ body.presale {
 }
 
 .header__icons *:not(.search__input), /* search & cart icons */
-.header__inline-menu *, /* desktop menu */
+.header__inline-menu .first-parent > .header__menu-item,
+.header__inline-menu .first-parent summary.header__menu-item > span,
 .content-for-layout *, /* all main content */
 .header__icon,
 .footer * {
