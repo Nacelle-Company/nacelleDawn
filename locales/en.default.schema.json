@@ -1282,6 +1282,9 @@
           },
           "label": "Color scheme"
         },
+        "collection_description_bk_none": {
+          "label": "Description background none"
+        },
         "show_collection_description": {
           "label": "Show collection description"
         },

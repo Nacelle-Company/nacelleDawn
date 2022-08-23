@@ -314,7 +314,7 @@
     min-width:700px;
   }
 }
-.wcp-hero-wcpModal input, .wcp-hero-wcpModal input select,.wcp-hero-wcpModal textarea{
+.wcp-hero-wcpModal input, .wcp-hero-wcpModal input select,.wcp-hero-wcpModal select,.wcp-hero-wcpModal textarea {
   border: 1px solid #ccc;
   margin-bottom: 10px;
   height:40px
@@ -557,7 +557,7 @@ function billingAddressManager()
        	<p class="wpd-available-shipping-msg">Available Shipping address</p>
       	<select id='AddressSelector' onchange="ChangeAddress()">
         {% paginate customer.addresses by 200 %} {% for address in customer.addresses %}
-              <option value="{{address.id}}">Address : {{address.city}} : {{address.address1 | truncate:40}}</option>
+              <option {% if address.id == customer.default_address.id %} selected {% endif %} value="{{address.id}}">Address : {{address.city}} : {{address.address1 | truncate:40}}</option>
           {% endfor %}	  
           {% endpaginate %}
       	</select>

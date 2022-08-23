@@ -1,0 +1,53 @@
+{
+  "sections": {
+    "164677671632a680df": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/desktop-legends-of-laughter-img-banner.png",
+        "image_mobile": "shopify:\/\/shop_images\/mobile-legends-of-laughter-img-banner_copy_4065a9dd-edb7-4dbd-bb12-7d23dd34734c.png",
+        "mobile_padding": 76,
+        "legal_text": "Artist rendering, final figure may vary. © 2022 The Nacelle Company. Legends of Laughter™",
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_justification": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "inverse",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "color_scheme": "inverse",
+        "collection_description_bk_none": true,
+        "show_collection_description": true,
+        "show_collection_title": false,
+        "collection_description_center": true,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-presale-product-grid",
+      "settings": {
+        "products_per_page": 8,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": true
+      }
+    }
+  },
+  "order": [
+    "164677671632a680df",
+    "banner",
+    "product-grid"
+  ]
+}

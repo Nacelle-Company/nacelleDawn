@@ -439,7 +439,7 @@ a.product__text {
 	}
 	
 	.slider.product__media-list .product__media-item:first-of-type {
-		padding-left: 1.5rem;
+		padding-left: 0;
 	}
 }
 
@@ -660,18 +660,18 @@ a.product__text {
 		top: 2.2rem;
 	}
 }
-
+.product-media-modal__content img:first-child {
+    padding-top: 2em;
+}
 @media screen and (min-width: 990px) {
 	.product-media-modal__content {
 		padding: 2rem 11rem;
+        width: 80%;
+        margin: 0 auto;
 	}
 	
 	.product-media-modal__content > * + * {
 		margin-top: 1.5rem;
-	}
-	
-	.product-media-modal__content {
-		padding-bottom: 1.5rem;
 	}
 	
 	.product-media-modal__toggle {
@@ -834,47 +834,42 @@ a.product__text {
 	}
 }
 
-
-/* Presale main product */
-body.template_presale {
-	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-lg-dark.jpg?v=1646854430");
-	background-repeat: repeat-y;
-	background-size: 100% auto;
-	background-position: top;
-	background-attachment: scroll;
-}
-
-.template_presale footer.footer.gradient,
-.template_presale .header-wrapper {
-	background-color: transparent;
-	background-image: none;
-}
-
-.template_presale .product__title {
-	max-width: 285px;
-}
-
-
-@media screen and (min-width: 992px) {
-	.template_presale .product__title {
-		max-width: 365px;
+@media screen and (max-width: 749px) {
+    .product-section .product-media-modal__content img {
+		max-width: 100vw;
 	}
 }
 
-.template_presale .button,
-.template_presale button,
-.template_presale .field__input,
-.template_presale .pre-order-main-wrapper > button {
-	border-color: #fff;
-}
-
-.template_presale .button:not([disabled]):not(.product__media-toggle):hover,
-.template_presale button:not([disabled]):not(.product__media-toggle):hover {
-	box-shadow: 0 0 0 0.2rem #fff;
-}
-
-.template_presale .product__media-icon svg path {
-	color: #000 !important;
-}
 /* ROBO FORCE WRECKER end */
 
+
+/* PREORDER STYLES - was in the customizer as a custom liquid section */
+/*
+.pre-order-main-wrapper > button {
+    min-width: 12rem;
+    min-height: 4.5rem;
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	line-height: calc(1 + 0.2 / var(--font-body-scale));
+	font-family: var(--font-body-family);
+	padding: 0.9rem 3rem 1.1rem;
+	border: 0.1rem solid transparent;
+	color: rgb(var(--color-button-text));
+	transition: box-shadow var(--duration-short) ease;
+	cursor: pointer;
+	background: transparent;
+	--color-button: var(--color-base-outline-button-labels);
+	--color-button-text: var(--color-base-outline-button-labels);
+	--alpha-button-background: 0;
+	--color-card-hover: var(--color-base-text);
+	box-shadow: 0 0 0 0.1rem
+		rgba(var(--color-button), var(--alpha-button-border));
+}
+.pre-order-main-wrapper > button:hover {
+	border: 0.1rem solid transparent;
+	color: rgb(var(--color-button-text));
+	background: transparent;
+	box-shadow: 0 0 0 0.2rem
+		rgba(var(--color-button), var(--alpha-button-border));
+}
+*/

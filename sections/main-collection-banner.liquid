@@ -1,7 +1,7 @@
 {{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
 
-<div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %}{% unless section.settings.color_scheme == 'default' %} color-{{ section.settings.color_scheme }} gradient{% endunless %}{% if section.settings.collection_description_center %} center{% endif %}">
-  <div class="collection-hero__inner page-width">
+<div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %}{% unless section.settings.color_scheme == 'default' or section.settings.collection_description_bk_none %} color-{{ section.settings.color_scheme }} gradient{% endunless %}{% if section.settings.collection_description_center %} center{% endif %} {% if section.settings.collection_description_bk_none %} transparent-bk{% endif %}">
+    <div class="collection-hero__inner page-width">
     <div class="collection-hero__text-wrapper">
       {%- if section.settings.show_collection_title -%}
       <h1 class="collection-hero__title">
@@ -77,6 +77,12 @@
       ],
       "default": "default",
       "label": "t:sections.rich-text.settings.color_scheme.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "collection_description_bk_none",
+      "default": false,
+      "label": "t:sections.main-collection-banner.settings.collection_description_bk_none.label"
     },
     {
       "type": "checkbox",

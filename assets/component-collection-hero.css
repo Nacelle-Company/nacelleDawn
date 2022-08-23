@@ -34,6 +34,10 @@
 	}
 }
 
+.collection-hero.transparent-bk {
+    position: relative;
+}
+
 .collection-hero__text-wrapper {
 	flex-basis: 100%;
 }
@@ -64,6 +68,7 @@
 
 	.collection-hero__description {
 		max-width: 66.67%;
+        margin: 0 auto;
 	}
 
 	.collection-hero.center:not(.collection-hero--with-image)

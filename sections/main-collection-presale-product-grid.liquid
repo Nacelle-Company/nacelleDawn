@@ -3,7 +3,9 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
-
+{% if collection.template_suffix contains "presale" %} 
+    {{ 'component-presale_product.css' | asset_url | stylesheet_tag }}
+{% endif %}
 <link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
@@ -17,7 +19,7 @@
   </div>
 {%- endif -%}
 
-<div id="ProductGridContainer">
+<div id="ProductGridContainer" class="product-grid-container">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {%- if collection.products.size == 0 -%}
       <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
