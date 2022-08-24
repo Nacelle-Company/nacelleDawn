@@ -21,7 +21,7 @@
 }
 
 .shopify-payment-button__button--branded .shopify-cleanslate > div {
-	background-color: var(--gradient-base-accent-1);
+	background-color: var(--gradient-base-accent-1) !important;
 }
 /* mobile hamburger, text */
 .header__icons *, /* search & cart icons */
