@@ -20,8 +20,8 @@
 	color: #fff !important;
 }
 
-.shopify-payment-button .shopify-cleanslate {
-	color: #000;
+.shopify-payment-button__button--branded .shopify-cleanslate > div {
+	background-color: var(--gradient-base-accent-1);
 }
 /* mobile hamburger, text */
 .header__icons *, /* search & cart icons */
