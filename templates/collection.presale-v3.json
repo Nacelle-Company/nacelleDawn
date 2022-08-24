@@ -3,8 +3,8 @@
     "164677671632a680df": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/desktop-legends-of-laughter-img-banner.png",
-        "image_mobile": "shopify:\/\/shop_images\/mobile-legends-of-laughter-img-banner_copy_4065a9dd-edb7-4dbd-bb12-7d23dd34734c.png",
+        "image": "shopify:\/\/shop_images\/Sectaurs-banner.png",
+        "image_mobile": "shopify:\/\/shop_images\/Sectaurs-banner-mobile.png",
         "mobile_padding": 76,
         "legal_text": "Artist rendering, final figure may vary. © 2022 The Nacelle Company. Legends of Laughter™",
         "image_height": "large",
@@ -22,6 +22,7 @@
       "type": "main-collection-banner",
       "settings": {
         "color_scheme": "inverse",
+        "collection_description_bk_none": false,
         "show_collection_description": true,
         "show_collection_title": false,
         "collection_description_center": true,
