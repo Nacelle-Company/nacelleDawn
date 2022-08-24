@@ -15,7 +15,7 @@
 	box-shadow: 0 0 0 0.2rem #fff;
 }
 /* all text */
-.content-for-layout *, /* all main content */
+.content-for-layout *:not(.shopify-payment-button), /* all main content */
 .footer * {
 	color: #fff !important;
 }
