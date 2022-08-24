@@ -1,35 +1,108 @@
-/* From base.css */
 
-/* Presale collection */
-body.template_presale.presale,
-.template_presale .collection {
+/*--------------------------------------------------------------
+# PRESALE general styles
+--------------------------------------------------------------*/
+/* buttons */
+.template_presale .button,
+.template_presale button,
+.template_presale .field__input,
+.template_presale .pre-order-main-wrapper > button {
+	border-color: #fff;
+}
+/* button hover */
+.template_presale .button:not([disabled]):not(.product__media-toggle):hover,
+.template_presale button:not([disabled]):not(.product__media-toggle):hover {
+	box-shadow: 0 0 0 0.2rem #fff;
+}
+/* all text */
+.content-for-layout *, /* all main content */
+.footer * {
+	color: #fff !important;
+}
+/* mobile hamburger, text */
+.header__icons *, /* search & cart icons */
+.header__inline-menu .first-parent > .header__menu-item, /* navigation links */
+.header__inline-menu .first-parent summary.header__menu-item > span { /* parent navigation links */
+	color: #fff !important;
+}
+/* mobile hamburger menu toggles */
+.header__icon svg * {
+	fill: #fff;
+}
+/* collection top banner */
+.template_presale .spaced-section--full-width + .spaced-section--full-width {
+	margin-top: 0;
+}
+/* header & footer */
+.template_presale .footer.gradient,
+.template_presale .header-wrapper {
+	background-color: transparent;
+	background-image: none;
+}
+/* quantity button */
+.template_presale .quantity__button,
+.template_presale .field__input {
+	box-shadow: 0 0 0 0.1rem #fff;
+}
+/* search dropdown */
+.template_presale .field__input:hover,
+.template_presale .field__input:focus {
+	box-shadow: 0 0 0 0.2rem #fff;
+}
+/* product pagination */
+span.product-nav-btn > a {
+	font-size: 10px !important;
+}
+/* product image magnifying glass */
+.template_presale .product__media-icon svg path,
+.template_presale .icon-close * {
+	color: #000 !important;
+}
+@media screen and (max-width: 749px) {
+	/* MOBILE: collection page product grid */
+	.template_presale .product-grid.grid--2-col .grid__item {
+		width: calc(100% - 0.25rem);
+		max-width: 100%;
+	}
+}
+/*--------------------------------------------------------------
+# V1 Background
+--------------------------------------------------------------*/
+.template_presale.presale {
 	background-repeat: repeat-y;
 	background-size: 100% auto;
 	background-position: top;
 	background-attachment: scroll;
 }
-
-/* presale / robo force collection */
-body.template_presale.presale,
-.template_presale.presale .collection {
-	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-sm-long.png?v=1650643611");
+body.template_presale.presale {
+	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-lg-2.jpg?v=1646853270");
+	background-color: #20215c;
 }
-
+.presale .search-modal {
+	background-color: #20215c;
+}
+/*--------------------------------------------------------------
+# V2 Background
+--------------------------------------------------------------*/
+/* v2 positioning fix */
 .presale-v2 .spaced-section:not(.spaced-section--full-width),
 .presale-v2 .footer {
 	position: relative;
 	margin-top: 0;
 	padding-top: 2em;
 }
+/* mobile */
 .presale-v2 .spaced-section:last-child {
 	margin-bottom: 0;
 	padding-bottom: 5rem;
 }
-.presale-v2 .footer::before,
-.presale-v2 .collection-grid-section::before,
-.presale-v2 .header::before,
-.presale-v2 #shopify-section-footer::before,
-.presale-v2 .product-section .page-width::before {
+.presale-v2.gradient,
+.presale-v2 .search-modal {
+	background-color: #853a1a;
+}
+.presale-v2::before,
+.presale-v2 .spaced-section::before,
+.presale-v2 .footer::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -37,92 +110,72 @@ body.template_presale.presale,
 	z-index: -1;
 	width: 100%;
 	height: 100%;
-	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/tile-2.svg?v=1660340345");
-	filter: brightness(0.25);
+	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/tile-dk2.svg?v=1661297243");
 }
 .presale-v2 .button:not(.button-product-nav),
 .presale-v2 .shopify-payment-button__button {
-    background-color: #c27619;
+	background-color: #c27619;
 }
 
-/* presale / robo force collection */
-@media screen and (min-width: 750px) {
-	body.template_presale.presale {
-		background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-lg-2.jpg?v=1646853270");
-	}
-}
-	body.template_presale.presale-v2 main::before,
-    .template_presale.presale-v2 .collection-hero.transparent-bk::before {
-		content: "";
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-        z-index: -1;
-		background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/tile-2.svg?v=1660340345");
-		filter: brightness(0.25);
-	}
-/* presale v2 / LOL collection */
-/* @media screen and (min-width: 750px) {
-	body.template_presale.presale-v2 main::before,
-    .template_presale.presale-v2 .collection-hero.transparent-bk::before {
-		content: "";
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-        z-index: -1;
-		background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/tile-2.svg?v=1660340345");
-		filter: brightness(0.25);
-	}
-} */
-
-.template_presale .footer.gradient,
-.template_presale .header-wrapper {
-	background-color: transparent;
-	background-image: none;
+/* v2 / lol */
+body.template_presale.presale-v2 main::before,
+.template_presale.presale-v2 .collection-hero.transparent-bk::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/tile-2.svg?v=1660340345");
+	filter: brightness(0.25);
 }
 
-.template_presale .quantity__button,
-.template_presale .field__input {
-	box-shadow: 0 0 0 0.1rem #fff;
-}
 
-.template_presale .field__input:hover,
-.template_presale .field__input:focus {
-	box-shadow: 0 0 0 0.2rem #fff;
+/*--------------------------------------------------------------
+# V3 Background
+--------------------------------------------------------------*/
+/* nacelle header logo */
+.presale-v3 .header__heading-logo {
+    filter: brightness(3);
 }
-
-span.product-nav-btn > a {
-	font-size: 10px !important;
+.template_presale.presale-v3 {
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+	background-position: top;
+	background-attachment: scroll;
 }
-
-.template_presale .product__media-icon svg path,
-.template_presale .icon-close * {
-	color: #000 !important;
+body.template_presale.presale-v3 {
+	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/sectaurs-bk.png?v=1661301904");
+	background-color: #0a2758;
 }
-
 @media screen and (max-width: 749px) {
-	.template_presale .product-grid .grid {
-		flex-direction: column;
+	body.template_presale.presale-v3 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/sectaurs-bk-mobile_2.png?v=1661302035");
 	}
-	.template_presale .product-grid.grid--2-col .grid__item {
-		width: calc(100% - 0.25rem);
-		max-width: 100%;
+	.presale-v3 .slider.product__media-list .product__media-item:first-of-type {
+		padding-left: 1.5rem;
 	}
 }
+.presale-v3 .search-modal {
+	background-color: #2f5e9e;
+}
 
+/*--------------------------------------------------------------
+# v2 collection description
+--------------------------------------------------------------*/
 .collection-hero__description figure {
 	margin: 1em 0;
 }
+
 .collection-hero__description a {
 	display: contents;
 }
+
 figcaption {
 	text-align: justify;
 }
+/* custom description (HTML) */
 @media screen and (min-width: 990px) {
 	.presale-v2 .collection-hero__description {
 		max-width: 80%;
@@ -132,65 +185,7 @@ figcaption {
 		flex-flow: row nowrap;
 		align-items: self-start;
 	}
-    figure img {
-        width: 480px;
-    }
-}
-
-/* END presale products */
-
-/* END from base.css */
-/* Presale main product */
-body.presale {
-	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/roboforce-bk-lg-dark.jpg?v=1646854430");
-	background-repeat: repeat-y;
-	background-size: 100% auto;
-	background-position: top;
-	background-attachment: scroll;
-}
-
-.template_presale footer.footer.gradient,
-.template_presale .header-wrapper {
-	background-color: transparent;
-	background-image: none;
-}
-
-.template_presale .product__title {
-	max-width: 285px;
-}
-
-@media screen and (min-width: 992px) {
-	.template_presale .product__title {
-		max-width: 365px;
+	figure img {
+		width: 480px;
 	}
-}
-
-.template_presale .button,
-.template_presale button,
-.template_presale .field__input,
-.template_presale .pre-order-main-wrapper > button {
-	border-color: #fff;
-}
-
-.template_presale .button:not([disabled]):not(.product__media-toggle):hover,
-.template_presale button:not([disabled]):not(.product__media-toggle):hover {
-	box-shadow: 0 0 0 0.2rem #fff;
-}
-
-.template_presale .product__media-icon svg path {
-	color: #000 !important;
-}
-
-.header__icons *:not(.search__input), /* search & cart icons */
-.header__inline-menu .first-parent > .header__menu-item,
-.header__inline-menu .first-parent summary.header__menu-item > span,
-.content-for-layout *, /* all main content */
-.header__icon,
-.footer * {
-	/* mobile hamburger */
-	color: #fff !important;
-}
-
-.template_presale .spaced-section--full-width + .spaced-section--full-width {
-    margin-top: 0;
 }
