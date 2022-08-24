@@ -19,6 +19,10 @@
 .footer * {
 	color: #fff !important;
 }
+
+.shopify-payment-button .shopify-cleanslate {
+	color: #000;
+}
 /* mobile hamburger, text */
 .header__icons *, /* search & cart icons */
 .header__inline-menu .first-parent > .header__menu-item, /* navigation links */
