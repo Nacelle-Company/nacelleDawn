@@ -23,7 +23,7 @@
 .shopify-payment-button__button--branded .shopify-cleanslate > div {
 	background-color: var(--gradient-base-accent-1) !important;
 }
-.shopify-payment-button__button--branded .shopify-cleanslate[data-testid="GooglePay-button"]>div:hover {
+.shopify-payment-button__button--branded .shopify-cleanslate> [data-testid="GooglePay-button"]:hover {
 	color: #000 !important;
 }
 /* mobile hamburger, text */
