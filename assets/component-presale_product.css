@@ -23,6 +23,9 @@
 .shopify-payment-button__button--branded .shopify-cleanslate > div {
 	background-color: var(--gradient-base-accent-1) !important;
 }
+.shopify-payment-button__button--branded .shopify-cleanslate>div:hover {
+	background-color: #000 !important;
+}
 /* mobile hamburger, text */
 .header__icons *, /* search & cart icons */
 .header__inline-menu .first-parent > .header__menu-item, /* navigation links */
