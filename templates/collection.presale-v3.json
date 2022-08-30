@@ -9,6 +9,7 @@
         "legal_text": "Artist rendering, final figure may vary. © 1983 Seventowns Ltd. © 2022 Seventowns Ltd.",
         "image_height": "large",
         "adapt_height_first_image": true,
+        "lazy_disable": true,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
