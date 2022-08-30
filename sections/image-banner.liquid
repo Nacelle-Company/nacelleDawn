@@ -87,7 +87,7 @@
           {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w"
         sizes="{% if section.settings.image_2 != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image_2 != blank %}50vw{% else %}100vw{% endif %}"
         src="{{ section.settings.image | img_url: '1500x' }}"
-        loading="lazy"
+        {%- unless section.settings.lazy_disable -%} loading="lazy" {%- endunless -%}
         alt="{{ section.settings.image.alt | escape }}"
         width="{{ section.settings.image.width }}"
         height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
@@ -106,7 +106,7 @@
             {{ section.settings.image_mobile | img_url: 'master' }} {{ section.settings.image_mobile.width }}w"
           sizes="100vw"
           src="{{ section.settings.image_mobile | img_url: '1500x' }}"
-          loading="lazy"
+        {%- unless section.settings.lazy_disable -%} loading="lazy" {%- endunless -%}
           alt="{{ section.settings.image_mobile.alt | escape }}"
           width="{{ section.settings.image_mobile.width }}"
           height="{{ section.settings.image_mobile.width | divided_by: section.settings.image_mobile.aspect_ratio }}"
@@ -140,7 +140,7 @@
           {{ section.settings.image_2 | img_url: 'master' }} {{ section.settings.image_2.width }}w"
         sizes="{% if section.settings.image != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image != blank %}50vw{% else %}100vw{% endif %}"
         src="{{ section.settings.image_2 | img_url: '1500x' }}"
-        loading="lazy"
+        {%- unless section.settings.lazy_disable -%} loading="lazy" {%- endunless -%}
         alt="{{ section.settings.image_2.alt | escape }}"
         width="{{ section.settings.image_2.width }}"
         height="{{ section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio }}"
@@ -203,7 +203,7 @@
         class="img--over"
         sizes="{% if section.settings.image_2_over != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image_2_over != blank %}50vw{% else %}100vw{% endif %}"
         src="{{ section.settings.image_over | img_url: '1500x' }}"
-        loading="lazy"
+        {%- unless section.settings.lazy_disable -%} loading="lazy" {%- endunless -%}
         alt="{{ section.settings.image_over.alt | escape }}"
         width="{{ section.settings.image_over.width }}"
         height="{{ section.settings.image_over.width | divided_by: section.settings.image_over.aspect_ratio }}"
@@ -226,7 +226,7 @@
         class="img--over"
         sizes="{% if section.settings.image_over != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image_over != blank %}50vw{% else %}100vw{% endif %}"
         src="{{ section.settings.image_2_over | img_url: '1500x' }}"
-        loading="lazy"
+        {%- unless section.settings.lazy_disable -%} loading="lazy" {%- endunless -%}
         alt="{{ section.settings.image_2_over.alt | escape }}"
         width="{{ section.settings.image_2_over.width }}"
         height="{{ section.settings.image_2_over.width | divided_by: section.settings.image_2_over.aspect_ratio }}"
@@ -315,6 +315,13 @@
       "default": false,
       "label": "t:sections.image-banner.settings.adapt_height_first_image.label",
       "info": "t:sections.image-banner.settings.adapt_height_first_image.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "lazy_disable",
+      "default": false,
+      "label": "t:sections.image-banner.settings.lazy_disable.label",
+      "info": "t:sections.image-banner.settings.lazy_disable.info"
     },
     {
       "type": "select",

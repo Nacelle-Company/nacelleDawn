@@ -914,6 +914,10 @@
         "adapt_height_first_image": {
           "label": "Adapt section height to first image size",
           "info": "Overwrites image banner height setting when checked."
+        },
+        "lazy_disable": {
+          "label": "Lazy load disable",
+          "info": "If image banner is above the fold, recommended to disable lazy loading."
         }
       },
       "blocks": {
