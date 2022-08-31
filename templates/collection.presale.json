@@ -5,9 +5,11 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/3600x1700_Banner_Maxx_Wrecker_NoLegalLine_f1f70d7b-ad47-440a-9469-20441da86095.png",
         "image_mobile": "shopify:\/\/shop_images\/Roboforce_1285x1000_Banner_Maxx_Wrecker_NoLegalLine_1cc6565e-197a-431a-a034-6be657abe809.png",
+        "mobile_padding": 1,
         "legal_text": "Artist rendering, final figure may vary;  © 2022 The Nacelle Company, LLC. Nacelle™, Robo Force™",
         "image_height": "large",
         "adapt_height_first_image": false,
+        "lazy_disable": false,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
@@ -15,16 +17,6 @@
         "color_scheme": "inverse",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-        "color_scheme": "inverse",
-        "show_collection_description": true,
-        "show_collection_title": false,
-        "collection_description_center": true,
-        "show_collection_image": false
       }
     },
     "product-grid": {
@@ -41,11 +33,22 @@
         "enable_sorting": false,
         "collapse_on_larger_devices": true
       }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "color_scheme": "inverse",
+        "collection_description_bk_none": false,
+        "show_collection_description": true,
+        "show_collection_title": false,
+        "collection_description_center": true,
+        "show_collection_image": false
+      }
     }
   },
   "order": [
     "164677671632a680df",
-    "banner",
-    "product-grid"
+    "product-grid",
+    "banner"
   ]
 }
