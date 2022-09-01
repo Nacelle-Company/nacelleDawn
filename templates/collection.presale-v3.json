@@ -3,8 +3,8 @@
     "164677671632a680df": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/desktop-sectaurs-img-banner.png",
-        "image_mobile": "shopify:\/\/shop_images\/mobile-sectaurs-img-banner.png",
+        "image": "shopify:\/\/shop_images\/desktop-sectaurs-img-banner.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/mobile-sectaurs-img-banner.jpg",
         "mobile_padding": 76,
         "legal_text": "Artist rendering, final figure may vary. © 1983 Seventowns Ltd. © 2022 Seventowns Ltd.",
         "image_height": "large",
