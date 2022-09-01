@@ -153,12 +153,11 @@ body.template_presale.presale-v2 main::before,
 	background-attachment: scroll;
 }
 body.template_presale.presale-v3 {
-	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/Sectaurs-Background-transparent_2.png?v=1661457893");
-	background-color: #214786;
+	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/Sectaurs-Background-transparent.webp?v=1662069748");
 }
 @media screen and (max-width: 749px) {
 	body.template_presale.presale-v3 {
-		background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/Sectaurs-Background-transparent-mobile.png?v=1661458480");
+		background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/Sectaurs-Background-transparent-mobile.webp?v=1662069748");
 	}
 	.presale-v3 .slider.product__media-list .product__media-item:first-of-type {
 		padding-left: 1.5rem;
