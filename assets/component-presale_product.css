@@ -154,6 +154,7 @@ body.template_presale.presale-v2 main::before,
 }
 body.template_presale.presale-v3 {
 	background-image: url("https://cdn.shopify.com/s/files/1/0524/2555/6159/files/Sectaurs-Background-transparent.webp?v=1662069748");
+    background-color: #0a2758;
 }
 @media screen and (max-width: 749px) {
 	body.template_presale.presale-v3 {
