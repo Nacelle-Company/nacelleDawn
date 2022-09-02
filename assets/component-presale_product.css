@@ -91,6 +91,10 @@ body.template_presale.presale {
 /*--------------------------------------------------------------
 # V2 Background
 --------------------------------------------------------------*/
+/* nacelle header logo */
+.presale-v2 .header__heading-logo {
+    filter: brightness(3);
+}
 /* v2 positioning fix */
 .presale-v2 .spaced-section:not(.spaced-section--full-width),
 .presale-v2 .footer {
