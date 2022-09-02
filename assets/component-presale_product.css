@@ -105,6 +105,7 @@ body.template_presale.presale {
 .presale-v2.gradient,
 .presale-v2 .search-modal {
 	background-color: #853a1a;
+    background-image: none;
 }
 .presale-v2::before,
 .presale-v2 .spaced-section::before,
