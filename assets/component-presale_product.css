@@ -101,7 +101,6 @@ body.template_presale.presale {
 /* mobile */
 .presale-v2 .spaced-section:last-child {
 	margin-bottom: 0;
-	padding-bottom: 5rem;
 }
 .presale-v2.gradient,
 .presale-v2 .search-modal {
