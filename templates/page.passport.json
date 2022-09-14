@@ -204,6 +204,14 @@
             "p_bullets": true
           }
         },
+        "25644113-8d15-4d88-8714-f04c2768ed02": {
+          "type": "column",
+          "settings": {
+            "title": "Minnesota",
+            "text": "<p><a href=\"https:\/\/www.nerdinout.com\/\" title=\"https:\/\/www.nerdinout.com\/\">NerdinOut, Inver Grove Heights<\/a><\/p><p><a href=\"https:\/\/www.nerdinout.com\/\" title=\"https:\/\/www.nerdinout.com\/\">NerdinOut, Rochester<\/a><\/p>",
+            "p_bullets": false
+          }
+        },
         "6ae84087-d2c5-4a9a-af1f-bdaa0fe358c6": {
           "type": "column",
           "settings": {
@@ -287,6 +295,7 @@
         "cfc02a15-7c24-4fd8-ac98-9bc9dcb3fbe2",
         "67b23698-781c-448a-9725-8e6f915d6cac",
         "981d17ee-46a9-47f3-9a5f-ce53da733b1d",
+        "25644113-8d15-4d88-8714-f04c2768ed02",
         "6ae84087-d2c5-4a9a-af1f-bdaa0fe358c6",
         "ca558218-3987-4999-ba8d-20f87c0ac3ef",
         "c4c124f6-b6c2-4620-a688-856eb405cd2f",
