@@ -4,6 +4,7 @@
       "type": "main-collection-banner",
       "settings": {
         "color_scheme": "default",
+        "collection_description_bk_none": false,
         "show_collection_description": false,
         "show_collection_title": true,
         "collection_description_center": false,
@@ -27,6 +28,7 @@
     },
     "16373985869e07d46b": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<span class=\"header\"><\/span>\n<span class=\"header\"><\/span>"
       }
