@@ -44,11 +44,48 @@
         "collection_description_center": true,
         "show_collection_image": false
       }
+    },
+    "1663284877a92f831f": {
+      "type": "collection-list",
+      "blocks": {
+        "1663284877db1ed41a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toys-collectibles"
+          }
+        },
+        "1663284877db1ed41a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        },
+        "1663284877db1ed41a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel"
+          }
+        }
+      },
+      "block_order": [
+        "1663284877db1ed41a-0",
+        "1663284877db1ed41a-1",
+        "1663284877db1ed41a-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
     "164677671632a680df",
     "product-grid",
-    "banner"
+    "banner",
+    "1663284877a92f831f"
   ]
 }
