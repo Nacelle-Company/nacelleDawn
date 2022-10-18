@@ -5,7 +5,7 @@
 		}
 	],
     "settings": {
-        "prettier.useTabs": true,
+        "prettier.enable": false,
         "editor.formatOnSave": false,
         "[liquid]": {
             "editor.formatOnSave": true
