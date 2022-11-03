@@ -281,8 +281,8 @@ reqJquery(function($){
          $(".wpd_net_shipping_amount").html(data.currency + data.ShippingCharges.price);
          $(".wpd_net_shipping_msg").html(data.ShippingCharges.title);              
          TempNetOrderPrice=parseFloat(data.wcp_total)+parseFloat(data.ShippingCharges.price);
-         TempNetOrderPrice=data.currency + TempNetOrderPrice
-         
+         TempNetOrderPrice = TempNetOrderPrice.toFixed(2);
+         TempNetOrderPrice=data.currency + TempNetOrderPrice;
         
        }
       
@@ -851,7 +851,7 @@ var fnCalled = false;
       $("#net-order-form-billing :input").prop("disabled", true);
       $("#net-order-form-billing :button").prop("disabled", true);      
       $("#wpd-net-place-order").prop("disabled", true);
-     
+      $("#wpd-net-place-order").addClass("wpd-button-loading");
      setTimeout(function(){
        submitNet30(window.wcp_data); 
       }, 1000);       
