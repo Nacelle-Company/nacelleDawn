@@ -478,7 +478,9 @@ h6,
 	margin-block-start: 1.67em;
 	margin-block-end: 1.67em;
 }
-
+.sub {
+	font-size: 0.75em;
+}
 blockquote {
 	font-style: italic;
 	color: rgba(var(--color-foreground), 0.75);
