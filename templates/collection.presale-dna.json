@@ -2,18 +2,35 @@
   "sections": {
     "164677671632a680df": {
       "type": "image-banner",
+      "blocks": {
+        "b9cb9b7e-da73-477f-a106-7f4132d3ed5c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Premium DNA",
+            "set_as_h1": true,
+            "heading_size": "large",
+            "desktop_heading_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "b9cb9b7e-da73-477f-a106-7f4132d3ed5c"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/madballs-garbage-pail-kids.png",
+        "image": "shopify:\/\/shop_images\/test-madballs.png",
         "image_mobile": "shopify:\/\/shop_images\/mobile-sectaurs-img-banner.webp",
         "mobile_padding": 76,
+        "image_over": "shopify:\/\/shop_images\/DNA_MB_PET3_web.png",
+        "image_2": "shopify:\/\/shop_images\/test-barnyard.png",
+        "image_2_over": "shopify:\/\/shop_images\/DNA_BC_HY2_web.png",
         "legal_text": "Artist rendering, final figure may vary. © 1983 Seventowns Ltd. © 2022 Seventowns Ltd.",
         "image_height": "large",
-        "adapt_height_first_image": true,
-        "lazy_disable": true,
-        "desktop_text_box_position": "flex-end",
-        "desktop_text_box_justification": "flex-end",
+        "adapt_height_first_image": false,
+        "lazy_disable": false,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
         "show_text_box": false,
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 40,
         "color_scheme": "inverse",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -53,11 +70,11 @@
         "product_selected_tag": "dna-madballs",
         "products_to_show": 12,
         "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
         "add_image_padding": false,
-        "show_image_outline": true,
+        "show_image_outline": false,
         "show_vendor": false,
         "show_rating": false
       }
