@@ -22,8 +22,8 @@
     "product-grid": {
       "type": "main-collection-presale-product-grid",
       "settings": {
-        "products_per_page": 8,
-        "image_ratio": "square",
+        "products_per_page": 20,
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": false,
