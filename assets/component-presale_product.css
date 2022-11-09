@@ -200,3 +200,10 @@ figcaption {
 		width: 480px;
 	}
 }
+
+/*--------------------------------------------------------------
+# Presale DNA
+--------------------------------------------------------------*/
+.template_presale.presale-dna {
+  background-image: linear-gradient(to bottom right, #90279c, #e17051, #f8e570);
+}

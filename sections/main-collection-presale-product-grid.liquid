@@ -1,3 +1,4 @@
+{%- if section.settings.show_default_product_grid -%}
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
@@ -65,12 +66,18 @@
     {%- endif -%}
   {%- endpaginate -%}
 </div>
-
+{%- endif -%}
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
   "class": "spaced-section collection-grid-section",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_default_product_grid",
+      "default": true,
+      "label": "Show default product grid"
+    },
     {
       "type": "range",
       "id": "products_per_page",
