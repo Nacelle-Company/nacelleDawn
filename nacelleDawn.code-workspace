@@ -8,7 +8,14 @@
         "prettier.enable": false,
         "editor.formatOnSave": false,
         "[liquid]": {
+            "editor.defaultFormatter": "sissel.shopify-liquid",
             "editor.formatOnSave": true
+        },
+        "[json]": {
+            "editor.defaultFormatter": "sissel.shopify-liquid"
+        },
+        "[html]": {
+            "editor.defaultFormatter": "sissel.shopify-liquid"
         },
         "css.format.enable": false
     }

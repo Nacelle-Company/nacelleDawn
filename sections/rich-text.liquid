@@ -3,8 +3,12 @@
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
-
-<div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+{%- liquid
+    if section.settings.desktop_no_top_space
+      assign desktop_no_top_space = "desktop_no_top_space"
+    endif
+-%}
+<div class="{{ desktop_no_top_space }} {% unless section.settings.full_width %}page-width{% endunless %}">
   <div class="rich-text color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width{% endif %}">
     <div class="rich-text__blocks">
       {%- for block in section.blocks -%}
@@ -27,7 +31,7 @@
 {
   "name": "t:sections.rich-text.name",
   "tag": "section",
-  "class": "spaced-section spaced-section--full-width",
+  "class": "spaced-section--full-width",
   "settings": [
     {
       "type": "select",
@@ -62,6 +66,12 @@
       "id": "full_width",
       "default": true,
       "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "desktop_no_top_space",
+      "default": false,
+      "label": "Desktop no top space"
     }
   ],
   "blocks": [
