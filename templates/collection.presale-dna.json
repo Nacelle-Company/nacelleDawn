@@ -18,7 +18,7 @@
         "image": "shopify:\/\/shop_images\/test-madballs.png",
         "image_2": "shopify:\/\/shop_images\/test-barnyard.png",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "show_text_box": false,
         "color_scheme": "inverse",
@@ -50,7 +50,7 @@
       "settings": {
         "color_scheme": "inverse",
         "full_width": true,
-        "desktop_no_top_space": false
+        "desktop_no_top_space": true
       }
     },
     "4ed8f5bb-f546-4529-a69a-73f8f6d2ed37": {
@@ -63,8 +63,8 @@
         "show_view_all": false,
         "swipe_on_mobile": true,
         "desktop_full_width": false,
-        "desktop_no_top_space": false,
-        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "desktop_no_top_space": true,
+        "background_color": "linear-gradient(190deg, rgba(161, 45, 159, 1), rgba(220, 118, 77, 1) 50%, rgba(248, 227, 119, 1) 100%)",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
@@ -135,8 +135,8 @@
       ],
       "settings": {
         "product": "madballs-trashin-pumpkin-action-figure",
-        "secondary_background": true,
-        "hide_variants": true,
+        "secondary_background": false,
+        "hide_variants": false,
         "enable_video_looping": false
       }
     },
@@ -164,7 +164,7 @@
       "settings": {
         "color_scheme": "inverse",
         "full_width": true,
-        "desktop_no_top_space": false
+        "desktop_no_top_space": true
       }
     },
     "4e65595d-fbcc-448d-ba19-3267d3589fa1": {
@@ -172,28 +172,19 @@
       "settings": {
         "title": "",
         "collection": "dna",
-        "product_selected_tag": "",
+        "product_selected_tag": "dna-barnyard",
         "products_to_show": 12,
         "show_view_all": false,
-        "swipe_on_mobile": false,
-        "desktop_full_width": false,
-        "desktop_no_top_space": false,
-        "background_color": "linear-gradient(#ffffff, #000000)",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "swipe_on_mobile": true,
+        "desktop_full_width": true,
+        "desktop_no_top_space": true,
+        "background_color": "linear-gradient(130deg, rgba(48, 146, 26, 1), rgba(235, 188, 112, 1) 72%, rgba(235, 188, 112, 1) 100%)",
+        "image_ratio": "square",
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "settings": {
-        "show_collection_description": false,
-        "show_collection_image": false,
-        "color_scheme": "inverse"
       }
     },
     "1663278570e12d9623": {
@@ -231,6 +222,15 @@
         "image_padding": false,
         "show_view_all": false
       }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "inverse"
+      }
     }
   },
   "order": [
@@ -241,7 +241,7 @@
     "e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0",
     "fef9915c-5389-4a0a-9eb4-5d74ad3ce878",
     "4e65595d-fbcc-448d-ba19-3267d3589fa1",
-    "banner",
-    "1663278570e12d9623"
+    "1663278570e12d9623",
+    "banner"
   ]
 }
