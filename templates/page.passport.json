@@ -96,7 +96,7 @@
           "type": "column",
           "settings": {
             "title": "Arkansas",
-            "text": "<p><a href=\"https:\/\/www.facebook.com\/mynerditure\/\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/mynerditure\/\">Warehouse 20, Pocahontas<\/a><\/p><p><a href=\"http:\/\/www.kapow-comics.com\/contact.html\" title=\"http:\/\/www.kapow-comics.com\/contact.html\">Kapow Comics, Sherwood<\/a><\/p>",
+            "text": "<p><a href=\"http:\/\/www.kapow-comics.com\/contact.html\" title=\"http:\/\/www.kapow-comics.com\/contact.html\">Kapow Comics, Sherwood<\/a><\/p><p><a href=\"https:\/\/www.facebook.com\/mynerditure\/\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/mynerditure\/\">Warehouse 20, Pocahontas<\/a><\/p>",
             "p_bullets": true
           }
         },
