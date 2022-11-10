@@ -33,9 +33,7 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-.desktop_no_top_space .rich-text {
-  margin-top: 0;
-}
+
 @media screen and (min-width: 750px) {
   /* .rich-text:not(.rich-text--full-width),
   .rich-text--full-width.color-background-1 {
@@ -47,7 +45,9 @@
     margin-top: calc(5rem + var(--page-width-margin));
     padding-bottom: calc(5rem + var(--page-width-margin));
   }
-
+  .desktop_no_top_space .rich-text {
+    margin-top: 0;
+  }
   .rich-text__blocks {
     max-width: 50rem;
   }

@@ -133,6 +133,7 @@
               <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
                 {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
               </div>
+              
               {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
                 <div class="product__tax caption rte">
                   {%- if shop.taxes_included -%}
@@ -143,7 +144,7 @@
                   {%- endif -%}
                 </div>
               {%- endif -%}
-              {%- if product != blank -%}
+              {%- if product != blank and block.settings.payment_options -%}
                 <div {{ block.shopify_attributes }}>
                   {%- form 'product', product -%}
                     <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
@@ -562,7 +563,15 @@
     {
       "type": "price",
       "name": "t:sections.featured-product.blocks.price.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "payment_options",
+          "label": "Payment options",
+          "default": true
+        }
+      ]
     },
     {
       "type": "quantity_selector",

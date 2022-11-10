@@ -7,6 +7,7 @@
     "settings": {
         "prettier.enable": false,
         "editor.formatOnSave": false,
+        "editor.showFoldingControls": "always",
         "[liquid]": {
             "editor.defaultFormatter": "sissel.shopify-liquid",
             "editor.formatOnSave": true

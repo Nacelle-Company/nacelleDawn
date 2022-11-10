@@ -7,7 +7,9 @@
           "type": "heading",
           "settings": {
             "heading": "Premium DNA",
-            "heading_size": "large"
+            "set_as_h1": false,
+            "heading_size": "large",
+            "desktop_heading_align": "center"
           }
         }
       },
@@ -16,11 +18,16 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/test-madballs.png",
+        "mobile_padding": 1,
         "image_2": "shopify:\/\/shop_images\/test-barnyard.png",
-        "image_overlay_opacity": 40,
+        "legal_text": "Enter legal text here.",
         "image_height": "medium",
         "adapt_height_first_image": false,
+        "lazy_disable": true,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
         "show_text_box": false,
+        "image_overlay_opacity": 40,
         "color_scheme": "inverse",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -111,31 +118,25 @@
         "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-2": {
           "type": "text",
           "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text": "﻿Racing out of the streets of the hit video game Need for Speed: No Limits and into your collection comes the new Trashin Pumpkin' Madballs action figure! Figure stands 6\" tall with 26 points of articulation and features MADular technology for part swapping fun!",
+            "text_style": "body"
           }
         },
         "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-3": {
           "type": "price",
           "settings": {
-          }
-        },
-        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
+            "payment_options": false
           }
         }
       },
       "block_order": [
         "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-1",
         "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-2",
-        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-3",
-        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-4"
+        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-3"
       ],
       "settings": {
         "product": "madballs-trashin-pumpkin-action-figure",
-        "secondary_background": false,
+        "secondary_background": true,
         "hide_variants": false,
         "enable_video_looping": false
       }
@@ -227,9 +228,12 @@
       "type": "main-collection-banner",
       "disabled": true,
       "settings": {
+        "color_scheme": "inverse",
+        "collection_description_bk_none": false,
         "show_collection_description": false,
-        "show_collection_image": false,
-        "color_scheme": "inverse"
+        "show_collection_title": true,
+        "collection_description_center": false,
+        "show_collection_image": false
       }
     }
   },

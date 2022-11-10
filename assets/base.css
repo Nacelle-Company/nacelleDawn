@@ -284,9 +284,10 @@ html.no-js .no-js-hidden {
 	margin-bottom: 0;
 }
 .desktop_no_top_space {
-	padding-top: 2rem;
+	padding-top: 0;
 }
 .desktop_no_top_space .product-grid {
+	padding-top: 4rem;
 	margin-top: 0;
 }
 body,
