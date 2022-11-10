@@ -7,9 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Premium DNA",
-            "set_as_h1": true,
-            "heading_size": "large",
-            "desktop_heading_align": "center"
+            "heading_size": "large"
           }
         }
       },
@@ -18,19 +16,11 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/test-madballs.png",
-        "image_mobile": "shopify:\/\/shop_images\/mobile-sectaurs-img-banner.webp",
-        "mobile_padding": 76,
-        "image_over": "shopify:\/\/shop_images\/DNA_MB_PET3_web.png",
         "image_2": "shopify:\/\/shop_images\/test-barnyard.png",
-        "image_2_over": "shopify:\/\/shop_images\/DNA_BC_HY2_web.png",
-        "legal_text": "Artist rendering, final figure may vary. © 1983 Seventowns Ltd. © 2022 Seventowns Ltd.",
+        "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
-        "lazy_disable": false,
-        "desktop_text_box_position": "center",
-        "desktop_text_box_justification": "center",
         "show_text_box": false,
-        "image_overlay_opacity": 40,
         "color_scheme": "inverse",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -59,7 +49,8 @@
       ],
       "settings": {
         "color_scheme": "inverse",
-        "full_width": true
+        "full_width": true,
+        "desktop_no_top_space": false
       }
     },
     "4ed8f5bb-f546-4529-a69a-73f8f6d2ed37": {
@@ -71,6 +62,9 @@
         "products_to_show": 12,
         "show_view_all": false,
         "swipe_on_mobile": true,
+        "desktop_full_width": false,
+        "desktop_no_top_space": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
@@ -102,7 +96,8 @@
       ],
       "settings": {
         "color_scheme": "inverse",
-        "full_width": true
+        "full_width": true,
+        "desktop_no_top_space": false
       }
     },
     "e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0": {
@@ -168,7 +163,8 @@
       ],
       "settings": {
         "color_scheme": "inverse",
-        "full_width": true
+        "full_width": true,
+        "desktop_no_top_space": false
       }
     },
     "4e65595d-fbcc-448d-ba19-3267d3589fa1": {
@@ -176,10 +172,13 @@
       "settings": {
         "title": "",
         "collection": "dna",
-        "product_selected_tag": "dna-barnyard",
+        "product_selected_tag": "",
         "products_to_show": 12,
         "show_view_all": false,
         "swipe_on_mobile": false,
+        "desktop_full_width": false,
+        "desktop_no_top_space": false,
+        "background_color": "linear-gradient(#ffffff, #000000)",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
@@ -192,12 +191,9 @@
       "type": "main-collection-banner",
       "disabled": true,
       "settings": {
-        "color_scheme": "inverse",
-        "collection_description_bk_none": false,
         "show_collection_description": false,
-        "show_collection_title": false,
-        "collection_description_center": false,
-        "show_collection_image": false
+        "show_collection_image": false,
+        "color_scheme": "inverse"
       }
     },
     "1663278570e12d9623": {
