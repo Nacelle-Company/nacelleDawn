@@ -15,8 +15,8 @@
         assign desktop_no_top_space = "desktop_no_top_space"
     endif
     if section.settings.collection.all_products_count > section.settings.products_to_show
-    assign products_to_display = section.settings.products_to_show
-    assign more_in_collection = true
+      assign products_to_display = section.settings.products_to_show
+      assign more_in_collection = true
     endif
 -%}
 <div class="collection {{ desktop_no_top_space }} page-width{% if section.settings.desktop_full_width %} page-width-full-width{% elsif section.settings.swipe_on_mobile == true and section.settings.collection.all_products_count > 2 and section.settings.products_to_show > 2 %}-desktop{% endif %}" style="background:{{ bk_color }}">
@@ -121,7 +121,7 @@
       "type": "range",
       "id": "products_to_show",
       "min": 2,
-      "max": 12,
+      "max": 16,
       "step": 2,
       "default": 4,
       "label": "t:sections.featured-collection.settings.products_to_show.label"
