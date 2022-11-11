@@ -3,31 +3,36 @@
     "164677671632a680df": {
       "type": "image-banner",
       "blocks": {
-        "b9cb9b7e-da73-477f-a106-7f4132d3ed5c": {
-          "type": "heading",
+        "9191be76-f9e5-4060-b1bb-de2e5150692c": {
+          "type": "buttons",
           "settings": {
-            "heading": "Premium DNA",
-            "set_as_h1": false,
-            "heading_size": "large",
-            "desktop_heading_align": "center"
+            "button_label_1": "MADBALLS",
+            "button_link_1": "#madballs",
+            "button_style_secondary_1": true,
+            "button_label_2": "BARNYARD COMMANDOS",
+            "button_link_2": "#barnyard-commandos",
+            "button_style_secondary_2": true,
+            "button_style_justification": "center"
           }
         }
       },
       "block_order": [
-        "b9cb9b7e-da73-477f-a106-7f4132d3ed5c"
+        "9191be76-f9e5-4060-b1bb-de2e5150692c"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/test-madballs.png",
+        "image": "shopify:\/\/shop_images\/madballs-img-banner.jpg",
         "mobile_padding": 1,
-        "image_2": "shopify:\/\/shop_images\/test-barnyard.png",
-        "legal_text": "Enter legal text here.",
-        "image_height": "medium",
+        "image_over": "shopify:\/\/shop_images\/DNA_MB_ALL.png",
+        "image_2": "shopify:\/\/shop_images\/barnyard-img-banner.jpg",
+        "image_2_over": "shopify:\/\/shop_images\/DNA_BC_X4_ALL.png",
+        "legal_text": "",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "lazy_disable": true,
-        "desktop_text_box_position": "center",
+        "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "center",
         "show_text_box": false,
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 0,
         "color_scheme": "inverse",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -69,7 +74,7 @@
         "products_to_show": 12,
         "show_view_all": false,
         "swipe_on_mobile": true,
-        "desktop_full_width": false,
+        "desktop_full_width": true,
         "desktop_no_top_space": true,
         "background_color": "linear-gradient(190deg, rgba(161, 45, 159, 1), rgba(220, 118, 77, 1) 50%, rgba(248, 227, 119, 1) 100%)",
         "image_ratio": "square",
@@ -127,16 +132,27 @@
           "settings": {
             "payment_options": false
           }
+        },
+        "18760b87-cb79-430d-836d-3bcef2d50c52": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
         }
       },
       "block_order": [
         "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-1",
         "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-2",
-        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-3"
+        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-3",
+        "18760b87-cb79-430d-836d-3bcef2d50c52"
       ],
       "settings": {
         "product": "madballs-trashin-pumpkin-action-figure",
         "secondary_background": true,
+        "background_color": "linear-gradient(190deg, rgba(253, 144, 90, 1), rgba(17, 75, 9, 1) 65%, rgba(0, 0, 0, 1) 100%)",
+        "background_color_secondary": "radial-gradient(rgba(49, 49, 49, 1) 4%, rgba(240, 104, 50, 1) 88%)",
+        "btn_color": "#f06832",
+        "txt_color": "#ffffff",
         "hide_variants": false,
         "enable_video_looping": false
       }
