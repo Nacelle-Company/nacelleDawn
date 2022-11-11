@@ -398,7 +398,10 @@
 @media screen and (min-width: 750px) {
     .banner__legal-text {
         font-size: 10px;
-            left: 20px;
-    bottom: 10px;
+		left: 20px;
+    	bottom: 10px;
     }
+	.banner__media-top {
+		object-position: top center !important;
+	}
 }
