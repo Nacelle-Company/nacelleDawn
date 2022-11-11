@@ -369,14 +369,6 @@
 	.banner__box {
 		max-width: 90rem;
 	}
-	.banner__box.banner__box-wide {
-		max-width: unset;
-		width: 100%;
-	}
-	.banner__box-wide .button:not(:only-child) {
-		flex: 0;
-		min-width: fit-content;
-	}
 }
 
 .banner__heading > *,
@@ -403,5 +395,16 @@
     }
 	.banner__media-top {
 		object-position: top center !important;
+	}
+	.banner__media-contain {
+		object-fit: contain !important;
+	}
+	.banner__box.banner__box-wide {
+		max-width: unset;
+		width: 100%;
+	}
+	.banner__box-wide .button:not(:only-child) {
+		flex: 0;
+		min-width: fit-content;
 	}
 }

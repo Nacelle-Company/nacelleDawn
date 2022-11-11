@@ -28,7 +28,7 @@
                             {{ block.settings.button_label | escape }}
                         </a>
                     {%- when 'image' -%}
-                      {{ block.settings.image_rt | image_url: width: 400 | image_tag: sizes: '(min-width:1600px) 960px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)', class: 'custom-class', loading: 'lazy' }}
+                      {{ block.settings.image_rt | image_url: width: 300 | image_tag: sizes: '(min-width:1600px) 960px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)', class: 'image__rich-text', loading: 'lazy' }}
                 {%- endcase -%}
             {%- endfor -%}
         </div>
