@@ -65,7 +65,8 @@
         "8f24b679-429c-4866-9df1-11ad50721f50": {
           "type": "image",
           "settings": {
-            "image_rt": "shopify:\/\/shop_images\/Classic_Madballs_Logo.png"
+            "image_rt": "shopify:\/\/shop_images\/Classic_Madballs_Logo.png",
+            "image_width_rt": "300"
           }
         },
         "template--15912698183871__751dc3b4-6fde-4bc5-aa9f-555b04d8855b-16680367229152a5b3-1": {
@@ -119,7 +120,8 @@
         "a8dc56d3-c24a-445f-b42c-5d9440957278": {
           "type": "image",
           "settings": {
-            "image_rt": "shopify:\/\/shop_images\/TU14_web_Logo_white_v1.png"
+            "image_rt": "shopify:\/\/shop_images\/TU14_web_Logo_white_v1.png",
+            "image_width_rt": "300"
           }
         },
         "template--15912698183871__341f2ba0-f332-49d6-bf10-96ae426d311c-166803702250006734-1": {
@@ -146,8 +148,8 @@
         "title": "",
         "collection": "dna",
         "product_selected_tag": "dna-need-for-speed",
-        "products_to_show": 6,
-        "show_view_all": true,
+        "products_to_show": 8,
+        "show_view_all": false,
         "swipe_on_mobile": false,
         "desktop_full_width": true,
         "desktop_no_top_space": true,
@@ -174,7 +176,8 @@
         "acdb00c9-f567-4a5d-84d1-1c665b692b51": {
           "type": "image",
           "settings": {
-            "image_rt": "shopify:\/\/shop_images\/BC_LOGO_VECTOR_whitebg_6f75fb79-18b2-4eb8-b8e7-8fdb6150dc81.png"
+            "image_rt": "shopify:\/\/shop_images\/barnyard-and-stealth_copy_c422058e-0a68-4ffb-9bdb-35f01cb12bd8.webp",
+            "image_width_rt": "600"
           }
         },
         "template--15912698183871__fef9915c-5389-4a0a-9eb4-5d74ad3ce878-16680367229152a5b3-1": {
@@ -192,7 +195,7 @@
       "settings": {
         "color_scheme": "inverse",
         "full_width": true,
-        "desktop_no_top_space": true
+        "desktop_no_top_space": false
       }
     },
     "4e65595d-fbcc-448d-ba19-3267d3589fa1": {
@@ -201,7 +204,7 @@
         "title": "",
         "collection": "dna",
         "product_selected_tag": "dna-barnyard",
-        "products_to_show": 12,
+        "products_to_show": 16,
         "show_view_all": false,
         "swipe_on_mobile": true,
         "desktop_full_width": true,
@@ -210,7 +213,7 @@
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
-        "show_image_outline": true,
+        "show_image_outline": false,
         "show_vendor": false,
         "show_rating": false
       }
@@ -265,6 +268,7 @@
     },
     "7cd34edf-c924-4e09-aca1-cfb91387814c": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<h1>Alternate top banners below<\/h1>"
       }
@@ -317,6 +321,7 @@
     },
     "227e6a7d-1640-49ce-8249-712c1671c65c": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--15912698183871__227e6a7d-1640-49ce-8249-712c1671c65c-166819158432220575-0": {
           "type": "heading",
