@@ -1,39 +1,60 @@
 {
   "sections": {
-    "54a06109-d22c-490d-bd09-4bba49a072ad": {
+    "47e4629b-4f2a-4eb2-a93b-712c38134469": {
       "type": "image-banner",
       "blocks": {
-        "template--15912698183871__54a06109-d22c-490d-bd09-4bba49a072ad-16681238445c1dfc72-2": {
+        "template--15912698183871__47e4629b-4f2a-4eb2-a93b-712c38134469-16681862566e7a48a0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>It's Freaky Fun <br\/>For Everyone!<\/p>",
+            "set_as_h1": true,
+            "heading_size": "large",
+            "desktop_heading_align": "right"
+          }
+        },
+        "fa679559-7e80-4c09-9215-170c81a9d626": {
+          "type": "text",
+          "settings": {
+            "text": "Madballs & Barnyard Commandos",
+            "desktop_text_align": "right"
+          }
+        },
+        "template--15912698183871__47e4629b-4f2a-4eb2-a93b-712c38134469-16681862566e7a48a0-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "GET YOURS NOW",
-            "button_link_1": "#barnyardcommandos",
-            "button_style_secondary_1": true,
-            "button_label_2": "GET YOURS NOW",
-            "button_link_2": "#madballs",
-            "button_style_secondary_2": true,
-            "button_style_justification": "space-between"
+            "button_link_1": "#madballs",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "flex-end"
           }
         }
       },
       "block_order": [
-        "template--15912698183871__54a06109-d22c-490d-bd09-4bba49a072ad-16681238445c1dfc72-2"
+        "template--15912698183871__47e4629b-4f2a-4eb2-a93b-712c38134469-16681862566e7a48a0-0",
+        "fa679559-7e80-4c09-9215-170c81a9d626",
+        "template--15912698183871__47e4629b-4f2a-4eb2-a93b-712c38134469-16681862566e7a48a0-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/dna-image-banner-02.jpg",
+        "image": "shopify:\/\/shop_images\/v2.gif",
+        "image_mobile": "shopify:\/\/shop_images\/v1.gif",
         "mobile_padding": 1,
-        "image_over": "shopify:\/\/shop_images\/DNA_BC_HY2_web.png",
-        "image_2_over": "shopify:\/\/shop_images\/DNA_MB_PET3_web.png",
-        "legal_text": "",
-        "image_height": "large",
-        "bk_img_top": true,
+        "legal_text": "Enter legal text here.",
+        "image_height": "medium",
+        "bk_img_top": false,
+        "bk_img_contain": true,
         "adapt_height_first_image": false,
-        "lazy_disable": true,
-        "desktop_text_box_position": "flex-end",
-        "desktop_text_box_justification": "center",
+        "lazy_disable": false,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
+        "text_box_bk_color": "",
         "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
+        "use_background_color": true,
+        "background_color": "linear-gradient(0deg, rgba(248, 227, 119, 1), rgba(220, 118, 77, 1) 70%, rgba(161, 45, 159, 1) 100%)",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -119,49 +140,24 @@
         "desktop_no_top_space": false
       }
     },
-    "e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0": {
-      "type": "featured-product",
-      "blocks": {
-        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-2": {
-          "type": "text",
-          "settings": {
-            "text": "﻿Racing out of the streets of the hit video game Need for Speed: No Limits and into your collection comes the new Trashin Pumpkin' Madballs action figure! Figure stands 6\" tall with 26 points of articulation and features MADular technology for part swapping fun!",
-            "text_style": "body"
-          }
-        },
-        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-3": {
-          "type": "price",
-          "settings": {
-            "payment_options": false
-          }
-        },
-        "18760b87-cb79-430d-836d-3bcef2d50c52": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-1",
-        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-2",
-        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-3",
-        "18760b87-cb79-430d-836d-3bcef2d50c52"
-      ],
+    "8f324e27-c396-4b18-8b6c-59b2ed56a3c9": {
+      "type": "featured-collection",
       "settings": {
-        "product": "madballs-trashin-pumpkin-action-figure",
-        "secondary_background": true,
-        "background_color": "linear-gradient(190deg, rgba(253, 144, 90, 1), rgba(17, 75, 9, 1) 65%, rgba(0, 0, 0, 1) 100%)",
-        "background_color_secondary": "radial-gradient(rgba(49, 49, 49, 1) 4%, rgba(240, 104, 50, 1) 88%)",
-        "btn_color": "#f06832",
-        "txt_color": "#ffffff",
-        "hide_variants": false,
-        "enable_video_looping": false
+        "title": "",
+        "collection": "dna",
+        "product_selected_tag": "dna-need-for-speed",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "desktop_full_width": true,
+        "desktop_no_top_space": true,
+        "background_color": "linear-gradient(222deg, rgba(253, 144, 90, 1), rgba(17, 75, 9, 1) 73%, rgba(0, 0, 0, 1) 100%)",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     },
     "fef9915c-5389-4a0a-9eb4-5d74ad3ce878": {
@@ -196,7 +192,7 @@
       "settings": {
         "color_scheme": "inverse",
         "full_width": true,
-        "desktop_no_top_space": true
+        "desktop_no_top_space": false
       }
     },
     "4e65595d-fbcc-448d-ba19-3267d3589fa1": {
@@ -267,57 +263,129 @@
         "show_collection_image": false
       }
     },
-    "164677671632a680df": {
-      "type": "image-banner",
+    "7cd34edf-c924-4e09-aca1-cfb91387814c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1>Alternate top banners below<\/h1>"
+      }
+    },
+    "e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0": {
+      "type": "featured-product",
       "disabled": true,
       "blocks": {
-        "9191be76-f9e5-4060-b1bb-de2e5150692c": {
+        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-2": {
+          "type": "text",
+          "settings": {
+            "text": "﻿Racing out of the streets of the hit video game Need for Speed: No Limits and into your collection comes the new Trashin Pumpkin' Madballs action figure! Figure stands 6\" tall with 26 points of articulation and features MADular technology for part swapping fun!",
+            "text_style": "body"
+          }
+        },
+        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-3": {
+          "type": "price",
+          "settings": {
+            "payment_options": false
+          }
+        },
+        "18760b87-cb79-430d-836d-3bcef2d50c52": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-1",
+        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-2",
+        "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-3",
+        "18760b87-cb79-430d-836d-3bcef2d50c52"
+      ],
+      "settings": {
+        "product": "madballs-trashin-pumpkin-action-figure",
+        "secondary_background": true,
+        "background_color": "linear-gradient(190deg, rgba(253, 144, 90, 1), rgba(17, 75, 9, 1) 65%, rgba(0, 0, 0, 1) 100%)",
+        "background_color_secondary": "radial-gradient(rgba(49, 49, 49, 1) 4%, rgba(240, 104, 50, 1) 88%)",
+        "btn_color": "#f06832",
+        "txt_color": "#ffffff",
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "227e6a7d-1640-49ce-8249-712c1671c65c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15912698183871__227e6a7d-1640-49ce-8249-712c1671c65c-166819158432220575-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Freaky fun for everyone!<\/p>",
+            "set_as_h1": true,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "template--15912698183871__227e6a7d-1640-49ce-8249-712c1671c65c-166819158432220575-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "template--15912698183871__227e6a7d-1640-49ce-8249-712c1671c65c-166819158432220575-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "MADBALLS",
-            "button_link_1": "#madballs",
-            "button_style_secondary_1": true,
-            "button_label_2": "BARNYARD COMMANDOS",
-            "button_link_2": "#barnyard-commandos",
-            "button_style_secondary_2": true,
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
             "button_style_justification": "center"
           }
         }
       },
       "block_order": [
-        "9191be76-f9e5-4060-b1bb-de2e5150692c"
+        "template--15912698183871__227e6a7d-1640-49ce-8249-712c1671c65c-166819158432220575-0",
+        "template--15912698183871__227e6a7d-1640-49ce-8249-712c1671c65c-166819158432220575-1",
+        "template--15912698183871__227e6a7d-1640-49ce-8249-712c1671c65c-166819158432220575-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/madballs-img-banner.jpg",
+        "image": "shopify:\/\/shop_images\/dna-image-banner-ALL-IMAGES.png",
         "mobile_padding": 1,
-        "image_over": "shopify:\/\/shop_images\/DNA_MB_ALL.png",
-        "image_2": "shopify:\/\/shop_images\/barnyard-img-banner.jpg",
-        "image_2_over": "shopify:\/\/shop_images\/DNA_BC_X4_ALL.png",
-        "legal_text": "",
-        "image_height": "large",
+        "legal_text": "Enter legal text here.",
+        "image_height": "medium",
         "bk_img_top": false,
+        "bk_img_contain": false,
         "adapt_height_first_image": false,
-        "lazy_disable": true,
-        "desktop_text_box_position": "flex-start",
+        "lazy_disable": false,
+        "desktop_text_box_position": "center",
         "desktop_text_box_justification": "center",
-        "show_text_box": false,
+        "show_text_box": true,
+        "text_box_bk_color": "",
         "image_overlay_opacity": 0,
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     }
   },
   "order": [
-    "54a06109-d22c-490d-bd09-4bba49a072ad",
+    "47e4629b-4f2a-4eb2-a93b-712c38134469",
     "751dc3b4-6fde-4bc5-aa9f-555b04d8855b",
     "4ed8f5bb-f546-4529-a69a-73f8f6d2ed37",
     "341f2ba0-f332-49d6-bf10-96ae426d311c",
-    "e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0",
+    "8f324e27-c396-4b18-8b6c-59b2ed56a3c9",
     "fef9915c-5389-4a0a-9eb4-5d74ad3ce878",
     "4e65595d-fbcc-448d-ba19-3267d3589fa1",
     "1663278570e12d9623",
     "banner",
-    "164677671632a680df"
+    "7cd34edf-c924-4e09-aca1-cfb91387814c",
+    "e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0",
+    "227e6a7d-1640-49ce-8249-712c1671c65c"
   ]
 }
