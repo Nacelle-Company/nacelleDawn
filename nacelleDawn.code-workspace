@@ -18,6 +18,7 @@
         "[html]": {
             "editor.defaultFormatter": "sissel.shopify-liquid"
         },
-        "css.format.enable": false
+        "css.format.enable": false,
+        "liquid.format.enable": false
     }
 }

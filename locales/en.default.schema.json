@@ -1994,6 +1994,14 @@
               "label": "Use outline button style"
             }
           }
+        },
+        "image": {
+          "name": "Image RT",
+          "settings": {
+            "image_rt": {
+              "label": "Image"
+            }
+          }
         }
       },
       "presets": {
