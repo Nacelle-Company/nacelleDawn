@@ -8,13 +8,18 @@
         "mobile_padding": 76,
         "legal_text": "Artist rendering, final figure may vary. © 1983 Seventowns Ltd. © 2022 Seventowns Ltd.",
         "image_height": "large",
-        "adapt_height_first_image": true,
+        "bk_img_top": false,
+        "bk_img_contain": false,
+        "adapt_height_first_image": false,
         "lazy_disable": true,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
+        "text_box_bk_color": "",
         "image_overlay_opacity": 0,
         "color_scheme": "inverse",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -22,6 +27,7 @@
     "product-grid": {
       "type": "main-collection-presale-product-grid",
       "settings": {
+        "show_default_product_grid": true,
         "products_per_page": 8,
         "image_ratio": "square",
         "show_secondary_image": true,
