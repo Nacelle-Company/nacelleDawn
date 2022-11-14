@@ -41,7 +41,7 @@
         "image": "shopify:\/\/shop_images\/v3.gif",
         "image_mobile": "shopify:\/\/shop_images\/v1.gif",
         "mobile_padding": 1,
-        "legal_text": "© 1983 DNA Ltd. © 2022 DNA Ltd.",
+        "legal_text": "",
         "image_height": "medium",
         "bk_img_top": false,
         "bk_img_contain": true,
@@ -83,7 +83,8 @@
       "settings": {
         "color_scheme": "inverse",
         "full_width": true,
-        "desktop_no_top_space": true
+        "desktop_no_top_space": true,
+        "section_id": ""
       }
     },
     "4ed8f5bb-f546-4529-a69a-73f8f6d2ed37": {
@@ -139,7 +140,8 @@
       "settings": {
         "color_scheme": "inverse",
         "full_width": true,
-        "desktop_no_top_space": false
+        "desktop_no_top_space": false,
+        "section_id": ""
       }
     },
     "8f324e27-c396-4b18-8b6c-59b2ed56a3c9": {
@@ -195,7 +197,8 @@
       "settings": {
         "color_scheme": "inverse",
         "full_width": true,
-        "desktop_no_top_space": false
+        "desktop_no_top_space": false,
+        "section_id": ""
       }
     },
     "4e65595d-fbcc-448d-ba19-3267d3589fa1": {
