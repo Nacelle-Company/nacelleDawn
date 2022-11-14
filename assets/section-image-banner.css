@@ -393,9 +393,6 @@
 		left: 20px;
     	bottom: 10px;
     }
-	.banner__media-top {
-		object-position: top center !important;
-	}
 	.banner__media-contain {
 		object-fit: contain !important;
 	}
@@ -407,4 +404,7 @@
 		flex: 0;
 		min-width: fit-content;
 	}
+}
+.banner__media-top {
+	object-position: top center !important;
 }

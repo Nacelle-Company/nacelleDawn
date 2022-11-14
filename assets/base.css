@@ -1200,15 +1200,21 @@ summary::-webkit-details-marker {
 	left: 0;
 	height: 100%;
 	width: 100%;
-    object-fit: contain;
-    object-position: center center;
+	object-fit: cover;
+    object-position: top center;
+}
+
+/* @media screen and (max-width: 749px) {
+    .media .banner__media-mobile {
+        object-fit: contain;
+    }
 }
 
 @media screen and (min-width: 750px) {
-    .media > *:not(.zoom):not(.deferred-media__poster-button):not(.img--over) {
+    .media .banner__media-desktop {
         object-fit: cover;
     }
-}
+} */
 
 .media > img {
 	object-fit: cover;
