@@ -1,13 +1,16 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-    {%- comment -%} REDIRECT to presale page {%- endcomment -%}
+    {%- comment -%} REDIRECT to presale page 
+      {% unless content_for_header contains 'designMode' %}
+        {% endunless %}
+    {%- endcomment -%}
     {% unless template != 'index' %}
-        {% unless content_for_header contains 'designMode' %}
+        
             <script>
                 window.location.href=('{{ shop.url }}/collections/dna');
             </script>
-        {% endunless %}
+        
     {% endunless %}
     
     {%- comment -%} REDIRECT to presale page end {%- endcomment -%}
