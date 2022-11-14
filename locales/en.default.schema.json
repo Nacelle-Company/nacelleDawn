@@ -1003,9 +1003,6 @@
               "options__3": {
                 "label": "Right"
               },
-              "options__4": {
-                "label": "Space between"
-              },
               "label": "Desktop button horizontal position"
             }
           }
@@ -1992,14 +1989,6 @@
             },
             "button_style_secondary": {
               "label": "Use outline button style"
-            }
-          }
-        },
-        "image": {
-          "name": "Image RT",
-          "settings": {
-            "image_rt": {
-              "label": "Image"
             }
           }
         }
