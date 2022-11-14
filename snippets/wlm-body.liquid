@@ -20,7 +20,7 @@
 		  {{ content_for_layout }}
 		</wlm>
 		<div id="wlmpnf" style="display:none;">{{ wlmPnfContent }}</div>
-        {% include "wlm-pwd-form" %}
+        {% render "wlm-pwd-form" %}
         <script type="text/javascript" id="wlm-helper">
         if( typeof wlm == "object" ) wlm.toggleContent(true);
       </script>

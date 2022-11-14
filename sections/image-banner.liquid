@@ -41,7 +41,7 @@
         }
         @media screen and (max-width: 749px) {
             .banner--large.banner--mobile-bottom:not(.banner--adapt) > .banner__media {
-                height: {{ section.settings.image_mobile.width | divided_by: 40 }}rem;
+                height: {{ section.settings.image_mobile.width | divided_by: 52 }}rem;
             }
         }
         @media screen and (min-width: 992px) {
@@ -88,7 +88,7 @@
   {% if section.settings.use_background_color %}style="background:{{ bk_color }}"{% endif %}
 >
     {%- if section.settings.image != blank -%}
-        <div class="banner__media testing media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+        <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
             <img 
               srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
                 {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}

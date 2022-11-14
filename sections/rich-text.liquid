@@ -7,12 +7,7 @@
     if section.settings.desktop_no_top_space
       assign desktop_no_top_space = "desktop_no_top_space"
     endif
-    for block in section.blocks
-      case block.type
-        when 'heading'
-        assign section_id = block.settings.heading | downcase | remove: " "
-      endcase
-    endfor
+    assign section_id = section.settings.section_id | downcase | remove: " "
 -%}
 <div class="{{ desktop_no_top_space }} {% unless section.settings.full_width %}page-width{% endunless %}" id="{{ section_id }}">
     <div class="rich-text color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width{% endif %}">
@@ -80,6 +75,11 @@
       "id": "desktop_no_top_space",
       "default": false,
       "label": "Desktop no top space"
+    },
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section ID"
     }
   ],
   "blocks": [
