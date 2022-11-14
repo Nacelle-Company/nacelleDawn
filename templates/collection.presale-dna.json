@@ -3,10 +3,10 @@
     "164677671632a680df": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/madballs-garbage-pail-kids.png",
-        "image_mobile": "shopify:\/\/shop_images\/mobile-sectaurs-img-banner.webp",
+        "image": "shopify:\/\/shop_images\/desktop-v4.gif",
+        "image_mobile": "shopify:\/\/shop_images\/mobile-v1.gif",
         "mobile_padding": 76,
-        "legal_text": "Artist rendering, final figure may vary. © 1983 Seventowns Ltd. © 2022 Seventowns Ltd.",
+        "legal_text": "",
         "image_height": "large",
         "adapt_height_first_image": true,
         "lazy_disable": true,
