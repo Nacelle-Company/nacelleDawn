@@ -25,14 +25,10 @@
         	{% endfor %}
        {% endpaginate %}
 {% endif %}
-
 </script>
-
-
 {% capture time_seed %}{{ 'now' | date: "%s" }}{% endcapture %}
 {% assign wholesale_pre_random = time_seed | times: 1103515245 | plus: 12345 | divided_by: 65536 | modulo: 32768 | modulo: 1000 %}
 <script id="wholesale_pre_order" src="https://{{shop.domain}}/apps/wholesale_pre_order/js/pre_order.js?v={{wholesale_pre_random}}"></script>
-
 <style>.preorder-display-flex{display:flex !important}</style>
 {% if template != 'cart' %}
 <script>
