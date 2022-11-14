@@ -38,8 +38,8 @@
         "template--15912698183871__47e4629b-4f2a-4eb2-a93b-712c38134469-16681862566e7a48a0-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/v3.gif",
-        "image_mobile": "shopify:\/\/shop_images\/v1.gif",
+        "image": "shopify:\/\/shop_images\/desktop-v4.gif",
+        "image_mobile": "shopify:\/\/shop_images\/mobile-v1.gif",
         "mobile_padding": 1,
         "legal_text": "",
         "image_height": "medium",
