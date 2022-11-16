@@ -19,7 +19,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/the-nacelle-store-Passport-pattern-lg.jpg",
         "mobile_padding": 1,
-        "legal_text": "Enter legal text here.",
+        "legal_text": "",
         "image_height": "medium",
         "bk_img_top": false,
         "bk_img_contain": false,
