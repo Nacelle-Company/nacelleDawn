@@ -6,7 +6,7 @@
         "16424352545607ad19-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>PASSPORT TO THE<br>\nTOY STORES <br>\nOF THE WORLD!<\/p>",
+            "heading": "<p><strong>PASSPORT TO THE<br\/>TOY STORES <br\/>OF THE WORLD<\/strong><\/p>",
             "set_as_h1": true,
             "heading_size": "large",
             "desktop_heading_align": "center"
@@ -21,13 +21,18 @@
         "mobile_padding": 1,
         "legal_text": "Enter legal text here.",
         "image_height": "medium",
+        "bk_img_top": false,
+        "bk_img_contain": false,
         "adapt_height_first_image": false,
         "lazy_disable": false,
         "desktop_text_box_position": "center",
         "desktop_text_box_justification": "center",
         "show_text_box": false,
+        "text_box_bk_color": "",
         "image_overlay_opacity": 0,
         "color_scheme": "text",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
@@ -62,7 +67,9 @@
       ],
       "settings": {
         "color_scheme": "accent-2",
-        "full_width": true
+        "full_width": true,
+        "desktop_no_top_space": false,
+        "section_id": ""
       }
     },
     "164246964578038a0f": {
