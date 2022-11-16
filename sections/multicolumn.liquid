@@ -22,11 +22,11 @@
         {{ section.settings.title | escape }}
       </h2>
       {% if section.settings.filter_show %}
-        <div class="multicolumn-filter">
-          <label for="searchbox hidden">Filter</label>
-          <input type="search" oninput="liveSearch()" id="searchbox" class="field__input" placeholder="Filter">
+        <form class="multicolumn-filter" autocomplete="off">
+          <label for="searchbox visually-hidden">Filter</label>
+          <input type="search" oninput="liveSearch()" id="searchbox" class="field__input" placeholder="Filter" autocomplete="off">
           {% render 'multicolumn-filter', sectionID: section_title %}
-        </div>
+        </form>
       {% endif %}
       {%- if section.settings.button_label != blank and section.settings.swipe_on_mobile -%}
         <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
