@@ -376,6 +376,12 @@
 	word-wrap: break-word;
 }
 
+@media screen and (min-width: 750px) {
+	.banner__text {
+		max-width: 41rem;
+	}
+}
+
 .banner__heading {
 	margin-bottom: 0;
 }
