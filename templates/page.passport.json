@@ -147,6 +147,14 @@
             "p_bullets": true
           }
         },
+        "5e274a9d-d160-47b5-8a65-3e5d22b86596": {
+          "type": "column",
+          "settings": {
+            "title": "Georgia",
+            "text": "<p><a href=\"https:\/\/battlegroundsgamesandcomics.com\/\" title=\"https:\/\/battlegroundsgamesandcomics.com\/\">Battlegrounds Games & Toys, Dalton<\/a><\/p>",
+            "p_bullets": false
+          }
+        },
         "ead5dae7-23e7-40f5-9bb8-9954470fffde": {
           "type": "column",
           "settings": {
@@ -302,6 +310,7 @@
         "35a316a3-73f2-4fd4-96f6-7fb246e7b439",
         "32129627-1d59-4706-ad0f-afd6035fa58a",
         "16424696456e795cc7-2",
+        "5e274a9d-d160-47b5-8a65-3e5d22b86596",
         "ead5dae7-23e7-40f5-9bb8-9954470fffde",
         "85bb8a6c-9460-4bb2-ac83-d9ff07b73181",
         "6821aecd-ea25-4154-993c-29fba2bd6007",
