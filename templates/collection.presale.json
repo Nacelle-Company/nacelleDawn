@@ -29,7 +29,7 @@
         "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "center",
         "show_text_box": false,
-        "text_box_bk_color": "rgb(49 49 49 \/ 74%)",
+        "text_box_bk_color": "",
         "image_overlay_opacity": 0,
         "color_scheme": "inverse",
         "use_background_color": false,
