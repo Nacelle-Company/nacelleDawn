@@ -39,9 +39,9 @@
         "template--15916813418687__d9cf4a81-f2bd-4cbb-97be-37c64402fb13-167097531351c320e8-0"
       ],
       "settings": {
-        "color_scheme": "inverse",
-        "full_width": false,
-        "desktop_no_top_space": false,
+        "color_scheme": "background-1",
+        "full_width": true,
+        "desktop_no_top_space": true,
         "section_id": ""
       }
     },
