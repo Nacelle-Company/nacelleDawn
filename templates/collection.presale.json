@@ -8,7 +8,7 @@
           "settings": {
             "heading": "<p>In Stock Now!<\/p>",
             "set_as_h1": true,
-            "heading_size": "medium",
+            "heading_size": "large",
             "desktop_heading_align": "center"
           }
         }
