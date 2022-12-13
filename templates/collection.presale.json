@@ -2,20 +2,6 @@
   "sections": {
     "164677671632a680df": {
       "type": "image-banner",
-      "blocks": {
-        "ebeafdd1-2ae1-47f0-81c9-483572e4ce6d": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>In Stock Now!<\/p>",
-            "set_as_h1": true,
-            "heading_size": "large",
-            "desktop_heading_align": "center"
-          }
-        }
-      },
-      "block_order": [
-        "ebeafdd1-2ae1-47f0-81c9-483572e4ce6d"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/3600x1700_Banner_Maxx_Wrecker_NoLegalLine_f1f70d7b-ad47-440a-9469-20441da86095.png",
         "image_mobile": "shopify:\/\/shop_images\/Roboforce_1285x1000_Banner_Maxx_Wrecker_NoLegalLine_1cc6565e-197a-431a-a034-6be657abe809.png",
