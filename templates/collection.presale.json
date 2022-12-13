@@ -107,6 +107,12 @@
         "image_padding": false,
         "show_view_all": false
       }
+    },
+    "f0b6b09a-424a-4407-bcb3-93573f26f451": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n#back_in_stock .rich-text {\n    background-color: transparent;\n    padding: 1em 0;\n}\n<\/style>"
+      }
     }
   },
   "order": [
@@ -114,6 +120,7 @@
     "d9cf4a81-f2bd-4cbb-97be-37c64402fb13",
     "product-grid",
     "banner",
-    "1663284877a92f831f"
+    "1663284877a92f831f",
+    "f0b6b09a-424a-4407-bcb3-93573f26f451"
   ]
 }
