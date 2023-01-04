@@ -295,7 +295,6 @@
         "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-3": {
           "type": "price",
           "settings": {
-            "payment_options": false
           }
         },
         "18760b87-cb79-430d-836d-3bcef2d50c52": {
@@ -314,10 +313,6 @@
       "settings": {
         "product": "madballs-trashin-pumpkin-action-figure",
         "secondary_background": true,
-        "background_color": "linear-gradient(190deg, rgba(253, 144, 90, 1), rgba(17, 75, 9, 1) 65%, rgba(0, 0, 0, 1) 100%)",
-        "background_color_secondary": "radial-gradient(rgba(49, 49, 49, 1) 4%, rgba(240, 104, 50, 1) 88%)",
-        "btn_color": "#f06832",
-        "txt_color": "#ffffff",
         "hide_variants": false,
         "enable_video_looping": false
       }

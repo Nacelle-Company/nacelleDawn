@@ -3,10 +3,10 @@
     "164677671632a680df": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/desktop-sectaurs-img-banner.webp",
-        "image_mobile": "shopify:\/\/shop_images\/mobile-sectaurs-img-banner.webp",
+        "image": "shopify:\/\/shop_images\/the-great-garloo-img-banner.webp",
+        "image_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-img-banner.webp",
         "mobile_padding": 76,
-        "legal_text": "Artist rendering, final figure may vary. © 1983 Seventowns Ltd. © 2022 Seventowns Ltd.",
+        "legal_text": "Artist rendering, final figure may vary. © 0000 Company Ltd. © 0000 Company Ltd.",
         "image_height": "large",
         "bk_img_top": false,
         "bk_img_contain": false,
