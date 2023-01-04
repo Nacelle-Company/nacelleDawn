@@ -9,7 +9,7 @@
         "editor.formatOnSave": false,
         "editor.showFoldingControls": "always",
         "[liquid]": {
-            "editor.defaultFormatter": "sissel.shopify-liquid",
+            "editor.defaultFormatter": "Shopify.theme-check-vscode",
             "editor.formatOnSave": true
         },
         "[json]": {
