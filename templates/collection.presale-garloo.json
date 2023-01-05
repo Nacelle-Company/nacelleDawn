@@ -1,5 +1,12 @@
 {
   "sections": {
+    "collection-settings": {
+      "type": "main-collection-settings",
+      "settings": {
+        "alter_collection_style": true,
+        "collection_settings_background_color": "#fff"
+      }
+    },
     "164677671632a680df": {
       "type": "image-banner",
       "settings": {
@@ -89,6 +96,7 @@
     }
   },
   "order": [
+    "collection-settings",
     "164677671632a680df",
     "product-grid",
     "banner",

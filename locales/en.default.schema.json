@@ -1259,6 +1259,14 @@
         }
       }
     },
+    "main-collection-settings": {
+      "name": "Collection settings",
+      "settings": {
+        "paragraph": {
+          "content": "Collection settings!"
+        }
+      }
+    },
     "main-collection-banner": {
       "name": "Collection banner",
       "settings": {

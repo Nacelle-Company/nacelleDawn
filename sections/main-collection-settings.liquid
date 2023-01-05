@@ -1,0 +1,75 @@
+{%- if section.settings.alter_collection_style -%}
+  <style>
+    {%- if section.settings.collection_background_image -%}
+    body.{{ collection.template_suffix }} {
+        background-image: url("{{ section.settings.collection_background_image | image_url: width: 1000 }}");
+        background-attachment: scroll;
+        {% if section.settings.collection_background_color_repeat != true %}
+        background-repeat: no-repeat;
+        background-size: cover;
+        {% endif %}
+    }
+    {%- endif -%}
+    {%- if section.settings.collection_background_color -%}
+    .content-for-layout, .template_presale .footer.gradient, .template_presale .header-wrapper {
+        background-color: {{ section.settings.collection_background_color }};
+    }
+    {%- endif -%}
+    {%- if section.settings.collection_text_color -%}
+    .header__icons *, .header__inline-menu .first-parent > .header__menu-item, .header__inline-menu .first-parent summary.header__menu-item > span {
+        color: {{ section.settings.collection_text_color }}
+    }
+    {%- endif -%}
+  </style>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.main-collection-settings.name",
+  "class": "main-collection-settings",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.main-collection-settings.settings.paragraph.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "alter_collection_style",
+      "label": "Alter collection style",
+      "default": false,
+      "info": "Change the collection style."
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "color",
+      "id": "collection_text_color",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Collection background"
+    },
+    {
+      "type": "color",
+      "id": "collection_background_color",
+      "label": "Background color",
+      "default": "#5899E1"
+    },
+    {
+      "type": "image_picker",
+      "id": "collection_background_image",
+      "label": "Collection background image"
+    },
+    {
+      "type": "checkbox",
+      "id": "collection_background_color_repeat",
+      "default": true,
+      "label": "Background image repeat"
+    }
+  ]
+}
+{% endschema %}
