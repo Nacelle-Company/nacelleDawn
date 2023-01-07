@@ -4,19 +4,37 @@
       "type": "main-collection-settings",
       "settings": {
         "alter_collection_style": true,
-        "collection_settings_background_color": "#fff"
+        "collection_text_color": "#313131",
+        "collection_bk_color": "#fefde0",
+        "collection_bk_overlay": "rgb(0 0 0 \/ 67%)",
+        "collection_bk_img_none": false,
+        "collection_bk_img_repeat": false
       }
     },
     "164677671632a680df": {
       "type": "image-banner",
+      "blocks": {
+        "e44c5ffd-2bce-406a-a52e-355a6a44d6c1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>dad<\/p>",
+            "set_as_h1": true,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "e44c5ffd-2bce-406a-a52e-355a6a44d6c1"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/the-great-garloo-img-banner.webp",
         "image_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-img-banner.webp",
         "mobile_padding": 76,
         "legal_text": "Artist rendering, final figure may vary. © 0000 Company Ltd. © 0000 Company Ltd.",
-        "image_height": "large",
-        "bk_img_top": false,
-        "bk_img_contain": false,
+        "image_height": "full",
+        "bk_img_top": true,
+        "bk_img_contain": true,
         "adapt_height_first_image": false,
         "lazy_disable": true,
         "desktop_text_box_position": "flex-end",
@@ -36,6 +54,7 @@
       "settings": {
         "show_default_product_grid": true,
         "products_per_page": 8,
+        "grid_background_image": "shopify:\/\/shop_images\/Garloo-background-image.webp",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,

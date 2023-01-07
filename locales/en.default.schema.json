@@ -848,6 +848,9 @@
           "options__3": {
             "label": "Large"
           },
+          "options__4": {
+            "label": "Full height"
+          },
           "info": "For best results, use an image with a 2:3 aspect ratio. [Learn more](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_text_box_position": {

@@ -5,9 +5,9 @@
 		}
 	],
     "settings": {
-        "prettier.enable": false,
+        "prettier.enable": true,
         "editor.formatOnSave": false,
-        "editor.showFoldingControls": "always",
+        "editor.showFoldingControls": "mouseover",
         "[liquid]": {
             "editor.defaultFormatter": "Shopify.theme-check-vscode",
             "editor.formatOnSave": true
@@ -18,7 +18,11 @@
         "[html]": {
             "editor.defaultFormatter": "sissel.shopify-liquid"
         },
-        "css.format.enable": false,
-        "liquid.format.enable": false
+        "css.format.enable": true,
+        "liquid.format.enable": true,
+        "editor.defaultFormatter": "sissel.shopify-liquid",
+        "[css]": {
+            "editor.defaultFormatter": "vscode.css-language-features"
+        }
     }
 }

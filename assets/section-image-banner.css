@@ -71,6 +71,9 @@
 	.banner--large:not(.banner--adapt) {
 		min-height: 66rem;
 	}
+	.banner--full:not(.banner--adapt) {
+		min-height: 74rem;
+	}
 }
 
 @media screen and (max-width: 749px) {
