@@ -6,6 +6,7 @@
         "alter_collection_style": true,
         "collection_text_color": "#ffffff",
         "collection_bk_color": "#fefde0",
+        "collection_background_image": "shopify:\/\/shop_images\/Group_2.webp",
         "collection_bk_overlay": "rgb(0 0 0 \/ 67%)",
         "collection_bk_img_none": false,
         "collection_bk_img_repeat": false
@@ -14,12 +15,12 @@
     "164677671632a680df": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/the-great-garloo-img-banner.webp",
+        "image": "shopify:\/\/shop_images\/Group_3.webp",
         "image_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-img-banner.webp",
         "mobile_padding": 76,
         "legal_text": "Artist rendering, final figure may vary. © 0000 Company Ltd. © 0000 Company Ltd.",
         "image_height": "large",
-        "bk_img_top": true,
+        "bk_img_top": false,
         "bk_img_contain": false,
         "adapt_height_first_image": false,
         "lazy_disable": true,
@@ -35,12 +36,23 @@
         "show_text_below": true
       }
     },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "color_scheme": "inverse",
+        "collection_description_bk_none": true,
+        "show_collection_description": true,
+        "show_collection_title": true,
+        "collection_description_center": false,
+        "show_collection_image": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-presale-product-grid",
       "settings": {
         "show_default_product_grid": true,
         "products_per_page": 8,
-        "grid_background_image": "shopify:\/\/shop_images\/Garloo-background-image.webp",
+        "grid_background_image": "shopify:\/\/shop_images\/Artboard_84586806-9e5c-47ab-b50c-45ca691ff0c4.webp",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
@@ -52,59 +64,91 @@
         "collapse_on_larger_devices": true
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
+    "f7a1aa4f-f381-45f8-87a2-a18146210571": {
+      "type": "custom-liquid",
       "settings": {
-        "color_scheme": "inverse",
-        "collection_description_bk_none": false,
-        "show_collection_description": true,
-        "show_collection_title": false,
-        "collection_description_center": true,
-        "show_collection_image": false
+        "custom_liquid": "<br>"
       }
     },
     "1663278570e12d9623": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "16632785705137c121-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "toys-collectibles"
           }
-        },
-        "16632785705137c121-1": {
-          "type": "featured_collection",
+        }
+      },
+      "block_order": [
+        "16632785705137c121-0"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "b074f296-7952-4bfa-b27e-9f1752cb3bb7": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-0": {
+          "type": "column",
           "settings": {
-            "collection": "accessories"
+            "image": "shopify:\/\/shop_images\/Garloo_1285x1000_128e96c9-8281-40f5-89bc-2e9e2835bb1c.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "p_bullets": false
           }
         },
-        "16632785705137c121-2": {
-          "type": "featured_collection",
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-1": {
+          "type": "column",
           "settings": {
-            "collection": "apparel"
+            "image": "shopify:\/\/shop_images\/GarlooPrintCutout_Color.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "p_bullets": false
+          }
+        },
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Garloo-Patch.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "p_bullets": false
           }
         }
       },
       "block_order": [
-        "16632785705137c121-0",
-        "16632785705137c121-1",
-        "16632785705137c121-2"
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-0",
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-1",
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-2"
       ],
       "settings": {
-        "title": "Collections",
-        "image_ratio": "square",
-        "color_scheme": "accent-1",
+        "title": "Other Garloo Products",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
         "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
+        "filter_show": false
       }
     }
   },
   "order": [
     "collection-settings",
     "164677671632a680df",
-    "product-grid",
     "banner",
-    "1663278570e12d9623"
+    "product-grid",
+    "f7a1aa4f-f381-45f8-87a2-a18146210571",
+    "1663278570e12d9623",
+    "b074f296-7952-4bfa-b27e-9f1752cb3bb7"
   ]
 }
