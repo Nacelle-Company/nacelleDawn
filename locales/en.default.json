@@ -209,7 +209,7 @@
   },
   "sections": {
     "header": {
-      "announcement": "AnnouncementTESTING",
+      "announcement": "AnnouncementTESTINGgggg",
       "menu": "Menu TEST",
       "cart_count": {
         "one": "{{ count }} item",
