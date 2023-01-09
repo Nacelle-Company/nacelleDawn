@@ -4,7 +4,12 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
 
-<link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link
+  rel="preload"
+  href="{{ 'component-rte.css' | asset_url }}"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+>
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -13,7 +18,12 @@
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
 
   <div class="page-width" id="main-collection-filters" data-id="{{ section.id }}">
-    {% render 'facets', results: collection, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, collapse_on_larger_devices: section.settings.collapse_on_larger_devices %}
+    {% render 'facets',
+      results: collection,
+      enable_filtering: section.settings.enable_filtering,
+      enable_sorting: section.settings.enable_sorting,
+      collapse_on_larger_devices: section.settings.collapse_on_larger_devices
+    %}
   </div>
 {%- endif -%}
 
@@ -24,8 +34,12 @@
         <div class="loading-overlay gradient"></div>
         <div class="title-wrapper center">
           <h2 class="title title--primary">
-            {{ 'sections.collection_template.empty' | t }}<br>
-            {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: "underlined-link link" }}
+            {{ 'sections.collection_template.empty' | t -}}
+            <br>
+            {{
+              'sections.collection_template.use_fewer_filters_html'
+              | t: link: collection.url, class: 'underlined-link link'
+            }}
           </h2>
         </div>
       </div>
@@ -33,27 +47,49 @@
       <div class="collection page-width">
         <div class="loading-overlay gradient"></div>
 
-      {%- comment -%}to return to default remove BELOW {%- endcomment -%}
+        {%- comment -%}to return to default remove BELOW {%- endcomment -%}
         {% if customer and customer.tags contains 'b2b' %}
           {% assign customer_b2b = true %}
         {% else %}
           {% assign customer_b2b = false %}
         {% endif %}
-      {%- comment -%}to return to default remove ABOVE {%- endcomment -%}
+        {%- comment -%}to return to default remove ABOVE {%- endcomment -%}
 
-        <ul id="product-grid" data-id="{{ section.id }}" class="
-          grid grid--2-col negative-margin product-grid
-          {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
-            {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
-          {% endif %}">
+        <ul
+          id="product-grid"
+          data-id="{{ section.id }}"
+          class="
+            grid grid--2-col negative-margin product-grid
+            {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
+              {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
+            {% endif %}
+          "
+        >
           {%- for product in collection.products -%}
-
-          {%- comment -%} to return to default remove BELOW {%- endcomment -%}
+            {%- comment -%} to return to default remove BELOW {%- endcomment -%}
             {%- if customer_b2b -%}
-          {%- comment -%}to return to default remove ABOVE {%- endcomment -%}
+              {%- comment -%}to return to default remove ABOVE {%- endcomment -%}
 
+              <li class="grid__item">
+                {%
+                  render 'product-card',
+                  product_card_product: product,
+                  product : product.
+                  media_size: section.settings.image_ratio,
+                  show_secondary_image: section.settings.show_secondary_image,
+                  add_image_padding: section.settings.add_image_padding,
+                  show_vendor: section.settings.show_vendor,
+                  show_image_outline: section.settings.show_image_outline,
+                  show_rating: section.settings.show_rating
+                %}
+              </li>
+
+              {%- comment -%} to return to default remove BELOW {%- endcomment -%}
+            {%- elsif customer_b2b == false -%}
+              {%- if product.tags contains 'retail' -%}
                 <li class="grid__item">
-                  {% render 'product-card',
+                  {%
+                    render 'product-card',
                     product_card_product: product,
                     product : product.
                     media_size: section.settings.image_ratio,
@@ -64,26 +100,9 @@
                     show_rating: section.settings.show_rating
                   %}
                 </li>
-
-          {%- comment -%} to return to default remove BELOW {%- endcomment -%}
-            {%- elsif customer_b2b == false -%}
-              {%- if product.tags contains 'retail' -%}
-                <li class="grid__item">
-                  {% render 'product-card',
-                    product_card_product: product,
-                    product : product.
-                    media_size: section.settings.image_ratio,
-                    show_secondary_image: section.settings.show_secondary_image,
-                    add_image_padding: section.settings.add_image_padding,
-                    show_vendor: section.settings.show_vendor,
-                    show_image_outline: section.settings.show_image_outline,
-                    show_rating: section.settings.show_rating
-                  %}
-                </li>  
               {%- endif -%}
             {%- endif -%}
-          {%- comment -%}to return to default remove ABOVE {%- endcomment -%}
-
+            {%- comment -%}to return to default remove ABOVE {%- endcomment -%}
           {%- endfor -%}
         </ul>
 

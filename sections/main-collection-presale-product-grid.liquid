@@ -1,4 +1,4 @@
-<!-- main-collection-presale-product-grid.liquid -->
+<!-- Customizer section: PRODUCT GRID -->
 {%- if section.settings.show_default_product_grid -%}
   {{ 'template-collection.css' | asset_url | stylesheet_tag }}
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
@@ -30,18 +30,25 @@
       %}
     </div>
   {%- endif -%}
+
   {% if section.settings.grid_bk_img %}
     {% liquid
       assign gridBkImg = section.settings.grid_bk_img | image_url
+      assign gridBkImgMobile = section.settings.grid_bk_img_mobile | image_url
       assign gridBkImgPosition = section.settings.grid_bk_img_position
       assign gridBkImgRepeat = section.settings.grid_bk_img_repeat
     %}
     {% capture gridBk %}
       .product-grid-container {
-        background-image:url({{ gridBkImg }});
+        background-image:url({{ gridBkImgMobile }});
         background-position: {{ gridBkImgPosition }};
         background-repeat: {{ gridBkImgRepeat }};
         background-size: cover;
+      }
+      @media screen and (min-width: 1024px) {
+        .product-grid-container {
+          background-image: {{ gridBkImg }};
+        }
       }
     {% endcapture %}
     <style>
@@ -156,6 +163,12 @@
       "type": "image_picker",
       "id": "grid_bk_img",
       "label": "Section background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "grid_bk_img_mobile",
+      "label": "Mobile collection background image",
+      "info": "Suggested size 1500 x 1125px."
     },
     {
       "type": "select",

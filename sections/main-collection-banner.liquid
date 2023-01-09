@@ -1,5 +1,26 @@
 {{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
 <!-- MAIN COLLECTION BANNER -->
+{% if section.settings.mobile_top_spacing == 'margin_padding' %}
+  <style>
+    @media screen and (max-width: 1025px)  {
+      #shopify-section-{{ section.id }} {
+        margin-top: 0;
+      }
+      #shopify-section-{{ section.id }} .collection-hero {
+        padding-top: 0;
+      }
+    }
+  </style>
+{% elsif section.settings.mobile_top_spacing == 'margin' %}
+  <style>
+    @media screen and (max-width: 1025px)  {
+      #shopify-section-{{ section.id }} {
+        margin-top: 0;
+      }
+    }
+  </style>
+{% endif %}
+
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %}{% unless section.settings.color_scheme == 'default' or section.settings.collection_description_bk_none %} color-{{ section.settings.color_scheme }} gradient{% endunless %}{% if section.settings.collection_description_center %} center{% endif %} {% if section.settings.collection_description_bk_none %} transparent-bk{% endif %}">
   <div class="collection-hero__inner page-width">
     <div class="collection-hero__text-wrapper">
@@ -114,6 +135,30 @@
       "default": false,
       "label": "t:sections.main-collection-banner.settings.show_collection_image.label",
       "info": "t:sections.main-collection-banner.settings.show_collection_image.info"
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "select",
+      "id": "mobile_top_spacing",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "margin",
+          "label": "Remove margin only"
+        },
+        {
+          "value": "margin_padding",
+          "label": "Remove margin & padding"
+        }
+      ],
+      "default": "default",
+      "label": "Remove section top margin on mobile"
     }
   ]
 }

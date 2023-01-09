@@ -4,6 +4,7 @@
 {% if section.settings.collection_background_image %}
   {% liquid
     assign bkImageURL = section.settings.collection_background_image | image_url
+    assign bkImageURL_mobile = section.settings.collection_background_image_mobile | image_url
 
     # No background image checkbox enabled
     if section.settings.collection_bk_img_none
@@ -14,6 +15,8 @@
     unless section.settings.collection_bk_img_none
       if section.settings.collection_background_image
         assign bkImgProp = 'url(' | append: bkImageURL | append: ')'
+        assign bkImgProp_mobile = 'url(' | append: bkImageURL_mobile | append: ')'
+
         if section.settings.collection_bk_img_repeat
           assign bkImgRepeat = section.settings.collection_bk_img_repeat
         endif
@@ -38,6 +41,7 @@
       background-size: {{ bkImgSize }};
       background-attachment: {{ bkImgAtt }};
     }
+
   {% endcapture %}
 
   {% comment %} section styles for BODY image background {% endcomment %}
@@ -90,7 +94,7 @@
 {% endcomment %}
 {% if section.settings.collection_text_color %}
   {% capture styleTextColor %}
-    body *:not(.header__submenu *) {
+    body *:not(.header__submenu *):not(.menu-drawer *) {
       color: {{ section.settings.collection_text_color }} !important;
     }
   {% endcapture %}
