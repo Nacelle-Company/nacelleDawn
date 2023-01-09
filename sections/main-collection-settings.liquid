@@ -29,9 +29,10 @@
     assign bkColorProp = 'background-color:' | append: section.settings.collection_bk_color | append: ';'
   endif
   # BODY background overlay
-  if section.settings.collection_bk_overlay
-    assign bkOverlay = '.content-for-layout:before, #shopify-section-header:before, #shopify-section-footer:before {content: "";background-color:' | append: section.settings.collection_bk_overlay | append: ';width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: -1;}'
-  endif
+  # if section.settings.collection_bk_overlay
+  #   assign bkOverlay = '.content-for-layout:before, #shopify-section-header:before, #shopify-section-footer:before {content: "";background-color:' | append: section.settings.collection_bk_overlay | append: ';width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: -1;}'
+  # endif
+
   # BODY final styles
   capture bodyStyles
     if bkImage or bkColor
@@ -61,31 +62,93 @@
       echo '.header__icons *,.header__inline-menu .first-parent > .header__menu-item,.header__inline-menu .first-parent summary.header__menu-item > span,.content-for-layout *:not(.shopify-payment-button), .footer * {color: ' | append: section.settings.collection_text_color | append: ' !important;}'
     endcapture
   endif
-
-  # utilities
-  # remove first section top margin
-  capture utilityStyles
-    echo '.spaced-section:nth-of-type(1){margin-top:0;}'
-  endcapture
 %}
 {% capture customCSS %}
-  .content-for-layout,
-  #shopify-section-footer,
-  #shopify-section-header {
-      position: relative;
-  }
+
   body.presale-garloo {
-        background-repeat-y: repeat;
+    background-repeat-y: repeat;
     background-size: cover;
-        background-attachment: scroll;
+    background-attachment: scroll;
   }
 {% endcapture %}
+{% comment %}
+  NEW .body styles
+  NEW .body styles
+  NEW .body styles
+{% endcomment %}
+{% if section.settings.collection_background_image %}
+  {% liquid
+    assign bkImg = true
+    assign bkImageURL = section.settings.collection_background_image | image_url
+
+    if section.settings.collection_bk_img_none
+      assign bkImgProp = 'none'
+    endif
+
+    # background image
+    unless section.settings.collection_bk_img_none
+      if section.settings.collection_background_image
+        assign bkImgProp = 'url(' | append: bkImageURL | append: ')'
+        if section.settings.collection_bk_img_repeat
+          assign bkImgRepeat = section.settings.collection_bk_img_repeat
+        endif
+        if section.settings.collection_bk_img_size
+          assign bkImgSize = section.settings.collection_bk_img_size
+        endif
+      endif
+    endunless
+
+    if section.settings.collection_text_color != '#000000'
+      assign bkColorProp = section.settings.collection_text_color
+    endif
+  %}
+  {% capture bodyStylesNew %}
+    body.{{ template.suffix }}.gradient {
+      background-image: {{ bkImgProp }};
+      background-color: {{ bkColorProp }};
+      background-repeat: {{ bkImgRepeat }};
+      background-size: {{ bkImgSize }};
+    }
+  {% endcapture %}
+{% endif %}
+
+{% comment %}
+  BODY background overlay
+{% endcomment %}
+{% if section.settings.collection_bk_overlay %}
+  {% capture bkOverlay %}
+      .content-for-layout:before, 
+      #shopify-section-header:before, 
+      #shopify-section-footer:before {
+        content: "";
+        background-color: {{ section.settings.collection_bk_overlay }};
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+  {% endcapture %}
+{% endif %}
+
 <style>
   {{ customCSS }}
 </style>
 {%- if section.settings.alter_collection_style -%}
   <style>
-    {%- if bkCustom -%}body.{{ templateSuffix }} { {{ bodyStyles }} }{%- endif -%}{{ bkOverlay }}{{ textColor }}{{ bkNav }}{{ utilityStyles }}
+    {% if bkImg %}
+      .spaced-section:nth-of-type(1) {
+          margin-top: 0;
+      }
+      .content-for-layout,
+      #shopify-section-footer,
+      #shopify-section-header {
+          position: relative;
+      }
+    {% endif %}
+    {{ bodyStylesNew }}
+    {%- if bkCustom -%}body.{{ templateSuffix }} { {{ bodyStyles }} }{%- endif -%}{{ bkOverlay }}{{ textColor }}{{ bkNav }}
     {%- if section.settings.collection_text_color -%}
     .header__icons *, .header__inline-menu .first-parent > .header__menu-item, .header__inline-menu .first-parent summary.header__menu-item > span {
         color: {{ section.settings.collection_text_color }}
@@ -140,7 +203,8 @@
       "type": "text",
       "id": "collection_bk_overlay",
       "label": "Background overlay color",
-      "default": "rgb(0 0 0 / 67%)"
+      "default": "rgb(0 0 0 / 67%)",
+      "info": "Copy and paste rgba color code from this color picker: https://hslpicker.com/#000,0.55"
     },
     {
       "type": "checkbox",
@@ -149,10 +213,48 @@
       "label": "Background image none"
     },
     {
-      "type": "checkbox",
+      "type": "select",
+      "id": "collection_bk_img_size",
+      "label": "Background image size",
+      "options": [
+        {
+          "value": "contain",
+          "label": "Contain"
+        },
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "unset",
+          "label": "Unset"
+        }
+      ],
+      "default": "contain"
+    },
+    {
+      "type": "select",
       "id": "collection_bk_img_repeat",
-      "default": true,
-      "label": "Background image repeat"
+      "label": "Background image repeat",
+      "options": [
+        {
+          "value": "no-repeat",
+          "label": "No repeat"
+        },
+        {
+          "value": "repeat",
+          "label": "Repeat"
+        },
+        {
+          "value": "repeat-x",
+          "label": "Repeat horizontally"
+        },
+        {
+          "value": "repeat-y",
+          "label": "Repeat vertically"
+        }
+      ],
+      "default": "no-repeat"
     }
   ]
 }
