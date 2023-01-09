@@ -24,10 +24,10 @@
     assign bkRepeatProp = 'background-repeat:repeat;'
   endif
   # BODY background color props
-  if section.settings.collection_bk_color != '#f5f5f5'
-    assign bkColor = true
-    assign bkColorProp = 'background-color:' | append: section.settings.collection_bk_color | append: ';'
-  endif
+  # if section.settings.collection_bk_color != '#f5f5f5'
+  #   assign bkColor = true
+  #   assign bkColorProp = 'background-color:' | append: section.settings.collection_bk_color | append: ';'
+  # endif
   # BODY background overlay
   # if section.settings.collection_bk_overlay
   #   assign bkOverlay = '.content-for-layout:before, #shopify-section-header:before, #shopify-section-footer:before {content: "";background-color:' | append: section.settings.collection_bk_overlay | append: ';width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: -1;}'
@@ -57,11 +57,11 @@
   endif
 
   # text color
-  if section.settings.collection_text_color != '#000000'
-    capture textColor
-      echo '.header__icons *,.header__inline-menu .first-parent > .header__menu-item,.header__inline-menu .first-parent summary.header__menu-item > span,.content-for-layout *:not(.shopify-payment-button), .footer * {color: ' | append: section.settings.collection_text_color | append: ' !important;}'
-    endcapture
-  endif
+  # if section.settings.collection_text_color != '#000000'
+  #   capture textColor
+  #     echo '.header__icons *,.header__inline-menu .first-parent > .header__menu-item,.header__inline-menu .first-parent summary.header__menu-item > span,.content-for-layout *:not(.shopify-payment-button), .footer * {color: ' | append: section.settings.collection_text_color | append: ' !important;}'
+  #   endcapture
+  # endif
 %}
 {% capture customCSS %}
 
@@ -79,6 +79,7 @@
 {% if section.settings.collection_background_image %}
   {% liquid
     assign bkImg = true
+    assign bkOverlay = ''
     assign bkImageURL = section.settings.collection_background_image | image_url
 
     if section.settings.collection_bk_img_none
@@ -95,19 +96,22 @@
         if section.settings.collection_bk_img_size
           assign bkImgSize = section.settings.collection_bk_img_size
         endif
+        assign bkImgAtt = section.settings.collection_bk_img_attachment
       endif
     endunless
 
-    if section.settings.collection_text_color != '#000000'
-      assign bkColorProp = section.settings.collection_text_color
+    # background color
+    if section.settings.collection_bk_color != blank
+      assign bkColorProp = section.settings.collection_bk_color
     endif
   %}
   {% capture bodyStylesNew %}
     body.{{ template.suffix }}.gradient {
       background-image: {{ bkImgProp }};
-      background-color: {{ bkColorProp }};
       background-repeat: {{ bkImgRepeat }};
+      background-color: {{ bkColorProp }};
       background-size: {{ bkImgSize }};
+      background-attachment: {{ bkImgAtt }};
     }
   {% endcapture %}
 {% endif %}
@@ -115,7 +119,7 @@
 {% comment %}
   BODY background overlay
 {% endcomment %}
-{% if section.settings.collection_bk_overlay %}
+{% if section.settings.collection_bk_overlay != blank %}
   {% capture bkOverlay %}
       .content-for-layout:before, 
       #shopify-section-header:before, 
@@ -132,11 +136,21 @@
   {% endcapture %}
 {% endif %}
 
-<style>
-  {{ customCSS }}
-</style>
+{% comment %}
+  TEXT COLOR
+{% endcomment %}
+{% if section.settings.collection_text_color %}
+  {% capture styleTextColor %}
+    body * {
+      color: {{ section.settings.collection_text_color }} !important;
+    }
+  {% endcapture %}
+{% endif %}
+
 {%- if section.settings.alter_collection_style -%}
   <style>
+    {{ bodyStylesNew }}
+    {{ styleTextColor }}
     {% if bkImg %}
       .spaced-section:nth-of-type(1) {
           margin-top: 0;
@@ -146,15 +160,10 @@
       #shopify-section-header {
           position: relative;
       }
+      {{ bkOverlay }}
     {% endif %}
-    {{ bodyStylesNew }}
-    {%- if bkCustom -%}body.{{ templateSuffix }} { {{ bodyStyles }} }{%- endif -%}{{ bkOverlay }}{{ textColor }}{{ bkNav }}
-    {%- if section.settings.collection_text_color -%}
-    .header__icons *, .header__inline-menu .first-parent > .header__menu-item, .header__inline-menu .first-parent summary.header__menu-item > span {
-        color: {{ section.settings.collection_text_color }}
-    }
-    {%- endif -%}
-    {{ textColor }}
+
+    {%- if bkCustom -%}body.{{ templateSuffix }} { {{ bodyStyles }} }{%- endif -%}{{ bkNav }}
   </style>
 {%- endif -%}
 
@@ -203,8 +212,8 @@
       "type": "text",
       "id": "collection_bk_overlay",
       "label": "Background overlay color",
-      "default": "rgb(0 0 0 / 67%)",
-      "info": "Copy and paste rgba color code from this color picker: https://hslpicker.com/#000,0.55"
+      "default": "rgba(0, 0, 0, 0.67)",
+      "info": "Overlay color on top of the background image. Copy and paste rgba color code from this [Color Picker](https://hslpicker.com) ex: rgba(0, 0, 0, 0.67)"
     },
     {
       "type": "checkbox",
@@ -255,6 +264,22 @@
         }
       ],
       "default": "no-repeat"
+    },
+    {
+      "type": "select",
+      "id": "collection_bk_img_attachment",
+      "label": "Background image attachment",
+      "options": [
+        {
+          "value": "scroll",
+          "label": "Scroll"
+        },
+        {
+          "value": "fixed",
+          "label": "Fixed"
+        }
+      ],
+      "default": "scroll"
     }
   ]
 }

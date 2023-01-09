@@ -30,12 +30,25 @@
       %}
     </div>
   {%- endif -%}
-  {% liquid
-    if section.settings.grid_background_image
-      assign gridBkImg = section.settings.grid_background_image | image_url
-      echo '<style>.product-grid-container{background-image:url(' | append: gridBkImg | append: ');background-size: cover;background-position: center;}</style>'
-    endif
-  %}
+  {% if section.settings.grid_bk_img %}
+    {% liquid
+      assign gridBkImg = section.settings.grid_bk_img | image_url
+      assign gridBkImgPosition = section.settings.grid_bk_img_position
+      assign gridBkImgRepeat = section.settings.grid_bk_img_repeat
+    %}
+    {% capture gridBk %}
+      .product-grid-container {
+        background-image:url({{ gridBkImg }});
+        background-position: {{ gridBkImgPosition }};
+        background-repeat: {{ gridBkImgRepeat }};
+        background-size: cover;
+      }
+    {% endcapture %}
+    <style>
+      {{ gridBk }}
+    </style>
+  {% endif %}
+
   {% comment %}
     PRODUCT GRID BACKGROUND OVERLAY
       {% capture variable %}
@@ -64,9 +77,6 @@
         }
       {% endcapture %}
   {% endcomment %}
-  <style>
-    {{ variable }}
-  </style>
   <div id="ProductGridContainer" class="product-grid-container">
     {%- paginate collection.products by section.settings.products_per_page -%}
       {%- if collection.products.size == 0 -%}
@@ -144,8 +154,60 @@
     },
     {
       "type": "image_picker",
-      "id": "grid_background_image",
+      "id": "grid_bk_img",
       "label": "Section background image"
+    },
+    {
+      "type": "select",
+      "id": "grid_bk_img_position",
+      "label": "Background image position",
+      "options": [
+        {
+          "value": "left top",
+          "label": "Left top"
+        },
+        {
+          "value": "left bottom",
+          "label": "Left bottom"
+        },
+        {
+          "value": "right top",
+          "label": "Right top"
+        },
+        {
+          "value": "right bottom",
+          "label": "Right bottom"
+        },
+        {
+          "value": "center",
+          "label": "center"
+        }
+      ],
+      "default": "left top"
+    },
+    {
+      "type": "select",
+      "id": "grid_bk_img_repeat",
+      "label": "Background image repeat",
+      "options": [
+        {
+          "value": "no-repeat",
+          "label": "No repeat"
+        },
+        {
+          "value": "repeat",
+          "label": "Repeat"
+        },
+        {
+          "value": "repeat-x",
+          "label": "Repeat horizontally"
+        },
+        {
+          "value": "repeat-y",
+          "label": "Repeat vertically"
+        }
+      ],
+      "default": "no-repeat"
     },
     {
       "type": "header",

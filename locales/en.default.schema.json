@@ -1295,6 +1295,9 @@
           "options__6": {
             "label": "Default"
           },
+          "options__7": {
+            "label": "None"
+          },
           "label": "Color scheme"
         },
         "collection_description_bk_none": {
