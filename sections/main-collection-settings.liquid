@@ -1,92 +1,16 @@
 {% comment %}
-  TODO:
-  -  pull all logic out into {% liquid %} entries/variables
-  - disable 'component-presale_product.css' if collection settings are on
-  - possibly load css file if collection settings enabled (need to move data between .liquid & .css files???)
-{% endcomment %}
-{% comment %} LOGIC & Variables {% endcomment %}
-{% liquid
-  # variables
-  assign templateSuffix = collection.template_suffix
-  assign bodyStyles = ''
-  assign textColor = ''
-  assign bkNav = ''
-
-  # BODY background image
-  if section.settings.collection_background_image
-    assign bkImage = true
-    assign bkImageURL = section.settings.collection_background_image | image_url
-    assign bkImageProp = 'background-image:url(' | append: bkImageURL | append: ');'
-  endif
-  # BODY background image repeat
-  if section.settings.collection_bk_img_repeat
-    assign bkRepeat = true
-    assign bkRepeatProp = 'background-repeat:repeat;'
-  endif
-  # BODY background color props
-  # if section.settings.collection_bk_color != '#f5f5f5'
-  #   assign bkColor = true
-  #   assign bkColorProp = 'background-color:' | append: section.settings.collection_bk_color | append: ';'
-  # endif
-  # BODY background overlay
-  # if section.settings.collection_bk_overlay
-  #   assign bkOverlay = '.content-for-layout:before, #shopify-section-header:before, #shopify-section-footer:before {content: "";background-color:' | append: section.settings.collection_bk_overlay | append: ';width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: -1;}'
-  # endif
-
-  # BODY final styles
-  capture bodyStyles
-    if bkImage or bkColor
-      assign bkCustom = true
-      if section.settings.collection_bk_img_none
-        echo 'background-image:none;'
-      elsif bkImage
-        echo bkImageProp
-        if bkRepeat
-          echo bkRepeatProp
-        endif
-      endif
-      if bkColor
-        echo bkColorProp
-      endif
-    endif
-  endcapture
-
-  # NAV
-  if bkImage or bkColor
-    assign bkNav = '.footer.gradient, .header-wrapper{background-color:transparent !important;background-image:none !important;}'
-  endif
-
-  # text color
-  # if section.settings.collection_text_color != '#000000'
-  #   capture textColor
-  #     echo '.header__icons *,.header__inline-menu .first-parent > .header__menu-item,.header__inline-menu .first-parent summary.header__menu-item > span,.content-for-layout *:not(.shopify-payment-button), .footer * {color: ' | append: section.settings.collection_text_color | append: ' !important;}'
-  #   endcapture
-  # endif
-%}
-{% capture customCSS %}
-
-  body.presale-garloo {
-    background-repeat-y: repeat;
-    background-size: cover;
-    background-attachment: scroll;
-  }
-{% endcapture %}
-{% comment %}
-  NEW .body styles
-  NEW .body styles
-  NEW .body styles
+  NEW background image styles
 {% endcomment %}
 {% if section.settings.collection_background_image %}
   {% liquid
-    assign bkImg = true
-    assign bkOverlay = ''
     assign bkImageURL = section.settings.collection_background_image | image_url
 
+    # No background image checkbox enabled
     if section.settings.collection_bk_img_none
       assign bkImgProp = 'none'
     endif
 
-    # background image
+    # background image uploaded
     unless section.settings.collection_bk_img_none
       if section.settings.collection_background_image
         assign bkImgProp = 'url(' | append: bkImageURL | append: ')'
@@ -105,6 +29,7 @@
       assign bkColorProp = section.settings.collection_bk_color
     endif
   %}
+  {% comment %} LOGIC end {% endcomment %}
   {% capture bodyStylesNew %}
     body.{{ template.suffix }}.gradient {
       background-image: {{ bkImgProp }};
@@ -112,6 +37,18 @@
       background-color: {{ bkColorProp }};
       background-size: {{ bkImgSize }};
       background-attachment: {{ bkImgAtt }};
+    }
+  {% endcapture %}
+
+  {% comment %} section styles for BODY image background {% endcomment %}
+  {% capture stylesSections %}
+    .spaced-section:nth-of-type(1) {
+        margin-top: 0;
+    }
+    .content-for-layout,
+    #shopify-section-footer,
+    #shopify-section-header {
+        position: relative;
     }
   {% endcapture %}
 {% endif %}
@@ -137,33 +74,36 @@
 {% endif %}
 
 {% comment %}
+  FOOTER background
+{% endcomment %}
+{% if section.settings.collection_background_image or section.settings.collection_bk_color %}
+  {% capture stylesFooter %}
+    .footer.gradient, .header-wrapper {
+      background-color: transparent !important;
+      background-image: none !important;
+    }
+  {% endcapture %}
+{% endif %}
+
+{% comment %}
   TEXT COLOR
 {% endcomment %}
 {% if section.settings.collection_text_color %}
   {% capture styleTextColor %}
-    body * {
+    body *:not(.header__submenu *) {
       color: {{ section.settings.collection_text_color }} !important;
     }
   {% endcapture %}
 {% endif %}
 
+{% comment %} Apply the new styles to a style element {% endcomment %}
 {%- if section.settings.alter_collection_style -%}
   <style>
     {{ bodyStylesNew }}
+    {{ bkOverlay }}
+    {{ stylesSections }}
     {{ styleTextColor }}
-    {% if bkImg %}
-      .spaced-section:nth-of-type(1) {
-          margin-top: 0;
-      }
-      .content-for-layout,
-      #shopify-section-footer,
-      #shopify-section-header {
-          position: relative;
-      }
-      {{ bkOverlay }}
-    {% endif %}
-
-    {%- if bkCustom -%}body.{{ templateSuffix }} { {{ bodyStyles }} }{%- endif -%}{{ bkNav }}
+    {{ stylesFooter }}
   </style>
 {%- endif -%}
 

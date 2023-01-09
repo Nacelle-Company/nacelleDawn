@@ -422,3 +422,6 @@
 .banner__media-top {
 	object-position: top center !important;
 }
+.color-none.gradient {
+	background-color: transparent;
+}

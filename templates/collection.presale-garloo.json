@@ -41,7 +41,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "color_scheme": "accent-1",
+        "color_scheme": "none",
         "collection_description_bk_none": false,
         "show_collection_description": true,
         "show_collection_title": true,
@@ -104,26 +104,26 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Garloo_1285x1000_128e96c9-8281-40f5-89bc-2e9e2835bb1c.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "The Great Garloo by Brian Reedy Lunchbox",
+            "text": "<p>This retro-style tin lunchbox features original Brian Reedy artwork! Friends, family and co-workers will be green with envy when they see this rad lunchbox!<\/p>",
             "p_bullets": false
           }
         },
         "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GarlooPrintCutout_Color.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/The-Great-Garloo-by-Brian-Reedy-Screen-Print-Poster-nacelle-store.webp",
+            "title": "The Great Garloo by Brian Reedy Screen Print Poster",
+            "text": "<p>Brian Reedy's stunning GREAT GARLOO original art is now available in vibrant, screen-printed color on premium poster stock.<\/p>",
             "p_bullets": false
           }
         },
         "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Garloo-Patch.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/The_Great_Garloo_Embroidered_Patch-nacelle-store.webp",
+            "title": "The Great Garloo Embroidered Patch",
+            "text": "<p>Unleash the monster on your jacket, hat or backpack with the Great Garloo emboidered patch! Our patch features exclusive artwork by Brian Reedy and is a perfect companion to your Great Garloo lunchbox and poster print.<\/p>",
             "p_bullets": false
           }
         }
@@ -136,10 +136,10 @@
       "settings": {
         "title": "Other Garloo Products",
         "image_width": "half",
-        "image_ratio": "circle",
+        "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false,
         "filter_show": false
