@@ -96,11 +96,23 @@
   {% endcapture %}
 {% endif %}
 
+{% comment %}
+  Navigation logo to white
+{% endcomment %}
+{% if section.settings.nav_logo_white %}
+  {% capture navLogoWhite %}
+    .header__heading-logo {
+      filter: brightness(3);
+    }
+  {% endcapture %}
+{% endif %}
+
 {% comment %} Apply the new styles to a style element {% endcomment %}
 {%- if section.settings.alter_collection_style -%}
   <style>
     {{ bodyStylesNew }}
     {{ bkOverlay }}
+    {{ navLogoWhite }}
     {{ stylesSections }}
     {{ styleTextColor }}
     {{ stylesFooter }}
@@ -132,6 +144,16 @@
       "id": "collection_text_color",
       "label": "Text color",
       "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Navigation"
+    },
+    {
+      "type": "checkbox",
+      "id": "nav_logo_white",
+      "label": "Top nav logo white",
+      "default": false
     },
     {
       "type": "header",
@@ -173,6 +195,10 @@
         {
           "value": "cover",
           "label": "Cover"
+        },
+        {
+          "value": "100% auto",
+          "label": "Full width"
         },
         {
           "value": "unset",

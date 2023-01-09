@@ -5,11 +5,12 @@
       "settings": {
         "alter_collection_style": true,
         "collection_text_color": "#ffffff",
+        "nav_logo_white": true,
         "collection_bk_color": "#81562a",
         "collection_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture.webp",
         "collection_bk_overlay": "rgba(0, 0, 0, 0.47)",
         "collection_bk_img_none": false,
-        "collection_bk_img_size": "contain",
+        "collection_bk_img_size": "100% auto",
         "collection_bk_img_repeat": "repeat-y",
         "collection_bk_img_attachment": "scroll"
       }
@@ -18,8 +19,8 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_3.webp",
-        "image_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-img-banner.webp",
-        "mobile_padding": 76,
+        "image_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-img-banner-nacelle-store.webp",
+        "mobile_padding": 40,
         "legal_text": "Artist rendering, final figure may vary. © 0000 Company Ltd. © 0000 Company Ltd.",
         "image_height": "large",
         "bk_img_top": false,
