@@ -1,5 +1,20 @@
 {
   "sections": {
+    "collection-settings": {
+      "type": "main-collection-settings",
+      "settings": {
+        "alter_collection_style": true,
+        "collection_text_color": "#ffffff",
+        "nav_logo_white": true,
+        "collection_bk_color": "radial-gradient(rgba(161, 45, 159, 1) 79%)",
+        "collection_bk_img_none": false,
+        "collection_background_image": "shopify:\/\/shop_images\/lol-tile-nacelle-store.webp",
+        "collection_bk_overlay": "rgba(0, 0, 0, 0.4)",
+        "collection_bk_img_size": "auto",
+        "collection_bk_img_repeat": "repeat",
+        "collection_bk_img_attachment": "scroll"
+      }
+    },
     "164677671632a680df": {
       "type": "image-banner",
       "settings": {
@@ -8,10 +23,10 @@
         "mobile_padding": 76,
         "legal_text": "Artist rendering, final figure may vary. © 2022 The Nacelle Company. Legends of Laughter™",
         "image_height": "large",
-        "bk_img_top": false,
+        "bk_img_top": true,
         "bk_img_contain": false,
-        "adapt_height_first_image": false,
-        "lazy_disable": false,
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
@@ -29,6 +44,8 @@
       "settings": {
         "show_default_product_grid": true,
         "products_per_page": 8,
+        "grid_bk_img_position": "left top",
+        "grid_bk_img_repeat": "no-repeat",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
@@ -48,7 +65,8 @@
         "show_collection_description": true,
         "show_collection_title": false,
         "collection_description_center": true,
-        "show_collection_image": false
+        "show_collection_image": false,
+        "mobile_top_spacing": "default"
       }
     },
     "166328472231987bdb": {
@@ -89,6 +107,7 @@
     }
   },
   "order": [
+    "collection-settings",
     "164677671632a680df",
     "product-grid",
     "banner",

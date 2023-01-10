@@ -1,5 +1,20 @@
 {
   "sections": {
+    "collection-settings": {
+      "type": "main-collection-settings",
+      "settings": {
+        "alter_collection_style": true,
+        "collection_text_color": "#ffffff",
+        "nav_logo_white": true,
+        "collection_bk_color": "radial-gradient(rgba(161, 45, 159, 1) 79%)",
+        "collection_bk_img_none": false,
+        "collection_background_image": "shopify:\/\/shop_images\/Bitmap-nacelle-store.webp",
+        "collection_bk_overlay": "",
+        "collection_bk_img_size": "100% auto",
+        "collection_bk_img_repeat": "repeat-y",
+        "collection_bk_img_attachment": "scroll"
+      }
+    },
     "164677671632a680df": {
       "type": "image-banner",
       "settings": {
@@ -119,6 +134,7 @@
     }
   },
   "order": [
+    "collection-settings",
     "164677671632a680df",
     "d9cf4a81-f2bd-4cbb-97be-37c64402fb13",
     "product-grid",

@@ -3,16 +3,16 @@
     "collection-settings": {
       "type": "main-collection-settings",
       "settings": {
-        "alter_collection_style": false,
-        "collection_text_color": "#000000",
-        "nav_logo_white": false,
-        "collection_bk_color": "linear-gradient(#ffffff, #000000)",
-        "collection_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture.webp",
-        "collection_bk_overlay": "rgba(0, 0, 0, 0.67)",
+        "alter_collection_style": true,
+        "collection_text_color": "#ffffff",
+        "nav_logo_white": true,
+        "collection_bk_color": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(0, 0, 0, 1) 100%)",
         "collection_bk_img_none": false,
-        "collection_bk_img_size": "auto",
-        "collection_bk_img_repeat": "unset",
-        "collection_bk_img_attachment": "fixed"
+        "collection_background_image": "shopify:\/\/shop_images\/Sectaurs-Background-transparent_f2129ec8-4e33-4b3d-8842-2c3596ea0377.webp",
+        "collection_bk_overlay": "",
+        "collection_bk_img_size": "100% auto",
+        "collection_bk_img_repeat": "repeat-y",
+        "collection_bk_img_attachment": "scroll"
       }
     },
     "164677671632a680df": {
@@ -44,6 +44,8 @@
       "settings": {
         "show_default_product_grid": true,
         "products_per_page": 8,
+        "grid_bk_img_position": "left top",
+        "grid_bk_img_repeat": "no-repeat",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
@@ -63,7 +65,8 @@
         "show_collection_description": true,
         "show_collection_title": false,
         "collection_description_center": true,
-        "show_collection_image": false
+        "show_collection_image": false,
+        "mobile_top_spacing": "default"
       }
     },
     "1663278570e12d9623": {
