@@ -1,14 +1,21 @@
 <!-- PRODUCT SETTINGS -->
 {{ 'component-animate.css' | asset_url | stylesheet_tag }}
-{%- capture textForColorClasses -%}
+
+{% comment %}
+  Text color classes
+{% endcomment %}
+{%- capture textColorClasses -%}
     .product__info-container *,
-    .header__inline-menu *,
+    .header__inline-menu *:not(.header__submenu *),
     .header__icons *,
     .footer__content-top *,
     .footer__content-bottom *
-    {% comment %}
-        body *:not(.header__submenu *):not(.menu-drawer *):not(.announcement-bar *):not(.product__modal-opener *)
-    {% endcomment %}
+{%- endcapture -%}
+
+{%- capture textColorFormClasses -%}
+    .button.product-form__submit, 
+    .newsletter-form .field__input, 
+    .localization-form .disclosure__button
 {%- endcapture -%}
 
 {% liquid
@@ -51,7 +58,8 @@
   # text color
   if section.settings.product_text_color != 'rgba(0,0,0,0)'
     assign stylesTextColor = section.settings.product_text_color
-    assign stylesTextColor = textForColorClasses | append: '{color:' | append: stylesTextColor | append: '!important;}'
+    assign stylesFormElements = textColorFormClasses | append: '{box-shadow:' | append: stylesTextColor | append: ' 0px 0px 0px 1.15px;}'
+    assign stylesTextColor = textColorClasses | append: '{color:' | append: stylesTextColor | append: '!important;}' | append: stylesFormElements
   endif
 
   # top nav logo
