@@ -4,13 +4,16 @@
       "type": "main-product-settings",
       "settings": {
         "alter_product_style": true,
-        "product_text_color": "#ff0000",
+        "product_text_color": "#313131",
+        "product_nav_text_color": "#ffffff",
         "nav_logo_white": true,
         "product_bk_color": "rgba(0,0,0,0)",
         "product_bk_img_none": false,
         "product_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture.webp",
+        "product_nav_background_image": "shopify:\/\/shop_images\/blue-line-texture-nacelle-store.webp",
         "product_background_image_top": "shopify:\/\/shop_images\/the-great-garloo-sketch-nacelle-store_623f0486-96e4-4de3-8ec3-b93dc4671d36.webp",
-        "product_bk_overlay": "rgba(0, 0, 0, 0.47)",
+        "product_bk_overlay": "",
+        "product_main_img_bk": "rgba(0, 0, 0, 0.47)",
         "product_bk_img_size": "100% auto",
         "product_bk_img_repeat": "repeat-y",
         "product_bk_img_attachment": "scroll"
