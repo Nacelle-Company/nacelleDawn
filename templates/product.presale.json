@@ -1,5 +1,19 @@
 {
   "sections": {
+    "product-settings": {
+      "type": "main-product-settings",
+      "settings": {
+        "alter_product_style": true,
+        "product_text_color": "#1878b9",
+        "nav_logo_white": true,
+        "product_bk_color": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(249, 32, 32, 1) 100%)",
+        "product_bk_img_none": false,
+        "product_bk_overlay": "rgba(0, 0, 0, 0.67)",
+        "product_bk_img_size": "100% auto",
+        "product_bk_img_repeat": "repeat-y",
+        "product_bk_img_attachment": "scroll"
+      }
+    },
     "main": {
       "type": "main-product_presale",
       "blocks": {
@@ -94,6 +108,7 @@
     }
   },
   "order": [
+    "product-settings",
     "main",
     "product-recommendations",
     "1639697036671b4f94"

@@ -1,0 +1,270 @@
+<!-- PRODUCT SETTINGS -->
+{% liquid
+  # background image uploaded
+  if section.settings.product_background_image
+    # background image
+    assign bkImageURL = section.settings.product_background_image | image_url
+    assign bkImgProp = 'background-image:url(' | append: bkImageURL | append: ');'
+    # background image repeat
+    if section.settings.product_bk_img_repeat != 'unset'
+      assign bkImgRepeat = section.settings.product_bk_img_repeat
+      assign bkImgRepeat = 'background-repeat:' | append: bkImgRepeat | append: ';'
+    endif
+    # background image size
+    if section.settings.product_bk_img_size != 'auto'
+      assign bkImgSize = section.settings.product_bk_img_size
+      assign bkImgSize = 'background-size:' | append: bkImgSize | append: ';'
+    endif
+    # background image attachment
+    if section.settings.product_bk_img_attachment != 'fixed'
+      assign bkImgAtt = section.settings.product_bk_img_attachment
+      assign bkImgAtt = 'background-attachment:' | append: bkImgAtt | append: ';'
+    endif
+  endif
+
+  # background color
+  if section.settings.product_bk_color != blank
+    assign bkColorProp = section.settings.product_bk_color
+    assign bkColorProp = 'background-color:' | append: bkColorProp | append: ';'
+  endif
+
+  # background color overlay
+  if section.settings.product_bk_overlay != blank
+    # section styles (if background image overlay is used)
+    assign stylesBkImgSections = '.content-for-layout,#shopify-section-footer,#shopify-section-header {position: relative;}'
+    assign bkColorOverlayProp = '.content-for-layout:before, #shopify-section-header:before, #shopify-section-footer:before {content: "";background-color:' | append: section.settings.product_bk_overlay | append: ';width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: -1;}'
+    assign bkColorOverlayProp = bkColorOverlayProp | append: stylesBkImgSections
+  endif
+
+  # text color
+  if section.settings.product_text_color != 'rgba(0,0,0,0)'
+    assign stylesTextColor = section.settings.product_text_color
+    assign stylesTextColor = 'body *:not(.header__submenu *):not(.menu-drawer *):not(.announcement-bar *) {color:' | append: stylesTextColor | append: '!important;}'
+  endif
+
+  # top nav logo
+  if section.settings.nav_logo_white
+    assign navLogoColor = '.header__heading-logo {filter: brightness(3);}'
+  endif
+
+  # additional top right background image
+  if section.settings.product_background_image_top
+    # html element
+    assign img = section.settings.product_background_image_top | image_url: width: 300
+    assign img = '<img src="' | append: img | append: '"/>'
+    # css pseudo element
+    # assign img = section.settings.product_background_image_top | image_url: width: 300
+    # assign selector = '.product-section::before{'
+    # assign selectorEnd = '}'
+    # assign propBkImg = 'background-image:url(' | append: img | append: ');'
+    # assign props = 'content:"";left:5vw;top:5vh;width:300px;height:100%;z-index:-2;background-repeat: no-repeat;position:absolute;'
+    # assign productTopRightBk = selector | append: props | append: propBkImg | append: selectorEnd
+  endif
+  # set FINAL styles
+  # background image none
+  if section.settings.product_bk_img_none == true
+    assign stylesBkImgNoneHeaderFooter = 'footer.footer.gradient, .gradient .header-wrapper{background-color: transparent !important;background-image:none;}'
+    assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{background-image:none;' | append: bkColorProp | append: '}' | append: stylesBkImgNoneHeaderFooter
+    # background image or color
+  elsif section.settings.product_background_image or section.settings.product_bk_color == blank
+    assign stylesBkImgFooter = '.footer.gradient, .header-wrapper {background-color: transparent !important;background-image: none !important;}'
+    assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{' | append: bkImgProp | append: bkImgRepeat | append: bkImgSize | append: bkImgAtt | append: bkColorProp | append: '}'
+  endif
+
+  assign stylesBkImg = '<style class="main_product_settings">' | append: stylesBkImgBody | append: stylesTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: productTopRightBk | append: '</style>'
+  if section.settings.alter_product_style
+    echo stylesBkImg
+  endif
+%}
+<div class="section">Scroll down to see the effect</div>
+<div class="section bg-static">
+  <div class="bg-move">
+    {% liquid
+      echo img
+    %}
+  </div>
+</div>
+<div class="section">The boat image is moving only when scrolling.</div>
+<script>
+  window.on('load resize scroll', function () {
+    document.getElementByClassName('bg-static').each(function () {
+      let windowTop = window.scrollTop();
+      let elementTop = this.offset().top;
+      let leftPosition = windowTop - elementTop;
+      this.find('.bg-move').css({ left: leftPosition });
+    });
+  });
+</script>
+<style>
+  .section {
+    position: relative;
+    max-width: 920px;
+    min-height: 75vh;
+    padding: 40px;
+    margin: auto;
+    background-color: #48c9b0;
+    color: #ffffff;
+  }
+  .section.bg-static {
+    background-color: #85c1e9;
+    background-image: url('https://www.dropbox.com/s/v4u0mpzfplgjxaq/img-blog-background-move-scrolling-bg.png?raw=1');
+    background-size: cover;
+    background-position: center;
+  }
+  .section .bg-move {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: auto;
+    width: 100%;
+    background-image: url('https://www.dropbox.com/s/isdqow2394y3t35/img-blog-background-move-scrolling-boat.png?raw=1');
+    background-size: cover;
+    background-position: center;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Product settings",
+  "class": "main-product-settings parallax",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Product settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "alter_product_style",
+      "label": "Alter product style",
+      "default": false,
+      "info": "Change the product style."
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "color",
+      "id": "product_text_color",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Navigation"
+    },
+    {
+      "type": "checkbox",
+      "id": "nav_logo_white",
+      "label": "Top nav logo white",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "product background"
+    },
+    {
+      "type": "color",
+      "id": "product_bk_color",
+      "label": "Background color",
+      "default": "transparent"
+    },
+    {
+      "type": "checkbox",
+      "id": "product_bk_img_none",
+      "default": false,
+      "label": "Background image none",
+      "info": "Uncheck for product background image to show."
+    },
+    {
+      "type": "image_picker",
+      "id": "product_background_image",
+      "label": "Product background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "product_background_image_top",
+      "label": "Product top right background image"
+    },
+    {
+      "type": "text",
+      "id": "product_bk_overlay",
+      "label": "Background overlay color",
+      "default": "rgba(0, 0, 0, 0.67)",
+      "info": "Overlay color on top of the background image. Copy and paste rgba color code from this [Color Picker](https://hslpicker.com) ex: rgba(0, 0, 0, 0.67)"
+    },
+    {
+      "type": "select",
+      "id": "product_bk_img_size",
+      "label": "Background image size",
+      "options": [
+        {
+          "value": "auto",
+          "label": "Auto"
+        },
+        {
+          "value": "contain",
+          "label": "Contain"
+        },
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "100% auto",
+          "label": "Full width"
+        },
+        {
+          "value": "unset",
+          "label": "Unset"
+        }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "product_bk_img_repeat",
+      "label": "Background image repeat",
+      "options": [
+        {
+          "value": "unset",
+          "label": "Unset"
+        },
+        {
+          "value": "no-repeat",
+          "label": "No repeat"
+        },
+        {
+          "value": "repeat",
+          "label": "Repeat"
+        },
+        {
+          "value": "repeat-x",
+          "label": "Repeat horizontally"
+        },
+        {
+          "value": "repeat-y",
+          "label": "Repeat vertically"
+        }
+      ],
+      "default": "unset"
+    },
+    {
+      "type": "select",
+      "id": "product_bk_img_attachment",
+      "label": "Background image attachment",
+      "options": [
+        {
+          "value": "scroll",
+          "label": "Scroll"
+        },
+        {
+          "value": "fixed",
+          "label": "Fixed"
+        }
+      ],
+      "default": "fixed"
+    }
+  ]
+}
+{% endschema %}
