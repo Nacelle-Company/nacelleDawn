@@ -1,4 +1,6 @@
 <!-- PRODUCT SETTINGS -->
+{{ 'component-animate.css' | asset_url | stylesheet_tag }}
+
 {% liquid
   # background image uploaded
   if section.settings.product_background_image
@@ -39,7 +41,7 @@
   # text color
   if section.settings.product_text_color != 'rgba(0,0,0,0)'
     assign stylesTextColor = section.settings.product_text_color
-    assign stylesTextColor = 'body *:not(.header__submenu *):not(.menu-drawer *):not(.announcement-bar *) {color:' | append: stylesTextColor | append: '!important;}'
+    assign stylesTextColor = 'body *:not(.header__submenu *):not(.menu-drawer *):not(.announcement-bar *):not(.product__modal-opener *) {color:' | append: stylesTextColor | append: '!important;}'
   endif
 
   # top nav logo
@@ -47,19 +49,12 @@
     assign navLogoColor = '.header__heading-logo {filter: brightness(3);}'
   endif
 
-  # additional top right background image
+  # animated background image
   if section.settings.product_background_image_top
-    # html element
-    assign img = section.settings.product_background_image_top | image_url: width: 300
-    assign img = '<img src="' | append: img | append: '"/>'
-    # css pseudo element
-    # assign img = section.settings.product_background_image_top | image_url: width: 300
-    # assign selector = '.product-section::before{'
-    # assign selectorEnd = '}'
-    # assign propBkImg = 'background-image:url(' | append: img | append: ');'
-    # assign props = 'content:"";left:5vw;top:5vh;width:300px;height:100%;z-index:-2;background-repeat: no-repeat;position:absolute;'
-    # assign productTopRightBk = selector | append: props | append: propBkImg | append: selectorEnd
+    assign img = section.settings.product_background_image_top
+    assign imgAnimate = '.animate-bk-img_left {background: url(' | append: img | append: ');}'
   endif
+
   # set FINAL styles
   # background image none
   if section.settings.product_bk_img_none == true
@@ -71,62 +66,26 @@
     assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{' | append: bkImgProp | append: bkImgRepeat | append: bkImgSize | append: bkImgAtt | append: bkColorProp | append: '}'
   endif
 
-  assign stylesBkImg = '<style class="main_product_settings">' | append: stylesBkImgBody | append: stylesTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: productTopRightBk | append: '</style>'
+  assign stylesBkImg = '<style class="main_product_settings">' | append: stylesBkImgBody | append: stylesTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: imgAnimate | append: '</style>'
   if section.settings.alter_product_style
     echo stylesBkImg
   endif
 %}
-<div class="section">Scroll down to see the effect</div>
-<div class="section bg-static">
-  <div class="bg-move">
-    {% liquid
-      echo img
-    %}
-  </div>
-</div>
-<div class="section">The boat image is moving only when scrolling.</div>
-<script>
-  window.on('load resize scroll', function () {
-    document.getElementByClassName('bg-static').each(function () {
-      let windowTop = window.scrollTop();
-      let elementTop = this.offset().top;
-      let leftPosition = windowTop - elementTop;
-      this.find('.bg-move').css({ left: leftPosition });
-    });
-  });
-</script>
+{% comment %}
+  Animate on scroll
+  danny boy! Link: https://codepen.io/rachsmith/post/how-to-move-elements-on-scroll-in-a-way-that-doesn-t-suck-too-bad
+  js: assets/global.js
+{% endcomment %}
+<div class="animate-bk-img animate-bk-img_left"><div></div></div>
 <style>
-  .section {
-    position: relative;
-    max-width: 920px;
-    min-height: 75vh;
-    padding: 40px;
-    margin: auto;
-    background-color: #48c9b0;
-    color: #ffffff;
-  }
-  .section.bg-static {
-    background-color: #85c1e9;
-    background-image: url('https://www.dropbox.com/s/v4u0mpzfplgjxaq/img-blog-background-move-scrolling-bg.png?raw=1');
-    background-size: cover;
-    background-position: center;
-  }
-  .section .bg-move {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: auto;
-    width: 100%;
-    background-image: url('https://www.dropbox.com/s/isdqow2394y3t35/img-blog-background-move-scrolling-boat.png?raw=1');
-    background-size: cover;
-    background-position: center;
+  .animate-bk-img_left {
+    background: url({{ img | image_url: width: 300 }});
   }
 </style>
-
 {% schema %}
 {
   "name": "Product settings",
-  "class": "main-product-settings parallax",
+  "class": "main-product-settings",
   "settings": [
     {
       "type": "paragraph",

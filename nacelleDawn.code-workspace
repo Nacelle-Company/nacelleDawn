@@ -24,6 +24,7 @@
         "editor.defaultFormatter": "sissel.shopify-liquid",
         "[css]": {
             "editor.defaultFormatter": "vscode.css-language-features"
-        }
+        },
+        "editor.insertSpaces": false
     }
 }
