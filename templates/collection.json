@@ -7,8 +7,9 @@
         "collection_description_bk_none": false,
         "show_collection_description": false,
         "show_collection_title": true,
-        "collection_description_center": false,
-        "show_collection_image": false
+        "collection_description_center": true,
+        "show_collection_image": false,
+        "mobile_top_spacing": "default"
       }
     },
     "product-grid": {

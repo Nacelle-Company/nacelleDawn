@@ -5,15 +5,7 @@
   {{ 'component-card.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
   {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
-  {% comment %}
-    {% if collection.template_suffix contains 'presale'
-      and collection.template_suffix != 'presale-garloo'
-      and collection.template_suffix != 'presale-v3'
-      and collection.template_suffix != 'presale-v2'
-    %}
-      {{ 'component-presale_product.css' | asset_url | stylesheet_tag }}
-    {% endif %}
-  {% endcomment %}
+
   <link
     rel="preload"
     href="{{ 'component-rte.css' | asset_url }}"
