@@ -94,7 +94,7 @@
 {% endcomment %}
 {% if section.settings.collection_text_color %}
   {% capture styleTextColor %}
-    body *:not(.header__submenu *):not(.menu-drawer *) {
+    body *:not(.header__submenu *):not(.menu-drawer *):not(.announcement-bar *) {
       color: {{ section.settings.collection_text_color }} !important;
     }
   {% endcapture %}

@@ -43,11 +43,18 @@
         background-image:url({{ gridBkImgMobile }});
         background-position: {{ gridBkImgPosition }};
         background-repeat: {{ gridBkImgRepeat }};
-        background-size: cover;
+        background-size: 100%;
       }
       @media screen and (min-width: 1024px) {
         .product-grid-container {
-          background-image: {{ gridBkImg }};
+          background-image:url({{ gridBkImg }});
+          background-size: 95%;
+        }
+      }
+      @media screen and (min-width: 1401px) {
+        .product-grid-container {
+          background-position: center;
+          background-size: 75%;
         }
       }
     {% endcapture %}
@@ -193,7 +200,7 @@
         },
         {
           "value": "center",
-          "label": "center"
+          "label": "Center"
         }
       ],
       "default": "left top"

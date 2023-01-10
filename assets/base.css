@@ -1900,6 +1900,7 @@ input[type="checkbox"] {
 .announcement-bar {
 	border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 	color: rgb(var(--color-foreground));
+	line-height: 1;
 }
 
 .announcement-bar__link {
@@ -1923,7 +1924,9 @@ input[type="checkbox"] {
 }
 
 .announcement-bar__link .announcement-bar__message {
-	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .announcement-bar__message {
@@ -1931,8 +1934,14 @@ input[type="checkbox"] {
 	padding: 1rem 2rem;
 	margin: 0;
 	letter-spacing: 0.1rem;
+	line-height: 1;
 }
-
+.announcement-bar__message.pretext {
+	padding-bottom: 0;
+}
+.announcement-bar__message p {
+	margin: 0;
+}
 /* section-header */
 #shopify-section-header {
 	z-index: 3;

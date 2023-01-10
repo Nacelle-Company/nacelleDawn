@@ -1,9 +1,12 @@
+<!-- Customizer section: IMAGE BANNER -->
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-{% if section.settings.mobile_padding != 1 %}
-  {% assign mobile_padding = section.settings.mobile_padding %}
-{% else %}
-  {% assign mobile_padding = '1 | divided_by: section.settings.image.aspect_ratio | times: 100' %}
-{% endif %}
+{% liquid
+  if section.settings.mobile_padding != 1
+    assign mobile_padding = section.settings.mobile_padding
+  else
+    assign mobile_padding = '1 | divided_by: section.settings.image.aspect_ratio | times: 100'
+  endif
+%}
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
@@ -11,10 +14,12 @@
         .banner__media-desktop {
             display: none !important;
         }
-        #Banner-{{ section.id }}::before, #Banner-{{ section.id }}.banner__media::before, #Banner-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
-            padding-bottom: {{ mobile_padding }}%;
+        #Banner-{{ section.id }}::before,
+        #Banner-{{ section.id }} .banner__media::before,
+        #Banner-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
             content: '';
             display: block;
+            padding-bottom: {{ mobile_padding }}%;
         }
     }
 
@@ -22,7 +27,8 @@
         .banner__media-mobile {
             display: none !important;
         }
-        #Banner-{{ section.id }}::before, #Banner-{{ section.id }}.banner__media::before {
+        #Banner-{{ section.id }}::before,
+        #Banner-{{ section.id }}.banner__media::before {
             padding-bottom: 55%;
             content: '';
             display: block;
