@@ -6,10 +6,13 @@
 {% endcomment %}
 {%- capture textColorClasses -%}
     .product__info-container *,
-    .header__inline-menu *:not(.header__submenu *),
-    .header__icons *,
     .footer__content-top *,
     .footer__content-bottom *
+{%- endcapture -%}
+
+{%- capture textColorClassesNav -%}
+    .header__inline-menu *:not(.header__submenu *),
+    .header__icons *
 {%- endcapture -%}
 
 {%- capture textColorFormClasses -%}
@@ -41,6 +44,11 @@
     endif
   endif
 
+  if section.settings.product_nav_background_image
+    assign navBk = section.settings.product_nav_background_image | image_url
+    assign navStyles = '.gradient .header-wrapper{background-image:url(' | append: navBk | append: ') !important;}'
+  endif
+
   # background color
   if section.settings.product_bk_color != blank
     assign bkColorProp = section.settings.product_bk_color
@@ -55,11 +63,23 @@
     assign bkColorOverlayProp = bkColorOverlayProp | append: stylesBkImgSections
   endif
 
+  # product main image background color
+  if section.settings.product_main_img_bk != blank
+    assign prodMainImgBk = section.settings.product_main_img_bk
+    assign prodMainImgBkStyle = '.product__media-list .product__modal-opener{background-color:' | append: prodMainImgBk | append: ';}'
+  endif
+
   # text color
   if section.settings.product_text_color != 'rgba(0,0,0,0)'
     assign stylesTextColor = section.settings.product_text_color
     assign stylesFormElements = textColorFormClasses | append: '{box-shadow:' | append: stylesTextColor | append: ' 0px 0px 0px 1.15px;}'
     assign stylesTextColor = textColorClasses | append: '{color:' | append: stylesTextColor | append: '!important;}' | append: stylesFormElements
+  endif
+
+  # nav text color
+  if section.settings.product_nav_text_color != 'rgba(0,0,0,0)'
+    assign stylesNavTextColor = section.settings.product_nav_text_color
+    assign stylesNavTextColor = textColorClassesNav | append: '{color:' | append: stylesNavTextColor | append: '!important;}'
   endif
 
   # top nav logo
@@ -70,7 +90,7 @@
   # animated background image
   if section.settings.product_background_image_top
     assign img = section.settings.product_background_image_top | image_url
-    assign imgAnimate = '.animate-bk-img_left {background: url(' | append: img | append: ');}'
+    assign imgAnimate = '.animate-bk-img_left {background-image: url(' | append: img | append: ');}'
   endif
 
   # set FINAL styles
@@ -84,7 +104,7 @@
     assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{' | append: bkImgProp | append: bkImgRepeat | append: bkImgSize | append: bkImgAtt | append: bkColorProp | append: '}'
   endif
 
-  assign stylesBkImg = '<style class="main_product_settings">' | append: stylesBkImgBody | append: stylesTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: imgAnimate | append: '</style>'
+  assign stylesBkImg = '<style class="main_product_settings">' | append: stylesBkImgBody | append: stylesTextColor | append: stylesNavTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: imgAnimate | append: navStyles | append: prodMainImgBkStyle | append: '</style>'
   if section.settings.alter_product_style
     echo stylesBkImg
   endif
@@ -123,6 +143,12 @@
       "default": "#000000"
     },
     {
+      "type": "color",
+      "id": "product_nav_text_color",
+      "label": "Nav text color",
+      "default": "#000000"
+    },
+    {
       "type": "header",
       "content": "Navigation"
     },
@@ -156,8 +182,14 @@
     },
     {
       "type": "image_picker",
+      "id": "product_nav_background_image",
+      "label": "Product nav background image"
+    },
+    {
+      "type": "image_picker",
       "id": "product_background_image_top",
-      "label": "Product top right background image"
+      "label": "Scrolling(paralax) background image",
+      "info": "Image moves as visitor scrolls up & down the page. Preferred size 300x418px."
     },
     {
       "type": "text",
@@ -165,6 +197,13 @@
       "label": "Background overlay color",
       "default": "rgba(0, 0, 0, 0.67)",
       "info": "Overlay color on top of the background image. Copy and paste rgba color code from this [Color Picker](https://hslpicker.com) ex: rgba(0, 0, 0, 0.67)"
+    },
+    {
+      "type": "text",
+      "id": "product_main_img_bk",
+      "label": "Product main image background color",
+      "default": "rgba(0, 0, 0, 0.67)",
+      "info": "Main image background color. Copy and paste rgba color code from this [Color Picker](https://hslpicker.com) ex: rgba(0, 0, 0, 0.67)"
     },
     {
       "type": "select",
