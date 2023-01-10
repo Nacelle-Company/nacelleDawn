@@ -8,6 +8,7 @@
         "nav_logo_white": true,
         "collection_bk_color": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(249, 32, 32, 1) 100%)",
         "collection_bk_img_none": false,
+        "collection_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture.webp",
         "collection_bk_overlay": "rgba(0, 0, 0, 0.67)",
         "collection_bk_img_size": "100% auto",
         "collection_bk_img_repeat": "repeat-y",
