@@ -2,11 +2,8 @@
   BACKGROUND COLOR/IMAGE
 {% endcomment %}
 {% liquid
-  # background image none
-  if section.settings.collection_bk_img_none == true
-    assign bkImgProp = 'background-image:none;'
-    # background image uploaded
-  elsif section.settings.collection_background_image
+  # background image uploaded
+  if section.settings.collection_background_image
     # background image
     assign bkImageURL = section.settings.collection_background_image | image_url
     assign bkImgProp = 'background-image:url(' | append: bkImageURL | append: ');'
@@ -25,106 +22,50 @@
       assign bkImgAtt = section.settings.collection_bk_img_attachment
       assign bkImgAtt = 'background-attachment:' | append: bkImgAtt | append: ';'
     endif
-    # footer styles (if background image is used)
-    assign stylesBkImgFooter = '.footer.gradient, .header-wrapper {background-color: transparent !important;background-image: none !important;}'
-    assign stylesBkImgSections = '.spaced-section:nth-of-type(1) {margin-top: 0;}.content-for-layout,#shopify-section-footer,#shopify-section-header {position: relative;}'
   endif
 
   # background color
-  if section.settings.collection_bk_color != 'rgba(0,0,0,0)'
+  if section.settings.collection_bk_color != 'linear-gradient(#ffffff, #000000)'
     assign bkColorProp = section.settings.collection_bk_color
-    assign bkColorProp = 'background-color:' | append: bkColorProp | append: ';'
+    assign bkColorProp = 'background:' | append: bkColorProp | append: ';'
+  endif
+
+  # background color overlay
+  if section.settings.collection_bk_overlay != blank
+    # section styles (if background image overlay is used)
+    assign stylesBkImgSections = '.content-for-layout,#shopify-section-footer,#shopify-section-header {position: relative;}'
+    assign bkColorOverlayProp = '.content-for-layout:before, #shopify-section-header:before, #shopify-section-footer:before {content: "";background-color:' | append: section.settings.collection_bk_overlay | append: ';width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: -1;}'
+    assign bkColorOverlayProp = bkColorOverlayProp | append: stylesBkImgSections
+  endif
+
+  # text color
+  if section.settings.collection_text_color != 'rgba(0,0,0,0)'
+    assign stylesTextColor = section.settings.collection_text_color
+    assign stylesTextColor = 'body *:not(.header__submenu *):not(.menu-drawer *):not(.announcement-bar *) {color:' | append: stylesTextColor | append: '!important;}'
+  endif
+
+  # top nav logo
+  if section.settings.nav_logo_white
+    assign navLogoColor = '.header__heading-logo {filter: brightness(3);}'
   endif
 
   # set FINAL styles
-  assign stylesBkImgBody = 'body.' | append: template.suffix | append: '{' | append: bkImgProp | append: bkImgRepeat | append: bkImgSize | append: bkImgAtt | append: bkColorProp | append: '}'
-  assign stylesBkImg = '<style class="bk_img_styles">' | append: stylesBkImgBody | append: stylesBkImgFooter | append: stylesBkImgSections | append: '</style>'
+  # background image none
+  if section.settings.collection_bk_img_none == true
+    assign stylesBkImgNoneHeaderFooter = 'footer.footer.gradient, .gradient .header-wrapper{background-color: transparent !important;background-image:none;}'
+    assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{background-image:none;' | append: bkColorProp | append: '}' | append: stylesBkImgNoneHeaderFooter
+  elsif section.settings.collection_background_image or section.settings.collection_bk_color != 'rgba(0,0,0,0)'
+    assign stylesBkImgFooter = '.footer.gradient, .header-wrapper {background-color: transparent !important;background-image: none !important;}'
+    assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{' | append: bkImgProp | append: bkImgRepeat | append: bkImgSize | append: bkImgAtt | append: bkColorProp | append: '}'
+  endif
+
+  # Fix first section margin top spacing
+  assign firstSectionMarginTop = '.spaced-section:nth-of-type(1) {margin-top: 0;}'
+  assign stylesBkImg = '<style class="bk_img_styles">' | append: stylesBkImgBody | append: stylesTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: firstSectionMarginTop | append: '</style>'
   if section.settings.alter_collection_style
     echo stylesBkImg
   endif
 %}
-
-{% comment %}
-  FINAL BODY STYLES
-{% endcomment %}
-{% if section.settings.collection_background_image or section.settings.collection_bk_color != 'rgba(0,0,0,0)' %}
-  {%- capture bodyStylesNew -%}
-    body.{{ template.suffix }} { {{ bkImgProp }}{{ bkImgRepeat }}{{ bkImgSize }}{{ bkImgAtt }}{{ bkColorProp }} }
-  {%- endcapture -%}
-{% endif %}
-
-{% comment %}
-  section styles for BODY image background
-{% endcomment %}
-{% capture stylesSections %}
-  .spaced-section:nth-of-type(1) {margin-top: 0;}.content-for-layout,#shopify-section-footer,#shopify-section-header {position: relative;}
-{% endcapture %}
-
-{% comment %}
-  BODY background overlay
-{% endcomment %}
-{% if section.settings.collection_bk_overlay != blank %}
-  {% capture bkOverlay %}
-      .content-for-layout:before, 
-      #shopify-section-header:before, 
-      #shopify-section-footer:before {
-        content: "";
-        background-color: {{ section.settings.collection_bk_overlay }};
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-      }
-  {% endcapture %}
-{% endif %}
-
-{% comment %}
-  FOOTER background
-{% endcomment %}
-{% if section.settings.collection_background_image or section.settings.collection_bk_color != blank %}
-  {% capture stylesFooter %}
-    .footer.gradient, .header-wrapper {
-      background-color: transparent !important;
-      background-image: none !important;
-    }
-  {% endcapture %}
-{% endif %}
-
-{% comment %}
-  TEXT COLOR
-{% endcomment %}
-{% if section.settings.collection_text_color %}
-  {% capture styleTextColor %}
-    body *:not(.header__submenu *):not(.menu-drawer *):not(.announcement-bar *) {
-      color: {{ section.settings.collection_text_color }} !important;
-    }
-  {% endcapture %}
-{% endif %}
-
-{% comment %}
-  Navigation logo to white
-{% endcomment %}
-{% if section.settings.nav_logo_white %}
-  {% capture navLogoWhite %}
-    .header__heading-logo {
-      filter: brightness(3);
-    }
-  {% endcapture %}
-{% endif %}
-
-{% comment %} Apply the new styles to a style element {% endcomment %}
-{%- if section.settings.alter_collection_style -%}
-  <style>
-    {{ bodyStylesNew }}
-    {{ bkOverlay }}
-    {{ navLogoWhite }}
-    {{ stylesSections }}
-    {{ styleTextColor }}
-    {{ stylesFooter }}
-  </style>
-{%- endif -%}
 
 {% schema %}
 {
@@ -167,10 +108,17 @@
       "content": "Collection background"
     },
     {
-      "type": "color",
+      "type": "color_background",
       "id": "collection_bk_color",
       "label": "Background color",
-      "default": "#f5f5f5"
+      "default": "linear-gradient(#ffffff, #000000)"
+    },
+    {
+      "type": "checkbox",
+      "id": "collection_bk_img_none",
+      "default": false,
+      "label": "Background image none",
+      "info": "Uncheck for collection background image to show."
     },
     {
       "type": "image_picker",
@@ -183,12 +131,6 @@
       "label": "Background overlay color",
       "default": "rgba(0, 0, 0, 0.67)",
       "info": "Overlay color on top of the background image. Copy and paste rgba color code from this [Color Picker](https://hslpicker.com) ex: rgba(0, 0, 0, 0.67)"
-    },
-    {
-      "type": "checkbox",
-      "id": "collection_bk_img_none",
-      "default": false,
-      "label": "Background image none"
     },
     {
       "type": "select",
