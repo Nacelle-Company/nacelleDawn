@@ -8,9 +8,9 @@
         "mobile_padding": 1,
         "legal_text": "Artist rendering, final figure may vary;  © 2022 The Nacelle Company, LLC. Nacelle™, Robo Force™",
         "image_height": "medium",
-        "bk_img_top": false,
-        "bk_img_contain": false,
-        "adapt_height_first_image": false,
+        "bk_img_top": true,
+        "bk_img_contain": true,
+        "adapt_height_first_image": true,
         "lazy_disable": false,
         "desktop_text_box_position": "flex-start",
         "desktop_text_box_justification": "center",
@@ -50,6 +50,8 @@
       "settings": {
         "show_default_product_grid": true,
         "products_per_page": 8,
+        "grid_bk_img_position": "left top",
+        "grid_bk_img_repeat": "no-repeat",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
@@ -69,7 +71,8 @@
         "show_collection_description": true,
         "show_collection_title": false,
         "collection_description_center": true,
-        "show_collection_image": false
+        "show_collection_image": false,
+        "mobile_top_spacing": "default"
       }
     },
     "1663284877a92f831f": {
@@ -103,7 +106,7 @@
         "title": "Collections",
         "image_ratio": "square",
         "color_scheme": "background-1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_padding": false,
         "show_view_all": false
       }

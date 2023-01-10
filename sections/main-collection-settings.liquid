@@ -1,61 +1,64 @@
 {% comment %}
-  NEW background image styles
+  BACKGROUND COLOR/IMAGE
 {% endcomment %}
-{% if section.settings.collection_background_image %}
-  {% liquid
-    assign bkImageURL = section.settings.collection_background_image | image_url
-    assign bkImageURL_mobile = section.settings.collection_background_image_mobile | image_url
-
-    # No background image checkbox enabled
-    if section.settings.collection_bk_img_none
-      assign bkImgProp = 'none'
-    endif
-
+{% liquid
+  # background image none
+  if section.settings.collection_bk_img_none == true
+    assign bkImgProp = 'background-image:none;'
     # background image uploaded
-    unless section.settings.collection_bk_img_none
-      if section.settings.collection_background_image
-        assign bkImgProp = 'url(' | append: bkImageURL | append: ')'
-        assign bkImgProp_mobile = 'url(' | append: bkImageURL_mobile | append: ')'
-
-        if section.settings.collection_bk_img_repeat
-          assign bkImgRepeat = section.settings.collection_bk_img_repeat
-        endif
-        if section.settings.collection_bk_img_size
-          assign bkImgSize = section.settings.collection_bk_img_size
-        endif
-        assign bkImgAtt = section.settings.collection_bk_img_attachment
-      endif
-    endunless
-
-    # background color
-    if section.settings.collection_bk_color != blank
-      assign bkColorProp = section.settings.collection_bk_color
+  elsif section.settings.collection_background_image
+    # background image
+    assign bkImageURL = section.settings.collection_background_image | image_url
+    assign bkImgProp = 'background-image:url(' | append: bkImageURL | append: ');'
+    # background image repeat
+    if section.settings.collection_bk_img_repeat != 'unset'
+      assign bkImgRepeat = section.settings.collection_bk_img_repeat
+      assign bkImgRepeat = 'background-repeat:' | append: bkImgRepeat | append: ';'
     endif
-  %}
-  {% comment %} LOGIC end {% endcomment %}
-  {% capture bodyStylesNew %}
-    body.{{ template.suffix }}.gradient {
-      background-image: {{ bkImgProp }};
-      background-repeat: {{ bkImgRepeat }};
-      background-color: {{ bkColorProp }};
-      background-size: {{ bkImgSize }};
-      background-attachment: {{ bkImgAtt }};
-    }
+    # background image size
+    if section.settings.collection_bk_img_size != 'auto'
+      assign bkImgSize = section.settings.collection_bk_img_size
+      assign bkImgSize = 'background-size:' | append: bkImgSize | append: ';'
+    endif
+    # background image attachment
+    if section.settings.collection_bk_img_attachment != 'fixed'
+      assign bkImgAtt = section.settings.collection_bk_img_attachment
+      assign bkImgAtt = 'background-attachment:' | append: bkImgAtt | append: ';'
+    endif
+    # footer styles (if background image is used)
+    assign stylesBkImgFooter = '.footer.gradient, .header-wrapper {background-color: transparent !important;background-image: none !important;}'
+    assign stylesBkImgSections = '.spaced-section:nth-of-type(1) {margin-top: 0;}.content-for-layout,#shopify-section-footer,#shopify-section-header {position: relative;}'
+  endif
 
-  {% endcapture %}
+  # background color
+  if section.settings.collection_bk_color != 'rgba(0,0,0,0)'
+    assign bkColorProp = section.settings.collection_bk_color
+    assign bkColorProp = 'background-color:' | append: bkColorProp | append: ';'
+  endif
 
-  {% comment %} section styles for BODY image background {% endcomment %}
-  {% capture stylesSections %}
-    .spaced-section:nth-of-type(1) {
-        margin-top: 0;
-    }
-    .content-for-layout,
-    #shopify-section-footer,
-    #shopify-section-header {
-        position: relative;
-    }
-  {% endcapture %}
+  # set FINAL styles
+  assign stylesBkImgBody = 'body.' | append: template.suffix | append: '{' | append: bkImgProp | append: bkImgRepeat | append: bkImgSize | append: bkImgAtt | append: bkColorProp | append: '}'
+  assign stylesBkImg = '<style class="bk_img_styles">' | append: stylesBkImgBody | append: stylesBkImgFooter | append: stylesBkImgSections | append: '</style>'
+  if section.settings.alter_collection_style
+    echo stylesBkImg
+  endif
+%}
+
+{% comment %}
+  FINAL BODY STYLES
+{% endcomment %}
+{% if section.settings.collection_background_image or section.settings.collection_bk_color != 'rgba(0,0,0,0)' %}
+  {%- capture bodyStylesNew -%}
+    body.{{ template.suffix }} { {{ bkImgProp }}{{ bkImgRepeat }}{{ bkImgSize }}{{ bkImgAtt }}{{ bkColorProp }} }
+  {%- endcapture -%}
 {% endif %}
+
+{% comment %}
+  section styles for BODY image background
+{% endcomment %}
+{% capture stylesSections %}
+  .spaced-section:nth-of-type(1) {margin-top: 0;}.content-for-layout,#shopify-section-footer,#shopify-section-header {position: relative;}
+{% endcapture %}
 
 {% comment %}
   BODY background overlay
@@ -80,7 +83,7 @@
 {% comment %}
   FOOTER background
 {% endcomment %}
-{% if section.settings.collection_background_image or section.settings.collection_bk_color %}
+{% if section.settings.collection_background_image or section.settings.collection_bk_color != blank %}
   {% capture stylesFooter %}
     .footer.gradient, .header-wrapper {
       background-color: transparent !important;
@@ -193,6 +196,10 @@
       "label": "Background image size",
       "options": [
         {
+          "value": "auto",
+          "label": "Auto"
+        },
+        {
           "value": "contain",
           "label": "Contain"
         },
@@ -209,13 +216,17 @@
           "label": "Unset"
         }
       ],
-      "default": "contain"
+      "default": "auto"
     },
     {
       "type": "select",
       "id": "collection_bk_img_repeat",
       "label": "Background image repeat",
       "options": [
+        {
+          "value": "unset",
+          "label": "Unset"
+        },
         {
           "value": "no-repeat",
           "label": "No repeat"
@@ -233,7 +244,7 @@
           "label": "Repeat vertically"
         }
       ],
-      "default": "no-repeat"
+      "default": "unset"
     },
     {
       "type": "select",
@@ -249,7 +260,7 @@
           "label": "Fixed"
         }
       ],
-      "default": "scroll"
+      "default": "fixed"
     }
   ]
 }

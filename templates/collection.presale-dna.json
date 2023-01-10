@@ -1,5 +1,19 @@
 {
   "sections": {
+    "collection-settings": {
+      "type": "main-collection-settings",
+      "settings": {
+        "alter_collection_style": true,
+        "collection_text_color": "rgba(0,0,0,0)",
+        "nav_logo_white": false,
+        "collection_bk_color": "rgba(0,0,0,0)",
+        "collection_bk_overlay": "",
+        "collection_bk_img_none": false,
+        "collection_bk_img_size": "auto",
+        "collection_bk_img_repeat": "unset",
+        "collection_bk_img_attachment": "fixed"
+      }
+    },
     "47e4629b-4f2a-4eb2-a93b-712c38134469": {
       "type": "image-banner",
       "blocks": {
@@ -266,7 +280,8 @@
         "show_collection_description": false,
         "show_collection_title": true,
         "collection_description_center": false,
-        "show_collection_image": false
+        "show_collection_image": false,
+        "mobile_top_spacing": "default"
       }
     },
     "7cd34edf-c924-4e09-aca1-cfb91387814c": {
@@ -295,6 +310,7 @@
         "template--15912698183871__e6da4a5c-85ab-4de6-902b-7cd94f1bbeb0-1668036949977e4f53-3": {
           "type": "price",
           "settings": {
+            "payment_options": true
           }
         },
         "18760b87-cb79-430d-836d-3bcef2d50c52": {
@@ -313,6 +329,10 @@
       "settings": {
         "product": "madballs-trashin-pumpkin-action-figure",
         "secondary_background": true,
+        "background_color": "linear-gradient(#ffffff, #000000)",
+        "background_color_secondary": "linear-gradient(#ffffff, #000000)",
+        "btn_color": "#000000",
+        "txt_color": "#000000",
         "hide_variants": false,
         "enable_video_looping": false
       }
@@ -378,6 +398,7 @@
     }
   },
   "order": [
+    "collection-settings",
     "47e4629b-4f2a-4eb2-a93b-712c38134469",
     "751dc3b4-6fde-4bc5-aa9f-555b04d8855b",
     "4ed8f5bb-f546-4529-a69a-73f8f6d2ed37",
