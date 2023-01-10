@@ -1,5 +1,20 @@
 {
   "sections": {
+    "collection-settings": {
+      "type": "main-collection-settings",
+      "settings": {
+        "alter_collection_style": false,
+        "collection_text_color": "#000000",
+        "nav_logo_white": false,
+        "collection_bk_color": "linear-gradient(#ffffff, #000000)",
+        "collection_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture.webp",
+        "collection_bk_overlay": "rgba(0, 0, 0, 0.67)",
+        "collection_bk_img_none": false,
+        "collection_bk_img_size": "auto",
+        "collection_bk_img_repeat": "unset",
+        "collection_bk_img_attachment": "fixed"
+      }
+    },
     "164677671632a680df": {
       "type": "image-banner",
       "settings": {
@@ -89,6 +104,7 @@
     }
   },
   "order": [
+    "collection-settings",
     "164677671632a680df",
     "product-grid",
     "banner",
