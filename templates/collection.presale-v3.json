@@ -5,6 +5,7 @@
       "settings": {
         "alter_collection_style": true,
         "collection_text_color": "#ffffff",
+        "collection_nav_text_color": "#ffffff",
         "nav_logo_white": true,
         "collection_bk_color": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(0, 0, 0, 1) 100%)",
         "collection_bk_img_none": false,
@@ -99,7 +100,7 @@
       "settings": {
         "title": "Collections",
         "image_ratio": "square",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "swipe_on_mobile": false,
         "image_padding": false,
         "show_view_all": false
