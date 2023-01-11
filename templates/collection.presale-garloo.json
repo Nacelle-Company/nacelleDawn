@@ -9,7 +9,7 @@
         "nav_logo_white": true,
         "collection_bk_color": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(249, 32, 32, 1) 100%)",
         "collection_bk_img_none": false,
-        "collection_nav_background_image": "shopify:\/\/shop_images\/blue-line-texture-nacelle-store.webp",
+        "collection_nav_background_image": "shopify:\/\/shop_images\/blue-line-texture-nacelle-store_d72ddce6-7351-448c-99be-2a428fa6c4b6.webp",
         "collection_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture_8c778c92-d478-4821-a576-ffd6dca0fd1b.webp",
         "collection_bk_overlay": "",
         "collection_bk_img_size": "100% auto",
@@ -23,9 +23,9 @@
         "af070f58-1592-472f-ac2f-afdb2aabd8de": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "BUY THE GREAT GARLOO NOW",
+            "button_label_1": "BUY THE GREAT GARLOO",
             "button_link_1": "\/products\/the-great-garloo-action-figure",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false,
@@ -48,10 +48,10 @@
         "lazy_disable": true,
         "desktop_text_box_position": "flex-end",
         "desktop_text_box_justification": "flex-end",
-        "show_text_box": true,
+        "show_text_box": false,
         "text_box_bk_color": "",
         "image_overlay_opacity": 0,
-        "color_scheme": "text",
+        "color_scheme": "accent-2",
         "use_background_color": false,
         "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
         "stack_images_on_mobile": true,
@@ -67,16 +67,34 @@
             "heading": "GARLOO THE MIGHTY!"
           }
         },
+        "beb65153-1ae0-474e-a912-5bed57614538": {
+          "type": "heading",
+          "settings": {
+            "heading": "GARLOO THE UNTAMED!"
+          }
+        },
+        "b9994455-b579-4bea-94c4-38f9725361e4": {
+          "type": "heading",
+          "settings": {
+            "heading": "GARLOO THE TERRIBLE!"
+          }
+        },
+        "6939826a-13a1-4068-bbb1-fae7679af19e": {
+          "type": "heading",
+          "settings": {
+            "heading": "GARLOO...IS BACK!"
+          }
+        },
         "template--15955224395967__80f0502e-9a53-4e60-bf61-08506912eb62-16734638822f9ff396-1": {
           "type": "text",
           "settings": {
-            "text": "<p>GARLOO THE UNTAMED! GARLOO THE TERRIBLE! GARLOO...IS BACK!<\/p><p>Who can stop it? Who can control this monstrous creature? <\/p><p>You! That's right, now you can once again harness the power of this beastly creature with THE GREAT GARLOO retro collectible figure!<\/p>"
+            "text": "<p>Who can stop it? Who can control this monstrous creature? <\/p><p>You! That's right, now you can once again harness the power of this beastly creature with THE GREAT GARLOO retro collectible figure!<\/p>"
           }
         },
         "template--15955224395967__80f0502e-9a53-4e60-bf61-08506912eb62-16734638822f9ff396-2": {
           "type": "button",
           "settings": {
-            "button_label": "Buy The Great Garloo",
+            "button_label": "View The Great Garloo",
             "button_link": "\/products\/the-great-garloo-action-figure",
             "button_color": "#78bb55"
           }
@@ -84,6 +102,9 @@
       },
       "block_order": [
         "template--15955224395967__80f0502e-9a53-4e60-bf61-08506912eb62-16734638822f9ff396-0",
+        "beb65153-1ae0-474e-a912-5bed57614538",
+        "b9994455-b579-4bea-94c4-38f9725361e4",
+        "6939826a-13a1-4068-bbb1-fae7679af19e",
         "template--15955224395967__80f0502e-9a53-4e60-bf61-08506912eb62-16734638822f9ff396-1",
         "template--15955224395967__80f0502e-9a53-4e60-bf61-08506912eb62-16734638822f9ff396-2"
       ],
