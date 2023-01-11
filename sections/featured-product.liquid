@@ -136,7 +136,7 @@
                 {%- endif -%}
               </h2>
             {%- when 'price' -%}
-              <div class="no-js-hidden" id="price-{{ section.id }}" class="product-form__price" {{ block.shopify_attributes }}>
+              <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
                 {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large', txt_color: txt_color -%}
               </div>
               
