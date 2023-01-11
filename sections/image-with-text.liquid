@@ -6,8 +6,14 @@
       {%- for block in section.blocks -%}
         {% case block.type %}
           {%- when 'button' -%}
+            {% liquid
+              assign buttonColor = block.settings.button_color
+              if buttonColor != '#5899e1'
+                assign buttonColorStyle = 'style="background:' | append: buttonColor | append: ';box-shadow:' | append: buttonColor | append: ' 0 0 0 1.15px;"'
+              endif
+            %}
           {%- if block.settings.button_link != blank -%}
-            <a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %} {% if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
+            <a {% if block.settings.button_link != blank %}href="{{ block.settings.button_link }}"{% endif %} {{ buttonColorStyle }} {% if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
           {%- endif -%}
         {%- endcase -%}
       {%- endfor -%}
@@ -54,8 +60,14 @@
             {%- when 'text' -%}
               <div class="image-with-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
             {%- when 'button' -%}
+              {% liquid
+                assign buttonColor = block.settings.button_color
+                if buttonColor != '#5899e1'
+                  assign buttonColorStyle = 'style="background:' | append: buttonColor | append: ';box-shadow:' | append: buttonColor | append: ' 0 0 0 1.15px;"'
+                endif
+              %}
               {%- if block.settings.button_label != blank -%}
-                <a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
+                <a{% if block.settings.button_link != blank %} {{ buttonColorStyle }} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
@@ -226,6 +238,12 @@
           "type": "url",
           "id": "button_link",
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "color",
+          "id": "button_color",
+          "label": "Button color",
+          "default": "#5899e1"
         }
       ]
     }

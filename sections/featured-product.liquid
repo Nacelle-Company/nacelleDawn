@@ -70,6 +70,7 @@
 {%- liquid
   assign bk_color = section.settings.background_color
   assign btn_color = section.settings.btn_color
+  assign btn_text_color = 'color:' | append: section.settings.btn_text_color | append: ';'
   assign txt_color = section.settings.txt_color
   assign bk_color_secondary = section.settings.background_color_secondary
 -%}
@@ -135,7 +136,7 @@
                 {%- endif -%}
               </h2>
             {%- when 'price' -%}
-              <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
+              <div class="no-js-hidden" id="price-{{ section.id }}" class="product-form__price" {{ block.shopify_attributes }}>
                 {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large', txt_color: txt_color -%}
               </div>
               
@@ -315,7 +316,7 @@
                           type="submit"
                           name="add"
                           class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
-                          style="background:{{ btn_color }};box-shadow:{{ btn_color }} 0 0 0 1.15px;"
+                          style="background:{{ btn_color }};box-shadow:{{ btn_color }} 0 0 0 1.15px;{{ btn_text_color }}"
                         {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
                         >
                             <span>
@@ -693,6 +694,12 @@
       "type": "color",
       "id": "btn_color",
       "label": "Button color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color",
+      "label": "Button text color",
       "default": "#000000"
     },
     {
