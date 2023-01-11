@@ -117,7 +117,7 @@
         alt="{{ section.settings.image.alt | escape }}"
         width="{{ section.settings.image.width }}"
         height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
-        class="banner__media-desktop{% if section.settings.image_2 != blank %} banner__media-image-half{% endif %}{% if section.settings.bk_img_top %} banner__media-top{% endif %}{% if section.settings.bk_img_contain %} banner__media-contain{% endif %}"
+        class="banner__media-desktop{% if section.settings.image_2 != blank %} banner__media-image-half{% endif %}{% if section.settings.bk_img_contain %} banner__media-contain{% endif %}"
       >
       {%- if section.settings.image_mobile != blank -%}
         <img
@@ -140,7 +140,7 @@
           alt="{{ section.settings.image_mobile.alt | escape }}"
           width="{{ section.settings.image_mobile.width }}"
           height="{{ section.settings.image_mobile.width | divided_by: section.settings.image_mobile.aspect_ratio }}"
-          class="banner__media-mobile{% if section.settings.bk_img_top %} banner__media-top{% endif %}"
+          class="banner__media-mobile"
         >
       {%- endif -%}
       {%- if section.settings.legal_text != blank -%}
@@ -394,17 +394,48 @@
       "info": "t:sections.image-banner.settings.image_height.info"
     },
     {
-      "type": "checkbox",
-      "id": "bk_img_top",
-      "default": false,
-      "label": "Background image anchor to top"
-    },
-    {
-      "type": "checkbox",
-      "id": "bk_img_contain",
-      "default": false,
-      "label": "Background image contain",
-      "info": "CSS object-fit: contain;"
+      "type": "select",
+      "id": "banner_bk_img_position",
+      "label": "Background image position",
+      "options": [
+        {
+          "value": "left top",
+          "label": "Left top"
+        },
+        {
+          "value": "left center",
+          "label": "Left center"
+        },
+        {
+          "value": "left bottom",
+          "label": "Left bottom"
+        },
+        {
+          "value": "right top",
+          "label": "Right top"
+        },
+        {
+          "value": "right center",
+          "label": "Right center"
+        },
+        {
+          "value": "right bottom",
+          "label": "Right bottom"
+        },
+        {
+          "value": "center top",
+          "label": "Center top"
+        },
+        {
+          "value": "center center",
+          "label": "Center center"
+        },
+        {
+          "value": "center bottom",
+          "label": "Center bottom"
+        }
+      ],
+      "default": "left top"
     },
     {
       "type": "checkbox",
