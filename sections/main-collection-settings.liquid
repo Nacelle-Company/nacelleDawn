@@ -1,4 +1,12 @@
 <!-- COLLECTION SETTINGS -->
+{%- capture textColorClasses -%}
+    .product__info-container *,
+    .footer__content-top *,
+    .footer__content-bottom *,
+    .banner__legal-text,
+    .card-information__wrapper *
+{%- endcapture -%}
+
 {%- capture textColorClassesNav -%}
     .header__inline-menu *:not(.header__submenu *),
     .header__icons *
@@ -51,7 +59,7 @@
   # text color
   if section.settings.collection_text_color != 'rgba(0,0,0,0)'
     assign stylesTextColor = section.settings.collection_text_color
-    assign stylesTextColor = textColorClassesNav | append: '{color:' | append: stylesTextColor | append: '!important;}'
+    assign stylesTextColor = textColorClasses | append: '{color:' | append: stylesTextColor | append: '!important;}'
   endif
 
   # nav text color
