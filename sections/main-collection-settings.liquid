@@ -1,15 +1,27 @@
 <!-- COLLECTION SETTINGS -->
+{%- capture textColorClassesNav -%}
+    .header__inline-menu *:not(.header__submenu *),
+    .header__icons *
+{%- endcapture -%}
+
 {% liquid
   # background image uploaded
   if section.settings.collection_background_image
     # background image
     assign bkImageURL = section.settings.collection_background_image | image_url
     assign bkImgProp = 'background-image:url(' | append: bkImageURL | append: ');'
+
+    if section.settings.collection_nav_background_image
+      assign navBk = section.settings.collection_nav_background_image | image_url
+      assign navStyles = '.gradient .header-wrapper{background-image:url(' | append: navBk | append: ') !important;}'
+    endif
+
     # background image repeat
     if section.settings.collection_bk_img_repeat != 'unset'
       assign bkImgRepeat = section.settings.collection_bk_img_repeat
       assign bkImgRepeat = 'background-repeat:' | append: bkImgRepeat | append: ';'
     endif
+
     # background image size
     if section.settings.collection_bk_img_size != 'auto'
       assign bkImgSize = section.settings.collection_bk_img_size
@@ -39,7 +51,13 @@
   # text color
   if section.settings.collection_text_color != 'rgba(0,0,0,0)'
     assign stylesTextColor = section.settings.collection_text_color
-    assign stylesTextColor = 'body *:not(.header__submenu *):not(.menu-drawer *):not(.announcement-bar *) {color:' | append: stylesTextColor | append: '!important;}'
+    assign stylesTextColor = textColorClassesNav | append: '{color:' | append: stylesTextColor | append: '!important;}'
+  endif
+
+  # nav text color
+  if section.settings.collection_nav_text_color != 'rgba(0,0,0,0)'
+    assign stylesNavTextColor = section.settings.collection_nav_text_color
+    assign stylesNavTextColor = textColorClassesNav | append: '{color:' | append: stylesNavTextColor | append: '!important;}'
   endif
 
   # top nav logo
@@ -59,7 +77,7 @@
 
   # Fix first section margin top spacing
   assign firstSectionMarginTop = '.spaced-section:nth-of-type(1) {margin-top: 0;}'
-  assign stylesBkImg = '<style class="bk_img_styles">' | append: stylesBkImgBody | append: stylesTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: firstSectionMarginTop | append: '</style>'
+  assign stylesBkImg = '<style class="bk_img_styles">' | append: stylesBkImgBody | append: stylesTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: firstSectionMarginTop | append: navStyles | append: stylesNavTextColor | append: '</style>'
   if section.settings.alter_collection_style
     echo stylesBkImg
   endif
@@ -92,6 +110,12 @@
       "default": "#000000"
     },
     {
+      "type": "color",
+      "id": "collection_nav_text_color",
+      "label": "Nav text color",
+      "default": "#000000"
+    },
+    {
       "type": "header",
       "content": "Navigation"
     },
@@ -117,6 +141,11 @@
       "default": false,
       "label": "Background image none",
       "info": "Uncheck for collection background image to show."
+    },
+    {
+      "type": "image_picker",
+      "id": "collection_nav_background_image",
+      "label": "Collection nav background image"
     },
     {
       "type": "image_picker",
