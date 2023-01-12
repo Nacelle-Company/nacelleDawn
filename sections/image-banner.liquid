@@ -65,19 +65,15 @@
   {%- endstyle -%}
 {%- endif -%}
 
-{%- style -%}
-  #Banner-{{ section.id }}> .banner__media::after {
-      opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
-  }
-{%- endstyle -%}
-
 {%- liquid
   if section.settings.use_background_color
     assign bk_color = section.settings.background_color
   endif
+
   if section.settings.text_box_bk_color != blank
     assign text_box_bk_color = section.settings.text_box_bk_color
   endif
+
   for block in section.blocks
     case block.type
       when 'buttons'
@@ -86,8 +82,26 @@
         endif
     endcase
   endfor
+
+  # background image settings
+  if section.settings.banner_bk_img_fit
+    assign bk_fit_prop = section.settings.banner_bk_img_fit
+  endif
+
+  if section.settings.banner_bk_img_position
+    assign bk_pos_prop = section.settings.banner_bk_img_position
+  endif
 -%}
 
+{%- style -%}
+  .banner__media-desktop {
+    object-fit: {{ bk_fit_prop }} !important;
+    object-position: {{ bk_pos_prop }} !important;
+  }
+  #Banner-{{ section.id }}> .banner__media::after {
+      opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+  }
+{%- endstyle -%}
 <div
   id="Banner-{{ section.id }}"
   class="banner banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
@@ -117,7 +131,7 @@
         alt="{{ section.settings.image.alt | escape }}"
         width="{{ section.settings.image.width }}"
         height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
-        class="banner__media-desktop{% if section.settings.image_2 != blank %} banner__media-image-half{% endif %}{% if section.settings.bk_img_contain %} banner__media-contain{% endif %}"
+        class="banner__media-desktop{% if section.settings.image_2 != blank %} banner__media-image-half{% endif %}"
       >
       {%- if section.settings.image_mobile != blank -%}
         <img
@@ -333,17 +347,6 @@
       "label": "t:sections.image-banner.settings.image_mobile.label"
     },
     {
-      "type": "range",
-      "id": "mobile_padding",
-      "label": "Mobile image sizing",
-      "unit": "%",
-      "min": 1,
-      "max": 100,
-      "step": 1,
-      "default": 1,
-      "info": "Toggle mobile display on (in the top right corner) to get the image to show properly. **Default is at 1%."
-    },
-    {
       "type": "image_picker",
       "id": "image_over",
       "label": "t:sections.image-banner.settings.image_over.label"
@@ -363,6 +366,24 @@
       "id": "legal_text",
       "default": "Enter legal text here.",
       "label": "Legal text"
+    },
+    {
+      "type": "header",
+      "content": "Background image settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "adapt_height_first_image",
+      "default": false,
+      "label": "t:sections.image-banner.settings.adapt_height_first_image.label",
+      "info": "t:sections.image-banner.settings.adapt_height_first_image.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "lazy_disable",
+      "default": false,
+      "label": "t:sections.image-banner.settings.lazy_disable.label",
+      "info": "t:sections.image-banner.settings.lazy_disable.info"
     },
     {
       "type": "select",
@@ -392,6 +413,34 @@
       "default": "medium",
       "label": "t:sections.image-banner.settings.image_height.label",
       "info": "t:sections.image-banner.settings.image_height.info"
+    },
+    {
+      "type": "select",
+      "id": "banner_bk_img_fit",
+      "label": "Background image fit",
+      "options": [
+        {
+          "value": "contain",
+          "label": "Contain"
+        },
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "fill",
+          "label": "Fill"
+        },
+        {
+          "value": "scale-down",
+          "label": "Scale-down"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ],
+      "default": "cover"
     },
     {
       "type": "select",
@@ -435,21 +484,22 @@
           "label": "Center bottom"
         }
       ],
-      "default": "left top"
+      "default": "left top",
+      "info": "If 'custom' selected, enter two percentages below seperated by a space. ex. 50% 50%"
     },
     {
-      "type": "checkbox",
-      "id": "adapt_height_first_image",
-      "default": false,
-      "label": "t:sections.image-banner.settings.adapt_height_first_image.label",
-      "info": "t:sections.image-banner.settings.adapt_height_first_image.info"
+      "type": "range",
+      "id": "image_overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
+      "default": 0
     },
     {
-      "type": "checkbox",
-      "id": "lazy_disable",
-      "default": false,
-      "label": "t:sections.image-banner.settings.lazy_disable.label",
-      "info": "t:sections.image-banner.settings.lazy_disable.info"
+      "type": "header",
+      "content": "Text box"
     },
     {
       "type": "select",
@@ -504,16 +554,6 @@
       "info": "Accepts rgb, hex & hsla (ex.rgb(255 255 255 / 59%))"
     },
     {
-      "type": "range",
-      "id": "image_overlay_opacity",
-      "min": 0,
-      "max": 100,
-      "step": 10,
-      "unit": "%",
-      "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
-      "default": 0
-    },
-    {
       "type": "header",
       "content": "Colors"
     },
@@ -565,6 +605,17 @@
     {
       "type": "header",
       "content": "t:sections.image-banner.settings.header.content"
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding",
+      "label": "Mobile image sizing",
+      "unit": "%",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "default": 1,
+      "info": "Toggle mobile display on (in the top right corner) to get the image to show properly. **Default is at 1%."
     },
     {
       "type": "checkbox",

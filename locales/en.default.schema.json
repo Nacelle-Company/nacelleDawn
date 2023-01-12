@@ -881,7 +881,7 @@
           "label": "Show text box on desktop"
         },
         "image_overlay_opacity": {
-          "label": "Image overlay opacity"
+          "label": "Background image overlay opacity"
         },
         "color_scheme": {
           "options__1": {

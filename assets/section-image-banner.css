@@ -73,7 +73,7 @@
 	}
 
 	.banner--full:not(.banner--adapt) {
-		min-height: 74rem;
+		min-height: 85rem;
 	}
 }
 @media screen and (min-width: 1200px) {
