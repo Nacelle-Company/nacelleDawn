@@ -7,7 +7,7 @@
         "collection_text_color": "#313131",
         "collection_nav_text_color": "#ffffff",
         "nav_logo_white": true,
-        "collection_bk_color": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(249, 32, 32, 1) 100%)",
+        "collection_bk_color": "",
         "collection_bk_img_none": false,
         "collection_nav_background_image": "shopify:\/\/shop_images\/blue-line-texture-nacelle-store_d72ddce6-7351-448c-99be-2a428fa6c4b6.webp",
         "collection_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture_8c778c92-d478-4821-a576-ffd6dca0fd1b.webp",
