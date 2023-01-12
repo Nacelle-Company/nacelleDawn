@@ -155,10 +155,6 @@
 
   {% if template contains 'presale' %}
     {% assign presale_class = ' template_presale' %}
-  {% elsif template contains 'presale-v2' %}
-    {% assign presale_class = ' template_presale' %}
-  {% elsif template contains 'presale-dna' %}
-    {% assign presale_class = ' template_presale' %}
   {% endif %}
 
   <body class="gradient{{ presale_class }} {{ collection.template_suffix }} {{ product.template_suffix }}">
