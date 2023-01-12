@@ -29,7 +29,11 @@
 
 {%- capture buttonClasses -%}
     .product-nav-btn .button,
-    .button.product-form__submit,
+    .button.product-form__submit
+{%- endcapture -%}
+
+{%- capture buttonClassesHover -%}
+    .product-nav-btn .button:hover,
     .button.product-form__submit:hover
 {%- endcapture -%}
 
@@ -92,7 +96,9 @@
   # button color
   if section.settings.button_color != '#5899e1'
     assign buttonColor = section.settings.button_color
+    assign buttonColorHover = buttonClassesHover | append: '{box-shadow:' | append: buttonColor | append: ' 0 0 0 2.3px;}'
     assign buttonColorStyle = buttonClasses | append: '{background-color:' | append: buttonColor | append: ';box-shadow:' | append: buttonColor | append: ' 0 0 0 1.15px;}'
+    assign buttonColorStyle = buttonColorStyle | append: buttonColorHover
   endif
 
   # nav text color

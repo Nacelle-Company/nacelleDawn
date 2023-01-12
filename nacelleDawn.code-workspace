@@ -4,27 +4,10 @@
 			"path": "."
 		}
 	],
-    "settings": {
-        "prettier.enable": true,
-        "editor.formatOnSave": false,
-        "editor.showFoldingControls": "always",
-        "editor.foldingStrategy": "indentation",
-        "[liquid]": {
-            "editor.defaultFormatter": "Shopify.theme-check-vscode",
-            "editor.formatOnSave": true
-        },
-        "[json]": {
-            "editor.defaultFormatter": "sissel.shopify-liquid"
-        },
-        "[html]": {
-            "editor.defaultFormatter": "sissel.shopify-liquid"
-        },
-        "css.format.enable": true,
-        "liquid.format.enable": true,
-        "editor.defaultFormatter": "sissel.shopify-liquid",
-        "[css]": {
-            "editor.defaultFormatter": "vscode.css-language-features"
-        },
-        "editor.insertSpaces": false
+	"settings": {
+		"liquid.format.preserveLine": 1,
+		"prettier.enable": true,
+		"liquid.format.enable": false,
+		"prettier.bracketSameLine": true
     }
 }
