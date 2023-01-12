@@ -1,21 +1,17 @@
 <!-- COLLECTION SETTINGS -->
 {%- capture textColorClasses -%}
-    .product__info-container *,
-    .footer__content-top *,
-    .footer__content-bottom *,
-    .banner__legal-text,
-    .card-information__wrapper *,
-    .collection-list-title
+	.product__info-container *, .footer__content-top *, .footer__content-bottom *,
+	.banner__legal-text, .card-information__wrapper *, .collection-list-title
 {%- endcapture -%}
 
 {%- capture textColorClassesNav -%}
-    .header__inline-menu *:not(.header__submenu *),
-    .header__icons *
+	.header__inline-menu *:not(.header__submenu *), .header__icons *,
+	.header__icon
 {%- endcapture -%}
 
 {% liquid
-  # background image uploaded
-  if section.settings.collection_background_image
+	# background image uploaded
+	if section.settings.collection_background_image
     # background image
     assign bkImageURL = section.settings.collection_background_image | image_url
     assign bkImgProp = 'background-image:url(' | append: bkImageURL | append: ');'
@@ -41,55 +37,55 @@
       assign bkImgAtt = section.settings.collection_bk_img_attachment
       assign bkImgAtt = 'background-attachment:' | append: bkImgAtt | append: ';'
     endif
-  endif
+	endif
 
-  # background color
-  if section.settings.collection_bk_color != 'linear-gradient(#ffffff, #000000)'
-    assign bkColorProp = section.settings.collection_bk_color
-    assign bkColorProp = 'background:' | append: bkColorProp | append: ';'
-  endif
+	# background color
+	if section.settings.collection_bk_color != 'linear-gradient(#ffffff, #000000)'
+	  assign bkColorProp = section.settings.collection_bk_color
+	  assign bkColorProp = 'background:' | append: bkColorProp | append: ';'
+	endif
 
-  # background color overlay
-  if section.settings.collection_bk_overlay != blank
-    # section styles (if background image overlay is used)
-    assign stylesBkImgSections = '.content-for-layout,#shopify-section-footer,#shopify-section-header {position: relative;}'
-    assign bkColorOverlayProp = '.content-for-layout:before, #shopify-section-header:before, #shopify-section-footer:before {content: "";background-color:' | append: section.settings.collection_bk_overlay | append: ';width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: -1;}'
-    assign bkColorOverlayProp = bkColorOverlayProp | append: stylesBkImgSections
-  endif
+	# background color overlay
+	if section.settings.collection_bk_overlay != blank
+	  # section styles (if background image overlay is used)
+	  assign stylesBkImgSections = '.content-for-layout,#shopify-section-footer,#shopify-section-header {position: relative;}'
+	  assign bkColorOverlayProp = '.content-for-layout:before, #shopify-section-header:before, #shopify-section-footer:before {content: "";background-color:' | append: section.settings.collection_bk_overlay | append: ';width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: -1;}'
+	  assign bkColorOverlayProp = bkColorOverlayProp | append: stylesBkImgSections
+	endif
 
-  # text color
-  if section.settings.collection_text_color != 'rgba(0,0,0,0)'
-    assign stylesTextColor = section.settings.collection_text_color
-    assign stylesTextColor = textColorClasses | append: '{color:' | append: stylesTextColor | append: '!important;}'
-  endif
+	# text color
+	if section.settings.collection_text_color != 'rgba(0,0,0,0)'
+	  assign stylesTextColor = section.settings.collection_text_color
+	  assign stylesTextColor = textColorClasses | append: '{color:' | append: stylesTextColor | append: '!important;}'
+	endif
 
-  # nav text color
-  if section.settings.collection_nav_text_color != 'rgba(0,0,0,0)'
-    assign stylesNavTextColor = section.settings.collection_nav_text_color
-    assign stylesNavTextColor = textColorClassesNav | append: '{color:' | append: stylesNavTextColor | append: '!important;}'
-  endif
+	# nav text color
+	if section.settings.collection_nav_text_color != 'rgba(0,0,0,0)'
+	  assign stylesNavTextColor = section.settings.collection_nav_text_color
+	  assign stylesNavTextColor = textColorClassesNav | append: '{color:' | append: stylesNavTextColor | append: '!important;}'
+	endif
 
-  # top nav logo
-  if section.settings.nav_logo_white
-    assign navLogoColor = '.header__heading-logo {filter: brightness(3);}'
-  endif
+	# top nav logo
+	if section.settings.nav_logo_white
+	  assign navLogoColor = '.header__heading-logo {filter: brightness(3);}'
+	endif
 
-  # set FINAL styles
-  # background image none
-  if section.settings.collection_bk_img_none == true
-    assign stylesBkImgNoneHeaderFooter = 'footer.footer.gradient, .gradient .header-wrapper{background-color: transparent !important;background-image:none;}'
-    assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{background-image:none;' | append: bkColorProp | append: '}' | append: stylesBkImgNoneHeaderFooter
-  elsif section.settings.collection_background_image or section.settings.collection_bk_color != 'rgba(0,0,0,0)'
-    assign stylesBkImgFooter = '.footer.gradient, .header-wrapper {background-color: transparent !important;background-image: none !important;}'
-    assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{' | append: bkImgProp | append: bkImgRepeat | append: bkImgSize | append: bkImgAtt | append: bkColorProp | append: '}'
-  endif
+	# set FINAL styles
+	# background image none
+	if section.settings.collection_bk_img_none == true
+	  assign stylesBkImgNoneHeaderFooter = 'footer.footer.gradient, .gradient .header-wrapper{background-color: transparent !important;background-image:none;}'
+	  assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{background-image:none;' | append: bkColorProp | append: '}' | append: stylesBkImgNoneHeaderFooter
+	elsif section.settings.collection_background_image or section.settings.collection_bk_color != 'rgba(0,0,0,0)'
+	  assign stylesBkImgFooter = '.footer.gradient, .header-wrapper {background-color: transparent !important;background-image: none !important;}'
+	  assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{' | append: bkImgProp | append: bkImgRepeat | append: bkImgSize | append: bkImgAtt | append: bkColorProp | append: '}'
+	endif
 
-  # Fix first section margin top spacing
-  assign firstSectionMarginTop = '.spaced-section:nth-of-type(1) {margin-top: 0;}'
-  assign stylesBkImg = '<style class="bk_img_styles">' | append: stylesBkImgBody | append: stylesTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: firstSectionMarginTop | append: navStyles | append: stylesNavTextColor | append: '</style>'
-  if section.settings.alter_collection_style
-    echo stylesBkImg
-  endif
+	# Fix first section margin top spacing
+	assign firstSectionMarginTop = '.spaced-section:nth-of-type(1) {margin-top: 0;}'
+	assign stylesBkImg = '<style class="bk_img_styles">' | append: stylesBkImgBody | append: stylesTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: firstSectionMarginTop | append: navStyles | append: stylesNavTextColor | append: '</style>'
+	if section.settings.alter_collection_style
+	  echo stylesBkImg
+	endif
 %}
 
 {% schema %}
