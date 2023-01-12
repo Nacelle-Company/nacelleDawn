@@ -21,6 +21,10 @@
     .localization-form .disclosure__button
 {%- endcapture -%}
 
+{%- capture buttonClasses -%}
+    .product-nav-btn .button
+{%- endcapture -%}
+
 {% liquid
   # background image uploaded
   if section.settings.product_background_image
@@ -76,6 +80,12 @@
     assign stylesTextColor = textColorClasses | append: '{color:' | append: stylesTextColor | append: '!important;}' | append: stylesFormElements
   endif
 
+  # button color
+  if block.settings.button_color != '#5899e1'
+    assign buttonColor = block.settings.button_color
+    assign buttonColorStyle = 'style="background-color:' | append: buttonColor | append: ';box-shadow:' | append: buttonColor | append: ' 0 0 0 1.15px;"'
+  endif
+
   # nav text color
   if section.settings.product_nav_text_color != 'rgba(0,0,0,0)'
     assign stylesNavTextColor = section.settings.product_nav_text_color
@@ -104,7 +114,7 @@
     assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{' | append: bkImgProp | append: bkImgRepeat | append: bkImgSize | append: bkImgAtt | append: bkColorProp | append: '}'
   endif
 
-  assign stylesBkImg = '<style class="main_product_settings">' | append: stylesBkImgBody | append: stylesTextColor | append: stylesNavTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: imgAnimate | append: navStyles | append: prodMainImgBkStyle | append: '</style>'
+  assign stylesBkImg = '<style class="main_product_settings">' | append: stylesBkImgBody | append: stylesTextColor | append: stylesNavTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: imgAnimate | append: navStyles | append: buttonColorStyle | append: prodMainImgBkStyle | append: '</style>'
   if section.settings.alter_product_style
     echo stylesBkImg
   endif
@@ -147,6 +157,12 @@
       "id": "product_nav_text_color",
       "label": "Nav text color",
       "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button color",
+      "default": "#5899e1"
     },
     {
       "type": "header",
