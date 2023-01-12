@@ -392,6 +392,7 @@ a.product__text {
 	display: flex;
 	align-items: end;
 	margin-right: 2em;
+	column-gap: 10px;
 }
 
 @media screen and (min-width: 750px) {

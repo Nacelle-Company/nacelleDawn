@@ -1,5 +1,10 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
+{%- capture buttonClassesHover -%}
+    .product-nav-btn .button:hover,
+    .button.product-form__submit:hover
+{%- endcapture -%}
+
 <div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}{% if section.settings.image_border %} img-border{% endif %}">
   <div class="image-with-text__grid color-{{ section.settings.color_scheme }}  grid grid--gapless grid--1-col grid--2-col-tablet {% unless section.settings.remove_bk_img %}gradient{% endunless %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     <div class="grid__item {% if section.settings.col_width != 'default' %}{{ section.settings.col_width }}{% endif %}">
@@ -9,6 +14,7 @@
             {% liquid
               assign buttonColor = block.settings.button_color
               if buttonColor != '#5899e1'
+                assign buttonColorHover = buttonClassesHover | append: '{box-shadow:' | append: buttonColor | append: ' 0 0 0 2.3px;}'
                 assign buttonColorStyle = 'style="background:' | append: buttonColor | append: ';box-shadow:' | append: buttonColor | append: ' 0 0 0 1.15px;"'
               endif
             %}
@@ -66,8 +72,17 @@
                   assign buttonColorStyle = 'style="background:' | append: buttonColor | append: ';box-shadow:' | append: buttonColor | append: ' 0 0 0 1.15px;"'
                 endif
               %}
+              {% style %}
+                .button.button--primary {
+                  background: {{ buttonColor }};
+                  box-shadow: {{ buttonColor }} 0 0 0 1.15px;
+                }
+                .button.button--primary:hover {
+                  box-shadow: {{ buttonColor }} 0 0 0 2.3px;
+                }
+              {% endstyle %}
               {%- if block.settings.button_label != blank -%}
-                <a{% if block.settings.button_link != blank %} {{ buttonColorStyle }} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
+                <a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.button_link == blank %} aria-disabled="true"{% endif %} {{ block.shopify_attributes }}>
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
