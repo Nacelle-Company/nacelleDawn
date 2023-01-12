@@ -50,7 +50,7 @@
         "desktop_text_box_justification": "flex-end",
         "show_text_box": false,
         "text_box_bk_color": "",
-        "color_scheme": "accent-2",
+        "color_scheme": "text",
         "use_background_color": false,
         "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
         "mobile_padding": 84,
