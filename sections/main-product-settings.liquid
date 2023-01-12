@@ -68,7 +68,7 @@
   # background color
   if section.settings.product_bk_color != blank
     assign bkColorProp = section.settings.product_bk_color
-    assign bkColorProp = 'background-color:' | append: bkColorProp | append: ';'
+    assign bkColorProp = 'background:' | append: bkColorProp | append: ';'
   endif
 
   # background color overlay
@@ -194,7 +194,7 @@
       "content": "product background"
     },
     {
-      "type": "color",
+      "type": "color_background",
       "id": "product_bk_color",
       "label": "Background color",
       "default": "transparent"
