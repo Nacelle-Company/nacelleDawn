@@ -58,11 +58,9 @@
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 
-{% comment %}
-	{% if product.template_suffix contains "presale" %}
-		{{ 'component-presale_product.css' | asset_url | stylesheet_tag }}
-	{% endif %}
-{% endcomment %}
+{% if product.template_suffix contains "presale" %}
+	{{ 'component-presale_product.css' | asset_url | stylesheet_tag }}
+{% endif %}
 
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
