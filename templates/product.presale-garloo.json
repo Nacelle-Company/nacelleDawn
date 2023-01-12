@@ -4,16 +4,15 @@
       "type": "main-product-settings",
       "settings": {
         "alter_product_style": true,
-        "product_text_color": "#313131",
+        "product_text_color": "#ffffff",
         "product_nav_text_color": "#ffffff",
         "nav_logo_white": true,
         "product_bk_color": "rgba(0,0,0,0)",
         "product_bk_img_none": false,
-        "product_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture.webp",
-        "product_nav_background_image": "shopify:\/\/shop_images\/blue-line-texture-nacelle-store.webp",
-        "product_background_image_top": "shopify:\/\/shop_images\/the-great-garloo-sketch-nacelle-store_623f0486-96e4-4de3-8ec3-b93dc4671d36.webp",
-        "product_bk_overlay": "",
-        "product_main_img_bk": "rgba(0, 0, 0, 0.47)",
+        "product_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture_8c778c92-d478-4821-a576-ffd6dca0fd1b.webp",
+        "product_nav_background_image": "shopify:\/\/shop_images\/blue-line-texture-nacelle-store_d72ddce6-7351-448c-99be-2a428fa6c4b6.webp",
+        "product_bk_overlay": "rgba(0, 0, 0, 0.67)",
+        "product_main_img_bk": "",
         "product_bk_img_size": "100% auto",
         "product_bk_img_repeat": "repeat-y",
         "product_bk_img_attachment": "scroll"
@@ -34,13 +33,6 @@
           "settings": {
           }
         },
-        "subtitle": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -49,12 +41,6 @@
         "description": {
           "type": "description",
           "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -78,10 +64,8 @@
       "block_order": [
         "vendor",
         "title",
-        "subtitle",
         "price",
         "description",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "share"
