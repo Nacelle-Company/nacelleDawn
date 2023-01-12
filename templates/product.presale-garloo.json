@@ -82,7 +82,7 @@
         "f9087380-f369-4aa4-b18d-f5148d25ef99": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Estimated shipping is Spring 2023<\/sub><br><sub>Please read the pre-order policy below <\/sub>"
+            "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Estimated shipping is Spring 2023.<br>Please read the pre-order policy below <\/sub>"
           }
         },
         "829bca02-6287-44c1-9961-a72e6b46468e": {
