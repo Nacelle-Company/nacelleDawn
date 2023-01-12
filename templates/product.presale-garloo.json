@@ -6,6 +6,7 @@
         "alter_product_style": true,
         "product_text_color": "#ffffff",
         "product_nav_text_color": "#ffffff",
+        "button_color": "#78bb55",
         "nav_logo_white": true,
         "product_bk_color": "rgba(0,0,0,0)",
         "product_bk_img_none": false,
@@ -40,7 +41,53 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "f2de2192-cd6e-4794-89b0-abc6b4cba405": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product__description rte\">\n\t\t\t\t<p><strong>!! NOT FOR SALE YET !!<\/strong><\/p>\n<p>60's Monster toy icon THE GREAT GARLOO is back and ready to reign over your toy collection, as a vibrant, original sculpt collectible <br><br>This is a PRE-SALE. Estimated shipping is Spring 2023 <br><br>Details: 3\" inches tall - Vintage Inspired Window-Box Packaging <br><br>Box Contents:<br>x1 Great Garloo figure<\/p>\n\t\t  <\/div>"
+          }
+        },
+        "f9087380-f369-4aa4-b18d-f5148d25ef99": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Please read the pre-order policy below <\/sub>"
+          }
+        },
+        "dfb42146-b7c3-40d6-8380-e723f24e8922": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "THIS IS A PRE-ORDER",
+            "text_style": "subtitle"
+          }
+        },
+        "2595c965-39da-4940-af3e-9406a1ea950e": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Please read the pre-order policy below",
+            "text_style": "body"
+          }
+        },
+        "871dacc1-586f-494e-8422-c9775cf873d2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Please read the pre-order policy below",
+            "text_style": "uppercase"
+          }
+        },
+        "829bca02-6287-44c1-9961-a72e6b46468e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pre-Order Policy",
+            "content": "<ul><li><em>By purchasing the product above you have agreed to the pre-order terms and conditions<\/em><\/li><li><em>Terms & Conditions: Cancellations for pre-orders are honored within 72 hours of the original date of purchase. Pre-orders cannot be refunded after this 72 hour window.<\/em><\/li><li><em>Pre-order products can only be returned upon receipt if the product is damaged on arrival.<\/em><\/li><\/ul>",
+            "page": "",
+            "icon": "box"
           }
         },
         "quantity_selector": {
@@ -51,7 +98,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "share": {
@@ -66,6 +113,12 @@
         "title",
         "price",
         "description",
+        "f2de2192-cd6e-4794-89b0-abc6b4cba405",
+        "f9087380-f369-4aa4-b18d-f5148d25ef99",
+        "dfb42146-b7c3-40d6-8380-e723f24e8922",
+        "2595c965-39da-4940-af3e-9406a1ea950e",
+        "871dacc1-586f-494e-8422-c9775cf873d2",
+        "829bca02-6287-44c1-9961-a72e6b46468e",
         "quantity_selector",
         "buy_buttons",
         "share"
