@@ -1,14 +1,22 @@
 <!doctype html>
-<html class="no-js" lang="{{ request.locale.iso_code }}">
+<html class="no-js" lang="{{ request.locale.iso_code }}">    
   <head>
-    {%- comment -%} REDIRECT to presale page {%- endcomment -%}
-    {% unless template != 'index' %}
-      {% unless content_for_header contains 'designMode' %}
-        <script>
-          window.location.href = '{{ shop.url }}/collections/robo-force';
-        </script>
-      {% endunless %}
-    {% endunless %}
+    {% comment %}
+      redirect the homepage
+      set in Shopify admin/live theme/edit default content/general/Homepage/Homepage redirect
+      if not set to 'none', redirects to what is entered
+    {% endcomment %}
+    {% assign redirect = 'general.homepage.homepage_redirect' | t %}
+      {% if redirect != 'none' %}      
+        {%- comment -%} REDIRECT to presale page {%- endcomment -%}
+        {% unless template != 'index' %}
+          {% unless content_for_header contains 'designMode' %}
+            <script class="site-redirect">
+              window.location.href = '{{ shop.url }}/collections/{{ redirect }}';
+            </script>
+          {% endunless %}
+        {% endunless %}
+      {% endif %}
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4TGREDDG7"></script>
@@ -158,6 +166,7 @@
   {% endif %}
 
   <body class="gradient{{ presale_class }} {{ collection.template_suffix }}">
+
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
