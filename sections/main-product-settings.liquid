@@ -20,9 +20,17 @@
     .newsletter-form .field__input, 
     .localization-form .disclosure__button
 {%- endcapture -%}
+{% capture textColorHR %}
+    hr
+{% endcapture %}
+{% comment %}
+  END Text color classes
+{% endcomment %}
 
 {%- capture buttonClasses -%}
-    .product-nav-btn .button
+    .product-nav-btn .button,
+    .button.product-form__submit,
+    .button.product-form__submit:hover
 {%- endcapture -%}
 
 {% liquid
@@ -77,13 +85,14 @@
   if section.settings.product_text_color != 'rgba(0,0,0,0)'
     assign stylesTextColor = section.settings.product_text_color
     assign stylesFormElements = textColorFormClasses | append: '{box-shadow:' | append: stylesTextColor | append: ' 0px 0px 0px 1.15px;}'
+    assign stylesTextColorHR = textColorHR | append: '{background-color:' | append: stylesTextColor | append: '}'
     assign stylesTextColor = textColorClasses | append: '{color:' | append: stylesTextColor | append: '!important;}' | append: stylesFormElements
   endif
 
   # button color
-  if block.settings.button_color != '#5899e1'
-    assign buttonColor = block.settings.button_color
-    assign buttonColorStyle = 'style="background-color:' | append: buttonColor | append: ';box-shadow:' | append: buttonColor | append: ' 0 0 0 1.15px;"'
+  if section.settings.button_color != '#5899e1'
+    assign buttonColor = section.settings.button_color
+    assign buttonColorStyle = buttonClasses | append: '{background-color:' | append: buttonColor | append: ';box-shadow:' | append: buttonColor | append: ' 0 0 0 1.15px;}'
   endif
 
   # nav text color
@@ -103,7 +112,7 @@
     assign imgAnimate = '.animate-bk-img_left {background-image: url(' | append: img | append: ');}'
   endif
 
-  # set FINAL styles
+  # FINAL STYLES
   # background image none
   if section.settings.product_bk_img_none == true
     assign stylesBkImgNoneHeaderFooter = 'footer.footer.gradient, .gradient .header-wrapper{background-color: transparent !important;background-image:none;}'
@@ -114,7 +123,7 @@
     assign stylesBkImgBody = 'body.template_presale.' | append: template.suffix | append: '{' | append: bkImgProp | append: bkImgRepeat | append: bkImgSize | append: bkImgAtt | append: bkColorProp | append: '}'
   endif
 
-  assign stylesBkImg = '<style class="main_product_settings">' | append: stylesBkImgBody | append: stylesTextColor | append: stylesNavTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: imgAnimate | append: navStyles | append: buttonColorStyle | append: prodMainImgBkStyle | append: '</style>'
+  assign stylesBkImg = '<style class="main_product_settings">' | append: stylesBkImgBody | append: stylesTextColor | append: stylesNavTextColor | append: navLogoColor | append: stylesBkImgFooter | append: stylesBkImgSections | append: bkColorOverlayProp | append: imgAnimate | append: navStyles | append: buttonColorStyle | append: prodMainImgBkStyle | append: stylesTextColorHR | append: '</style>'
   if section.settings.alter_product_style
     echo stylesBkImg
   endif
