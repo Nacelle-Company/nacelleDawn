@@ -1,7 +1,7 @@
 {
   "general": {
     "homepage": {
-      "homepage_redirect": "none"
+      "homepage_redirect": "robo-force"
     },
     "password_page": {
       "login_form_heading": "Enter store using password:",
