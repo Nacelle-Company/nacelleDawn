@@ -48,37 +48,41 @@
         "f2de2192-cd6e-4794-89b0-abc6b4cba405": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product__description rte\">\n\t\t\t\t<p><strong>!! NOT FOR SALE YET !!<\/strong><\/p>\n<p>60's Monster toy icon THE GREAT GARLOO is back and ready to reign over your toy collection, as a vibrant, original sculpt collectible <br><br>This is a PRE-SALE. Estimated shipping is Spring 2023 <br><br>Details: 3\" inches tall - Vintage Inspired Window-Box Packaging <br><br>Box Contents:<br>x1 Great Garloo figure<\/p>\n\t\t  <\/div>"
+            "custom_liquid": "<div class=\"product__description rte\">\n\t\t\t\t<p><strong>!! NOT FOR SALE YET !!<\/strong><\/p>\n<p>60's Monster toy icon THE GREAT GARLOO is back and ready to reign over your toy collection, as a vibrant, original sculpt collectible.<\/p>\n\t\t  <\/div>"
+          }
+        },
+        "871dacc1-586f-494e-8422-c9775cf873d2": {
+          "type": "text",
+          "settings": {
+            "text": "Details:",
+            "text_style": "uppercase"
+          }
+        },
+        "8a3bddd5-980a-4f4b-9a2b-b688327cff39": {
+          "type": "text",
+          "settings": {
+            "text": "3\" inches tall - Vintage Inspired Window-Box Packaging",
+            "text_style": "body"
+          }
+        },
+        "dfb42146-b7c3-40d6-8380-e723f24e8922": {
+          "type": "text",
+          "settings": {
+            "text": "Box Contents:",
+            "text_style": "uppercase"
+          }
+        },
+        "2595c965-39da-4940-af3e-9406a1ea950e": {
+          "type": "text",
+          "settings": {
+            "text": "x1 Great Garloo figure",
+            "text_style": "body"
           }
         },
         "f9087380-f369-4aa4-b18d-f5148d25ef99": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Please read the pre-order policy below <\/sub>"
-          }
-        },
-        "dfb42146-b7c3-40d6-8380-e723f24e8922": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "THIS IS A PRE-ORDER",
-            "text_style": "subtitle"
-          }
-        },
-        "2595c965-39da-4940-af3e-9406a1ea950e": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Please read the pre-order policy below",
-            "text_style": "body"
-          }
-        },
-        "871dacc1-586f-494e-8422-c9775cf873d2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Please read the pre-order policy below",
-            "text_style": "uppercase"
+            "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Estimated shipping is Spring 2023<\/sub><br><sub>Please read the pre-order policy below <\/sub>"
           }
         },
         "829bca02-6287-44c1-9961-a72e6b46468e": {
@@ -114,10 +118,11 @@
         "price",
         "description",
         "f2de2192-cd6e-4794-89b0-abc6b4cba405",
-        "f9087380-f369-4aa4-b18d-f5148d25ef99",
+        "871dacc1-586f-494e-8422-c9775cf873d2",
+        "8a3bddd5-980a-4f4b-9a2b-b688327cff39",
         "dfb42146-b7c3-40d6-8380-e723f24e8922",
         "2595c965-39da-4940-af3e-9406a1ea950e",
-        "871dacc1-586f-494e-8422-c9775cf873d2",
+        "f9087380-f369-4aa4-b18d-f5148d25ef99",
         "829bca02-6287-44c1-9961-a72e6b46468e",
         "quantity_selector",
         "buy_buttons",
