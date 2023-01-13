@@ -7,10 +7,11 @@
 	"settings": {
 		"liquid.format.preserveLine": 1,
 		"prettier.enable": true,
-		"liquid.format.enable": false,
+		"liquid.format.enable": true,
 		"prettier.bracketSameLine": true,
-		"liquid.format.indentSize": 4,
+		"liquid.format.indentSize": 2,
 		"prettier.useTabs": true,
-		"editor.insertSpaces": false
-    }
+		"editor.insertSpaces": false,
+		"editor.formatOnSaveMode": "modifications"
+	}
 }

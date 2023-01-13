@@ -1,4 +1,7 @@
 <!-- Customizer section: IMAGE BANNER -->
+{% comment %}
+  TODO: customizer/garloo collection/custom liquid styles -> section settings
+{% endcomment %}
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {% liquid
   if section.settings.mobile_padding != 1
@@ -57,7 +60,7 @@
     }
     /* ----------- iPhone X ----------- */
     /* Portrait */
-    @media only screen and (min-device-width: 375px) and(max-device-width: 812px) and(-webkit-min-device-pixel-ratio: 3) and(orientation: portrait) {
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and(-webkit-min-device-pixel-ratio: 3) and(orientation: portrait) {
         .banner--large.banner--mobile-bottom:not(.banner--adapt) > .banner__media {
             height: {{ section.settings.image_mobile.width | divided_by: 48 }}rem;
         }

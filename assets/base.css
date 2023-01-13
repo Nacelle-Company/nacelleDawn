@@ -249,6 +249,10 @@ html {
 .spaced-section:last-child {
 	margin-bottom: 5rem;
 }
+/* 
+.spaced-section:nth-child(n+3) {
+	padding-top: calc(4rem + var(--page-width-margin));
+} */
 
 @media screen and (min-width: 750px) {
 	.element-margin,
