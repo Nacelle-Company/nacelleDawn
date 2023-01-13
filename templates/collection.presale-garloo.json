@@ -40,7 +40,7 @@
         "image": "shopify:\/\/shop_images\/the-great-garloo-img-banner-nacelle-store_b5dc097d-067c-48e2-b80d-524efaa9b9c0.webp",
         "image_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-img-banner_522fbcc1-deaf-4d11-98a3-bdd5c6f46bc9.webp",
         "legal_text": "",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "lazy_disable": true,
         "image_height": "full",
         "banner_bk_img_fit": "cover",
@@ -53,7 +53,7 @@
         "color_scheme": "text",
         "use_background_color": false,
         "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
-        "mobile_padding": 84,
+        "mobile_padding": 76,
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -155,7 +155,7 @@
     "6e065944-06da-491c-93f9-174f93d23506": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<br>"
+        "custom_liquid": "<br>\n<style>\n\n@media (min-width: 750px) and (max-width: 769px) {\n.banner--full:not(.banner--adapt) {\n    min-height: 53rem;\n}\n}\n@media (min-width: 770px) and (max-width: 1400px) {\n.banner--full:not(.banner--adapt) {\n    min-height: 71rem;\n}\n}\n@media screen and (min-width: 1401px) {\n.banner--full:not(.banner--adapt) {\n    min-height: 98rem;\n}\n}\n<\/style>"
       }
     },
     "c01a0b4a-7f78-4a06-bf37-5f9fce989ea6": {
