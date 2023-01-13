@@ -15,7 +15,6 @@
   if section.settings.desktop_no_top_space
     assign desktop_no_top_space = 'desktop_no_top_space'
   endif
-  echo desktop_no_top_space
 %}
 
 <div class="collection-list-wrapper page-width{% if section.settings.swipe_on_mobile == true %} page-width-desktop{% endif %}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.show_view_all == false or section.blocks.size > collections.size %} no-mobile-link{% endif %}">
