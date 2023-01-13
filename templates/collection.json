@@ -33,11 +33,49 @@
       "settings": {
         "custom_liquid": "<span class=\"header\"><\/span>\n<span class=\"header\"><\/span>"
       }
+    },
+    "a0a3dfe5-5d1c-4ddf-8876-3d24767d4666": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        },
+        "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toys-collectibles"
+          }
+        },
+        "dca23afc-ef75-4020-8693-7c76a5564732": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel"
+          }
+        }
+      },
+      "block_order": [
+        "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-0",
+        "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-1",
+        "dca23afc-ef75-4020-8693-7c76a5564732"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "desktop_no_top_space": true,
+        "swipe_on_mobile": true,
+        "image_padding": true,
+        "show_view_all": true
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "16373985869e07d46b"
+    "16373985869e07d46b",
+    "a0a3dfe5-5d1c-4ddf-8876-3d24767d4666"
   ]
 }
