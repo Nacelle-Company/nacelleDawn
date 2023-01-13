@@ -1,12 +1,12 @@
 <!-- COLLECTION SETTINGS -->
 {%- capture textColorClasses -%}
-	.product__info-container *, .footer__content-top *, .footer__content-bottom *,
-	.card-information__wrapper *, .collection-list-title
+  .product__info-container *, .footer__content-top *, .footer__content-bottom *,
+  .card-information__wrapper *, .collection-list-title
 {%- endcapture -%}
 
 {%- capture textColorClassesNav -%}
-	.header__inline-menu *:not(.header__submenu *), .header__icons *,
-	.header__icon
+  .header__inline-menu *:not(.header__submenu *), .header__icons *:not(.search__input),
+  .header__icon
 {%- endcapture -%}
 
 {% liquid
@@ -89,152 +89,137 @@
 %}
 
 {% schema %}
-{
-  "name": "t:sections.main-collection-settings.name",
-  "class": "main-collection-settings",
-  "settings": [
-    {
-      "type": "paragraph",
-      "content": "t:sections.main-collection-settings.settings.paragraph.content"
-    },
-    {
-      "type": "checkbox",
-      "id": "alter_collection_style",
-      "label": "Alter collection style",
-      "default": false,
-      "info": "Change the collection style."
-    },
-    {
-      "type": "header",
-      "content": "Typography"
-    },
-    {
-      "type": "color",
-      "id": "collection_text_color",
-      "label": "Text color",
-      "default": "#000000"
-    },
-    {
-      "type": "color",
-      "id": "collection_nav_text_color",
-      "label": "Nav text color",
-      "default": "#313131"
-    },
-    {
-      "type": "header",
-      "content": "Navigation"
-    },
-    {
-      "type": "checkbox",
-      "id": "nav_logo_white",
-      "label": "Top nav logo white",
-      "default": false
-    },
-    {
-      "type": "header",
-      "content": "Collection background"
-    },
-    {
-      "type": "color_background",
-      "id": "collection_bk_color",
-      "label": "Background color"
-    },
-    {
-      "type": "checkbox",
-      "id": "collection_bk_img_none",
-      "default": false,
-      "label": "Background image none",
-      "info": "Uncheck for collection background image to show."
-    },
-    {
-      "type": "image_picker",
-      "id": "collection_nav_background_image",
-      "label": "Collection nav background image"
-    },
-    {
-      "type": "image_picker",
-      "id": "collection_background_image",
-      "label": "Collection background image"
-    },
-    {
-      "type": "text",
-      "id": "collection_bk_overlay",
-      "label": "Background overlay color",
-      "default": "rgba(0, 0, 0, 0.67)",
-      "info": "Overlay color on top of the background image. Copy and paste rgba color code from this [Color Picker](https://hslpicker.com) ex: rgba(0, 0, 0, 0.67)"
-    },
-    {
-      "type": "select",
-      "id": "collection_bk_img_size",
-      "label": "Background image size",
-      "options": [
-        {
-          "value": "auto",
-          "label": "Auto"
-        },
-        {
-          "value": "contain",
-          "label": "Contain"
-        },
-        {
-          "value": "cover",
-          "label": "Cover"
-        },
-        {
-          "value": "100% auto",
-          "label": "Full width"
-        },
-        {
-          "value": "unset",
-          "label": "Unset"
-        }
-      ],
-      "default": "auto"
-    },
-    {
-      "type": "select",
-      "id": "collection_bk_img_repeat",
-      "label": "Background image repeat",
-      "options": [
-        {
-          "value": "unset",
-          "label": "Unset"
-        },
-        {
-          "value": "no-repeat",
-          "label": "No repeat"
-        },
-        {
-          "value": "repeat",
-          "label": "Repeat"
-        },
-        {
-          "value": "repeat-x",
-          "label": "Repeat horizontally"
-        },
-        {
-          "value": "repeat-y",
-          "label": "Repeat vertically"
-        }
-      ],
-      "default": "unset"
-    },
-    {
-      "type": "select",
-      "id": "collection_bk_img_attachment",
-      "label": "Background image attachment",
-      "options": [
-        {
-          "value": "scroll",
-          "label": "Scroll"
-        },
-        {
-          "value": "fixed",
-          "label": "Fixed"
-        }
-      ],
-      "default": "fixed"
-    }
-  ]
-}
+  {
+    "name": "t:sections.main-collection-settings.name",
+    "class": "main-collection-settings",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "t:sections.main-collection-settings.settings.paragraph.content"
+      },
+      {
+        "type": "checkbox",
+        "id": "alter_collection_style",
+        "label": "Alter collection style",
+        "default": false,
+        "info": "Change the collection style."
+      },
+      {
+        "type": "header",
+        "content": "Typography"
+      },
+      {
+        "type": "color",
+        "id": "collection_text_color",
+        "label": "Text color",
+        "default": "#000000"
+      }, {
+        "type": "color",
+        "id": "collection_nav_text_color",
+        "label": "Nav text color",
+        "default": "#313131"
+      }, {
+        "type": "header",
+        "content": "Navigation"
+      }, {
+        "type": "checkbox",
+        "id": "nav_logo_white",
+        "label": "Top nav logo white",
+        "default": false
+      }, {
+        "type": "header",
+        "content": "Collection background"
+      }, {
+        "type": "color_background",
+        "id": "collection_bk_color",
+        "label": "Background color"
+      }, {
+        "type": "checkbox",
+        "id": "collection_bk_img_none",
+        "default": false,
+        "label": "Background image none",
+        "info": "Uncheck for collection background image to show."
+      }, {
+        "type": "image_picker",
+        "id": "collection_nav_background_image",
+        "label": "Collection nav background image"
+      }, {
+        "type": "image_picker",
+        "id": "collection_background_image",
+        "label": "Collection background image"
+      }, {
+        "type": "text",
+        "id": "collection_bk_overlay",
+        "label": "Background overlay color",
+        "default": "rgba(0, 0, 0, 0.67)",
+        "info": "Overlay color on top of the background image. Copy and paste rgba color code from this [Color Picker](https://hslpicker.com) ex: rgba(0, 0, 0, 0.67)"
+      }, {
+        "type": "select",
+        "id": "collection_bk_img_size",
+        "label": "Background image size",
+        "options": [
+          {
+            "value": "auto",
+            "label": "Auto"
+          },
+          {
+            "value": "contain",
+            "label": "Contain"
+          },
+          {
+            "value": "cover",
+            "label": "Cover"
+          },
+          {
+            "value": "100% auto",
+            "label": "Full width"
+          }, {
+            "value": "unset",
+            "label": "Unset"
+          }
+        ],
+        "default": "auto"
+      }, {
+        "type": "select",
+        "id": "collection_bk_img_repeat",
+        "label": "Background image repeat",
+        "options": [
+          {
+            "value": "unset",
+            "label": "Unset"
+          },
+          {
+            "value": "no-repeat",
+            "label": "No repeat"
+          },
+          {
+            "value": "repeat",
+            "label": "Repeat"
+          },
+          {
+            "value": "repeat-x",
+            "label": "Repeat horizontally"
+          }, {
+            "value": "repeat-y",
+            "label": "Repeat vertically"
+          }
+        ],
+        "default": "unset"
+      }, {
+        "type": "select",
+        "id": "collection_bk_img_attachment",
+        "label": "Background image attachment",
+        "options": [
+          {
+            "value": "scroll",
+            "label": "Scroll"
+          }, {
+            "value": "fixed",
+            "label": "Fixed"
+          }
+        ],
+        "default": "fixed"
+      }
+    ]
+  }
 {% endschema %}
