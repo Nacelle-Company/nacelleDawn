@@ -2,6 +2,7 @@
 {%- comment -%} 
 	Product age pagination: https://community.shopify.com/c/shopify-design/how-to-add-next-previous-links-on-the-product-page/td-p/450481
 {%- endcomment -%}
+
 {% assign next_product_url = collection.next_product.url %}
 {% assign previous_product_url = collection.previous_product.url %}
 
@@ -24,21 +25,26 @@
 		{% endif %}
 	</span>
 
-	<span class="product-nav-btn">
+	
 		{% for collection in product.collections %}
-			{% unless collection.handle == 'toys-collectibles' or collection.handle == 'consumer-products' %}
-				<a href="/collections/{{ collection.handle }}" class="button button-product-nav button--primary button-return">
-					{%- render 'icon-return' %} Return to <br>
-					<em class="product-nav__return-collection">
-						{{- collection.title -}} 
-					</em>
-				</a>
+			{% liquid
+				assign coll_handle = collection.handle
+			%}
+			{% unless coll_handle == 'toys-collectibles' or coll_handle == 'consumer-products' or coll_handle == 'the-great-garloo-all-products' %}
+				<span class="product-nav-btn">
+					<a href="/collections/{{ collection.handle }}" class="button button-product-nav button--primary button-return">
+						{%- render 'icon-return' %} Return to <br>
+						<em class="product-nav__return-collection">
+							{{- collection.title -}} 
+						</em>
+					</a>
+				</span>
 			{% endunless %}
 			{% if variable > 1 %}
 				{% break  %}
 			{% endif %}
 		{% endfor %}
-	</span>
+	
 
 	<span class="product-nav-btn product-nav__next">
 		{% if collection.next_product %}
