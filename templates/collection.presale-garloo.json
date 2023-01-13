@@ -42,7 +42,7 @@
         "legal_text": "",
         "adapt_height_first_image": false,
         "lazy_disable": true,
-        "image_height": "full",
+        "image_height": "large",
         "banner_bk_img_fit": "contain",
         "banner_bk_img_position": "left top",
         "image_overlay_opacity": 0,
