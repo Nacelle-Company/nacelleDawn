@@ -110,7 +110,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/the-great-garloo-production-box-nacelle-store_c6b00328-e316-4cf0-aa00-1111c0f1bfcb.webp",
-        "height": "contain",
+        "height": "large",
         "color_scheme": "none",
         "remove_bk_img": false,
         "layout": "text_first",
