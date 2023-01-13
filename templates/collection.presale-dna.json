@@ -267,6 +267,7 @@
         "title": "More collections",
         "image_ratio": "square",
         "color_scheme": "inverse",
+        "desktop_no_top_space": true,
         "swipe_on_mobile": true,
         "image_padding": true,
         "show_view_all": true
