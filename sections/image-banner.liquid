@@ -2,7 +2,7 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {% liquid
   if section.settings.mobile_padding != 1
-    assign mobile_padding = section.settings.mobile_padding
+    assign mobile_padding = section.settings.mobile_padding | append: '%'
   else
     assign mobile_padding = '35vh'
   endif
@@ -29,7 +29,7 @@
         }
         #Banner-{{ section.id }}::before,
         #Banner-{{ section.id }}.banner__media::before {
-            padding-bottom: 47%;
+            padding-bottom: 56%;
             content: '';
             display: block;
         }
