@@ -22,7 +22,7 @@
         "image": "shopify:\/\/shop_images\/desktop-sectaurs-img-banner.webp",
         "image_mobile": "shopify:\/\/shop_images\/mobile-sectaurs-img-banner.webp",
         "legal_text": "Artist rendering, final figure may vary. © 1983 Seventowns Ltd. © 2022 Seventowns Ltd.",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "lazy_disable": true,
         "image_height": "full",
         "banner_bk_img_fit": "cover",

@@ -56,7 +56,7 @@
         "image": "shopify:\/\/shop_images\/desktop-v4.gif",
         "image_mobile": "shopify:\/\/shop_images\/mobile-v1.gif",
         "legal_text": "",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "lazy_disable": true,
         "image_height": "large",
         "banner_bk_img_fit": "scale-down",
