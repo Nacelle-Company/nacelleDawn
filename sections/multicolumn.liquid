@@ -47,15 +47,16 @@
         -%}
         {%- for block in section.blocks -%}
           {% liquid
+            assign block_has_link = false
             if block.settings.block_link != blank
-              assign block_has_link
+              assign block_has_link = true
               assign block_link_url = block.settings.block_link
+              assign block_position = ' position-relative'
             endif
-            echo block_has_link
           %}
-          <li class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}" {{ block.shopify_attributes }}>
+          <li class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %} {% if block_has_link %}{{ block_position }}{% endif %} " {{ block.shopify_attributes }}>
             {% if block_has_link %}
-              <a href="{{ block_link_url }}" class="link-absolute"></a>
+              <a href="{{ block_link_url }}" class="full-width-link"><span></span></a>
             {% endif %}
             <div class="multicolumn-card">
               {%- if block.settings.image != blank -%}

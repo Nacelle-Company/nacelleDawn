@@ -64,13 +64,19 @@
 
 .multicolumn:not(.background-none) .multicolumn-card {
   background: rgba(var(--color-foreground), 0.04);
+  outline: 4px solid transparent;
   height: 100%;
+    transition: all 0.2s ease-out;
 }
 
 .multicolumn.background-secondary .multicolumn-card {
   background: rgb(var(--color-background));
 }
-
+/* block with link - hover */
+.full-width-link:hover+.multicolumn-card {
+  background: none;
+  outline: 4px solid rgba(var(--color-foreground), 0.06);
+}
 .multicolumn.background-secondary {
   padding: 4rem 0 5rem;
 }
