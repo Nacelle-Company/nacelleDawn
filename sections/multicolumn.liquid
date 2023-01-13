@@ -46,7 +46,17 @@
           endfor
         -%}
         {%- for block in section.blocks -%}
+          {% liquid
+            if block.settings.block_link != blank
+              assign block_has_link
+              assign block_link_url = block.settings.block_link
+            endif
+            echo block_has_link
+          %}
           <li class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}" {{ block.shopify_attributes }}>
+            {% if block_has_link %}
+              <a href="{{ block_link_url }}" class="link-absolute"></a>
+            {% endif %}
             <div class="multicolumn-card">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
@@ -255,6 +265,11 @@
           "id": "p_bullets",
           "label": "Description bullets",
           "default": false
+        },
+        {
+          "type": "url",
+          "id": "block_link",
+          "label": "Block link"
         }
       ]
     }
