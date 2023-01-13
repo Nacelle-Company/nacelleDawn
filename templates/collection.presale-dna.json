@@ -242,7 +242,7 @@
         "16632785705137c121-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "toys-collectibles"
+            "collection": "the-great-garloo"
           }
         },
         "16632785705137c121-1": {
@@ -264,12 +264,12 @@
         "16632785705137c121-2"
       ],
       "settings": {
-        "title": "",
+        "title": "More collections",
         "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
+        "color_scheme": "inverse",
+        "swipe_on_mobile": true,
+        "image_padding": true,
+        "show_view_all": true
       }
     },
     "banner": {
