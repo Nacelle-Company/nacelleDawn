@@ -228,11 +228,16 @@ reqJquery(function($){
                   if(window.is_wcp_custom_param != undefined &&  window.is_wcp_custom_param ==true){
     				        orderRedirectUrl = orderRedirectUrl += "?" + window.wcp_cusome_invoiceUrlParams.join("&");
     		          }
-              }              
+              }
+              if(window.wpd_checkout_redirect_delay==undefined || isNaN(window.wpd_checkout_redirect_delay)){
+                window.wpd_checkout_redirect_delay=500;
+              }else{
+                window.wpd_checkout_redirect_delay=window.wpd_checkout_redirect_delay < 500 ? 500 : window.wpd_checkout_redirect_delay;                
+              }
               setTimeout(function(){
                 wcpClearCart();
                 window.location.href = orderRedirectUrl;                     
-              }, 500);
+              },window.wpd_checkout_redirect_delay);
             } else {
               wcpClearCart();
               window.location.href = "/checkout";               
