@@ -236,6 +236,12 @@
         "show_rating": false
       }
     },
+    "cc25b74f-c12e-4a9d-af5b-a9904a3af9a9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<br>"
+      }
+    },
     "1663278570e12d9623": {
       "type": "collection-list",
       "blocks": {
@@ -267,7 +273,7 @@
         "title": "More collections",
         "image_ratio": "square",
         "color_scheme": "inverse",
-        "desktop_no_top_space": true,
+        "desktop_no_top_space": false,
         "swipe_on_mobile": true,
         "image_padding": true,
         "show_view_all": true
@@ -409,6 +415,7 @@
     "8f324e27-c396-4b18-8b6c-59b2ed56a3c9",
     "fef9915c-5389-4a0a-9eb4-5d74ad3ce878",
     "4e65595d-fbcc-448d-ba19-3267d3589fa1",
+    "cc25b74f-c12e-4a9d-af5b-a9904a3af9a9",
     "1663278570e12d9623",
     "banner",
     "7cd34edf-c924-4e09-aca1-cfb91387814c",

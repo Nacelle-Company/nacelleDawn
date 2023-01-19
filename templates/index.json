@@ -309,7 +309,7 @@
         "swipe_on_mobile": true,
         "desktop_full_width": false,
         "desktop_no_top_space": false,
-        "background_color": "linear-gradient(#ffffff, #000000)",
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
         "image_ratio": "square",
         "show_secondary_image": false,
         "add_image_padding": false,
@@ -355,7 +355,7 @@
         "title": "",
         "image_ratio": "square",
         "color_scheme": "background-1",
-        "desktop_no_top_space": false,
+        "desktop_no_top_space": true,
         "swipe_on_mobile": true,
         "image_padding": true,
         "show_view_all": true
