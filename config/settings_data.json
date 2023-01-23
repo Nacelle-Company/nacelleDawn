@@ -33,6 +33,7 @@
         "blocks": {
           "274434d4-9837-4c66-b37b-17e8b70ccb72": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text_pre": "GET TO KNOW YOUR CUSTOMERS DAY SALE",
               "text": "<p>10% OFF <em>sitewide using promo code:<\/em> CUSTOMER <em>48 HOURS ONLY<\/em><\/p>",
