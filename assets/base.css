@@ -1683,7 +1683,11 @@ input[type="checkbox"] {
 .form__label {
 	display: block;
 	margin-bottom: 0.6rem;
-  opacity: 0;
+}
+
+.form__label,
+.field__label {
+    opacity: 0;
 }
 
 .form__message {
