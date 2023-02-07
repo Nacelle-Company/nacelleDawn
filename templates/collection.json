@@ -1,42 +1,5 @@
 {
   "sections": {
-    "ae7fafc8-d9ec-4ffc-aff8-88e6c1bb7f40": {
-      "type": "collection-list",
-      "blocks": {
-        "template--15235431563455__ae7fafc8-d9ec-4ffc-aff8-88e6c1bb7f40-16757290688fcfe53e-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "legends-of-laughter"
-          }
-        },
-        "template--15235431563455__ae7fafc8-d9ec-4ffc-aff8-88e6c1bb7f40-16757290688fcfe53e-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--15235431563455__ae7fafc8-d9ec-4ffc-aff8-88e6c1bb7f40-16757290688fcfe53e-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15235431563455__ae7fafc8-d9ec-4ffc-aff8-88e6c1bb7f40-16757290688fcfe53e-0",
-        "template--15235431563455__ae7fafc8-d9ec-4ffc-aff8-88e6c1bb7f40-16757290688fcfe53e-1",
-        "template--15235431563455__ae7fafc8-d9ec-4ffc-aff8-88e6c1bb7f40-16757290688fcfe53e-2"
-      ],
-      "settings": {
-        "title": "Collections",
-        "image_ratio": "square",
-        "color_scheme": "background-2",
-        "desktop_no_top_space": false,
-        "swipe_on_mobile": true,
-        "image_padding": false,
-        "show_view_all": true
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -145,7 +108,6 @@
     }
   },
   "order": [
-    "ae7fafc8-d9ec-4ffc-aff8-88e6c1bb7f40",
     "banner",
     "product-grid",
     "16373985869e07d46b",
