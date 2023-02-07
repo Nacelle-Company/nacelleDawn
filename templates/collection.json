@@ -97,13 +97,41 @@
           "settings": {
             "collection": "legends-of-laughter"
           }
+        },
+        "cb1dd085-15a1-448a-a35b-77d645c169b1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dna"
+          }
+        },
+        "15917c48-f97a-42c5-9118-2bc7b361186e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "robo-force"
+          }
+        },
+        "9c3c1004-ba59-49f9-bf56-90d806861dfa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sectaurs"
+          }
+        },
+        "25a88a37-8f66-4994-9db0-d8f7d4a30f46": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-great-garloo"
+          }
         }
       },
       "block_order": [
         "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-0",
         "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-1",
         "dca23afc-ef75-4020-8693-7c76a5564732",
-        "c659e750-58b7-4b3e-bccf-4477c325f2cc"
+        "c659e750-58b7-4b3e-bccf-4477c325f2cc",
+        "cb1dd085-15a1-448a-a35b-77d645c169b1",
+        "15917c48-f97a-42c5-9118-2bc7b361186e",
+        "9c3c1004-ba59-49f9-bf56-90d806861dfa",
+        "25a88a37-8f66-4994-9db0-d8f7d4a30f46"
       ],
       "settings": {
         "title": "Collections",
