@@ -84,6 +84,12 @@
           "settings": {
             "collection": "the-great-garloo"
           }
+        },
+        "8e1993a5-ff03-4bb3-bac7-01e197e93449": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "stickers"
+          }
         }
       },
       "block_order": [
@@ -94,7 +100,8 @@
         "cb1dd085-15a1-448a-a35b-77d645c169b1",
         "15917c48-f97a-42c5-9118-2bc7b361186e",
         "9c3c1004-ba59-49f9-bf56-90d806861dfa",
-        "25a88a37-8f66-4994-9db0-d8f7d4a30f46"
+        "25a88a37-8f66-4994-9db0-d8f7d4a30f46",
+        "8e1993a5-ff03-4bb3-bac7-01e197e93449"
       ],
       "settings": {
         "title": "Collections",
