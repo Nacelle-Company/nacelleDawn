@@ -193,6 +193,10 @@ html {
 	padding: 0 1.5rem;
 }
 
+#wpd_main_container {
+    max-width: var(--page-width);
+}
+
 .page-width__lg {
 	max-width: var(--page-width-lg);
 }
