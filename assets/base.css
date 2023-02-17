@@ -2510,6 +2510,6 @@ details-disclosure > details {
 #wpd_main_container {
     max-width: var(--page-width);
 }
-#wpd_welcome_message_container {
+#top_bar_detail_container #wpd_welcome_message_container {
   max-width: unset;
 }
