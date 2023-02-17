@@ -1685,10 +1685,12 @@ input[type="checkbox"] {
 	margin-bottom: 0.6rem;
 }
 
+/*
 .form__label,
 .field__label {
     opacity: 0;
 }
+*/
 
 .form__message {
 	align-items: center;
