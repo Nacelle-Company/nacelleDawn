@@ -28,13 +28,6 @@
         "collapse_on_larger_devices": true
       }
     },
-    "16373985869e07d46b": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<span class=\"header\"><\/span>\n<span class=\"header\"><\/span>"
-      }
-    },
     "a0a3dfe5-5d1c-4ddf-8876-3d24767d4666": {
       "type": "collection-list",
       "blocks": {
@@ -76,7 +69,6 @@
   "order": [
     "banner",
     "product-grid",
-    "16373985869e07d46b",
     "a0a3dfe5-5d1c-4ddf-8876-3d24767d4666"
   ]
 }
