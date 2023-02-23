@@ -13,6 +13,8 @@
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
+{% assign excludedTags = section.settings.filter_out_tags %}
+
 {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
@@ -47,14 +49,6 @@
       <div class="collection page-width">
         <div class="loading-overlay gradient"></div>
 
-        {%- comment -%}to return to default remove BELOW {%- endcomment -%}
-        {% if customer and customer.tags contains 'b2b' %}
-          {% assign customer_b2b = true %}
-        {% else %}
-          {% assign customer_b2b = false %}
-        {% endif %}
-        {%- comment -%}to return to default remove ABOVE {%- endcomment -%}
-
         <ul
           id="product-grid"
           data-id="{{ section.id }}"
@@ -66,10 +60,7 @@
           "
         >
           {%- for product in collection.products -%}
-            {%- comment -%} to return to default remove BELOW {%- endcomment -%}
-            {%- if customer_b2b -%}
-              {%- comment -%}to return to default remove ABOVE {%- endcomment -%}
-
+            {% unless product.tags contains excludedTags %}
               <li class="grid__item">
                 {%
                   render 'product-card',
@@ -83,26 +74,7 @@
                   show_rating: section.settings.show_rating
                 %}
               </li>
-
-              {%- comment -%} to return to default remove BELOW {%- endcomment -%}
-            {%- elsif customer_b2b == false -%}
-              {%- if product.tags contains 'retail' -%}
-                <li class="grid__item">
-                  {%
-                    render 'product-card',
-                    product_card_product: product,
-                    product : product.
-                    media_size: section.settings.image_ratio,
-                    show_secondary_image: section.settings.show_secondary_image,
-                    add_image_padding: section.settings.add_image_padding,
-                    show_vendor: section.settings.show_vendor,
-                    show_image_outline: section.settings.show_image_outline,
-                    show_rating: section.settings.show_rating
-                  %}
-                </li>
-              {%- endif -%}
-            {%- endif -%}
-            {%- comment -%}to return to default remove ABOVE {%- endcomment -%}
+            {% endunless %}
           {%- endfor -%}
         </ul>
 
@@ -131,6 +103,12 @@
     {
       "type": "header",
       "content": "t:sections.main-collection-product-grid.settings.header__3.content"
+    },
+    {
+      "type": "text",
+      "id": "filter_out_tags",
+      "label": "Filter out tags",
+      "info": "Add exact tags you want to filter out of the product grid."
     },
     {
       "type": "select",
