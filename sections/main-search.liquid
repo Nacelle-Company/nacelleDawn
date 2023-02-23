@@ -154,7 +154,7 @@
 
             <ul class="grid grid--4-col-desktop grid--3-col-tablet grid--2-col grid--one-third-max grid--quarter-max negative-margin product-grid" role="list">
               {%- for item in search.results -%}
-                {% unless product.tags contains excludedTags %}
+                {% unless item.tags contains excludedTags %}
                 <li class="grid__item{% unless item.object_type == 'product' %} grid__item--small{% endunless %}">
                   {%- case item.object_type -%}
                     {%- when 'product' -%}
