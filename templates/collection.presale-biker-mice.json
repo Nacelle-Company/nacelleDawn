@@ -1,0 +1,331 @@
+{
+  "sections": {
+    "collection-settings": {
+      "type": "main-collection-settings",
+      "settings": {
+        "alter_collection_style": true,
+        "collection_text_color": "#313131",
+        "collection_nav_text_color": "#ffffff",
+        "nav_logo_white": true,
+        "collection_bk_color": "",
+        "collection_bk_img_none": false,
+        "collection_nav_background_image": "shopify:\/\/shop_images\/blue-line-texture-nacelle-store_d72ddce6-7351-448c-99be-2a428fa6c4b6.webp",
+        "collection_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture_8c778c92-d478-4821-a576-ffd6dca0fd1b.webp",
+        "collection_bk_overlay": "",
+        "collection_bk_img_size": "100% auto",
+        "collection_bk_img_repeat": "repeat-y",
+        "collection_bk_img_attachment": "scroll"
+      }
+    },
+    "164677671632a680df": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "af070f58-1592-472f-ac2f-afdb2aabd8de": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "BUY THE GREAT GARLOO",
+            "button_link_1": "\/products\/the-great-garloo-action-figure",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "flex-end"
+          }
+        }
+      },
+      "block_order": [
+        "af070f58-1592-472f-ac2f-afdb2aabd8de"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/the-great-garloo-img-banner-nacelle-store_b5dc097d-067c-48e2-b80d-524efaa9b9c0.webp",
+        "image_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-img-banner_522fbcc1-deaf-4d11-98a3-bdd5c6f46bc9.webp",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "cover",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_justification": "flex-end",
+        "show_text_box": false,
+        "text_box_bk_color": "",
+        "color_scheme": "text",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 76,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "80f0502e-9a53-4e60-bf61-08506912eb62": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15955224395967__80f0502e-9a53-4e60-bf61-08506912eb62-16734638822f9ff396-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GARLOO THE MIGHTY!"
+          }
+        },
+        "beb65153-1ae0-474e-a912-5bed57614538": {
+          "type": "heading",
+          "settings": {
+            "heading": "GARLOO THE UNTAMED!"
+          }
+        },
+        "b9994455-b579-4bea-94c4-38f9725361e4": {
+          "type": "heading",
+          "settings": {
+            "heading": "GARLOO THE TERRIBLE!"
+          }
+        },
+        "6939826a-13a1-4068-bbb1-fae7679af19e": {
+          "type": "heading",
+          "settings": {
+            "heading": "GARLOO...IS BACK!"
+          }
+        },
+        "template--15955224395967__80f0502e-9a53-4e60-bf61-08506912eb62-16734638822f9ff396-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Who can stop it? Who can control this monstrous creature? <\/p><p>You! That's right, now you can once again harness the power of this beastly creature with THE GREAT GARLOO retro collectible figure!<\/p>"
+          }
+        },
+        "template--15955224395967__80f0502e-9a53-4e60-bf61-08506912eb62-16734638822f9ff396-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy The Great Garloo",
+            "button_link": "\/products\/the-great-garloo-action-figure",
+            "button_color": "#78bb55"
+          }
+        }
+      },
+      "block_order": [
+        "template--15955224395967__80f0502e-9a53-4e60-bf61-08506912eb62-16734638822f9ff396-0",
+        "beb65153-1ae0-474e-a912-5bed57614538",
+        "b9994455-b579-4bea-94c4-38f9725361e4",
+        "6939826a-13a1-4068-bbb1-fae7679af19e",
+        "template--15955224395967__80f0502e-9a53-4e60-bf61-08506912eb62-16734638822f9ff396-1",
+        "template--15955224395967__80f0502e-9a53-4e60-bf61-08506912eb62-16734638822f9ff396-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/the-great-garloo-production-box-nacelle-store_c6b00328-e316-4cf0-aa00-1111c0f1bfcb.webp",
+        "height": "large",
+        "color_scheme": "none",
+        "remove_bk_img": false,
+        "layout": "text_first",
+        "col_width": "default",
+        "image_border": false
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "none",
+        "collection_description_bk_none": false,
+        "show_collection_description": true,
+        "show_collection_title": false,
+        "collection_description_center": false,
+        "show_collection_image": true,
+        "mobile_top_spacing": "margin_padding"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-presale-product-grid",
+      "disabled": true,
+      "settings": {
+        "show_default_product_grid": true,
+        "products_per_page": 8,
+        "grid_bk_img": "shopify:\/\/shop_images\/garloo-background-tiger-texture-with-garloo-transparent-bk-3_912d1ce2-1b81-4075-aa27-84dffe0bcd3b.webp",
+        "grid_bk_img_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-product-grid-bkgnd-nacelle-store-4.webp",
+        "grid_bk_img_position": "center",
+        "grid_bk_img_repeat": "no-repeat",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_image_outline": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": true
+      }
+    },
+    "6e065944-06da-491c-93f9-174f93d23506": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<br>\n<style>\n\n@media (min-width: 750px) and (max-width: 769px) {\n.banner--full:not(.banner--adapt) {\n    min-height: 53rem;\n}\n}\n@media (min-width: 770px) and (max-width: 1400px) {\n.banner--full:not(.banner--adapt) {\n    min-height: 71rem;\n}\n}\n@media screen and (min-width: 1401px) {\n.banner--full:not(.banner--adapt) {\n    min-height: 98rem;\n}\n}\n<\/style>"
+      }
+    },
+    "c01a0b4a-7f78-4a06-bf37-5f9fce989ea6": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "bfaf757e-8acf-41e5-925f-47d969d07570": {
+          "type": "text",
+          "settings": {
+            "text": "60's Monster toy icon THE GREAT GARLOO is back and ready to reign over your toy collection, as a vibrant, original sculpted collectible.",
+            "text_style": "body"
+          }
+        },
+        "7cecaa7b-3624-48f9-a30b-6b763a14c4ba": {
+          "type": "text",
+          "settings": {
+            "text": "Details:",
+            "text_style": "uppercase"
+          }
+        },
+        "3b24c82c-8cbc-4d1c-bea4-62129b36e908": {
+          "type": "text",
+          "settings": {
+            "text": "3\" inches tall - Vintage Inspired Window-Box Packaging",
+            "text_style": "body"
+          }
+        },
+        "432382b9-9320-49fd-b201-f05dbbfa8378": {
+          "type": "text",
+          "settings": {
+            "text": "Box Contents:",
+            "text_style": "uppercase"
+          }
+        },
+        "58b2fa55-ed2d-40d3-b7b0-23413319561b": {
+          "type": "text",
+          "settings": {
+            "text": "1 Great Garloo figure",
+            "text_style": "body"
+          }
+        },
+        "9ebc1e4e-81e0-4c73-bbd0-e960315a94f4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"product__text caption-with-letter-spacing\">** This is a PRE-SALE <a href=\"\/collections\/the-great-garloo\/products\/the-great-garloo-action-figure\">More info ><\/a><\/p>"
+          }
+        },
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-3": {
+          "type": "price",
+          "settings": {
+            "payment_options": false
+          }
+        },
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-0",
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-1",
+        "bfaf757e-8acf-41e5-925f-47d969d07570",
+        "7cecaa7b-3624-48f9-a30b-6b763a14c4ba",
+        "3b24c82c-8cbc-4d1c-bea4-62129b36e908",
+        "432382b9-9320-49fd-b201-f05dbbfa8378",
+        "58b2fa55-ed2d-40d3-b7b0-23413319561b",
+        "9ebc1e4e-81e0-4c73-bbd0-e960315a94f4",
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-3",
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-5",
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-6",
+        "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-7"
+      ],
+      "settings": {
+        "product": "the-great-garloo-action-figure",
+        "secondary_background": true,
+        "background_color": "radial-gradient(rgba(249, 251, 202, 1) 36%, rgba(191, 128, 67, 1) 100%)",
+        "background_color_secondary": "linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) 100%)",
+        "btn_color": "#78bb55",
+        "btn_text_color": "#ffffff",
+        "txt_color": "#313131",
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "b074f296-7952-4bfa-b27e-9f1752cb3bb7": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Garloo_1285x1000_128e96c9-8281-40f5-89bc-2e9e2835bb1c.png",
+            "title": "The Great Garloo by Brian Reedy Lunchbox",
+            "text": "<p>This retro-style tin lunchbox features original Brian Reedy artwork! Friends, family and co-workers will be green with envy when they see this rad lunchbox!<\/p>",
+            "p_bullets": false,
+            "block_link": "shopify:\/\/products\/great-garloo-lunchbox-vinyl-sticker"
+          }
+        },
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The-Great-Garloo-by-Brian-Reedy-Screen-Print-Poster-nacelle-store.webp",
+            "title": "The Great Garloo by Brian Reedy Screen Print Poster",
+            "text": "<p>Brian Reedy's stunning GREAT GARLOO original art is now available in vibrant, screen-printed color on premium poster stock.<\/p>",
+            "p_bullets": false,
+            "block_link": "shopify:\/\/products\/brian-reedy-great-garloo-poster-print"
+          }
+        },
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The_Great_Garloo_Embroidered_Patch-nacelle-store.webp",
+            "title": "The Great Garloo Embroidered Patch",
+            "text": "<p>Unleash the monster on your jacket, hat or backpack with the Great Garloo emboidered patch! Our patch features exclusive artwork by Brian Reedy and is a perfect companion to your Great Garloo lunchbox and poster print.<\/p>",
+            "p_bullets": false,
+            "block_link": "shopify:\/\/products\/the-great-garloo-embroidered-patch"
+          }
+        }
+      },
+      "block_order": [
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-0",
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-1",
+        "template--15955224395967__b074f296-7952-4bfa-b27e-9f1752cb3bb7-16730589834dbfb792-2"
+      ],
+      "settings": {
+        "title": "Other Garloo Products",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true,
+        "filter_show": false
+      }
+    }
+  },
+  "order": [
+    "collection-settings",
+    "164677671632a680df",
+    "80f0502e-9a53-4e60-bf61-08506912eb62",
+    "banner",
+    "product-grid",
+    "6e065944-06da-491c-93f9-174f93d23506",
+    "c01a0b4a-7f78-4a06-bf37-5f9fce989ea6",
+    "b074f296-7952-4bfa-b27e-9f1752cb3bb7"
+  ]
+}

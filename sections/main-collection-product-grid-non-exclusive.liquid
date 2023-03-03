@@ -64,9 +64,7 @@
                             {%- comment -%}
                                 to return to default remove BELOW
                             {%- endcomment -%}
-                            {% comment %}
                             {%- if customer_b2b -%}
-                            {% endcomment %}
                                 {%- comment -%}
                                     to return to default remove ABOVE
                                 {%- endcomment -%}
@@ -86,9 +84,7 @@
                                 {%- comment -%}
                                     to return to default remove BELOW
                                 {%- endcomment -%}
-                                {% comment %}
-                                    {%- elsif customer_b2b == false -%}
-                                {% endcomment %}
+                            {%- elsif customer_b2b == false -%}
                                 <li class="grid__item">
                                     {% render 'product-card',
                        product_card_product: product,

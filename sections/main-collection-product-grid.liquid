@@ -60,6 +60,11 @@
           "
         >
           {%- for product in collection.products -%}
+            {% capture wlm_check %}{% include 'wlm-product' with product  %}{% endcapture %}
+                {% unless wlm_check contains "Liquid error" %}
+                {% include 'wlm-product' with product %}
+                {% endunless %}
+
             {% unless product.tags contains excludedTags %}
               <li class="grid__item">
                 {%
