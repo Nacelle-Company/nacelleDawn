@@ -23,10 +23,10 @@
         "color_scheme": "default",
         "collection_description_bk_none": false,
         "show_collection_description": true,
-        "show_collection_title": true,
-        "collection_description_center": true,
+        "show_collection_title": false,
+        "collection_description_center": false,
         "show_collection_image": true,
-        "mobile_top_spacing": "margin_padding"
+        "mobile_top_spacing": "default"
       }
     },
     "product-grid": {
