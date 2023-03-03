@@ -8,14 +8,13 @@
         "product_nav_text_color": "#ffffff",
         "button_color": "#fbfbfb",
         "nav_logo_white": true,
-        "product_bk_color": "",
+        "product_bk_color": "rgba(204, 109, 13, 1)",
         "product_bk_img_none": false,
-        "product_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture_037acd2e-6b42-4a25-ba84-b3893f7096df.webp",
-        "product_nav_background_image": "shopify:\/\/shop_images\/blue-line-texture-nacelle-store_d72ddce6-7351-448c-99be-2a428fa6c4b6.webp",
-        "product_bk_overlay": "rgba(0, 0, 0, 0.67)",
+        "product_background_image": "shopify:\/\/shop_images\/topography.svg",
+        "product_bk_overlay": "rgba(204, 109, 13, 0.9)",
         "product_main_img_bk": "",
-        "product_bk_img_size": "100% auto",
-        "product_bk_img_repeat": "repeat-y",
+        "product_bk_img_size": "unset",
+        "product_bk_img_repeat": "repeat",
         "product_bk_img_attachment": "scroll"
       }
     },
@@ -41,7 +40,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
           }
         },
