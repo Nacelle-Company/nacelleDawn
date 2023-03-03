@@ -2,6 +2,9 @@
   "sections": {
     "product-settings": {
       "type": "main-product-settings",
+      "custom_css": [
+
+      ],
       "settings": {
         "alter_product_style": true,
         "product_text_color": "#ffffff",
@@ -149,11 +152,21 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "573525cb-a2cd-4648-bb1b-bb4489500473": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<style>\n.button-product-nav {\n  background-color: transparent !important;\n}\n<\/style>"
+      }
     }
   },
   "order": [
     "product-settings",
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "573525cb-a2cd-4648-bb1b-bb4489500473"
   ]
 }
