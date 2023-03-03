@@ -1,5 +1,21 @@
 {
   "sections": {
+    "collection-settings": {
+      "type": "main-collection-settings",
+      "settings": {
+        "alter_collection_style": true,
+        "collection_text_color": "#ffffff",
+        "collection_nav_text_color": "#ffffff",
+        "nav_logo_white": true,
+        "collection_bk_color": "",
+        "collection_bk_img_none": false,
+        "collection_background_image": "shopify:\/\/shop_images\/topography.svg",
+        "collection_bk_overlay": "rgba(204, 109, 13, 0.9)",
+        "collection_bk_img_size": "unset",
+        "collection_bk_img_repeat": "repeat",
+        "collection_bk_img_attachment": "scroll"
+      }
+    },
     "164677671632a680df": {
       "type": "image-banner",
       "blocks": {
@@ -39,22 +55,6 @@
         "mobile_padding": 76,
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "collection-settings": {
-      "type": "main-collection-settings",
-      "settings": {
-        "alter_collection_style": true,
-        "collection_text_color": "rgba(0,0,0,0)",
-        "collection_nav_text_color": "#ffffff",
-        "nav_logo_white": true,
-        "collection_bk_color": "",
-        "collection_bk_img_none": false,
-        "collection_background_image": "shopify:\/\/shop_images\/topography.svg",
-        "collection_bk_overlay": "rgba(204, 109, 13, 0.9)",
-        "collection_bk_img_size": "unset",
-        "collection_bk_img_repeat": "repeat",
-        "collection_bk_img_attachment": "scroll"
       }
     },
     "banner": {
@@ -113,7 +113,7 @@
         "swipe_on_mobile": true,
         "desktop_full_width": true,
         "desktop_no_top_space": true,
-        "background_color": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(0, 0, 0, 1) 100%)",
+        "background_color": "linear-gradient(89deg, rgba(0, 0, 0, 0.4) 7%, rgba(0, 0, 0, 0.4) 94%)",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "add_image_padding": false,
@@ -191,8 +191,8 @@
     }
   },
   "order": [
-    "164677671632a680df",
     "collection-settings",
+    "164677671632a680df",
     "banner",
     "product-grid",
     "6e065944-06da-491c-93f9-174f93d23506",
