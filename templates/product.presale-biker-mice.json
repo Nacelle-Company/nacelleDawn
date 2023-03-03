@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "product-settings": {
+      "type": "main-product-settings",
+      "settings": {
+        "alter_product_style": true,
+        "product_text_color": "#ffffff",
+        "product_nav_text_color": "#ffffff",
+        "button_color": "#78bb55",
+        "nav_logo_white": true,
+        "product_bk_color": "",
+        "product_bk_img_none": false,
+        "product_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture_037acd2e-6b42-4a25-ba84-b3893f7096df.webp",
+        "product_nav_background_image": "shopify:\/\/shop_images\/blue-line-texture-nacelle-store_d72ddce6-7351-448c-99be-2a428fa6c4b6.webp",
+        "product_bk_overlay": "rgba(0, 0, 0, 0.67)",
+        "product_main_img_bk": "",
+        "product_bk_img_size": "100% auto",
+        "product_bk_img_repeat": "repeat-y",
+        "product_bk_img_attachment": "scroll"
+      }
+    },
+    "main": {
+      "type": "main-product_presale",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "f2de2192-cd6e-4794-89b0-abc6b4cba405": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product__description rte\">\n<p>60's Monster toy icon THE GREAT GARLOO is back and ready to reign over your toy collection, as a vibrant, original sculpt collectible.<\/p>\n\t\t  <\/div>"
+          }
+        },
+        "871dacc1-586f-494e-8422-c9775cf873d2": {
+          "type": "text",
+          "settings": {
+            "text": "Details:",
+            "text_style": "uppercase"
+          }
+        },
+        "8a3bddd5-980a-4f4b-9a2b-b688327cff39": {
+          "type": "text",
+          "settings": {
+            "text": "3\" inches tall - Vintage Inspired Window-Box Packaging",
+            "text_style": "body"
+          }
+        },
+        "dfb42146-b7c3-40d6-8380-e723f24e8922": {
+          "type": "text",
+          "settings": {
+            "text": "Box Contents:",
+            "text_style": "uppercase"
+          }
+        },
+        "2595c965-39da-4940-af3e-9406a1ea950e": {
+          "type": "text",
+          "settings": {
+            "text": "1 Great Garloo figure",
+            "text_style": "body"
+          }
+        },
+        "f9087380-f369-4aa4-b18d-f5148d25ef99": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Estimated shipping is Spring 2023.<br>Please read the pre-order policy below <\/sub>"
+          }
+        },
+        "829bca02-6287-44c1-9961-a72e6b46468e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pre-Order Policy",
+            "content": "<ul><li><em>By purchasing the product above you have agreed to the pre-order terms and conditions<\/em><\/li><li><em>Terms & Conditions: Cancellations for pre-orders are honored within 72 hours of the original date of purchase. Pre-orders cannot be refunded after this 72 hour window.<\/em><\/li><li><em>Pre-order products can only be returned upon receipt if the product is damaged on arrival.<\/em><\/li><\/ul>",
+            "page": "",
+            "icon": "box"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "description",
+        "f2de2192-cd6e-4794-89b0-abc6b4cba405",
+        "871dacc1-586f-494e-8422-c9775cf873d2",
+        "8a3bddd5-980a-4f4b-9a2b-b688327cff39",
+        "dfb42146-b7c3-40d6-8380-e723f24e8922",
+        "2595c965-39da-4940-af3e-9406a1ea950e",
+        "f9087380-f369-4aa4-b18d-f5148d25ef99",
+        "829bca02-6287-44c1-9961-a72e6b46468e",
+        "quantity_selector",
+        "buy_buttons",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "product-settings",
+    "main",
+    "product-recommendations"
+  ]
+}
