@@ -6,7 +6,7 @@
         "af070f58-1592-472f-ac2f-afdb2aabd8de": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "BUY  BIKER MICE NOW",
+            "button_label_1": "GET YOUR BIKER MICE",
             "button_link_1": "\/products\/the-great-garloo-action-figure",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -61,6 +61,7 @@
       "type": "main-collection-banner",
       "settings": {
         "color_scheme": "default",
+        "collection_image_aspect": "image-aspect",
         "collection_description_bk_none": false,
         "show_collection_description": true,
         "show_collection_title": false,
@@ -81,7 +82,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "add_image_padding": true,
-        "show_image_outline": false,
+        "show_image_outline": true,
         "show_vendor": true,
         "show_rating": false,
         "enable_filtering": false,

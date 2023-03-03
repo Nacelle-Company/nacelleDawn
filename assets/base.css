@@ -1201,7 +1201,7 @@ summary::-webkit-details-marker {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-    object-position: top center;
+	object-position: top center;
 }
 
 @media screen and (min-width: 1200px) {
@@ -2512,4 +2512,8 @@ details-disclosure > details {
 }
 #top_bar_detail_container #wpd_welcome_message_container {
   max-width: unset;
+}
+
+.image-aspect {
+	position: static !important;
 }

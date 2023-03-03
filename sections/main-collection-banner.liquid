@@ -1,4 +1,11 @@
 {{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
+
+{% liquid
+  unless section.settings.collection_image_aspect == 'default'
+    assign collection_image_aspect = 'class="' | append: section.settings.collection_image_aspect | append: '"' 
+  endunless
+%}
+
 <!-- MAIN COLLECTION BANNER -->
 {% if section.settings.mobile_top_spacing == 'margin_padding' %}
   <style>
@@ -53,6 +60,7 @@
           loading="lazy"
           width="{{ collection.image.width }}"
           height="{{ collection.image.height }}"
+          {{ collection_image_aspect }}
         >
       </div>
     {%- endif -%}
@@ -103,6 +111,22 @@
       ],
       "default": "default",
       "label": "t:sections.rich-text.settings.color_scheme.label"
+    },
+    {
+      "type": "select",
+      "id": "collection_image_aspect",
+      "label": "Collection image aspect ratio",
+      "default": "default",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "image-aspect",
+          "label": "Image aspect"
+        }
+      ]
     },
     {
       "type": "checkbox",
