@@ -57,23 +57,6 @@
         "show_text_below": true
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
-      "custom_css": [
-        ".collection-hero__description.rte {color: #fff; font-size: 2rem;}",
-        ".collection-hero__title {color: #fff;}"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "collection_image_aspect": "image-aspect",
-        "collection_description_bk_none": false,
-        "show_collection_description": true,
-        "show_collection_title": true,
-        "collection_description_center": false,
-        "show_collection_image": true,
-        "mobile_top_spacing": "default"
-      }
-    },
     "product-grid": {
       "type": "main-collection-presale-product-grid",
       "disabled": true,
@@ -100,26 +83,6 @@
       "disabled": true,
       "settings": {
         "custom_liquid": "<br>\n<style>\n\n@media (min-width: 750px) and (max-width: 769px) {\n.banner--full:not(.banner--adapt) {\n    min-height: 53rem;\n}\n}\n@media (min-width: 770px) and (max-width: 1400px) {\n.banner--full:not(.banner--adapt) {\n    min-height: 71rem;\n}\n}\n@media screen and (min-width: 1401px) {\n.banner--full:not(.banner--adapt) {\n    min-height: 98rem;\n}\n}\n<\/style>"
-      }
-    },
-    "a9cce1a7-ae96-4083-86d1-3e9455adb78c": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "collection": "biker-mice",
-        "product_selected_tag": "",
-        "products_to_show": 3,
-        "show_view_all": false,
-        "swipe_on_mobile": true,
-        "desktop_full_width": true,
-        "desktop_no_top_space": true,
-        "background_color": "linear-gradient(89deg, rgba(0, 0, 0, 0.4) 7%, rgba(0, 0, 0, 0.4) 94%)",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
       }
     },
     "259b57c0-2b2b-4d65-bcdc-a7d8454b303c": {
@@ -179,8 +142,8 @@
       ],
       "settings": {
         "product": "biker-mice-from-mars-bundle",
-        "secondary_background": false,
-        "background_color": "",
+        "secondary_background": true,
+        "background_color": "radial-gradient(rgba(255, 154, 98, 1), rgba(255, 204, 75, 1) 100%)",
         "background_color_secondary": "",
         "btn_color": "#ffffff",
         "btn_text_color": "#313131",
@@ -188,15 +151,52 @@
         "hide_variants": false,
         "enable_video_looping": false
       }
+    },
+    "a9cce1a7-ae96-4083-86d1-3e9455adb78c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "biker-mice",
+        "product_selected_tag": "",
+        "products_to_show": 3,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "desktop_full_width": false,
+        "desktop_no_top_space": true,
+        "background_color": "linear-gradient(89deg, rgba(0, 0, 0, 0.4) 7%, rgba(0, 0, 0, 0.4) 94%)",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [
+        ".collection-hero__description.rte {color: #fff; font-size: 2rem;}",
+        ".collection-hero__title {color: #fff;}"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "collection_image_aspect": "image-aspect",
+        "collection_description_bk_none": false,
+        "show_collection_description": true,
+        "show_collection_title": true,
+        "collection_description_center": false,
+        "show_collection_image": true,
+        "mobile_top_spacing": "default"
+      }
     }
   },
   "order": [
     "collection-settings",
     "164677671632a680df",
-    "banner",
     "product-grid",
     "6e065944-06da-491c-93f9-174f93d23506",
+    "259b57c0-2b2b-4d65-bcdc-a7d8454b303c",
     "a9cce1a7-ae96-4083-86d1-3e9455adb78c",
-    "259b57c0-2b2b-4d65-bcdc-a7d8454b303c"
+    "banner"
   ]
 }
