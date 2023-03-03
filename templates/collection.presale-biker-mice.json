@@ -45,9 +45,9 @@
       "type": "main-collection-settings",
       "settings": {
         "alter_collection_style": true,
-        "collection_text_color": "#ffffff",
-        "collection_nav_text_color": "#313131",
-        "nav_logo_white": false,
+        "collection_text_color": "rgba(0,0,0,0)",
+        "collection_nav_text_color": "#ffffff",
+        "nav_logo_white": true,
         "collection_bk_color": "",
         "collection_bk_img_none": false,
         "collection_background_image": "shopify:\/\/shop_images\/topography.svg",
@@ -183,7 +183,7 @@
         "background_color": "",
         "background_color_secondary": "",
         "btn_color": "#ffffff",
-        "btn_text_color": "#ffffff",
+        "btn_text_color": "#313131",
         "txt_color": "#ffffff",
         "hide_variants": false,
         "enable_video_looping": false
