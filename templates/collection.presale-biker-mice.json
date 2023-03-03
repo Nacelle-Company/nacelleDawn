@@ -19,7 +19,6 @@
     },
     "164677671632a680df": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "af070f58-1592-472f-ac2f-afdb2aabd8de": {
           "type": "buttons",
@@ -38,8 +37,8 @@
         "af070f58-1592-472f-ac2f-afdb2aabd8de"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/the-great-garloo-img-banner-nacelle-store_b5dc097d-067c-48e2-b80d-524efaa9b9c0.webp",
-        "image_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-img-banner_522fbcc1-deaf-4d11-98a3-bdd5c6f46bc9.webp",
+        "image": "shopify:\/\/shop_images\/vinnie-modo-and-throttle-biker-mice-in-the-desert.webp",
+        "image_mobile": "shopify:\/\/shop_images\/vinnie-modo-and-throttle-biker-mice-in-the-desert-mobile-TEST_265ed346-3bc2-4243-aaa1-428eadf53599.png",
         "legal_text": "",
         "adapt_height_first_image": true,
         "lazy_disable": true,
