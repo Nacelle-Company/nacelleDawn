@@ -1,54 +1,5 @@
 {
   "sections": {
-    "collection-settings": {
-      "type": "main-collection-settings",
-      "settings": {
-        "alter_collection_style": true,
-        "collection_text_color": "#313131",
-        "collection_nav_text_color": "#ffffff",
-        "nav_logo_white": true,
-        "collection_bk_color": "",
-        "collection_bk_img_none": false,
-        "collection_nav_background_image": "shopify:\/\/shop_images\/brick-wall_2.svg",
-        "collection_background_image": "shopify:\/\/shop_images\/brick-wall_2.svg",
-        "collection_bk_overlay": "rgba(227, 197, 114, 0.79)",
-        "collection_bk_img_size": "unset",
-        "collection_bk_img_repeat": "repeat",
-        "collection_bk_img_attachment": "scroll"
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-        "color_scheme": "default",
-        "collection_description_bk_none": false,
-        "show_collection_description": true,
-        "show_collection_title": false,
-        "collection_description_center": false,
-        "show_collection_image": true,
-        "mobile_top_spacing": "default"
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-presale-product-grid",
-      "settings": {
-        "show_default_product_grid": true,
-        "products_per_page": 12,
-        "grid_bk_img": "shopify:\/\/shop_images\/biker-mice-from-mars-city-landscape.png",
-        "grid_bk_img_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-product-grid-bkgnd-nacelle-store-4.webp",
-        "grid_bk_img_position": "center",
-        "grid_bk_img_repeat": "no-repeat",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "add_image_padding": true,
-        "show_image_outline": false,
-        "show_vendor": true,
-        "show_rating": false,
-        "enable_filtering": false,
-        "enable_sorting": false,
-        "collapse_on_larger_devices": true
-      }
-    },
     "164677671632a680df": {
       "type": "image-banner",
       "blocks": {
@@ -90,6 +41,54 @@
         "show_text_below": true
       }
     },
+    "collection-settings": {
+      "type": "main-collection-settings",
+      "settings": {
+        "alter_collection_style": true,
+        "collection_text_color": "#343434",
+        "collection_nav_text_color": "#313131",
+        "nav_logo_white": false,
+        "collection_bk_color": "",
+        "collection_bk_img_none": false,
+        "collection_background_image": "shopify:\/\/shop_images\/brick-wall_2.svg",
+        "collection_bk_overlay": "rgba(227, 197, 114, 0.9)",
+        "collection_bk_img_size": "unset",
+        "collection_bk_img_repeat": "repeat",
+        "collection_bk_img_attachment": "scroll"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "color_scheme": "default",
+        "collection_description_bk_none": false,
+        "show_collection_description": true,
+        "show_collection_title": false,
+        "collection_description_center": false,
+        "show_collection_image": true,
+        "mobile_top_spacing": "default"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-presale-product-grid",
+      "settings": {
+        "show_default_product_grid": true,
+        "products_per_page": 12,
+        "grid_bk_img": "shopify:\/\/shop_images\/biker-mice-from-mars-city-landscape.png",
+        "grid_bk_img_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-product-grid-bkgnd-nacelle-store-4.webp",
+        "grid_bk_img_position": "center",
+        "grid_bk_img_repeat": "no-repeat",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_image_outline": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": true
+      }
+    },
     "6e065944-06da-491c-93f9-174f93d23506": {
       "type": "custom-liquid",
       "disabled": true,
@@ -99,10 +98,10 @@
     }
   },
   "order": [
+    "164677671632a680df",
     "collection-settings",
     "banner",
     "product-grid",
-    "164677671632a680df",
     "6e065944-06da-491c-93f9-174f93d23506"
   ]
 }
