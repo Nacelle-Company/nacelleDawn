@@ -851,7 +851,7 @@
           "options__4": {
             "label": "Full height"
           },
-          "info": "For best results, use an image with a 2:3 aspect ratio. [Learn more](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+          "info": "Adapt section height to first image size checkbox must be unchecked for this setting to take effect. For best results, use an image with a 2:3 aspect ratio. [Learn more](https:\/\/help.shopify.com\/en\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_text_box_position": {
           "options__1": {
