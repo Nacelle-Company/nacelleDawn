@@ -9,11 +9,11 @@
         "nav_logo_white": true,
         "collection_bk_color": "",
         "collection_bk_img_none": false,
-        "collection_nav_background_image": "shopify:\/\/shop_images\/blue-line-texture-nacelle-store_d72ddce6-7351-448c-99be-2a428fa6c4b6.webp",
-        "collection_background_image": "shopify:\/\/shop_images\/garloo-background-tiger-texture_8c778c92-d478-4821-a576-ffd6dca0fd1b.webp",
-        "collection_bk_overlay": "",
-        "collection_bk_img_size": "100% auto",
-        "collection_bk_img_repeat": "repeat-y",
+        "collection_nav_background_image": "shopify:\/\/shop_images\/brick-wall_2.svg",
+        "collection_background_image": "shopify:\/\/shop_images\/brick-wall_2.svg",
+        "collection_bk_overlay": "rgba(227, 197, 114, 0.79)",
+        "collection_bk_img_size": "unset",
+        "collection_bk_img_repeat": "repeat",
         "collection_bk_img_attachment": "scroll"
       }
     },
@@ -34,7 +34,7 @@
       "settings": {
         "show_default_product_grid": true,
         "products_per_page": 12,
-        "grid_bk_img": "shopify:\/\/shop_images\/biker-mice-from-mars-desert-landscape.webp",
+        "grid_bk_img": "shopify:\/\/shop_images\/biker-mice-from-mars-city-landscape.png",
         "grid_bk_img_mobile": "shopify:\/\/shop_images\/the-great-garloo-mobile-product-grid-bkgnd-nacelle-store-4.webp",
         "grid_bk_img_position": "center",
         "grid_bk_img_repeat": "no-repeat",
