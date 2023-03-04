@@ -180,11 +180,11 @@
         "swipe_on_mobile": true,
         "desktop_full_width": false,
         "desktop_no_top_space": true,
-        "background_color": "linear-gradient(89deg, rgba(0, 0, 0, 0.4) 7%, rgba(0, 0, 0, 0.4) 94%)",
-        "image_ratio": "adapt",
+        "background_color": "radial-gradient(rgba(0, 0, 0, 0.5) 7%, rgba(0, 0, 0, 0.5) 100%)",
+        "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
-        "show_image_outline": true,
+        "show_image_outline": false,
         "show_vendor": false,
         "show_rating": false
       }
@@ -212,9 +212,7 @@
       "disabled": true,
       "settings": {
         "show_default_product_grid": true,
-        "products_per_page": 12,
-        "grid_bk_img": "shopify:\/\/shop_images\/biker-mice-from-mars-city-landscape.png",
-        "grid_bk_img_mobile": "shopify:\/\/shop_images\/biker-mice-from-mars-city-landscape.png",
+        "products_per_page": 8,
         "grid_bk_img_position": "center",
         "grid_bk_img_repeat": "no-repeat",
         "image_ratio": "adapt",
