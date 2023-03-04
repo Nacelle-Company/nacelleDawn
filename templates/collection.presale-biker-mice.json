@@ -115,6 +115,13 @@
             "text_style": "subtitle"
           }
         },
+        "4d7f4fd8-69c9-4919-98ca-1762e9c3445e": {
+          "type": "text",
+          "settings": {
+            "text": "Get ready for the first wave of Biker Mice From Mars action figures, featuring 7-inch scale figures of Vinnie, Modo, and Throttle! Each figure is packaged with its own unique accessory and is fully articulated, allowing for dynamic posing and action-packed play.",
+            "text_style": "body"
+          }
+        },
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-3": {
           "type": "price",
           "settings": {
@@ -143,6 +150,7 @@
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-0",
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-1",
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-2",
+        "4d7f4fd8-69c9-4919-98ca-1762e9c3445e",
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-3",
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-5",
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-6",
