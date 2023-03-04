@@ -171,7 +171,9 @@
     "a9cce1a7-ae96-4083-86d1-3e9455adb78c": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection {margin-bottom: 4em;}"
+        ".collection {margin-bottom: 4em;}",
+        ".card-information__wrapper {text-align: center;}",
+        ".price {justify-content: center;}"
       ],
       "settings": {
         "section_id": "featured-collection-id",
