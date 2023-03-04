@@ -35,6 +35,9 @@
       "block_order": [
         "af070f58-1592-472f-ac2f-afdb2aabd8de"
       ],
+      "custom_css": [
+        ".button {color: #fff; box-shadow: 0 0 0 0.1rem rgba(var(--color-base-solid-button-labels));}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/vinnie-modo-and-throttle-biker-mice-in-the-city-with-logo.webp",
         "image_mobile": "shopify:\/\/shop_images\/vinnie-modo-and-throttle-biker-mice-in-the-city-wth-logo-mobile.webp",
