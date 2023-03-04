@@ -19,10 +19,14 @@
     assign products_to_display = section.settings.products_to_show
     assign more_in_collection = true
   endif
+  if section.settings.section_id != empty
+    assign sectionId = 'id="' | append: section.settings.section_id | append: '"' 
+  endif
 -%}
 <div
   class="collection {{ desktop_no_top_space }} page-width{% if section.settings.desktop_full_width %} page-width-full-width{% elsif section.settings.swipe_on_mobile == true and section.settings.collection.all_products_count > 2 and section.settings.products_to_show > 2 %}-desktop{% endif %}"
   style="background:{{ bk_color }}"
+  {{ sectionId }}
 >
   {% if section.settings.title != blank %}
     <div class="title-wrapper-with-link{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}{% if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and section.settings.products_to_show > 2 %} title-wrapper--self-padded-tablet-down{% endif %}">
@@ -135,6 +139,13 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section ID",
+      "default": "featured-collection",
+      "info": "Add a lowercase, hypen separated, section id so you can link to this section."
+    },
     {
       "type": "text",
       "id": "title",
