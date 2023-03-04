@@ -36,8 +36,8 @@
         "af070f58-1592-472f-ac2f-afdb2aabd8de"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/vinnie-modo-and-throttle-biker-mice-in-the-desert.webp",
-        "image_mobile": "shopify:\/\/shop_images\/vinnie-modo-and-throttle-biker-mice-in-the-desert-mobile-TEST_265ed346-3bc2-4243-aaa1-428eadf53599.png",
+        "image": "shopify:\/\/shop_images\/vinnie-modo-and-throttle-biker-mice-in-the-city-with-logo.webp",
+        "image_mobile": "shopify:\/\/shop_images\/vinnie-modo-and-throttle-biker-mice-in-the-city-wth-logo-mobile.webp",
         "legal_text": "",
         "adapt_height_first_image": true,
         "lazy_disable": true,
@@ -182,6 +182,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "custom_css": [
         ".collection-hero__description.rte {color: #fff; font-size: 2rem;}",
         ".collection-hero__title {color: #fff;}"
