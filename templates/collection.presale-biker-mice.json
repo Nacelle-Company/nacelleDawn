@@ -164,7 +164,7 @@
         "secondary_background": true,
         "background_color": "radial-gradient(rgba(255, 154, 98, 0), rgba(185, 100, 17, 0) 100%)",
         "background_color_secondary": "",
-        "btn_color": "#ffffff",
+        "btn_color": "#313131",
         "btn_text_color": "#313131",
         "txt_color": "#ffffff",
         "hide_variants": false,
