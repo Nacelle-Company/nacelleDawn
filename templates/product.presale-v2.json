@@ -33,13 +33,6 @@
           "settings": {
           }
         },
-        "subtitle": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -50,10 +43,11 @@
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
+        "subtitle": {
+          "type": "text",
           "settings": {
-            "picker_type": "button"
+            "text": "THIS IS A PRESALE {{ product.metafields.nacelle.presale_info.value }}",
+            "text_style": "subtitle"
           }
         },
         "quantity_selector": {
@@ -77,10 +71,9 @@
       "block_order": [
         "vendor",
         "title",
-        "subtitle",
         "price",
         "description",
-        "variant_picker",
+        "subtitle",
         "quantity_selector",
         "buy_buttons",
         "share"
