@@ -66,6 +66,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "9d62109f-6624-4c8a-8fb6-67741bd05710": {
+          "type": "text",
+          "settings": {
+            "text": "By purchasing the product above you have agreed to the pre-order terms and conditionsTerms & Conditions: Cancellations for pre-orders are honored within 72 hours of the original date of purchase. Pre-orders cannot be refunded after this 72 hour window.Pre-order products can only be returned upon receipt if the product is damaged on arrival.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -76,7 +83,8 @@
         "subtitle",
         "quantity_selector",
         "buy_buttons",
-        "share"
+        "share",
+        "9d62109f-6624-4c8a-8fb6-67741bd05710"
       ],
       "settings": {
         "enable_sticky_info": true,
