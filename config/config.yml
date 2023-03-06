@@ -2,5 +2,5 @@ development:
   password: ${DEV_PASSWD}
   theme_id: ${DEV_THEMEID}
   store: the-nacelle-company.myshopify.com
-  # to login:       shopify theme dev --store=the-nacelle-company.myshopify.com
-  # pull dev theme: shopify theme pull -d
+  # to login:         shopify theme dev --store=the-nacelle-company.myshopify.com
+  # pull dev theme:   shopify theme pull -d

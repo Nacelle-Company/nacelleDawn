@@ -125,6 +125,13 @@
             "text_style": "body"
           }
         },
+        "4d2f02b3-3a86-459d-9eec-f06236da4c83": {
+          "type": "text",
+          "settings": {
+            "text": "<b>THIS IS A PRESALE | Estimated Shipping is Late Fall\/Winter 2023<\/b>",
+            "text_style": "subtitle"
+          }
+        },
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-3": {
           "type": "price",
           "settings": {
@@ -154,6 +161,7 @@
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-1",
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-2",
         "4d7f4fd8-69c9-4919-98ca-1762e9c3445e",
+        "4d2f02b3-3a86-459d-9eec-f06236da4c83",
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-3",
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-5",
         "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-6",

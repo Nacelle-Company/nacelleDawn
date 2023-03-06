@@ -6,6 +6,12 @@
         "show_vendor": false
       }
     },
+    "f8798540-e1cf-4703-bbb6-f847a82cd467": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Testing"
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -31,6 +37,7 @@
     "featured-products": {
       "type": "featured-collection",
       "settings": {
+        "section_id": "featured-collection",
         "title": "Featured collection",
         "collection": "dna",
         "product_selected_tag": "",
@@ -51,6 +58,7 @@
   },
   "order": [
     "cart-items",
+    "f8798540-e1cf-4703-bbb6-f847a82cd467",
     "cart-footer",
     "featured-products"
   ]
