@@ -56,6 +56,13 @@
             "picker_type": "button"
           }
         },
+        "1313b30b-23df-4b38-bd64-d7d2e1317506": {
+          "type": "text",
+          "settings": {
+            "text": "THIS IS A PRESALE {{ product.metafields.nacelle.presale_info.value }}",
+            "text_style": "body"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -81,6 +88,7 @@
         "price",
         "description",
         "variant_picker",
+        "1313b30b-23df-4b38-bd64-d7d2e1317506",
         "quantity_selector",
         "buy_buttons",
         "share"
