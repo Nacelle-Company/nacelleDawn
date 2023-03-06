@@ -6,12 +6,6 @@
         "show_vendor": false
       }
     },
-    "f8798540-e1cf-4703-bbb6-f847a82cd467": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "Testing"
-      }
-    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -52,13 +46,13 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
+        "show_presale_text": false,
         "show_rating": false
       }
     }
   },
   "order": [
     "cart-items",
-    "f8798540-e1cf-4703-bbb6-f847a82cd467",
     "cart-footer",
     "featured-products"
   ]
