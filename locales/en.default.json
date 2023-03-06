@@ -398,5 +398,10 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
+  },
+  "customer_accounts": {
+    "shop_policies": {
+      "shipping_policy": "Shipping policy updated"
+    }
   }
 }
