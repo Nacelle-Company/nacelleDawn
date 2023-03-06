@@ -134,6 +134,9 @@
                 elsif block.settings.text_style == 'presale'
                   assign textStyle = 'presale'
                   assign textPresaleTitle = '<strong>THIS IS A PRE-SALE</strong><br>'
+                elsif block.settings.text_style == 'presale_policy'
+                  assign textStyle = 'presale-policy'
+                  assign textPresaleTitle = '<strong>Presale Policy</strong><br>'
                 else
                   assign textStyle = ''
                   assign textPresaleTitle = ''
@@ -579,6 +582,10 @@
             {
 							"value": "presale",
 							"label": "Presale"
+						},
+						{
+							"value": "presale_policy",
+							"label": "Presale policy"
 						}
           ],
           "default": "body",

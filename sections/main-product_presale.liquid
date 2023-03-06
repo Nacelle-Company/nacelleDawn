@@ -141,14 +141,27 @@
 					elsif block.settings.text_style == 'presale'
 						assign textStyle = 'presale'
 						assign textPresaleTitle = '<strong>THIS IS A PRE-SALE</strong><br>'
+					elsif block.settings.text_style == 'presale_policy'
+						assign textStyle = 'presale-policy'
+						assign textPresaleTitle = '<strong>Presale Policy</strong><br>'
 					else
 						assign textStyle = ''
 						assign textPresaleTitle = ''
 					endif
 				%}
 			<p class="product__text {{ textStyle }}" {{ block.shopify_attributes }}>
-				{{ textPresaleTitle }}
-			  {{- block.settings.text -}}
+
+								{% if block.settings.text_style == 'presale_policy' %}
+									{{ textPresaleTitle }}
+									{{ product.metafields.nacelle.presale_policy_intro }}
+									<ul>
+										<li>{{ product.metafields.nacelle.presale_policy.value[0] }}</li>
+										<li>{{ product.metafields.nacelle.presale_policy.value[1] }}</li>
+									</ul>
+								{% else %}
+									{{ textPresaleTitle }}
+			  					{{- block.settings.text -}}
+                {% endif %}
 			</p>
 		  {%- when 'title' -%}
 			<h1 class="product__title" {{ block.shopify_attributes }}>
@@ -405,27 +418,27 @@
 
 			<script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
 		  {%- when 'rating' -%}
-			{%- if product.metafields.reviews.rating.value != blank -%}
-			  {% liquid
-			   assign rating_decimal = 0
-			   assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
-			   if decimal >= 0.3 and decimal <= 0.7
-				assign rating_decimal = 0.5
-			  elsif decimal > 0.7
-				assign rating_decimal = 1
-			   endif
-			  %}
-			  <div class="rating" role="img" aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}">
-				<span aria-hidden="true" class="rating-star color-icon-{{ settings.accent_icons }}" style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"></span>
-			  </div>
-			  <p class="rating-text caption">
-				<span aria-hidden="true">{{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}</span>
-			  </p>
-			  <p class="rating-count caption">
-				<span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
-				<span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
-			  </p>
-			{%- endif -%}
+				{%- if product.metafields.reviews.rating.value != blank -%}
+					{% liquid
+					assign rating_decimal = 0
+					assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
+					if decimal >= 0.3 and decimal <= 0.7
+					assign rating_decimal = 0.5
+					elsif decimal > 0.7
+					assign rating_decimal = 1
+					endif
+					%}
+					<div class="rating" role="img" aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}">
+					<span aria-hidden="true" class="rating-star color-icon-{{ settings.accent_icons }}" style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"></span>
+					</div>
+					<p class="rating-text caption">
+					<span aria-hidden="true">{{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}</span>
+					</p>
+					<p class="rating-count caption">
+					<span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
+					<span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
+					</p>
+				{%- endif -%}
 		  {%- endcase -%}
 		{%- endfor -%}
 			  <div {{ block.shopify_attributes }}>
@@ -627,6 +640,10 @@
 						{
 							"value": "presale",
 							"label": "Presale"
+						},
+						{
+							"value": "presale_policy",
+							"label": "Presale policy"
 						}
           ],
           "default": "body",

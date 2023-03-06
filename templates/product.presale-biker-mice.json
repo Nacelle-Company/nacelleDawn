@@ -74,8 +74,14 @@
         "77b7f12d-161f-43a6-94f5-ddd14ef4db7d": {
           "type": "text",
           "settings": {
-            "text": "By purchasing the product above you have agreed to the pre-order terms and conditionsTerms & Conditions: Cancellations for pre-orders are honored within 72 hours of the original date of purchase. Pre-orders cannot be refunded after this 72 hour window. Pre-order products can only be returned upon receipt if the product is damaged on arrival.",
-            "text_style": "body"
+            "text": "{{ product.metafields.nacelle.presale_policy | metafield_text }}",
+            "text_style": "presale_policy"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         },
         "829bca02-6287-44c1-9961-a72e6b46468e": {
@@ -86,12 +92,6 @@
             "content": "<ul><li><em>By purchasing the product above you have agreed to the pre-order terms and conditions<\/em><\/li><li><em>Terms & Conditions: Cancellations for pre-orders are honored within 72 hours of the original date of purchase. Pre-orders cannot be refunded after this 72 hour window.<\/em><\/li><li><em>Pre-order products can only be returned upon receipt if the product is damaged on arrival.<\/em><\/li><\/ul>",
             "page": "",
             "icon": "box"
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         }
       },
@@ -105,8 +105,8 @@
         "buy_buttons",
         "f9087380-f369-4aa4-b18d-f5148d25ef99",
         "77b7f12d-161f-43a6-94f5-ddd14ef4db7d",
-        "829bca02-6287-44c1-9961-a72e6b46468e",
-        "share"
+        "share",
+        "829bca02-6287-44c1-9961-a72e6b46468e"
       ],
       "settings": {
         "enable_sticky_info": true,
