@@ -131,7 +131,23 @@
 		  {%- when '@app' -%}
 			{% render block %}
 		  {%- when 'text' -%}
-			<p class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
+				{% liquid
+					assign textStyle = ''
+					assign textPresaleTitle = ''
+					if block.settings.text_style == 'uppercase'
+						assign textStyle = 'caption-with-letter-spacing'
+					elsif block.settings.text_style == 'subtitle'
+						assign textStyle = 'subtitle'
+					elsif block.settings.text_style == 'presale'
+						assign textStyle = 'presale'
+						assign textPresaleTitle = '<strong>THIS IS A PRE-SALE</strong><br>'
+					else
+						assign textStyle = ''
+						assign textPresaleTitle = ''
+					endif
+				%}
+			<p class="product__text {{ textStyle }}" {{ block.shopify_attributes }}>
+				{{ textPresaleTitle }}
 			  {{- block.settings.text -}}
 			</p>
 		  {%- when 'title' -%}
@@ -607,7 +623,11 @@
             {
               "value": "uppercase",
               "label": "t:sections.main-product.blocks.text.settings.text_style.options__3.label"
-            }
+            },
+						{
+							"value": "presale",
+							"label": "Presale"
+						}
           ],
           "default": "body",
           "label": "t:sections.main-product.blocks.text.settings.text_style.label"

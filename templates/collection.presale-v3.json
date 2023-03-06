@@ -52,6 +52,7 @@
         "add_image_padding": false,
         "show_image_outline": false,
         "show_vendor": true,
+        "show_presale_text": true,
         "show_rating": false,
         "enable_filtering": false,
         "enable_sorting": false,
@@ -62,6 +63,7 @@
       "type": "main-collection-banner",
       "settings": {
         "color_scheme": "inverse",
+        "collection_image_aspect": "default",
         "collection_description_bk_none": false,
         "show_collection_description": true,
         "show_collection_title": false,
@@ -101,6 +103,7 @@
         "title": "Collections",
         "image_ratio": "square",
         "color_scheme": "inverse",
+        "desktop_no_top_space": false,
         "swipe_on_mobile": false,
         "image_padding": false,
         "show_view_all": false

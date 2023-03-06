@@ -33,13 +33,6 @@
           "settings": {
           }
         },
-        "subtitle": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -54,6 +47,13 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.nacelle.presale_info.value }}",
+            "text_style": "presale"
           }
         },
         "quantity_selector": {
@@ -72,18 +72,26 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "e5e02fe4-92e9-4965-bdf5-468dc96773cd": {
+          "type": "text",
+          "settings": {
+            "text": "Pre-Order Policy: By purchasing the product above you have agreed to the pre-order terms and conditions:Terms & Conditions: Cancellations for pre-orders are honored within 72 hours of the original date of purchase. Pre-orders cannot be refunded after this 72 hour window.Pre-order products can only be returned upon receipt if the product is damaged on arrival.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "subtitle",
         "price",
         "description",
         "variant_picker",
+        "subtitle",
         "quantity_selector",
         "buy_buttons",
-        "share"
+        "share",
+        "e5e02fe4-92e9-4965-bdf5-468dc96773cd"
       ],
       "settings": {
         "enable_sticky_info": true,

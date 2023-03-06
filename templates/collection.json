@@ -4,6 +4,7 @@
       "type": "main-collection-banner",
       "settings": {
         "color_scheme": "default",
+        "collection_image_aspect": "default",
         "collection_description_bk_none": false,
         "show_collection_description": false,
         "show_collection_title": true,
@@ -22,6 +23,7 @@
         "add_image_padding": false,
         "show_image_outline": false,
         "show_vendor": true,
+        "show_presale_text": true,
         "show_rating": false,
         "enable_filtering": true,
         "enable_sorting": true,

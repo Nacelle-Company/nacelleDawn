@@ -81,17 +81,16 @@
         },
         "f9087380-f369-4aa4-b18d-f5148d25ef99": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Estimated shipping is Spring 2023.<br>Please read the pre-order policy below <\/sub>"
           }
         },
-        "829bca02-6287-44c1-9961-a72e6b46468e": {
-          "type": "collapsible_tab",
+        "f3b9305c-3ca4-4ebe-a8b3-ea6d34f68c85": {
+          "type": "text",
           "settings": {
-            "heading": "Pre-Order Policy",
-            "content": "<ul><li><em>By purchasing the product above you have agreed to the pre-order terms and conditions<\/em><\/li><li><em>Terms & Conditions: Cancellations for pre-orders are honored within 72 hours of the original date of purchase. Pre-orders cannot be refunded after this 72 hour window.<\/em><\/li><li><em>Pre-order products can only be returned upon receipt if the product is damaged on arrival.<\/em><\/li><\/ul>",
-            "page": "",
-            "icon": "box"
+            "text": "{{ product.metafields.nacelle.presale_info.value }}",
+            "text_style": "presale"
           }
         },
         "quantity_selector": {
@@ -103,6 +102,15 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
+          }
+        },
+        "829bca02-6287-44c1-9961-a72e6b46468e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pre-Order Policy",
+            "content": "<p><em>By purchasing the product above you have agreed to the pre-order terms and conditions<\/em><\/p><ul><li><em>Terms & Conditions: Cancellations for pre-orders are honored within 72 hours of the original date of purchase. Pre-orders cannot be refunded after this 72 hour window.<\/em><\/li><li><em>Pre-order products can only be returned upon receipt if the product is damaged on arrival.<\/em><\/li><\/ul>",
+            "page": "",
+            "icon": "box"
           }
         },
         "share": {
@@ -123,9 +131,10 @@
         "dfb42146-b7c3-40d6-8380-e723f24e8922",
         "2595c965-39da-4940-af3e-9406a1ea950e",
         "f9087380-f369-4aa4-b18d-f5148d25ef99",
-        "829bca02-6287-44c1-9961-a72e6b46468e",
+        "f3b9305c-3ca4-4ebe-a8b3-ea6d34f68c85",
         "quantity_selector",
         "buy_buttons",
+        "829bca02-6287-44c1-9961-a72e6b46468e",
         "share"
       ],
       "settings": {

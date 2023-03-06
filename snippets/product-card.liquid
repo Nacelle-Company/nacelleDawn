@@ -172,15 +172,20 @@
           </h2>
         </div>
       {%- endif -%}
-        {%- comment -%}
+
       <div class="card__badge">
         {%- if product_card_product.available == false -%}
           <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
         {%- elsif wcp_compare_at_price > wcp_price and product_card_product.available -%}
           <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
         {%- endif -%}
+        {% if show_presale_text %}
+          {% if product.metafields.nacelle.presale_info != blank %}
+            <span class="badge badge--bottom-left color-accent-1">Pre-Sale</span>
+          {% endif %}
+        {% endif %}
       </div>
-      {%- endcomment -%}
+      
     </div>
   </div>
 </div>

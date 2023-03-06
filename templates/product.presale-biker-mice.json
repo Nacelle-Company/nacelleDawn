@@ -46,43 +46,11 @@
           "settings": {
           }
         },
-        "f2de2192-cd6e-4794-89b0-abc6b4cba405": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div class=\"product__description rte\">\n<p>60's Monster toy icon THE GREAT GARLOO is back and ready to reign over your toy collection, as a vibrant, original sculpt collectible.<\/p>\n\t\t  <\/div>"
-          }
-        },
-        "871dacc1-586f-494e-8422-c9775cf873d2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Details:",
-            "text_style": "uppercase"
-          }
-        },
-        "8a3bddd5-980a-4f4b-9a2b-b688327cff39": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "3\" inches tall - Vintage Inspired Window-Box Packaging",
-            "text_style": "body"
-          }
-        },
-        "dfb42146-b7c3-40d6-8380-e723f24e8922": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Box Contents:",
-            "text_style": "uppercase"
-          }
-        },
         "2595c965-39da-4940-af3e-9406a1ea950e": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "1 Great Garloo figure",
-            "text_style": "body"
+            "text": "{{ product.metafields.nacelle.presale_info.value }}",
+            "text_style": "presale"
           }
         },
         "quantity_selector": {
@@ -98,6 +66,7 @@
         },
         "f9087380-f369-4aa4-b18d-f5148d25ef99": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Estimated shipping is Late Fall\/Winter 2023.<br>Please read the pre-order policy below <\/sub>"
           }
@@ -105,7 +74,7 @@
         "77b7f12d-161f-43a6-94f5-ddd14ef4db7d": {
           "type": "text",
           "settings": {
-            "text": "By purchasing the product above you have agreed to the pre-order terms and conditionsTerms & Conditions: Cancellations for pre-orders are honored within 72 hours of the original date of purchase. Pre-orders cannot be refunded after this 72 hour window.Pre-order products can only be returned upon receipt if the product is damaged on arrival.",
+            "text": "By purchasing the product above you have agreed to the pre-order terms and conditionsTerms & Conditions: Cancellations for pre-orders are honored within 72 hours of the original date of purchase. Pre-orders cannot be refunded after this 72 hour window. Pre-order products can only be returned upon receipt if the product is damaged on arrival.",
             "text_style": "body"
           }
         },
@@ -131,10 +100,6 @@
         "title",
         "price",
         "description",
-        "f2de2192-cd6e-4794-89b0-abc6b4cba405",
-        "871dacc1-586f-494e-8422-c9775cf873d2",
-        "8a3bddd5-980a-4f4b-9a2b-b688327cff39",
-        "dfb42146-b7c3-40d6-8380-e723f24e8922",
         "2595c965-39da-4940-af3e-9406a1ea950e",
         "quantity_selector",
         "buy_buttons",
