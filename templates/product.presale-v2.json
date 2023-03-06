@@ -80,6 +80,11 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "1f3d293d-e722-4e5f-b9ef-83bca814ee6b": {
+          "type": "presale_policy_copy",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -92,7 +97,8 @@
         "5e2d56c3-f781-4b82-9e93-f20467c86a38",
         "quantity_selector",
         "buy_buttons",
-        "share"
+        "share",
+        "1f3d293d-e722-4e5f-b9ef-83bca814ee6b"
       ],
       "settings": {
         "enable_sticky_info": true,

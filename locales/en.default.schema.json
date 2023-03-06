@@ -1554,6 +1554,9 @@
         "description": {
           "name": "Description"
         },
+        "presale_policy_copy": {
+          "name": "Presale policy"
+        },
         "share": {
           "name": "Share",
           "settings": {

@@ -104,7 +104,11 @@
     "product": {
       "add_to_cart": "Add to cart",
       "description": "Description",
+      "presale_policy_copy": "Presale policy",
       "on_sale": "Sale",
+      "presale_policy_intro": "By purchasing the product above you have agreed to the pre-order terms and conditions",
+      "presale_policy_bullet_one": "Terms & Conditions: Cancellations for pre-orders are honored within 72 hours of the original date of purchase. Pre-orders cannot be refunded after this 72 hour window.",
+      "presale_policy_bullet_two": "Pre-order products can only be returned upon receipt if the product is damaged on arrival.",
       "product_variants": "Product variants",
       "media": {
         "open_featured_media": "Open featured media in gallery view",
@@ -141,7 +145,7 @@
       "view_full_details": "View full details",
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
-      "include_taxes": "Tax included.",
+      "include_taxes": "Tax included. EDIT",
       "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
     },
     "modal": {
@@ -397,6 +401,11 @@
       "expired": "Expired",
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
+    }
+  },
+  "customer_accounts": {
+    "shop_policies": {
+      "shipping_policy": "Shipping policy updated"
     }
   }
 }

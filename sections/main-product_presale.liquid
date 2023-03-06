@@ -150,18 +150,8 @@
 					endif
 				%}
 			<p class="product__text {{ textStyle }}" {{ block.shopify_attributes }}>
-
-								{% if block.settings.text_style == 'presale_policy' %}
-									{{ textPresaleTitle }}
-									{{ product.metafields.nacelle.presale_policy_intro }}
-									<ul>
-										<li>{{ product.metafields.nacelle.presale_policy.value[0] }}</li>
-										<li>{{ product.metafields.nacelle.presale_policy.value[1] }}</li>
-									</ul>
-								{% else %}
-									{{ textPresaleTitle }}
-			  					{{- block.settings.text -}}
-                {% endif %}
+				{{ textPresaleTitle }}
+				{{- block.settings.text -}}
 			</p>
 		  {%- when 'title' -%}
 			<h1 class="product__title" {{ block.shopify_attributes }}>
@@ -185,6 +175,20 @@
 			{%- if product.description != blank -%}
 			  <div class="product__description rte">
 				{{ product.description }}
+			  </div>
+			{%- endif -%}
+		  {%- when 'presale_policy_copy' -%}
+				<div class="product__presale-policy rte">
+					<h3>Presale Policy</h3>
+					<p>{{ 'products.product.presale_policy_intro' | t }}</p>
+					<ul>
+						<li>{{ 'products.product.presale_policy_bullet_one' | t }}</li>
+						<li>{{ 'products.product.presale_policy_bullet_two' | t }}</li>
+					</ul>
+				</div>
+			{%- if product.metafields.nacelle.presale_policy_intro != blank -%}
+			  <div class="product__presale-intro rte">
+				{{ product.metafields.nacelle.presale_policy_intro }}
 			  </div>
 			{%- endif -%}
 		  {%- when 'custom_liquid' -%}
@@ -708,6 +712,17 @@
       "name": "t:sections.main-product.blocks.description.name",
       "limit": 1
     },
+		{
+			"type": "presale_policy_copy",
+			"name": "t:sections.main-product.blocks.presale_policy_copy.name",
+			"limit": 1,
+			"settings": [
+				{
+					"type": "paragraph",
+					"content": "To edit the Presale policy click the three dots in the Customizer header and select \"Edit default theme content\"."
+				}
+			]
+		},
     {
       "type": "share",
       "name": "t:sections.main-product.blocks.share.name",
@@ -909,6 +924,10 @@
       "content": "t:sections.main-product.settings.header.content",
       "info": "t:sections.main-product.settings.header.info"
     },
+		{
+			"type": "header",
+			"content": "Presale content"
+		},
     {
       "type": "checkbox",
       "id": "hide_variants",
