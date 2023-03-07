@@ -2,14 +2,118 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "settings": {
         "title": "Collections",
         "sort": "products_high",
-        "image_ratio": "square"
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "image_padding": false
+      }
+    },
+    "c6a81253-da13-4a81-8045-4dc91329cc8f": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15235431465151__c6a81253-da13-4a81-8045-4dc91329cc8f-167815667108b50f98-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        },
+        "template--15235431465151__c6a81253-da13-4a81-8045-4dc91329cc8f-167815667108b50f98-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel"
+          }
+        },
+        "template--15235431465151__c6a81253-da13-4a81-8045-4dc91329cc8f-167815667108b50f98-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "figurines"
+          }
+        },
+        "7eb5f729-376a-4e78-8891-ec37804e5a5c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "legends-of-laughter"
+          }
+        },
+        "91a7f54f-7474-4859-a4d0-aa9809af00e0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dna"
+          }
+        },
+        "0a07058f-48c6-49c1-b4ce-c12e8f9c980e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "magnets"
+          }
+        },
+        "42594acf-f5d1-4fd0-b223-6d81e46dab97": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nacelle-vinyl"
+          }
+        },
+        "bacfc850-6895-4ee5-a907-9511050990aa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "robo-force"
+          }
+        },
+        "29a1a3bd-df22-41aa-9251-d7566b8471cd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sectaurs"
+          }
+        },
+        "6d715ba6-528d-4b91-b2ed-28e7fa3fa8d3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "stickers"
+          }
+        },
+        "a304d16b-6779-45d0-bea4-4655abf154a2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-great-garloo-all-products"
+          }
+        },
+        "82a0e0d7-ab36-48e5-a0f9-147009a66ac1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "trading-cards"
+          }
+        }
+      },
+      "block_order": [
+        "template--15235431465151__c6a81253-da13-4a81-8045-4dc91329cc8f-167815667108b50f98-0",
+        "template--15235431465151__c6a81253-da13-4a81-8045-4dc91329cc8f-167815667108b50f98-1",
+        "template--15235431465151__c6a81253-da13-4a81-8045-4dc91329cc8f-167815667108b50f98-2",
+        "7eb5f729-376a-4e78-8891-ec37804e5a5c",
+        "91a7f54f-7474-4859-a4d0-aa9809af00e0",
+        "0a07058f-48c6-49c1-b4ce-c12e8f9c980e",
+        "42594acf-f5d1-4fd0-b223-6d81e46dab97",
+        "bacfc850-6895-4ee5-a907-9511050990aa",
+        "29a1a3bd-df22-41aa-9251-d7566b8471cd",
+        "6d715ba6-528d-4b91-b2ed-28e7fa3fa8d3",
+        "a304d16b-6779-45d0-bea4-4655abf154a2",
+        "82a0e0d7-ab36-48e5-a0f9-147009a66ac1"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "desktop_no_top_space": false,
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "c6a81253-da13-4a81-8045-4dc91329cc8f"
   ]
 }
