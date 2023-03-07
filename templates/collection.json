@@ -99,6 +99,7 @@
       ],
       "settings": {
         "title": "Collections",
+        "minimal_display": true,
         "image_ratio": "square",
         "color_scheme": "background-1",
         "desktop_no_top_space": true,
