@@ -103,6 +103,7 @@
       ],
       "settings": {
         "title": "Collections",
+        "minimal_display": false,
         "image_ratio": "square",
         "color_scheme": "background-1",
         "desktop_no_top_space": false,

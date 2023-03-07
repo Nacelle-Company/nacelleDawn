@@ -15,6 +15,12 @@
   if section.settings.desktop_no_top_space
     assign desktop_no_top_space = 'desktop_no_top_space'
   endif
+  
+  if section.settings.minimal_display
+    assign minimalDisplay = 'card__minimal-display'
+  else 
+    assign minimalDisplay = ''
+  endif
 %}
 
 <div class="collection-list-wrapper page-width{% if section.settings.swipe_on_mobile == true %} page-width-desktop{% endif %}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.show_view_all == false or section.blocks.size > collections.size %} no-mobile-link{% endif %}">
@@ -52,55 +58,51 @@
             {% endif %}
             class="card animate-arrow link{% if block.settings.collection.featured_image != blank %} card--media{% else %}{% if section.settings.image_ratio != 'adapt' %} card--stretch{% endif %}{% endif %}{% unless section.settings.image_padding %} card--light-border{% endunless %}"
           >
-            <div class="card--stretch card-colored color-{{ section.settings.color_scheme }}">
+            <div class="card--stretch card-colored color-{{ section.settings.color_scheme }} {{ minimalDisplay }}">
               {%- if block.settings.collection.featured_image != blank -%}
-                <div
-                  {% if section.settings.image_padding %}
-                    class="card__media-spacer"
-                  {% endif %}
-                >
-                  {% if section.settings.image_padding %}
-                    <div class="overlay-card"></div>
-                  {% endif %}
-                  <div
-                    class="media{% if section.blocks.size > 1 %} media--{{ section.settings.image_ratio }}{% endif %} media--hover-effect overflow-hidden"
-                    {% if section.settings.image_ratio == 'adapt' and section.blocks.size > 1 %}
-                      style="padding-bottom: {{ 1 | divided_by: block.settings.collection.featured_image.aspect_ratio | times: 100 }}%;"
+                {% unless section.settings.minimal_display %}
+                  <div {% if section.settings.image_padding %}class="card__media-spacer"{% endif %}>
+                    {% if section.settings.image_padding %}
+                      <div class="overlay-card"></div>
                     {% endif %}
-                  >
-                    <img
-                      srcset="
-                        {%- if block.settings.collection.featured_image.width >= 165 -%}
-                          {{ block.settings.collection.featured_image | image_url: width: 165 }} 165w,{%- endif -%}
-                        {%- if block.settings.collection.featured_image.width >= 330 -%}
-                          {{ block.settings.collection.featured_image | image_url: width: 330 }} 330w,{%- endif -%}
-                        {%- if block.settings.collection.featured_image.width >= 535 -%}
-                          {{ block.settings.collection.featured_image | image_url: width: 535 }} 535w,{%- endif -%}
-                        {%- if block.settings.collection.featured_image.width >= 750 -%}
-                          {{ block.settings.collection.featured_image | image_url: width: 750 }} 750w,{%- endif -%}
-                        {%- if block.settings.collection.featured_image.width >= 1000 -%}
-                          {{ block.settings.collection.featured_image | image_url: width: 1000 }} 1000w,{%- endif -%}
-                        {%- if block.settings.collection.featured_image.width >= 1500 -%}
-                          {{ block.settings.collection.featured_image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                        {%- if block.settings.collection.featured_image.width >= 3000 -%}
-                          {{ block.settings.collection.featured_image | image_url: width: 3000 }} 3000w,{%- endif -%}
-                        {{ block.settings.collection.featured_image | image_url }} {{ block.settings.collection.featured_image.width }}w
-                      "
-                      src="{{ block.settings.collection.featured_image | image_url: width: 1500 }}"
-                      sizes="
-                        (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,
-                        (min-width: 750px) {% if section.blocks.size > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
-                        calc(100vw - 3rem)
-                      "
-                      alt="{{ block.settings.collection.title | escape }}"
-                      height="{{ block.settings.collection.featured_image.height }}"
-                      width="{{ block.settings.collection.featured_image.width }}"
-                      loading="lazy"
-                      class="motion-reduce"
+                    <div class="media{% if section.blocks.size > 1 %} media--{{ section.settings.image_ratio }}{% endif %} media--hover-effect overflow-hidden"
+                      {% if section.settings.image_ratio == 'adapt' and section.blocks.size > 1 %}
+                        style="padding-bottom: {{ 1 | divided_by: block.settings.collection.featured_image.aspect_ratio | times: 100 }}%;"
+                      {% endif %}
                     >
+                      <img
+                        srcset="
+                          {%- if block.settings.collection.featured_image.width >= 165 -%}
+                            {{ block.settings.collection.featured_image | image_url: width: 165 }} 165w,{%- endif -%}
+                          {%- if block.settings.collection.featured_image.width >= 330 -%}
+                            {{ block.settings.collection.featured_image | image_url: width: 330 }} 330w,{%- endif -%}
+                          {%- if block.settings.collection.featured_image.width >= 535 -%}
+                            {{ block.settings.collection.featured_image | image_url: width: 535 }} 535w,{%- endif -%}
+                          {%- if block.settings.collection.featured_image.width >= 750 -%}
+                            {{ block.settings.collection.featured_image | image_url: width: 750 }} 750w,{%- endif -%}
+                          {%- if block.settings.collection.featured_image.width >= 1000 -%}
+                            {{ block.settings.collection.featured_image | image_url: width: 1000 }} 1000w,{%- endif -%}
+                          {%- if block.settings.collection.featured_image.width >= 1500 -%}
+                            {{ block.settings.collection.featured_image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                          {%- if block.settings.collection.featured_image.width >= 3000 -%}
+                            {{ block.settings.collection.featured_image | image_url: width: 3000 }} 3000w,{%- endif -%}
+                          {{ block.settings.collection.featured_image | image_url }} {{ block.settings.collection.featured_image.width }}w
+                        "
+                        src="{{ block.settings.collection.featured_image | image_url: width: 1500 }}"
+                        sizes="
+                          (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,
+                          (min-width: 750px) {% if section.blocks.size > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
+                          calc(100vw - 3rem)
+                        "
+                        alt="{{ block.settings.collection.title | escape }}"
+                        height="{{ block.settings.collection.featured_image.height }}"
+                        width="{{ block.settings.collection.featured_image.width }}"
+                        loading="lazy"
+                        class="motion-reduce"
+                      >
+                    </div>
                   </div>
-                </div>
-
+                 {% endunless %}
                 <div class="card__text card__text-spacing card-colored card__text-hover{% if section.settings.image_padding == false %} color-{{ section.settings.color_scheme }}{% endif %}">
                   {% unless section.settings.image_padding %}
                     <div class="overlay-card"></div>
@@ -189,6 +191,13 @@
       "id": "title",
       "default": "Collections",
       "label": "t:sections.collection-list.settings.title.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "minimal_display",
+      "default": false,
+      "label": "Minimal display",
+      "info": "Show only collection title."
     },
     {
       "type": "select",

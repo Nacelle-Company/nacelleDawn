@@ -119,3 +119,11 @@
 .collection-list__item .card-colored {
   position: relative;
 }
+
+.card__minimal-display {
+  display: flex;
+}
+
+.card__minimal-display > .card__text {
+  width: 100%;
+}
