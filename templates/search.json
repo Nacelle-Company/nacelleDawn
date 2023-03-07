@@ -3,7 +3,7 @@
     "main": {
       "type": "main-search",
       "settings": {
-        "filter_out_tags": "case",
+        "filter_out_tags": "hidden",
         "image_ratio": "square",
         "show_secondary_image": false,
         "add_image_padding": true,
