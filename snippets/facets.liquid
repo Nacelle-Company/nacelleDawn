@@ -246,6 +246,7 @@
           </div>
         </div>          
       </form>
+
     </facet-filters-form>
   {%- endunless -%}
 
@@ -430,6 +431,14 @@
                   </div>
                 </div>
               {%- endif -%}
+              <div class="mobile-facets__details js-filter">
+                <div class="mobile-facets__summary">
+                  <div>
+                    <a href="/collections" style="text-decoration:none;color:rgba(var(--color-foreground), 0.75);">View All Collections</a>
+                    <span class="mobile-facets__arrow no-js-hidden">{% render 'icon-arrow' %}</span>
+                  </div>
+                </div>
+              </div>
 
               <div class="mobile-facets__footer">
                 <facet-remove class="mobile-facets__clear-wrapper">
@@ -447,7 +456,10 @@
             {%- if results.terms -%}
               <input type="hidden" name="q" value="{{ results.terms | escape }}">
               <input name="options[prefix]" type="hidden" value="last">
-            {%- endif -%}            
+            {%- endif -%}
+            {% comment %}
+              TODO: add collection list here.
+            {% endcomment %}
           </div>
         </form>
       </facet-filters-form>

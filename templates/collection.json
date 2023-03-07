@@ -105,7 +105,7 @@
         "image_ratio": "square",
         "color_scheme": "background-1",
         "desktop_no_top_space": false,
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "image_padding": false,
         "show_view_all": true
       }
