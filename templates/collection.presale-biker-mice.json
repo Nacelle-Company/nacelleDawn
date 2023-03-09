@@ -250,7 +250,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<style>\n@media screen and (max-width: 749px) {\n.product-grid .grid__item {\n    width: 100%;\n    max-width: 100%;\n}\n}\n@media screen and (min-width: 750px) {\n.product-grid .grid__item {\n    margin-bottom: 35px !important;\n}\n}\n<\/style>"
+        "custom_liquid": "<style>\n@media screen and (max-width: 749px) {\n.product-grid .grid__item {\n    width: 100%;\n    max-width: 100%;\n}\n}\n@media screen and (min-width: 750px) {\n.product-grid .grid__item {\n    margin-bottom: 35px !important;\n}\n}\n.button:disabled {\n  background-color: #5899E1 !important;\n    box-shadow: #5899E1 0 0 0 1.15px !important;\n\n}\n<\/style>"
       }
     }
   },
