@@ -196,7 +196,7 @@
         "swipe_on_mobile": false,
         "desktop_full_width": false,
         "desktop_no_top_space": true,
-        "background_color": "",
+        "background_color": "linear-gradient(310deg, rgba(41, 75, 156, 0.7) 15%, rgba(41, 75, 156, 0.7) 85%)",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
