@@ -84,6 +84,12 @@
           "settings": {
             "collection": "stickers"
           }
+        },
+        "904a34e6-63b7-4662-a928-665c58637037": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "magnets"
+          }
         }
       },
       "block_order": [
@@ -95,7 +101,8 @@
         "15917c48-f97a-42c5-9118-2bc7b361186e",
         "9c3c1004-ba59-49f9-bf56-90d806861dfa",
         "25a88a37-8f66-4994-9db0-d8f7d4a30f46",
-        "8e1993a5-ff03-4bb3-bac7-01e197e93449"
+        "8e1993a5-ff03-4bb3-bac7-01e197e93449",
+        "904a34e6-63b7-4662-a928-665c58637037"
       ],
       "settings": {
         "title": "Collections",
