@@ -319,48 +319,10 @@
         "filter_show": false
       }
     },
-    "165ee394-f3ef-47d7-98c7-c0e6cdb733da": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15998127505599__165ee394-f3ef-47d7-98c7-c0e6cdb733da-16789096971ca19c74-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Biker Mice",
-            "heading_size": "h1"
-          }
-        },
-        "template--15998127505599__165ee394-f3ef-47d7-98c7-c0e6cdb733da-16789096971ca19c74-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Coming soon!<\/p>"
-          }
-        },
-        "template--15998127505599__165ee394-f3ef-47d7-98c7-c0e6cdb733da-16789096971ca19c74-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Return to Shop",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": true
-          }
-        },
-        "template--15998127505599__165ee394-f3ef-47d7-98c7-c0e6cdb733da-16789096971ca19c74-3": {
-          "type": "image",
-          "settings": {
-            "image_width_rt": "500"
-          }
-        }
-      },
-      "block_order": [
-        "template--15998127505599__165ee394-f3ef-47d7-98c7-c0e6cdb733da-16789096971ca19c74-0",
-        "template--15998127505599__165ee394-f3ef-47d7-98c7-c0e6cdb733da-16789096971ca19c74-1",
-        "template--15998127505599__165ee394-f3ef-47d7-98c7-c0e6cdb733da-16789096971ca19c74-2",
-        "template--15998127505599__165ee394-f3ef-47d7-98c7-c0e6cdb733da-16789096971ca19c74-3"
-      ],
+    "650fb8e7-9824-432f-8519-9a32994ac4d1": {
+      "type": "custom-liquid",
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "desktop_no_top_space": false,
-        "section_id": ""
+        "custom_liquid": "<h1 class=\"center\">Biker Mice Collection<\/h1>\n<p class=\"center\">Coming soon!<\/p>\n<button class=\"button\" href=\"\/collections\/all\">Return to Shop<\/button>"
       }
     }
   },
@@ -373,6 +335,6 @@
     "6e065944-06da-491c-93f9-174f93d23506",
     "c01a0b4a-7f78-4a06-bf37-5f9fce989ea6",
     "b074f296-7952-4bfa-b27e-9f1752cb3bb7",
-    "165ee394-f3ef-47d7-98c7-c0e6cdb733da"
+    "650fb8e7-9824-432f-8519-9a32994ac4d1"
   ]
 }
