@@ -322,7 +322,7 @@
     "650fb8e7-9824-432f-8519-9a32994ac4d1": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h1 class=\"center\">Biker Mice Collection<\/h1>\n<p class=\"center\">Coming soon!<\/p>\n<button class=\"button\" href=\"\/collections\/all\">Return to Shop<\/button>"
+        "custom_liquid": "<h1 class=\"center\">Biker Mice Collection<\/h1>\n<p class=\"center\">Coming soon!<\/p><br>\n<div style=\"display:flex;justify-content:center;\">\n<button class=\"button\" href=\"\/collections\/all\">Return to Shop<\/button><\/div>"
       }
     }
   },
