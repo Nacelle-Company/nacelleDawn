@@ -1896,6 +1896,13 @@ input[type="checkbox"] {
 	line-height: calc(1 + 0.1 / var(--font-body-scale));
 }
 
+@media screen and (max-width: 749px) {
+	.cart-count-bubble {
+		left: unset;
+		right: 0;
+	}
+}
+
 /* section-announcement-bar */
 #shopify-section-announcement-bar {
 	z-index: 4;
