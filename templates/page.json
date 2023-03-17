@@ -3,54 +3,151 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "alt_title": "",
+        "hide_title": false
       }
     },
     "16377228736cafae48": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
+        "section_id": "featured-collection",
         "title": "Toys & Collectibles",
         "collection": "toys-collectibles",
+        "product_selected_tag": "",
         "products_to_show": 12,
         "show_view_all": false,
         "swipe_on_mobile": true,
+        "desktop_full_width": false,
+        "desktop_no_top_space": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
+        "show_presale_text": false,
         "show_rating": false
       }
     },
     "1637722870c3c004ee": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
+        "section_id": "featured-collection",
         "title": "Apparel",
         "collection": "apparel",
+        "product_selected_tag": "",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
+        "desktop_full_width": false,
+        "desktop_no_top_space": false,
+        "background_color": "linear-gradient(#ffffff, #000000)",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
+        "show_presale_text": false,
         "show_rating": false
       }
     },
     "1637722826d610dce9": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
+        "section_id": "featured-collection",
         "title": "Accessories",
         "collection": "accessories",
+        "product_selected_tag": "",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
+        "desktop_full_width": false,
+        "desktop_no_top_space": false,
+        "background_color": "linear-gradient(#ffffff, #000000)",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
+        "show_presale_text": false,
         "show_rating": false
+      }
+    },
+    "861aed71-df49-4c3c-94c6-fa2e67d1ed0c": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-3": {
+          "type": "price",
+          "settings": {
+            "payment_options": true
+          }
+        },
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-0",
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-1",
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-2",
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-3",
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-4",
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-5",
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-6",
+        "template--15998126325951__861aed71-df49-4c3c-94c6-fa2e67d1ed0c-1679055544c104336a-7"
+      ],
+      "settings": {
+        "product": "biker-mice-from-mars-bundle",
+        "secondary_background": true,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "background_color_secondary": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "btn_color": "#4591e5",
+        "btn_text_color": "#000000",
+        "txt_color": "#000000",
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     }
   },
@@ -58,6 +155,7 @@
     "main",
     "16377228736cafae48",
     "1637722870c3c004ee",
-    "1637722826d610dce9"
+    "1637722826d610dce9",
+    "861aed71-df49-4c3c-94c6-fa2e67d1ed0c"
   ]
 }
