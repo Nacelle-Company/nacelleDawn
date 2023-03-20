@@ -339,7 +339,7 @@
                         <button
                           type="submit"
                           name="add"
-                          class="product-form__submit button button--full-width create_preorderbtn {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
+                          class="product-form__submit button button--full-width  {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
                           style="background:{{ btn_color }};box-shadow:{{ btn_color }} 0 0 0 1.15px;{{ btn_text_color }}"
                           data-product-id="{{product.id}}"
                         {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
