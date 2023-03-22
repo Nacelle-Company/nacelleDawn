@@ -104,7 +104,7 @@
     "product": {
       "add_to_cart": "Add to cart",
       "description": "Description",
-      "presale_policy_copy": "Presale policy - PLEASE READ",
+      "presale_policy_copy": "Presale policy",
       "on_sale": "Sale",
       "presale_policy_intro": "By purchasing the product above you have agreed to the pre-order terms and conditions",
       "presale_policy_bullet_one": "Terms & Conditions: All product pre-orders are made final upon completion of payment. Pre-orders cannot be cancelled or refunded any time after purchase has been processed.",
