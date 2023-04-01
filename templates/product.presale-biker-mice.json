@@ -48,6 +48,7 @@
         },
         "2595c965-39da-4940-af3e-9406a1ea950e": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.nacelle.presale_info.value }}",
             "text_style": "presale"
@@ -55,6 +56,7 @@
         },
         "19ac6366-2c2a-409d-92d4-cd3ce0486a4a": {
           "type": "presale_policy_copy",
+          "disabled": true,
           "settings": {
           }
         },
