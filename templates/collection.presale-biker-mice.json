@@ -230,6 +230,7 @@
         },
         "b76921e8-aa56-4350-8e83-6bf53af4508a": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
