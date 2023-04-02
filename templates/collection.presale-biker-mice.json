@@ -185,92 +185,6 @@
         "enable_video_looping": false
       }
     },
-    "8acb55ab-88fc-4c80-8b98-27c048d53bf4": {
-      "type": "featured-product",
-      "blocks": {
-        "176be7e0-b664-482b-a569-7d74c9c1576e": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "185d4172-935b-4743-a28e-179c638d9208": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "820852cf-0157-4c02-bf60-77840171a384": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "3df2556a-04bc-4ba1-ab07-d4fa234eaadb": {
-          "type": "text",
-          "settings": {
-            "text": "Be the very first to own an incredibly detailed scaled replica of the planet Mars from the BIKER MICE FROM MARS!",
-            "text_style": "body"
-          }
-        },
-        "349b437f-3e2c-4908-bc84-ea20447bced2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.metafields.nacelle.presale_info.value }}",
-            "text_style": "presale"
-          }
-        },
-        "21101cba-fe11-446d-b46b-89a2f26a3cbd": {
-          "type": "price",
-          "settings": {
-            "payment_options": false
-          }
-        },
-        "b76921e8-aa56-4350-8e83-6bf53af4508a": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "75f313bb-f47c-4e4f-bd2c-391e54a38ba0": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "8729941f-1bc3-4d4f-9554-58fb412eea4a": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "176be7e0-b664-482b-a569-7d74c9c1576e",
-        "185d4172-935b-4743-a28e-179c638d9208",
-        "820852cf-0157-4c02-bf60-77840171a384",
-        "3df2556a-04bc-4ba1-ab07-d4fa234eaadb",
-        "349b437f-3e2c-4908-bc84-ea20447bced2",
-        "21101cba-fe11-446d-b46b-89a2f26a3cbd",
-        "b76921e8-aa56-4350-8e83-6bf53af4508a",
-        "75f313bb-f47c-4e4f-bd2c-391e54a38ba0",
-        "8729941f-1bc3-4d4f-9554-58fb412eea4a"
-      ],
-      "settings": {
-        "product": "1-12-scaled-replica-planet-mars",
-        "secondary_background": true,
-        "background_color": "radial-gradient(rgba(255, 154, 98, 0), rgba(185, 100, 17, 0) 100%)",
-        "background_color_secondary": "",
-        "btn_color": "#313131",
-        "btn_text_color": "#313131",
-        "txt_color": "#ffffff",
-        "hide_variants": false,
-        "enable_video_looping": false
-      }
-    },
     "a9cce1a7-ae96-4083-86d1-3e9455adb78c": {
       "type": "featured-collection",
       "custom_css": [
@@ -351,7 +265,6 @@
     "164677671632a680df",
     "00bfec05-5148-4704-893e-1cb54d402cfb",
     "259b57c0-2b2b-4d65-bcdc-a7d8454b303c",
-    "8acb55ab-88fc-4c80-8b98-27c048d53bf4",
     "a9cce1a7-ae96-4083-86d1-3e9455adb78c",
     "banner",
     "product-grid",
