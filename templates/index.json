@@ -301,6 +301,7 @@
     "1637408408d0aa3dd2": {
       "type": "featured-collection",
       "settings": {
+        "section_id": "featured-collection",
         "title": "",
         "collection": "nacelle-vinyl",
         "product_selected_tag": "",
@@ -315,6 +316,7 @@
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
+        "show_presale_text": false,
         "show_rating": false
       }
     },
@@ -327,12 +329,6 @@
     "1637376491025a85ef": {
       "type": "collection-list",
       "blocks": {
-        "16373764912759f352-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "apparel"
-          }
-        },
         "16373764912759f352-1": {
           "type": "featured_collection",
           "settings": {
@@ -342,17 +338,24 @@
         "16373764912759f352-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "accessories"
+            "collection": "books"
+          }
+        },
+        "16373764912759f352-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel"
           }
         }
       },
       "block_order": [
-        "16373764912759f352-0",
         "16373764912759f352-1",
-        "16373764912759f352-2"
+        "16373764912759f352-2",
+        "16373764912759f352-0"
       ],
       "settings": {
         "title": "",
+        "minimal_display": false,
         "image_ratio": "square",
         "color_scheme": "background-1",
         "desktop_no_top_space": true,

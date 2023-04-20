@@ -33,22 +33,34 @@
     "a0a3dfe5-5d1c-4ddf-8876-3d24767d4666": {
       "type": "collection-list",
       "blocks": {
-        "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "accessories"
-          }
-        },
         "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "toys-collectibles"
           }
         },
+        "55764c59-6894-4d76-b523-5cfa031a1087": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "books"
+          }
+        },
         "dca23afc-ef75-4020-8693-7c76a5564732": {
           "type": "featured_collection",
           "settings": {
             "collection": "apparel"
+          }
+        },
+        "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        },
+        "15917c48-f97a-42c5-9118-2bc7b361186e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "robo-force"
           }
         },
         "c659e750-58b7-4b3e-bccf-4477c325f2cc": {
@@ -61,12 +73,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "dna"
-          }
-        },
-        "15917c48-f97a-42c5-9118-2bc7b361186e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "robo-force"
           }
         },
         "9c3c1004-ba59-49f9-bf56-90d806861dfa": {
@@ -86,25 +92,19 @@
           "settings": {
             "collection": "stickers"
           }
-        },
-        "55764c59-6894-4d76-b523-5cfa031a1087": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "books"
-          }
         }
       },
       "block_order": [
-        "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-0",
         "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-1",
+        "55764c59-6894-4d76-b523-5cfa031a1087",
         "dca23afc-ef75-4020-8693-7c76a5564732",
+        "template--15955224002751__a0a3dfe5-5d1c-4ddf-8876-3d24767d4666-167363895324a5acd0-0",
+        "15917c48-f97a-42c5-9118-2bc7b361186e",
         "c659e750-58b7-4b3e-bccf-4477c325f2cc",
         "cb1dd085-15a1-448a-a35b-77d645c169b1",
-        "15917c48-f97a-42c5-9118-2bc7b361186e",
         "9c3c1004-ba59-49f9-bf56-90d806861dfa",
         "25a88a37-8f66-4994-9db0-d8f7d4a30f46",
-        "8e1993a5-ff03-4bb3-bac7-01e197e93449",
-        "55764c59-6894-4d76-b523-5cfa031a1087"
+        "8e1993a5-ff03-4bb3-bac7-01e197e93449"
       ],
       "settings": {
         "title": "Collections",
