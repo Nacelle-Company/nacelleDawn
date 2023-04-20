@@ -20,16 +20,16 @@
             "collection": "biker-mice"
           }
         },
-        "aeaaab2d-5661-4e24-9883-c95e4bea6fc6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "robo-force"
-          }
-        },
         "692b8052-e1ef-445a-99ca-a6d0020d8cb9": {
           "type": "featured_collection",
           "settings": {
             "collection": "books"
+          }
+        },
+        "aeaaab2d-5661-4e24-9883-c95e4bea6fc6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "robo-force"
           }
         },
         "template--15998119870655__cc2ad643-c980-4787-8657-22cc9ecd6acd-1678156443073ba09b-2": {
@@ -102,8 +102,8 @@
       },
       "block_order": [
         "f24d4e5a-13cd-4084-8446-e1f98175ba3f",
-        "aeaaab2d-5661-4e24-9883-c95e4bea6fc6",
         "692b8052-e1ef-445a-99ca-a6d0020d8cb9",
+        "aeaaab2d-5661-4e24-9883-c95e4bea6fc6",
         "template--15998119870655__cc2ad643-c980-4787-8657-22cc9ecd6acd-1678156443073ba09b-2",
         "template--15998119870655__cc2ad643-c980-4787-8657-22cc9ecd6acd-1678156443073ba09b-1",
         "397088ac-7ecf-4592-9614-8c9bbf5ba0ac",
