@@ -2547,5 +2547,5 @@ details-disclosure > details {
 	justify-content: center;
 }
 .list-menu--disclosure {
-    background: #fff !important;
+    background: transparent !important;
 }
