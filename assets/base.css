@@ -2526,7 +2526,7 @@ details-disclosure > details {
 }
 
 .header  .header__inline-menu .list-menu > li:nth-child(3) > a{
-	background: blueviolet;
+	background: deepskyblue;
 	border-radius: 40px;
 	text-decoration: none !important;
 	padding-left: 20px;
