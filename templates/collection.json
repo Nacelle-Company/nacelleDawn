@@ -30,6 +30,28 @@
         "collapse_on_larger_devices": true
       }
     },
+    "3b8da324-626a-4993-b182-81b2fafcd25a": {
+      "type": "featured-collection",
+      "settings": {
+        "section_id": "featured-collection",
+        "title": "{{ section.settings.collection.title }}",
+        "collection": "magazines",
+        "product_selected_tag": "",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "desktop_full_width": false,
+        "desktop_no_top_space": false,
+        "background_color": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_presale_text": false,
+        "show_rating": false
+      }
+    },
     "a0a3dfe5-5d1c-4ddf-8876-3d24767d4666": {
       "type": "collection-list",
       "blocks": {
@@ -121,6 +143,7 @@
   "order": [
     "banner",
     "product-grid",
+    "3b8da324-626a-4993-b182-81b2fafcd25a",
     "a0a3dfe5-5d1c-4ddf-8876-3d24767d4666"
   ]
 }
