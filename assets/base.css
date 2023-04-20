@@ -2546,3 +2546,6 @@ details-disclosure > details {
 	color: #fff!important;
 	justify-content: center;
 }
+.list-menu--disclosure {
+    background: #fff !important;
+}
