@@ -2524,25 +2524,3 @@ details-disclosure > details {
 .image-aspect {
 	position: static !important;
 }
-
-.header  .header__inline-menu .list-menu > li:nth-child(3) > a{
-	background: deepskyblue;
-	border-radius: 40px;
-	text-decoration: none !important;
-	padding-left: 20px;
-	padding-right: 20px;
-	color: #fff!important;
-}
-.header  .header__inline-menu .list-menu > li:nth-child(3) > a span {
-	text-decoration: none;
-	color: #fff;
-}
-.menu-drawer__navigation .menu-drawer__menu > li:nth-child(3) {
-	padding: 0 3.2rem;
-}
-.menu-drawer__navigation .menu-drawer__menu > li:nth-child(3) a{
-	background: deepskyblue;
-	border-radius: 40px;
-	color: #fff!important;
-	justify-content: center;
-}
