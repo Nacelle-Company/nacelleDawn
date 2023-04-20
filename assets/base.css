@@ -1,5 +1,13 @@
 /* Color custom properties */
 
+a.header__menu-item.header__menu-item.list-menu__item.link.link--text.focus-inset {
+    color: black !important;
+}
+
+summary.header__menu-item.list-menu__item.link.focus-inset {
+    color: black !important;
+}
+
 :root,
 .color-background-1 {
 	--color-foreground: var(--color-base-text);
