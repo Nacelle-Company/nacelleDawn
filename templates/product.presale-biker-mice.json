@@ -60,11 +60,6 @@
             "text_style": "presale"
           }
         },
-        "19ac6366-2c2a-409d-92d4-cd3ce0486a4a": {
-          "type": "presale_policy_copy",
-          "settings": {
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -74,6 +69,11 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
+          }
+        },
+        "19ac6366-2c2a-409d-92d4-cd3ce0486a4a": {
+          "type": "presale_policy_copy",
+          "settings": {
           }
         },
         "share": {
@@ -90,9 +90,9 @@
         "f9087380-f369-4aa4-b18d-f5148d25ef99",
         "description",
         "2595c965-39da-4940-af3e-9406a1ea950e",
-        "19ac6366-2c2a-409d-92d4-cd3ce0486a4a",
         "quantity_selector",
         "buy_buttons",
+        "19ac6366-2c2a-409d-92d4-cd3ce0486a4a",
         "share"
       ],
       "settings": {
