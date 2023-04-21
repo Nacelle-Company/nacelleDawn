@@ -41,6 +41,12 @@
           "settings": {
           }
         },
+        "f9087380-f369-4aa4-b18d-f5148d25ef99": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Estimated shipping is Late Fall\/Winter 2023.<br>Please read the pre-order policy below <\/sub>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -70,13 +76,6 @@
             "show_dynamic_checkout": false
           }
         },
-        "f9087380-f369-4aa4-b18d-f5148d25ef99": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Estimated shipping is Late Fall\/Winter 2023.<br>Please read the pre-order policy below <\/sub>"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -88,12 +87,12 @@
         "vendor",
         "title",
         "price",
+        "f9087380-f369-4aa4-b18d-f5148d25ef99",
         "description",
         "2595c965-39da-4940-af3e-9406a1ea950e",
         "19ac6366-2c2a-409d-92d4-cd3ce0486a4a",
         "quantity_selector",
         "buy_buttons",
-        "f9087380-f369-4aa4-b18d-f5148d25ef99",
         "share"
       ],
       "settings": {
