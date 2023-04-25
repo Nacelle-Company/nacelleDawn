@@ -1,5 +1,25 @@
 <!doctype html>
-<html class="no-js" lang="{{ request.locale.iso_code }}">    
+<html class="no-js" lang="{{ request.locale.iso_code }}"> 
+<style>
+.header__menu-item span {
+    border: 1px solid #e20d2e;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: #e20d2e;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.header__active-menu-item {
+    background: #e20d2e;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.header__icon .icon {
+    color: #e20d2e;
+}
+</style>
   <head>
     {% comment %}
       redirect the homepage
