@@ -51,7 +51,9 @@
       "header": {
         "type": "header",
         "custom_css": [
-
+          ".header .header__inline-menu a[href=\"\/collections\/books\"] {border: 0px solid #000; border-radius: 30px; text-decoration: none !important; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; background: #00bfff; color: #fff !important;}",
+          ".menu-drawer__navigation .menu-drawer__menu a[href=\"\/collections\/books\"] {padding: 0 3.2rem;}",
+          ".menu-drawer__navigation .menu-drawer__menu a[href=\"\/collections\/books\"] {background: #00bfff; border-radius: 30px; color: #fff !important; justify-content: center;}"
         ],
         "settings": {
           "color_scheme": "background-1",
