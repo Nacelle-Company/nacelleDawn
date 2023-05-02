@@ -25,7 +25,7 @@
         "adapt_height_first_image": true,
         "lazy_disable": false,
         "image_height": "large",
-        "banner_bk_img_fit": "cover",
+        "banner_bk_img_fit": "scale-down",
         "banner_bk_img_position": "center center",
         "image_overlay_opacity": 0,
         "desktop_text_box_position": "flex-start",
@@ -73,6 +73,7 @@
         "add_image_padding": false,
         "show_image_outline": false,
         "show_vendor": true,
+        "show_presale_text": false,
         "show_rating": false,
         "enable_filtering": false,
         "enable_sorting": false,
@@ -83,6 +84,7 @@
       "type": "main-collection-banner",
       "settings": {
         "color_scheme": "inverse",
+        "collection_image_aspect": "default",
         "collection_description_bk_none": false,
         "show_collection_description": true,
         "show_collection_title": false,
@@ -120,8 +122,10 @@
       ],
       "settings": {
         "title": "Collections",
+        "minimal_display": false,
         "image_ratio": "square",
         "color_scheme": "inverse",
+        "desktop_no_top_space": false,
         "swipe_on_mobile": true,
         "image_padding": false,
         "show_view_all": false
