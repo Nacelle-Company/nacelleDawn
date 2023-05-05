@@ -35,8 +35,8 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text_pre": "GET TO KNOW YOUR CUSTOMERS DAY SALE",
-              "text": "<p>10% OFF <em>sitewide using promo code:<\/em> CUSTOMER <em>48 HOURS ONLY<\/em><\/p>",
+              "text_pre": "THE ULTIMATE WEEKEND BOOK SALE",
+              "text": "<p>15% OFF ALL BOOKS<em> using promo code:<\/em> BOOKLOVER <em>ends Sunday.<\/em><\/p>",
               "color_scheme": "background-2",
               "link": "shopify:\/\/collections\/all"
             }
