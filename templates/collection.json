@@ -32,6 +32,7 @@
     },
     "3b8da324-626a-4993-b182-81b2fafcd25a": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "section_id": "featured-collection",
         "title": "{{ section.settings.collection.title }}",
