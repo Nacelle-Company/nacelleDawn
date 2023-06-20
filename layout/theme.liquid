@@ -1,6 +1,11 @@
+{%- comment %}<locksmith:6452>{% endcomment -%}
+  {%- include 'locksmith' -%}
+{%- comment %}</locksmith:6452>{% endcomment -%}
+
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}"> 
   <head>
+    {{ locksmith_initializations }}
     {% comment %}
       redirect the homepage
       set in Shopify admin/live theme/edit default content/general/Homepage/Homepage redirect
@@ -52,7 +57,10 @@
     </title>
 
     {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
+      {%- comment %}<locksmith:fa6d>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}">{% endif -%}
+        {%- comment %}original: <meta name="description" content="{{ page_description | escape }}">{%- endcomment %}
+      {%- comment %}</locksmith:fa6d>{% endcomment -%}
     {% endif %}
 
     {% render 'meta-tags' %}
