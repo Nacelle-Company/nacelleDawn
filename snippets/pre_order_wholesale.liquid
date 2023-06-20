@@ -17,6 +17,9 @@
       {% paginate collection.products by pre_order_collection_limit %}
         var pre_order_wholesale_data = {{ collection.products | json }}
             {% for product in collection.products %} 
+				{%- comment %}<locksmith:32af>{% endcomment -%}
+				  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+				{%- comment %}</locksmith:32af>{% endcomment -%} 
 				pre_order_wholesale_data_product = pre_order_wholesale_data.find(i => i.id == {{product.id}})
         		{% for variant in product.variants %}        
         			pre_order_wholesale_data_product.variants.find(i => i.id == {{variant.id}}).inventory_quantity={{variant.inventory_quantity}};

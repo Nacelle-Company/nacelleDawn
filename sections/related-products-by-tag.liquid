@@ -101,6 +101,9 @@
         <div class="grid grid--uniform{% if collection.products_count > 0 %} grid--view-items{% endif %}">
 
           {% for product in collections.all.products %}
+            {%- comment %}<locksmith:a011>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collections.all, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:a011>{% endcomment -%}
             {% unless product.handle == current_product.handle %}
               {% unless same_vendor and current_product.vendor != product.vendor %}
                 {% unless same_type and current_product.type != product.type %}

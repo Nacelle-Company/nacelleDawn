@@ -60,6 +60,9 @@
           "
         >
           {%- for product in collection.products -%}
+            {%- comment %}<locksmith:bb56>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:bb56>{% endcomment -%}
             {% capture wlm_check %}{% include 'wlm-product' with product  %}{% endcapture %}
                 {% unless wlm_check contains "Liquid error" %}
                 {% include 'wlm-product' with product %}

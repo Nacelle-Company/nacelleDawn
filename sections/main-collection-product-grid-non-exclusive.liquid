@@ -60,6 +60,9 @@
                                     {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
                                   {% endif %}">
                     {%- for product in collection.products -%}
+                        {%- comment %}<locksmith:9885>{% endcomment -%}
+                          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                        {%- comment %}</locksmith:9885>{% endcomment -%}
                         {%- if product.tags contains 'Non-Exclusive Exclusives' -%}
                             {%- comment -%}
                                 to return to default remove BELOW
