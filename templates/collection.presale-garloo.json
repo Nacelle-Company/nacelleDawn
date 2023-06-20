@@ -224,13 +224,6 @@
             "payment_options": false
           }
         },
-        "8c49505e-270c-419e-ba21-1a8bdc73f8c1": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.nacelle.presale_info.value }}",
-            "text_style": "presale"
-          }
-        },
         "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-5": {
           "type": "quantity_selector",
           "settings": {
@@ -259,7 +252,6 @@
         "58b2fa55-ed2d-40d3-b7b0-23413319561b",
         "9ebc1e4e-81e0-4c73-bbd0-e960315a94f4",
         "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-3",
-        "8c49505e-270c-419e-ba21-1a8bdc73f8c1",
         "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-5",
         "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-6",
         "template--15955224395967__c01a0b4a-7f78-4a06-bf37-5f9fce989ea6-16734598693a2d6eb5-7"

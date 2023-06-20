@@ -86,13 +86,6 @@
             "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Estimated shipping is Spring 2023.<br>Please read the pre-order policy below <\/sub>"
           }
         },
-        "f3b9305c-3ca4-4ebe-a8b3-ea6d34f68c85": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.nacelle.presale_info.value }}",
-            "text_style": "presale"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -109,11 +102,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "dd21aea9-848c-4405-9f91-a32cdaf42701": {
-          "type": "presale_policy_copy",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -127,11 +115,9 @@
         "dfb42146-b7c3-40d6-8380-e723f24e8922",
         "2595c965-39da-4940-af3e-9406a1ea950e",
         "f9087380-f369-4aa4-b18d-f5148d25ef99",
-        "f3b9305c-3ca4-4ebe-a8b3-ea6d34f68c85",
         "quantity_selector",
         "buy_buttons",
-        "share",
-        "dd21aea9-848c-4405-9f91-a32cdaf42701"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -144,6 +130,7 @@
       "disabled": true,
       "settings": {
         "heading": "You may also like",
+        "filter_out_tags": "",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
