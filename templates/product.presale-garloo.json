@@ -83,7 +83,6 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Estimated shipping is Spring 2023.<br>Please read the pre-order policy below <\/sub>"
           }
         },
         "quantity_selector": {
