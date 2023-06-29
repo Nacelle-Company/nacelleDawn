@@ -47,9 +47,6 @@
       role="list"
     >
       {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
-        {%- comment %}<locksmith:b7d0>{% endcomment -%}
-          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: section.settings.collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-        {%- comment %}</locksmith:b7d0>{% endcomment -%}
         {% capture wlm_check %}{% include 'wlm-product' with product  %}{% endcapture %}
                 {% unless wlm_check contains "Liquid error" %}
                 {% include 'wlm-product' with product %}
