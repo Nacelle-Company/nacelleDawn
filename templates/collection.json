@@ -35,7 +35,7 @@
       "settings": {
         "section_id": "featured-collection",
         "title": "{{ section.settings.collection.title }}",
-        "collection": "biker-mice",
+        "collection": "magazines",
         "product_selected_tag": "",
         "products_to_show": 4,
         "show_view_all": true,
