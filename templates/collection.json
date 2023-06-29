@@ -114,6 +114,12 @@
           "settings": {
             "collection": "stickers"
           }
+        },
+        "03d5474b-5ae8-4193-b37e-3fa85a11256e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "magazines"
+          }
         }
       },
       "block_order": [
@@ -126,7 +132,8 @@
         "cb1dd085-15a1-448a-a35b-77d645c169b1",
         "9c3c1004-ba59-49f9-bf56-90d806861dfa",
         "25a88a37-8f66-4994-9db0-d8f7d4a30f46",
-        "8e1993a5-ff03-4bb3-bac7-01e197e93449"
+        "8e1993a5-ff03-4bb3-bac7-01e197e93449",
+        "03d5474b-5ae8-4193-b37e-3fa85a11256e"
       ],
       "settings": {
         "title": "Collections",
