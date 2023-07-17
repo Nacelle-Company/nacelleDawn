@@ -39,8 +39,8 @@
         ".button {color: #fff; box-shadow: 0 0 0 0.1rem rgba(var(--color-base-solid-button-labels));}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/vinnie-modo-and-throttle-biker-mice-in-the-city_e9125ea6-cf77-4fc6-a19f-23837168ccf5.webp",
-        "image_mobile": "shopify:\/\/shop_images\/biker-mice-from-mars-mobile.jpg",
+        "image": "shopify:\/\/shop_images\/BikerMice_CityBG_GROUP_3840x2160_BeautyShot.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/BikerMice_CityBG_GROUP_3840x2160_BeautyShot_b7567964-3b22-4148-b6d1-f0b765075582.jpg",
         "legal_text": "",
         "adapt_height_first_image": true,
         "lazy_disable": true,
