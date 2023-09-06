@@ -263,7 +263,10 @@ reqJquery(function($){
               draftAPIRequestProcessing = false;
               window.location.href = url;
           }        
-      });    
+      }).catch((error) => {
+        // to handle CORS error
+        setTimeout(function(){draftAPIRequestProcessing = false; window.location.href = url},5000);
+      });   
   }
 
   function sameDomainAjax (paramHash, successCallback) {
