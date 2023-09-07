@@ -1179,8 +1179,8 @@
       "settings": {
         "product": "biker-mice-from-mars-bundle",
         "secondary_background": true,
-        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "background_color_secondary": "",
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "background_color_secondary": "linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0))",
         "btn_color": "#4591e5",
         "btn_text_color": "#000000",
         "txt_color": "#000000",
