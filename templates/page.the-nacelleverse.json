@@ -1,7 +1,1045 @@
 {
   "sections": {
+    "f18aa85e-a699-47c1-956d-394a18275e5b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16116254998719__f18aa85e-a699-47c1-956d-394a18275e5b-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "template--16116254998719__f18aa85e-a699-47c1-956d-394a18275e5b-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "template--16116254998719__f18aa85e-a699-47c1-956d-394a18275e5b-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16116254998719__f18aa85e-a699-47c1-956d-394a18275e5b-heading-1",
+        "template--16116254998719__f18aa85e-a699-47c1-956d-394a18275e5b-text-1",
+        "template--16116254998719__f18aa85e-a699-47c1-956d-394a18275e5b-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.001.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "8db8ab7a-c72f-43ab-9633-9b6647290a06": {
+      "type": "image-banner",
+      "blocks": {
+        "59d0cf19-1bb8-40a7-8e5b-b6b048b823b7": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "cb9a14ea-32d2-438f-b288-e100ebfaee2a": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "834d67e0-7d50-464b-b4ae-99c612719442": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "59d0cf19-1bb8-40a7-8e5b-b6b048b823b7",
+        "cb9a14ea-32d2-438f-b288-e100ebfaee2a",
+        "834d67e0-7d50-464b-b4ae-99c612719442"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.002.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "f9b64dce-b938-4c90-99a5-d8c566855209": {
+      "type": "image-banner",
+      "blocks": {
+        "d10da754-3020-43f7-aa78-31e22e926140": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "a9632c5e-7a27-4588-9d8e-52a89377ff8e": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "b44a5aee-cc2e-406b-9361-0b87a6ff4d55": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "d10da754-3020-43f7-aa78-31e22e926140",
+        "a9632c5e-7a27-4588-9d8e-52a89377ff8e",
+        "b44a5aee-cc2e-406b-9361-0b87a6ff4d55"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.003.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "eb8e826e-6314-4374-accd-c460c6c6d661": {
+      "type": "image-banner",
+      "blocks": {
+        "14caeb24-965b-4a0d-ba13-f658218d0b53": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "26a6829e-c6a3-4058-9764-57c289c14f90": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "0b5350f9-a77d-40aa-9351-819a275f2898": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "14caeb24-965b-4a0d-ba13-f658218d0b53",
+        "26a6829e-c6a3-4058-9764-57c289c14f90",
+        "0b5350f9-a77d-40aa-9351-819a275f2898"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.004.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "ca6aa8f6-79fe-4f11-9e84-22a64e24c265": {
+      "type": "image-banner",
+      "blocks": {
+        "1a6c5259-c8e6-4d19-ada8-c97b36138e3c": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "a867aac1-d8e4-4f90-b9a2-d53351d384fb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "882387c5-9b74-4656-b567-7c9409082c81": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1a6c5259-c8e6-4d19-ada8-c97b36138e3c",
+        "a867aac1-d8e4-4f90-b9a2-d53351d384fb",
+        "882387c5-9b74-4656-b567-7c9409082c81"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.005.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "691de07d-aec0-4180-b67b-06e1ab9d4163": {
+      "type": "image-banner",
+      "blocks": {
+        "efc8fcac-7e5e-4418-b506-8423c9c24ef0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "98d1357a-8cac-4467-b866-0b65d7d97d99": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "a99c645e-2f58-4d5d-9832-cefebd371063": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "efc8fcac-7e5e-4418-b506-8423c9c24ef0",
+        "98d1357a-8cac-4467-b866-0b65d7d97d99",
+        "a99c645e-2f58-4d5d-9832-cefebd371063"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.006.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "9c9c9ab4-3564-41a5-b3b7-9aac8142f23d": {
+      "type": "image-banner",
+      "blocks": {
+        "ed8b4528-5477-4797-93a2-acb218416404": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "bfbcc888-7ed5-4e3e-8bba-f9014a9922f1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "8c76296d-c91a-419b-98c4-a9e52df2c04e": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "ed8b4528-5477-4797-93a2-acb218416404",
+        "bfbcc888-7ed5-4e3e-8bba-f9014a9922f1",
+        "8c76296d-c91a-419b-98c4-a9e52df2c04e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.007.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "de4c504d-99bc-4cdf-a27b-f1a0ddf9eed6": {
+      "type": "image-banner",
+      "blocks": {
+        "87dc34aa-8f57-4f5c-8e36-71b18eac634f": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "305f0e46-9231-428b-8f41-674c48acfce1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "74c9b0c4-ab81-4539-a432-736e8dcc1cc6": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "87dc34aa-8f57-4f5c-8e36-71b18eac634f",
+        "305f0e46-9231-428b-8f41-674c48acfce1",
+        "74c9b0c4-ab81-4539-a432-736e8dcc1cc6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.008.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "e8ebe222-e85a-46f0-a9b4-d7e73dda3897": {
+      "type": "image-banner",
+      "blocks": {
+        "04f7550a-5e77-4b7c-8c7c-f7edab1497d2": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "6674edc8-9d45-401e-af4b-7e3d79d6df7e": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "3301fda5-b99a-45a0-a720-678661cbb4bb": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "04f7550a-5e77-4b7c-8c7c-f7edab1497d2",
+        "6674edc8-9d45-401e-af4b-7e3d79d6df7e",
+        "3301fda5-b99a-45a0-a720-678661cbb4bb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.009.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "588ed5f3-93b5-4979-806f-205089b90d10": {
+      "type": "image-banner",
+      "blocks": {
+        "d3d6b718-7bf6-4093-8902-2efc6777aeaf": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "82d762a4-77dc-42e1-9ead-eec0e5079c29": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "91c619c0-3542-4c64-9750-cdd2fb1a87c6": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "d3d6b718-7bf6-4093-8902-2efc6777aeaf",
+        "82d762a4-77dc-42e1-9ead-eec0e5079c29",
+        "91c619c0-3542-4c64-9750-cdd2fb1a87c6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.010.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "f0f38294-8df5-4262-b0c3-8323b4fb4004": {
+      "type": "image-banner",
+      "blocks": {
+        "2c6861b3-947a-48df-89de-d11051ef34b5": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "cf6e5048-526e-4cbc-ac49-295d5f29fadd": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "24b1c8a1-e641-409b-864b-1ef9c5dcffe3": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "2c6861b3-947a-48df-89de-d11051ef34b5",
+        "cf6e5048-526e-4cbc-ac49-295d5f29fadd",
+        "24b1c8a1-e641-409b-864b-1ef9c5dcffe3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.011.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "de06d33e-80cb-47a6-9477-8fa1ef15885d": {
+      "type": "image-banner",
+      "blocks": {
+        "e2c88a99-1d8d-453e-a63d-6e75db961117": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "13699000-f4b2-467c-9462-438f79c94ca5": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "f75b6d73-a4e6-4ab2-a355-9227795e4560": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "e2c88a99-1d8d-453e-a63d-6e75db961117",
+        "13699000-f4b2-467c-9462-438f79c94ca5",
+        "f75b6d73-a4e6-4ab2-a355-9227795e4560"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.012.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "66badb4d-3b3f-4d73-b2e4-84218d8e3157": {
+      "type": "image-banner",
+      "blocks": {
+        "c8ffe5d9-b51a-4504-b6a2-db194341a99b": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "e157229f-c1bc-4361-adc5-ef041264fcb5": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "bdc730bf-13a9-4c69-aefe-d6478b56cde8": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "c8ffe5d9-b51a-4504-b6a2-db194341a99b",
+        "e157229f-c1bc-4361-adc5-ef041264fcb5",
+        "bdc730bf-13a9-4c69-aefe-d6478b56cde8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.013.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "a6d1a5a7-14bf-4ca6-b3f1-2817867378db": {
+      "type": "image-banner",
+      "blocks": {
+        "422c45eb-f125-465b-9f88-29c5b39ae77f": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "4f1c554a-a8fc-4b6f-af38-44bbe2cdd923": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "acd92af0-ed4b-4e60-9afc-0499c53b054c": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "422c45eb-f125-465b-9f88-29c5b39ae77f",
+        "4f1c554a-a8fc-4b6f-af38-44bbe2cdd923",
+        "acd92af0-ed4b-4e60-9afc-0499c53b054c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.014.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "ebd9a15a-3441-418f-ad78-ae26e6dea4b1": {
+      "type": "image-banner",
+      "blocks": {
+        "2fdeda0a-9b5b-4636-9923-acf905540df9": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "7019f3de-391c-4dd4-afc8-43f5e9dc1032": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "611d32eb-37d6-49d5-a902-29654198ba0a": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "2fdeda0a-9b5b-4636-9923-acf905540df9",
+        "7019f3de-391c-4dd4-afc8-43f5e9dc1032",
+        "611d32eb-37d6-49d5-a902-29654198ba0a"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.015.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "41bc3177-1a70-4f38-809e-2557478ccfc9": {
+      "type": "image-banner",
+      "blocks": {
+        "1a99604c-5a11-4b9f-aa3a-122e8f2a925f": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "c3eddef4-6fe0-4ed8-9927-b0940fac1361": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "01b27559-a536-4827-90b1-2150b184c256": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1a99604c-5a11-4b9f-aa3a-122e8f2a925f",
+        "c3eddef4-6fe0-4ed8-9927-b0940fac1361",
+        "01b27559-a536-4827-90b1-2150b184c256"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.016.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "b07e9bd4-7a09-4245-82e5-28e10c728df9": {
+      "type": "image-banner",
+      "blocks": {
+        "2e2c5daa-31f8-4071-a833-cea0034aa899": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Image banner<\/p>",
+            "set_as_h1": false,
+            "heading_size": "medium",
+            "desktop_heading_align": "center"
+          }
+        },
+        "0a6b98c4-ffd2-4c4b-ad28-85e495658031": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "desktop_text_align": "center"
+          }
+        },
+        "ffa7633c-ef30-4fd7-bc4c-6575ab95b7ef": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "center"
+          }
+        }
+      },
+      "block_order": [
+        "2e2c5daa-31f8-4071-a833-cea0034aa899",
+        "0a6b98c4-ffd2-4c4b-ad28-85e495658031",
+        "ffa7633c-ef30-4fd7-bc4c-6575ab95b7ef"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NACELLEVERSE_PUBLIC_23-0906.017.jpg",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "contain",
+        "banner_bk_img_position": "left top",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "center",
+        "desktop_text_box_justification": "center",
+        "show_text_box": true,
+        "text_box_bk_color": "",
+        "color_scheme": "background-1",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 1,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "alt_title": "",
         "hide_title": false
@@ -142,7 +1180,7 @@
         "product": "biker-mice-from-mars-bundle",
         "secondary_background": true,
         "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "background_color_secondary": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "background_color_secondary": "",
         "btn_color": "#4591e5",
         "btn_text_color": "#000000",
         "txt_color": "#000000",
@@ -152,6 +1190,23 @@
     }
   },
   "order": [
+    "f18aa85e-a699-47c1-956d-394a18275e5b",
+    "8db8ab7a-c72f-43ab-9633-9b6647290a06",
+    "f9b64dce-b938-4c90-99a5-d8c566855209",
+    "eb8e826e-6314-4374-accd-c460c6c6d661",
+    "ca6aa8f6-79fe-4f11-9e84-22a64e24c265",
+    "691de07d-aec0-4180-b67b-06e1ab9d4163",
+    "9c9c9ab4-3564-41a5-b3b7-9aac8142f23d",
+    "de4c504d-99bc-4cdf-a27b-f1a0ddf9eed6",
+    "e8ebe222-e85a-46f0-a9b4-d7e73dda3897",
+    "588ed5f3-93b5-4979-806f-205089b90d10",
+    "f0f38294-8df5-4262-b0c3-8323b4fb4004",
+    "de06d33e-80cb-47a6-9477-8fa1ef15885d",
+    "66badb4d-3b3f-4d73-b2e4-84218d8e3157",
+    "a6d1a5a7-14bf-4ca6-b3f1-2817867378db",
+    "ebd9a15a-3441-418f-ad78-ae26e6dea4b1",
+    "41bc3177-1a70-4f38-809e-2557478ccfc9",
+    "b07e9bd4-7a09-4245-82e5-28e10c728df9",
     "main",
     "16377228736cafae48",
     "1637722870c3c004ee",
