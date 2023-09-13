@@ -40,7 +40,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/BMFM_ME_City_Group_Shot_4.0.png",
-        "image_mobile": "shopify:\/\/shop_images\/BMFM_Group_City_Beauty_Shot_UPDATED_MOBILE.png",
+        "image_mobile": "shopify:\/\/shop_images\/BMFM_ME_City_Group_Shot_4.0.png",
         "legal_text": "",
         "adapt_height_first_image": true,
         "lazy_disable": true,
@@ -55,7 +55,7 @@
         "color_scheme": "text",
         "use_background_color": false,
         "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
-        "mobile_padding": 76,
+        "mobile_padding": 56,
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
