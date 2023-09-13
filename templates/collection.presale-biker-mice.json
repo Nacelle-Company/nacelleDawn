@@ -36,10 +36,10 @@
         "af070f58-1592-472f-ac2f-afdb2aabd8de"
       ],
       "custom_css": [
-        ".button {color: #fff; box-shadow: 0 0 0 0.1rem rgba(var(--color-base-solid-button-labels));}"
+        ".button {color: #000000; background-color: #ffff00; box-shadow: 0 0 0 0.1rem rgba(var(--color-base-solid-button-labels));}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BikerMice_CityBG_GROUP_3840x2160_BeautyShot.jpg",
+        "image": "shopify:\/\/shop_images\/BMFM_ME_City_Group_Shot_4.0.png",
         "image_mobile": "shopify:\/\/shop_images\/BMFM_Group_City_Beauty_Shot_UPDATED_MOBILE.png",
         "legal_text": "",
         "adapt_height_first_image": true,
