@@ -1,0 +1,273 @@
+{
+  "sections": {
+    "collection-settings": {
+      "type": "main-collection-settings",
+      "settings": {
+        "alter_collection_style": true,
+        "collection_text_color": "#ffffff",
+        "collection_nav_text_color": "#ffffff",
+        "nav_logo_white": true,
+        "collection_bk_color": "",
+        "collection_bk_img_none": false,
+        "collection_background_image": "shopify:\/\/shop_images\/topography.svg",
+        "collection_bk_overlay": "rgba(206, 54, 110, 0.95)",
+        "collection_bk_img_size": "unset",
+        "collection_bk_img_repeat": "repeat",
+        "collection_bk_img_attachment": "scroll"
+      }
+    },
+    "164677671632a680df": {
+      "type": "image-banner",
+      "blocks": {
+        "af070f58-1592-472f-ac2f-afdb2aabd8de": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "GET YOUR BIKER MICE",
+            "button_link_1": "#featured-collection-id",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_style_justification": "flex-end"
+          }
+        }
+      },
+      "block_order": [
+        "af070f58-1592-472f-ac2f-afdb2aabd8de"
+      ],
+      "custom_css": [
+        ".button {color: #000000; background-color: #ffff00; box-shadow: 0 0 0 0.1rem rgba(var(--color-base-solid-button-labels));}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BMFM_ME_City_Group_Shot_4.0.png",
+        "image_mobile": "shopify:\/\/shop_images\/BMFM_ME_City_Group_Shot_4.0.png",
+        "legal_text": "",
+        "adapt_height_first_image": true,
+        "lazy_disable": true,
+        "image_height": "full",
+        "banner_bk_img_fit": "cover",
+        "banner_bk_img_position": "center center",
+        "image_overlay_opacity": 0,
+        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_justification": "flex-end",
+        "show_text_box": false,
+        "text_box_bk_color": "",
+        "color_scheme": "text",
+        "use_background_color": false,
+        "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "mobile_padding": 56,
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "00bfec05-5148-4704-893e-1cb54d402cfb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15998184849599__00bfec05-5148-4704-893e-1cb54d402cfb-167788332298bd4684-3": {
+          "type": "image",
+          "settings": {
+            "image_rt": "shopify:\/\/shop_images\/BikerMiceLogo_RGB-TEST_Copy.png",
+            "image_width_rt": "500"
+          }
+        },
+        "template--15998184849599__00bfec05-5148-4704-893e-1cb54d402cfb-167788332298bd4684-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET ALL THREE!",
+            "heading_size": "h1"
+          }
+        },
+        "template--15998184849599__00bfec05-5148-4704-893e-1cb54d402cfb-167788332298bd4684-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Collect all three of these mind-blowing figures with the <a href=\"\/products\/biker-mice-from-mars-bundle\" title=\"Biker Mice from Mars - Bundle\">Biker Mice from Mars - Bundle<\/a> and recreate your favorite moments from the classic animated series, or create your own exciting adventures on the streets of Chicago with the Biker Mice From Mars!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15998184849599__00bfec05-5148-4704-893e-1cb54d402cfb-167788332298bd4684-3",
+        "template--15998184849599__00bfec05-5148-4704-893e-1cb54d402cfb-167788332298bd4684-0",
+        "template--15998184849599__00bfec05-5148-4704-893e-1cb54d402cfb-167788332298bd4684-1"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true,
+        "desktop_no_top_space": true,
+        "section_id": ""
+      }
+    },
+    "259b57c0-2b2b-4d65-bcdc-a7d8454b303c": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "4d7f4fd8-69c9-4919-98ca-1762e9c3445e": {
+          "type": "text",
+          "settings": {
+            "text": "Get ready for the first wave of Biker Mice From Mars action figures, featuring 7-inch scale figures of Vinnie, Modo, and Throttle! Each figure is packaged with its own unique accessory and is fully articulated, allowing for dynamic posing and action-packed play.",
+            "text_style": "body"
+          }
+        },
+        "4d2f02b3-3a86-459d-9eec-f06236da4c83": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.nacelle.presale_info.value }}",
+            "text_style": "presale"
+          }
+        },
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-3": {
+          "type": "price",
+          "settings": {
+            "payment_options": false
+          }
+        },
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-0",
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-1",
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-2",
+        "4d7f4fd8-69c9-4919-98ca-1762e9c3445e",
+        "4d2f02b3-3a86-459d-9eec-f06236da4c83",
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-3",
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-5",
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-6",
+        "template--15998184849599__259b57c0-2b2b-4d65-bcdc-a7d8454b303c-1677880916809c6fec-7"
+      ],
+      "custom_css": [
+        ".product__view-details {display: block; float: none; color: #fff; box-shadow: 0 0 0 0.1rem rgba(var(--color-base-solid-button-labels)); font-size: 1.5rem; letter-spacing: 0.1rem; padding: 0.9rem 3rem 1.1rem; border: 0.1rem solid transparent; background-color: transparent; min-width: 12rem; text-align: center; min-height: 4.5rem; transition: box-shadow var(--duration-short) ease;}",
+        ".product__view-details:hover {outline: 2px solid white; text-decoration: none;}"
+      ],
+      "settings": {
+        "product": "biker-mice-from-mars-bundle",
+        "secondary_background": true,
+        "background_color": "radial-gradient(rgba(255, 154, 98, 0), rgba(185, 100, 17, 0) 100%)",
+        "background_color_secondary": "",
+        "btn_color": "#313131",
+        "btn_text_color": "#313131",
+        "txt_color": "#ffffff",
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "a9cce1a7-ae96-4083-86d1-3e9455adb78c": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".collection {margin-bottom: 4em;}",
+        ".card-information__wrapper {text-align: center;}",
+        ".price {justify-content: center;}"
+      ],
+      "settings": {
+        "section_id": "featured-collection-id",
+        "title": "",
+        "collection": "biker-mice",
+        "product_selected_tag": "",
+        "products_to_show": 3,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "desktop_full_width": false,
+        "desktop_no_top_space": true,
+        "background_color": "linear-gradient(310deg, rgba(41, 75, 156, 0.7) 15%, rgba(41, 75, 156, 0.7) 85%)",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": false,
+        "show_presale_text": true,
+        "show_rating": false
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        ".collection-hero__description.rte {color: #fff; font-size: 2rem;}",
+        ".collection-hero__title {color: #fff;}"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "collection_image_aspect": "image-aspect",
+        "collection_description_bk_none": false,
+        "show_collection_description": true,
+        "show_collection_title": true,
+        "collection_description_center": false,
+        "show_collection_image": true,
+        "mobile_top_spacing": "default"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-presale-product-grid",
+      "disabled": true,
+      "settings": {
+        "show_default_product_grid": true,
+        "products_per_page": 8,
+        "grid_bk_img_position": "center",
+        "grid_bk_img_repeat": "no-repeat",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_presale_text": false,
+        "show_rating": false,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": true
+      }
+    },
+    "8ec472ae-d95e-4ce9-a05a-66c13c9979d5": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<style>\n@media screen and (max-width: 749px) {\n.product-grid .grid__item {\n    width: 100%;\n    max-width: 100%;\n}\n}\n@media screen and (min-width: 750px) {\n.product-grid .grid__item {\n    margin-bottom: 35px !important;\n}\n}\n.button:disabled {\n  background-color: #5899E1 !important;\n    box-shadow: #5899E1 0 0 0 1.15px !important;\n\n}\n<\/style>"
+      }
+    }
+  },
+  "order": [
+    "collection-settings",
+    "164677671632a680df",
+    "00bfec05-5148-4704-893e-1cb54d402cfb",
+    "259b57c0-2b2b-4d65-bcdc-a7d8454b303c",
+    "a9cce1a7-ae96-4083-86d1-3e9455adb78c",
+    "banner",
+    "product-grid",
+    "8ec472ae-d95e-4ce9-a05a-66c13c9979d5"
+  ]
+}
