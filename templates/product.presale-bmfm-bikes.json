@@ -1,0 +1,134 @@
+{
+  "sections": {
+    "product-settings": {
+      "type": "main-product-settings",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "alter_product_style": true,
+        "product_text_color": "#ffffff",
+        "product_nav_text_color": "#ffffff",
+        "button_color": "#313131",
+        "nav_logo_white": true,
+        "product_bk_color": "",
+        "product_bk_img_none": false,
+        "product_background_image": "shopify:\/\/shop_images\/topography.svg",
+        "product_bk_overlay": "rgba(206, 54, 110, 0.95)",
+        "product_main_img_bk": "",
+        "product_bk_img_size": "unset",
+        "product_bk_img_repeat": "repeat",
+        "product_bk_img_attachment": "scroll"
+      }
+    },
+    "main": {
+      "type": "main-product_presale",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "f9087380-f369-4aa4-b18d-f5148d25ef99": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr><p class=\"product__text subtitle\"><strong>THIS IS A PRE-ORDER<\/strong><\/p><sub>Estimated shipping is Late Fall\/Winter 2023.<br>Please read the pre-order policy below <\/sub>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "2595c965-39da-4940-af3e-9406a1ea950e": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.nacelle.presale_info.value }}",
+            "text_style": "presale"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "19ac6366-2c2a-409d-92d4-cd3ce0486a4a": {
+          "type": "presale_policy_copy",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "f9087380-f369-4aa4-b18d-f5148d25ef99",
+        "description",
+        "2595c965-39da-4940-af3e-9406a1ea950e",
+        "quantity_selector",
+        "buy_buttons",
+        "19ac6366-2c2a-409d-92d4-cd3ce0486a4a",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "filter_out_tags": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "573525cb-a2cd-4648-bb1b-bb4489500473": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<style>\n.button-product-nav {\n  background-color: transparent !important;\n}\nspan.product-nav-btn>a {\n    font-size: 10px!important;\n    padding: 0;\n    border: none;\n    box-shadow: none;\n}\n.button-product-nav, .product-nav-btn {\n    border: none !important;\n    box-shadow: none !important;\n}\n<\/style>"
+      }
+    }
+  },
+  "order": [
+    "product-settings",
+    "main",
+    "product-recommendations",
+    "573525cb-a2cd-4648-bb1b-bb4489500473"
+  ]
+}
