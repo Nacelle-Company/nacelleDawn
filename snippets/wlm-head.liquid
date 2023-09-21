@@ -37,7 +37,7 @@
 {% if template contains "collection" or template contains "product" %}
 {% if product.collections %}
 {% for c in product.collections %}
-{% if c.id == 299613782207 %} 
+{% if c.id == 299613782207 or c.id == 286186012863 %} 
 {% assign wlmLockedContent = true %}{% break %}
 {% endif %}
 {% endfor %}
@@ -45,7 +45,7 @@
 {% endif %}
 {% if template contains 'collection' or template contains 'product' %}
 {% if collection %}
-{% if   collection.handle == 'bmfm-bikes' %}
+{% if   collection.handle == 'bmfm-bikes' or  collection.handle == 'robo-force' %}
 {% assign wlmLockedContent = true %}
 {% endif %}
 {% endif %}
