@@ -1,5 +1,12 @@
 {%- assign w_continue = 'no' -%}
 {% assign wlmHideItem_Collection = false %}
+{% if wlm-collection.id == 299613782207  %}
+{% if customer %}
+{% assign wlmHideItem_Collection = true %}
+{% endif %}
+{% endif %}
+
+
 
 {% if wlmHideItem_Collection == true %}{% continue %}{% endif %}
 

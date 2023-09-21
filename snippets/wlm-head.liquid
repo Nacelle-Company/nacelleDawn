@@ -32,6 +32,37 @@
 {% endunless %}
 
 
+{% unless wlmLockON or wlmSuperPage or template == 'customers/register' %}
+{% assign wlmLockedContent = false %}
+{% if template contains "collection" or template contains "product" %}
+{% if product.collections %}
+{% for c in product.collections %}
+{% if c.id == 299613782207 %} 
+{% assign wlmLockedContent = true %}{% break %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endif %}
+{% if template contains 'collection' or template contains 'product' %}
+{% if collection %}
+{% if   collection.handle == 'bmfm-bikes' %}
+{% assign wlmLockedContent = true %}
+{% endif %}
+{% endif %}
+{% endif %}
+{% if wlmLockedContent %}
+{% if customer %}
+{% assign wlmLockedContent = true %}
+{% if wlmLockedContent %}
+{% assign wlmLockON = true %}
+{% capture wlmPnfHead %}Page not found{% endcapture %}
+{% capture wlmPnfMsg %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
+{% endif %}
+{% endif %}
+{% endif %}
+{% endunless %}
+
+
 {% endif %}
 
 {% capture wlm_check_hide %}{% include 'wlm-hideByLink' %}{% endcapture %}{% unless wlm_check_hide contains 'Liquid error' %}{% include 'wlm-hideByLink' %}{% endunless %}
