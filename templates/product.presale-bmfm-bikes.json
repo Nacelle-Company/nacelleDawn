@@ -13,12 +13,12 @@
         "nav_logo_white": true,
         "product_bk_color": "",
         "product_bk_img_none": false,
-        "product_background_image": "shopify:\/\/shop_images\/topography.svg",
-        "product_bk_overlay": "rgba(206, 54, 110, 0.95)",
+        "product_background_image": "shopify:\/\/shop_images\/Biker-Mice-repeat-Pattern.png",
+        "product_bk_overlay": "rgb(10, 200, 30, 0.90)",
         "product_main_img_bk": "",
-        "product_bk_img_size": "unset",
+        "product_bk_img_size": "contain",
         "product_bk_img_repeat": "repeat",
-        "product_bk_img_attachment": "scroll"
+        "product_bk_img_attachment": "fixed"
       }
     },
     "main": {
